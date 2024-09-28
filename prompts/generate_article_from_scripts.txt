@@ -1,0 +1,1 @@
+In the following, I will post a series of youtube scripts with their associated meta data in dictionaries one by one. You are tasked to write an elegant article in markdown format based on the meta data and scripts. Reply ok if you understood.
