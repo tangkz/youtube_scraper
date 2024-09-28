@@ -1,0 +1,283 @@
+to Be an Effective Trader you need to
+look at edges that other Traders are
+missing or not looking at it and most
+technical indicators usually are based
+on price so when you get an indicator
+that uses price and volume usually it
+produce unique perspective hello
+everyone my name is Ali Casey from stat
+Oasis Channel money flow index is a
+unique indicator because it combines
+price and volume to construct an
+oscillator and oscillators are really
+good for for me reversion strategies
+because they tell you when the price is
+overbought and oversold and although
+most oscillators fail to generate short
+trades on the indexes this one does
+really a good job like I mentioned money
+flow index is an oscillator that uses
+price and volume and that's the main
+difference between it and the other
+oscillator but the way we will use it is
+just like other oscillators which is to
+find the overbought and oversold levels
+another difference in money flow index
+is it doesn't use the close in the
+calculations instead it use the typical
+price and typical price is the high plus
+the low plus the close divided by three
+so these factors the typical price and
+the volume make this indicator unique
+and here is the money flow index on the
+chart I have here the Russell 2000
+Futures and at the bottom here we can
+see the money flow index indicator and
+the two levels of overbought and
+oversold so default is 14 which of
+course uh meaningless as usual but if
+you open it up you can of course change
+this and if you switch it to two which
+is We compare it with rsi2 you can see
+now we get many more signals and of
+course anything between I think two and
+10 is good but 14 is definitely I find
+it too slow now it doesn't matter matter
+because we are going to test the whole
+range and find a stable area to see what
+we can trade so here we are in
+multicharts and I have the same Futures
+Market which is the Russell 2000 this is
+the daily bars and we will introduce the
+strategy to this market so this is the
+strategy using a two bar look back so
+just like I showed you on the chart with
+two you get many signals and then we're
+using 25 the level 2 5 to go long but
+we're also using 75 to go short so this
+is a long short strategy so here is the
+strategy parameters our look back is two
+and that's why we have so many signals
+and the oversold area to go long is 25
+and the overbo level to go short is 75
+so the strategy is long and short just
+remember that short is really difficult
+on the indexes but we are going to try
+to make it here
+there are no filters currently because
+zero denotes no filter and the exit type
+zero meaning we're exiting on the same
+bar so once we enter we exit on the same
+bar this is just to see if there is an
+edge or not so it's a huge number of
+Trades and the strategy there is nothing
+actually so this is three and two that's
+scratch remember there is no slippage
+and Commission in the strategy so I will
+develop the short side separately from
+the long side to see how this indicator
+can help us in Crea a short strategy so
+we will optimize the strategy from 2 to
+10 in step of one and our entry level to
+go long so it's below five all the way
+to 45 step five and our short level
+which is to go short above 55 all the
+way to 95 in step of five so all in all
+we have 729 combinations remember we are
+still exiting at the same bar again just
+to find a an edge but this time it's
+only for the short side and no filters
+so sorting by custom Fitness which is
+the return to draw down and we can
+scroll down we can see we have 27
+strategies that are doing uh same amount
+of profit compared to the draw down okay
+so I guess that's an acceptable Edge
+remember we're exiting on the same bar
+so that's definitely going to be
+enhanced once we introduce an exit
+strategy and it looks like 6 7 and 10
+that's the look back and after 10 we
+have five so then I think six would be a
+good choice now between six all these
+are 85 and
+75 uh so maybe we pick something in the
+middle so 85 25 let's do that okay so
+now we have a a short strategy with the
+money flow index using six look back 25
+to go long and 85 to go short exiting
+the same day so now we will introduce
+the exit the strategy so zero is the
+same day one is the next day and two
+using the opposite signal so let's test
+these and see and so zero is the
+original and now we find that two is the
+best which is the opposite signal
+because you see here the average trade
+is 43 and we almost triple our average
+trade and we reduce our uh total traes
+from 337 to 107 so definitely this is
+much better okay so now that I'm
+satisfied with this let's pick it and
+let's see so our strategy now short
+strategy we're making 170 trades on
+average we're making
+$116 this is on the Russell so that's
+definitely a good strategy I can further
+go and enhance this strategy by adding a
+filter and here I have uh 66 filters
+half of of them are my market regime
+filters this is version two of Market
+regime and the other half are just
+regular
+filters and let's sort by custom Fitness
+again and let's look for the number zero
+to see so here is zero okay great so 21
+filters produce better results than the
+original strategy and if we look at the
+top uh this is remember this one is
+making
+$122,000
+and here we have 18 have 23 21 29 also
+good now filter 1 to 40 are my market
+regime filters so this is my market
+regime so let's look at the next best
+one out of my market regime and this
+would be 56 and let me look at
+56 and believe it or not filter 56 is if
+the close lower than the previous close
+happened twice in the past week
+and this filter is amazing because
+compared to the original first of all we
+reduced the trades in half we reduce the
+draw down in half and we double the
+profits and it's only the close lower
+than the previous close twice in last
+week so this is an amazing filter so
+let's pick that out and this is now our
+strategy yes lower number of Trades
+51 and uh we're making 4 65 on the
+Russell that is just amazing and this is
+how the curves look like of course this
+is one side we know that the long side
+it will be very easy to generate a
+profitable strategy so now I'm going to
+test the strategy on the S&P 500 again
+this is just the short side we're
+exiting on the opposite signal and we're
+optimizing the lookback and the levels
+and as you see again it's difficult to
+generate really good strategies so we're
+making profits but the same uh draw down
+but of course we can enhance this with a
+filter so three shows up in the top so I
+I'm assuming three is good and then
+these are the overbought and oversold
+level let's pick something in the middle
+so maybe 85 and 35 that looks nice now
+obviously this is worse in draw down but
+again the filter will enhance it I'm
+just trying to pick a stable area so let
+me go with f
+and now we will test all our
+filters and if we sort by return to draw
+down again about 20 filters perform
+better than the original strategy
+without a filter and again uh up to 40
+those are all Market regime version 2 so
+2411 so the next one we have is
+49 so 49 also producing but better
+profit but higher draw down but still
+let's see what 49 is and the filter is
+if the close higher than the previous
+close either today or yesterday so again
+it's an extremely simple filter but see
+the results so we have 264 trades goes
+to almost half and then our average
+trade goes from 99 to
+436 and if we choose this filter and we
+have 138 trades making plus $400 on the
+short side so again this is really
+really good and this is how the equity
+curve looks like so in my view this is
+one of the best indicators that you can
+use to generate short strategies on the
+indexes because I think the combination
+of the volume and the typical price
+because all other indicators usually
+they are using price only and that's why
+they have many false signals this one is
+like using a filter which is volume
+built in the indicator now of course you
+can still optimize long and short
+together but I don't do that but let me
+show you what will that look like so
+same thing here we are optimizing the
+look back and the oversold overbo level
+but now we are long and short together
+so we're almost going to be always in
+the market unless we have a filter
+because the exit will be the entry for
+the other side sorting by return to draw
+down you can see we have many stries
+iies that doing really really well so
+definitely more than half the strategies
+are really good strategies long and
+short and you can see this is the look
+back three overbought 65 over sold 35
+remember long and short together so if I
+choose it you can see how the strategy
+in and out switching in and out now if
+we introduce a filter again we will test
+all
+filters and if we sort return to draw
+down and let's look at zero so this is
+our original strategy and we can see we
+have nine filters doing much better than
+the original strategy again 0 to 40 are
+my uh Market regime version two and you
+and we can see a theme here that market
+regime usually produce the best results
+because it's built on Direction and
+volatility so the best one we have after
+market regime is 55 and if I look at 55
+and filter 55 is if the close below the
+previous close either today or yesterday
+so again extremely simple filter but the
+results are amazing because the
+difference is huge this one is 758
+trades and this one is 661 so that's
+almost 100 trades off but then the
+average trade goes from 300 to
+400 and draw down goes from 46 to 36
+and profits goes from 218 to
+276 so if we pick that so this is how
+the strategy looks
+like and we see now we have almost in
+the middle so
+319 trades in the short side and 42 342
+trades on the long side both of them and
+the 60s profit rate and both of them
+making above
+$300 for the es which is really really
+good and looking at all years we can see
+2020 which is the covid year and that's
+why you see this huge number because the
+short crash in the co this strategy made
+a lot of money in it because it has
+really a good short side now the
+advantage of using the entry signal as
+an exit signal is you can use this
+strategy in the same account because
+usually Brokers will not allow you to go
+long and short in the same account but
+when doing this strategy you're always
+exiting one side to enter in the into
+the other side so this strategy can be
+applied long and short on the same
+Market in the same account to learn more
+about indicator strategies watch this
+video and I will see you
+[Music]
+there
+[Music]

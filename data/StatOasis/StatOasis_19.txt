@@ -1,0 +1,629 @@
+have you ever wondered how to build a
+strategy that shorts stocks if so you
+are in luck because in this video I will
+show you a step by step on how to build
+a strategy that short the Russell 2000
+by pinpointing the top three stocks
+right for short selling first of all
+let's define Short Selling Short Selling
+it's a method to sell a stock and then
+buy it at a lower price basically a
+stock went too high
+and you expect it to go down so you sell
+it first and then you buy it and the way
+to do this in the stock market you need
+to borrow the stock from someone so
+someone who owns the stock shares they
+give you that stock so basically you
+borrow it through the broker it's all
+automated anyway but that's the
+methodology you borrow the stock and
+then you buy it back cheaper and you
+return it to the owner and the owner
+basically collects some interest on this
+B growing and you'll collect the
+difference between the buy and sell now
+Short Selling in general is difficult
+because like I mentioned you need to
+borrow the stocks and not all stocks are
+available to borrow but you know S&P 500
+stocks are definitely available all the
+time to be borrowed but for example when
+you get like the GameStop uh stock
+usually it will be harder to borrow
+because a lot of people wanting the same
+thing and there is a finite uh number
+number of shares to be borrowed still
+the concept applies and you can apply
+the same concept that we are doing today
+on any stock any currency any crypto any
+Futures it's the same thing I am just
+showing you how to do it and then you
+can apply it on any asset class the
+method that I'm teaching you today
+involves ranking and ranking is a really
+powerful method to pick the top anything
+to either buy or show or sell now
+literally a year ago this was not
+available to retail Traders I mean it
+was available but either through python
+platform some programming or stitching
+uh multiple platforms together about a
+year ago strategy quantex launch algo
+Cloud where you can do this All
+algorithmically without any programming
+knowledge and also you can trade the
+same strategy that you're going to test
+through a broker again without any prog
+pramming knowledge if you are new to
+strategy quantex it is a platform that
+let you build strategies algorithmically
+without any programming knowledge
+basically you Shuffle some blocks inside
+Strat Quant x with a set of criterias
+and you get a strategy and you can do
+robustness testing on that strategy and
+then you can export that strategy to a
+platform to be traded however in this
+case with the stock ranking no need to
+export the strategy you can trade that
+strategy immediately through alpaka or
+Interactive Broker and you execute the
+same strategy that you built with a user
+interface so here we are in strategy
+Quant X I'm using the latest version
+currently which is 1381
+1837 and if you go to algo Wizard and
+click on new strategy you have multiple
+options and we are interested in this
+one stock picker strategy algor do IO
+Cloud that means the strategy that you
+build here can be exported to algo cloud
+and you can trade it there without any
+modification basically it's the same
+code same everything no need to worry
+about mismatch it will be connected to
+your account at the broker automatically
+and execute the strategy so let's select
+this one and now we get this interface
+which is long rules short rules and the
+most important one is the position
+ranking and we'll get to that in a
+second so today we are building a
+strategy on the short side so we will
+pick the short side so here we have this
+bar chart and basically every bar has to
+be stamped at the close or at the open
+now the stock market Stamps every bar
+with the close so the exchange usually
+stamp the close so let's say if this bar
+if it's 9 to 10 then this bar will carry
+10 as the time because it's stamping the
+close so let's say we are on this bar if
+I say close lower than the open that
+means the shift is
+zero then I will be talking about this
+bar because when the bar close I will
+have the close and the
+open but if I am am here and I say close
+one bar
+ago lower than the open one bar ago then
+that means I am talking about the
+previous bar because again everything
+stamp at the close and this is achieved
+in strategy Quant x stock picker engine
+using this one bar before open so bar
+before open
+means that I am talking on the bar that
+just closed so if I say close lower than
+SMA 200 I am talking at the current bar
+that is just closed now bar open is a
+couple of minutes after the current bar
+is open so let's say we are here this
+bar is closed and this bar is closed and
+now the current bar just open and let's
+say this is our range we just open so
+after a couple of minutes this is on bar
+open that means I can for example use
+the open in my calculation let's say I'm
+doing the moving average based on the on
+the open so if I say the
+SMA of the
+open for the past 20
+bars and the shift is zero that means I
+am on this bar because I already know
+the open but I don't know the low the
+high and the close so on bar open you
+only know the open and finally on bar
+close this is a couple of minutes before
+the close of the
+bar so let's say if I'm saying if I have
+a position and I will say sell at
+close that means
+before this bar close I will sell right
+at the end like 2
+minutes
+before the actual
+close so the way I recommend to use the
+algo Cloud execution bars is as follows
+always use before bar open to calculate
+so your SMA your Ballinger bands your
+clothes greater than whatever any
+condition you want to calculate you will
+use bar before open because then you are
+waiting for the bar to close and you
+perform your calculation and when you
+issue the order that means it will go
+for the next day and wait for the bar to
+open and execute but all your close you
+can now choose either before bar open or
+on bar close close usually on bar close
+is the better option so that means let's
+say if the RSI 2 greater than
+75 we are selling at close that means
+before the bar close we will check the
+RSI value and if it is above
+75 I will sell because we are assuming
+that in couple of minutes nothing will
+change whatever prices we have will stay
+about the same value so basically we
+want to use on bar close for our close
+orders and before bar open for all our
+calculations and when we are using
+before bar open we are using the shift
+zero so that means we are working on the
+current closed bar also on bar close we
+are using shift zero because we are
+assuming that that the bar closed
+already although we are executing our
+order 2 minutes before the bar closed
+basically what this is doing is if you
+want to issue an order at the close
+let's say you're using TR session or
+multicharts you are actually using the
+exact same methodology that s sqx did
+which is you have to set your session to
+close before the actual Market close so
+in this case sqx did very well but I
+don't know why they chose the other one
+which is before bar open I don't get
+that it's just confusing in any case
+that's what we are using in all our
+strategy so before we start we come here
+entry triggered at on bar open we need
+to change this to before bar open and
+then exit trigger at on bar open we
+change this to on bar close so this is
+good all is done now we are going to
+build our strategy okay now we come to
+selecting our stocks for short so we
+want to pinpoint which stocks are right
+for shorting to short them so first of
+all we need to pick a universe now the
+US market has I don't know maybe 15,000
+stocks not all of them are tradable and
+definitely not all of them are shortable
+because they're not available to borrow
+so we need to be able to short only
+liquid stocks so some filtering has to
+happen and let me show you how we can do
+this so for example here we are in Yahoo
+stock screener in United States there
+are
+14,132 stocks obviously like I mentioned
+not all of these stocks are shortable or
+even if you want to buy them because
+they are not liquid so the slippage will
+be huge so the Russell 2000 is all uh
+small cap so let's pick small cap and
+now we are down to
+8,821 okay now also we don't want to
+short small stocks because these can be
+easily short squeezed basically the
+market can be manipulated very easy
+because there's not a lot of uh
+liquidity in those shares and usually
+the liquidity vanishes when when the
+price goes down so A good rule of thumb
+is to filter stocks above
+$10 so let's go with price end of
+day and let's put 10
+and let's find stock so now we have
+2,422 and like I mentioned we need
+liquidity and liquidity doesn't come
+overnight so we need to make sure that
+we have some liquidity and here we do we
+don't have the what I want which is
+volume over a month uh but we do have
+volume over three months so just just to
+show you the example so volume average
+volume of 3 months is greater then so
+you know 100,000 usually it's a good
+starting point so this brings the stocks
+down to 1100 and if you see those stocks
+you'll see these usually are liquid
+stocks and available to be borrowed so
+this is our universe that we will be
+pinpointing the top three stocks to
+short and the way we do this in strategy
+quantex Alo wizard we go to setting
+and we go to stock picker here because
+we picked the strategy as stock picker
+so this is the only thing available but
+if it's not you have to pick it and then
+we go to the groups so if you go to data
+manager you see we have all these
+indexes and you can build your own for
+example here I buil country uh ETFs and
+I buil here Equity ETFs globally you can
+build your own index and we have these
+indexes and as you can see Russell 2000
+is about 10,000 stocks so we go back to
+alga wizard we go to settings stock
+picker engine and then here we can pick
+the Russell 2000 now we have data since
+uh 1980 for the stocks so it's usually a
+very good period to start from
+2006 and then for money management we
+will use a fixed amount which is
+$10,000 per trade so because uh
+currently sqx if you use this one which
+is what I want to use currently sqx just
+keep there's no minimum and maximum so
+at some point you will reach 100,000
+shares which of course is Not Practical
+on many stocks or even if it's practical
+then you need to introduce a different
+slippage and it's not fixed yet in 138
+currently it's just open uh so you're
+definitely uh want to use fixed amount
+now this could be 10,000 20,000 whatever
+you want and we are not using fractional
+shares in trading option we will switch
+on store chart data and the logs so we
+can track our uh
+trades okay so now we are going to build
+so let's filter so we'll start with the
+close the current close zero shift
+because because we are using before bar
+open so current close should be greater
+than
+$10 and now the average volume so
+remember in the Yahoo screener we are
+restricted to 3 months I think one month
+is enough so let's pick the
+SMA so SMA of the
+volume of the past uh 22 trading
+days shift one doesn't matter is great
+greater than 800,000
+shares now the only problem here is we
+don't know how many stocks are filtered
+but we have an idea through Yahoo
+finance so basically we are looking at
+about 1100 stocks but it would be nice
+that you know they have like uh
+something here that shows us what's this
+filter producing how many stocks
+basically when we pinpointing which
+stocks to short we need to filter for
+stocks that just moved higher now you
+need to filter for stocks that are not a
+buy by some company because when a
+company offer to buy another company
+usually they offer a premium and that
+stock will shoot higher so that filter
+usually let's say I don't know 10% do
+not short stocks that went up more than
+10% % so in that case we are not looking
+for price but instead we're going to
+look for range so if the close greater
+than the open by a certain percentage of
+ATR then we will consider that stock for
+shorting so to do this we are going to
+use the close uh greater than the open
+again remember we are using everything
+shift zero so it's the current bar so
+the current bar close greater than the
+open but we also want the close minus
+the open to be greater than the average
+true range so we can come back here at
+the open and add so we go to function
+plus and now instead of the open we will
+have the
+open plus the
+ATR so average through range of the past
+five
+days so if the close greater than the
+open plus the ATR range now this can be
+done in many ways in this case we
+combined everything in one step you
+could say close greater than the open
+and then you could say the body is
+greater than the average through range
+of the past five bus now remember also
+we don't want to short stocks that are
+being bought but so we just going to
+duplicate
+this and then instead of uh greater than
+we will use lower than and then instead
+of uh five we will do like three times
+five so we come we click on the ATR we
+add a
+multiplication and we add the ATR again
+here
+five bars and now we add maybe I don't
+know so three is very safe but even two
+I think is good so now if the close is
+greater than the open more than uh two
+times the average through range that
+means this stock is being uh bought by
+someone so we don't want that so we make
+it lower that means we are filtering
+them out so all what we did so far is
+filter stocks that are ripe for short
+selling we looked at the Russell 2000 we
+picked uh stocks that are not over the
+counter they call it OTC we picked
+liquid stocks and then we picked stocks
+that went up a lot but not too much that
+they are being bought of course even
+when you are shorting this it also makes
+sense to look at the news to see if the
+stock is being bought or not remember we
+are doing this on daily chart now once
+this is happening how we are going to
+enter it's not Market next day we are
+going again to filter stocks that goes
+up the next day or even Gap up so we do
+this with a limit order so when you put
+limit it says at price level so we are
+not using this price we are going to use
+the current close so the bar that we
+closed today and if the price Gap up
+tomorrow or move up tomorrow then we are
+shorting at that price so we need to
+start from the close so the price is the
+current
+close plus the ATR movement so in this
+case we go back to ATR
+5 and one uh uh we can uh we will do 1.2
+so that means we filter the stocks and
+next day we are going to put a limit
+order to short when the stock goes up
+basically this looks like this so let's
+say the Stock's doing this and then the
+stock does this so now the stock is
+ready and we're not shorting on the
+market next day but we are waiting for a
+level higher than today
+so this level is
+1.2 ATR plus this
+close so we are shorting over here that
+means we are again filtering for stocks
+that Gap up of course we will lose some
+stocks that basically open here and go
+down but that's okay now we will exit
+when the uh stock goes in our Direction
+so exit when the close of course zero
+shift is lower
+than the open shift zero so when the
+stock goes in our Direction meaning it
+goes down and the close below the open
+then we are exiting and remember we are
+exiting on the close so it's going to
+happen on the same bar and we need just
+some safety and uh you know we don't
+want to use a stop loss of course you
+can use a stop loss but I hate it so we
+are using using a exit after number of
+bars so let's use you know if it doesn't
+happen in 10 bars that's two weeks
+that's two uh 10 trading days uh then we
+exit so that is the whole logic we're
+using the Russell 2000 too many stocks
+we filter for Price liquidity and for a
+condition that the stock is already
+moving up because you don't want a short
+stock that is moving down that's uh
+usually uh done with following and on
+long term but usually shorting stocks is
+very dangerous and you don't want to
+stay too long in any shorting position
+because sooner or later you will be
+squeezed out so the sooner you exit the
+better and once we have that we are
+requiring the stock to move up again so
+that's why we're placing a limit higher
+than the previous close to get basically
+a better fill now we come to the method
+of ranking let's say we have out of 1100
+stocks let's say we have 50 stocks that
+match this
+today and we don't want to trade 50
+stocks even if we have the money for 50
+stocks usually the performance is within
+I would say 10 so this applies to ETFs
+it applies to many I've done many many
+testings in fact all my VIP plus
+portfolios are done with ranking and
+usually the uh the the premium spot the
+optimum spot is between three and seven
+anything below three it's you get a
+higher draw down anything above seven
+you lose a lot of uh premium uh so 3 to
+S is usually The Sweet Spot to uh put a
+position in so in this case we are doing
+three so now I want to rank what are the
+best three out of my filter so we can
+use
+multiple ways to rank there are you know
+literally hundreds ways to do it now
+first method is to rank on the same
+condition that we are filtering so in
+this case we are filtering on uh the
+limit
+Price Plus the ATR 1.2 * ATR so I can
+rank on which one gapped higher so
+that's a ranking method I can rank
+because it's up any oscillator that's
+going up so any oscillator that is the
+highest that's basically the best
+probability for shorting today we are
+using a simple method which is rate of
+change basically we measure the rate of
+change on every bar and we rank which
+one is the highest rate of change so
+which one moved up the most that matches
+our filter
+we will pick the top three so we come to
+the position score we click on value and
+we are using
+R so this is rate of change price
+divided by the previous price so minus
+one so this is the change in
+percent of one bar to the next using the
+close then multiply by 100 that's just
+basically just get the percent out so
+now we are right if this number is
+higher that means this stock moved more
+than the rest and the top one usually
+moved the highest so let's uh pick this
+one and we will use five bars and shift
+zero so now we are ranking for the five
+and how many position we are going to
+trade we are going to trade three
+positions so everything here that pass
+this
+filter we rank them on the uh rate of
+change and we pick the top three and
+then we place a limit order next day
+that is higher than the close today by
+1.2 times the ATR so now we come here
+and we run a full back test remember we
+are testing since 2006 Russell 2000 so
+you can see here it's doing its thing
+loading all the symbols and here we have
+the final result
+so if we click on this and remember we
+are restricted to 10,000 per position
+even when we have a lot of money because
+we remember we started in 2006 now let
+me show you the trade analysis so really
+good we have only two three four years
+down and a lot of years up and look at
+this the market was up in the past four
+years a lot
+and this is a shorting strategy and it
+made the most money remember we are
+using 10,000 fixed so it's it's it's
+making the most amount of money lately
+and we look at the overview so our open
+Draw down is about
+21% 63 % win rate
+1583 trades our exposure is
+43% now I can keep everything the same
+and now we can play with these value
+basically we can optimize so for example
+this filter if I change this to let's
+say uh
+1.5 uh how would that affect the
+strategy so we have less trades and also
+less profit okay so how about I go the
+opposite direction what about if I go to
+3.5
+so now we have more trades in and we're
+making more money so probably I will go
+again at six so this is uh the top of
+the range I think not going to happen we
+have also the exit after bars remember I
+told you if you exit quicker because we
+are in short so let's take it to five
+which is half and let's see the effect
+of this now of course we can also uh
+optimize this but remember we have the
+position ranking like I told you we are
+trading three so the optimum is 3 to7
+Let's do five positions and see what we
+get and the performance degrades uh
+maybe even if we go
+two and two seems to perform the best
+now also we have the rate of change so
+we are ranking on five maybe if I rank
+on
+10 this is also looks good now also
+remember we are trading the Russell 2000
+we can go back and change to Russell
+1000 we change it again to
+2006 and let's add commission I mean uh
+commission usually is very low so if you
+pick stock picker commission it's .35
+cents per share so usually I mean it's
+good to add it but it will not have that
+huge effect but let's see the Russell
+1000
+performance so Russell 1000 is worse and
+finally I'm going to pick the Russell
+3000 and the Russell 3000 it looks very
+close to the Russell 2000 once you are
+happy with the strategy you can save the
+strategy and then you can trade exact
+same code in algol Cloud so if you go to
+algol cloud.com uh this is strategy
+Quant X service basically it's a
+hosted in the cloud using the same code
+that you generate in strategy Quant X
+algo cloud and then you can connect it
+to your broker currently available is
+alpaka and interactive brokers more are
+being added and just to let you know
+that the strategy I just showed you was
+built on this example so this is me
+reversion short on the Russell 3000 so
+if I show you the detail so this is the
+strategy and you can clone the
+strategy so here is the strategy cloned
+and you you will see the performance is
+much much better but because this
+strategy is tested since
+2019 but as you know my strategy is
+tested since 2006 but you look at 2019
+is the same performance so 2019 we have
+higher and then lower
+uh basically what I added here which I
+think it's missing from the example this
+is very important and this is very
+important so if you look at the
+example we look at here here it says
+volume greater than 100,000 so this is
+not enough because if you look at any
+stock that being bought usually the
+volume will Spike so it trades 5,000
+shares today and then tomorrow it will
+trade a million shares
+uh so definitely you need to look at the
+moving average of at least 20 days to
+pass these stocks that are being bought
+also remember I added this condition
+which is also again to make sure that we
+are not trading a stock that is being
+bought so these two filters I think they
+are extremely important I am very
+excited about algo Cloud because you get
+rid of the VPS basically it's a hosted
+service they take care of the code the
+execution and connecting to the broker
+you just fund your broker account and
+build a strategy and trade it so it's
+really really good although it's in the
+beginning I'm sure it's going to get
+much much better or let's hope that it's
+going to get much much better and trade
+more assets also I want to thank
+strategy Quant X team for graciously
+providing a huge discount to my viewers
+and my students and my community members
+and you can use that discount in the
+description below to learn more about
+strategy Quant X1 watch this video and I
+will see you there
+[Music]

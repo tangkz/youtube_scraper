@@ -1,0 +1,336 @@
+it is very important when you are
+building a strategy to use the right
+style for the right instrument and the
+right filter today I will discuss our
+own indicator and how you can use it as
+a signal to enter an exit and a strategy
+or as a filter for other signals Arun
+indicator is used to identify Trend
+changes in the price of an asset and
+this is the formula for our own
+indicator so it consists of two
+indicators one is the Arun up and the
+other is our own down and here is a
+representation of how that looks like so
+the green line is the Arun up and the
+red line is the Arun down
+and that is what we are measuring in
+this case I have our own with a look
+back of 20 bars so when the value of the
+green indicator which is Arun up at 100
+that means the current High
+is the highest high in the last 20 bars
+and when it is zero that means the
+highest high in the past 20 bars
+happened 20 bars ago same goes for the
+red indicator which is the Rune down so
+when the value is 100 that means the
+current low is the lowest in the past 20
+bars and when the value is zero that
+means the lowest low happened 20 bars
+ago and then we have the our own
+oscillator and basically the oscillator
+is taking the Arun up and deducting our
+own down so it's the green minus thread
+and you get this value so while the Arun
+up and down hover between 0 and 100 the
+Arun oscillator hover between minus 100
+to plus 100 and the zero line represents
+the cross so whenever the green the Arun
+up goes above the red which is around
+down then we go up of zero and the
+opposite is true so just like the DMI
+plus and the Mi minus with the adx I
+don't indicator is kind of the same
+thing we are measuring the trend and the
+strength of the trend and we do that by
+either using both the Arun up and down
+or using the oscillator only now I want
+to bring something important to your
+attention each platform they have their
+own programming language and they
+program their own indicator and there
+are some slight changes between a
+platform and another and that's happened
+a lot in strategic One X because
+strategic One X usually they do their
+own indicators and they do their own
+calculations and then you need to take
+that strategy into another platform and
+the most common questions I get in my
+community and in my algo trading master
+class is how to match the these
+strategies that are built in strategy
+context and to another platform and the
+reason that happens and will always be
+there
+is because of the following like I
+showed you from the equation I run up
+and around down should go between 0 and
+100 because from this equation if the
+current high is happening now that means
+it's zero bar so 25 minus 0 is 25
+divided by 25 is 1 multiplied by 100
+that's 100 and if the highest high
+happened 25 periods ago
+that means 25 minus 25 is 0 divided by
+25 is 0 multiplied by 100 is zero so
+from this equation the indicator should
+hover between 0 and 100. let's check
+this is the red one so you can see the
+value is 100 but the lowest is 5. same
+thing for the green this is our own up
+you see the value is 100 but the lowest
+value is 5. and this is our own
+indicator and oscillator in multi-charge
+so again it's the same thing as 20 bar
+period look back and if we see it so
+this is the maximum our own is 100 and
+if we look at the lowest value it's five
+again for the R1 up the green maximum
+value is 100 lowest value is 5. so in
+this case
+these two indicators match
+but they don't match the equation and
+now let's go one step further the
+oscillator like I mentioned is Arun up
+minus arunda
+so theoretically it should go between
+-100 2 plus 100.
+so here if I check the value here 85
+this is 100 that's the maximum
+if I look the lowest this is -100 which
+is true
+but since this always goes to five
+then the oscillator should not go to
+-100 it should go to -95 only it
+shouldn't reach minus 100 okay so we
+find something wrong here or something
+that doesn't match and if I go to
+multi-charge and use the oscillator you
+can see the maximum oscillator value
+here
+is 95
+5
+95 95 so I checked all of them the highs
+are always 95 and the lows are always
+minus 90. so they never reach 100 or
+minus one so although these are small
+discrepancies between the indicator and
+the oscillator on the same platform or
+between both different platforms these
+will usually result in your strategy
+having a different Behavior so if you
+run it on multi-charge it might produce
+300 trades with 100 000 profits and if
+you run it in trading view you might get
+50 trades 80 000 profit so sometimes the
+strategies will behave totally different
+in each platform although you're using
+the same strategy and sometimes they
+have a little bit of difference but
+rarely they match exactly 100 percent
+and the reason is what I showed you
+because there are small discrepancies in
+the calculations of these in indicate
+something else I want to show you the
+above zero cross that means the Arun up
+is above around
+and if we go the last three so this one
+happened on May 18th
+and then this one happened
+on March 31st and this one happened
+on January 13th and if we check trading
+view so this one happened
+May 18th which is correct and this one
+happened March 30th
+so in multi-chart it was March 31st so
+that's one day discrepancy
+and then this one happened January 18th
+and in multi-charge it happened on
+January 13th so that's five days
+discrepancy so the further back I go the
+more discrepancies you will find and of
+course again that will affect the same
+logic for the strategy when built in
+trading View and multichoice and of
+course that applies to strategic
+contacts and trade station and
+metatrader 4. so then what's the
+solution the solution is always to stick
+to one platform or if you are using two
+platforms for example I develop
+strategies using strategy Quant X and
+then move them to tradestation or
+multi-charge in that case multi-charge
+or trade station have the final say it
+doesn't matter what strategy X says that
+the strategy profit or number of trades
+or the average trade that all is good in
+strategy context but the final say comes
+from the results in your trading
+platform so here is a strategy using the
+Arun indicator as a signal to enter and
+to exit
+so I'm using the our own indicator of a
+look back of 20 so this is the look back
+and then I have three variables so
+variable one is when we go above this
+value so this value is zero that means
+whenever we are above zero we will enter
+long
+we will exit with two levels it's either
+the our own indicator are at 75
+or once we enter we drop to 10 then we
+also so the 10 acts as a stop loss and
+the 75 level act as a profit Target and
+this is the return for the longest 85
+and if I do the short separately let me
+file and we see the short alone loses
+money and now if I do the long and short
+because now the overlap we can see we
+make less money and we lose more here so
+all in all as a signal it's not good
+but that's the default and like I told
+you default is not always good so let me
+optimize to find
+uh better settings so this is the entry
+level which is zero I will optimize
+between 0 and 20. the exit level
+optimized between 50 and 90. top level
+optimize 0 to 25 and the look back
+between 10 and 30. and we are using long
+and short short usually is very
+difficult on the S P 500 but let's see
+what we get we have almost 3 000
+combinations
+so sorting by the average trade above
+100 and that's the indicator that I use
+for the S P 500 so out of almost 3 000
+strategies we have
+387. so that's almost 13 profitable
+strategies and it indicates that we can
+use this indicator as a signal so this
+looks in a stable region and if we
+double click on it
+let's see what we get
+so this is long and short again short
+still losing as expected on the S P 500
+maximum drawdown we have is 48 on
+average we're making 242 so the Longs
+are really good of 410 dollars on
+average and of course we're losing in on
+the shorts now remember you can still
+pick something that works both ways so
+if I go to the top performing strategy
+then we can see that we do make money
+short and long of course now the average
+is very low and most likely this is an
+overfit strategy so let's go back to the
+strategy we picked in the beginning and
+this is much more reasonable of course I
+can cancel the shorts so this is how it
+looks like it's almost 27 drawdown
+around fifty thousand dollars but
+remember you can use the indicator also
+as a filter which I think is much better
+way to use this indicator because most
+robust filters are either direction or
+volatility in this case this is a
+direction filter for any strategy and of
+course the best way to use it is on the
+RSI too why do I always use the RSI 2 is
+because the RSI 2 now is like a standard
+on at least this channel because I
+featured the strategy in many videos so
+we already know exactly how the strategy
+behaves and it's very easy to tell now
+if this filter is good or not so now
+this is the plain vanilla RSI strategy
+and if we look at it it's making 140
+losing on the short side this is long
+and short and if we look at the trade
+analysis we the Longs are making 642
+which is really good the shorts are
+losing 20 on average this is how the
+curves looks like but probably here
+around 50 drawdown that is 81 000 so now
+I kept the RSI 2 strategy entries which
+is RSI 2 below 25 we go along above 75
+we go short and I just added the Arun
+indicator and we will optimize to see
+the filter behavior on the strategy and
+these are the results and I filtered all
+strategies with an average trade below
+100 and we have 25 59 that's very high I
+mean almost 90 percent of the strategies
+are making above 100 which expected
+because the strategy originally is very
+good but of course we want to enhance
+the strategy by reducing the drawdown
+and of course I can see here this is
+sorting by the top average trade look at
+these remember the original strategy
+made 140
+000 with a drawdown of 81 000 and of
+course it was losing on the short side
+now here if I sort by maximum entry
+drawdown look the maximum is 65 and of
+course the lowest one is twenty two
+thousand dollars but of course if I want
+to sword let's sort by custom Fitness
+this is the return to draw down and this
+is the best which is making more money
+with almost quarter of the drawdown and
+all these using 80 and 2520 so this is
+very stable area the 80 exit level the
+stop level between 20 and 25 and then
+all these are 18 if and all the entry
+levels are the same producing basically
+the same mod I'll pick something in the
+middle let me pick this one and see the
+shape of the Curve
+so now we're making 150 that's more
+money entry day drawdown is 28 so
+remember it was 85. but the most
+important part to check here now is that
+the short trades are profitable that is
+huge and if we look at it it's not only
+profitable it's really good average
+trade look at this the average trade is
+four hundred dollars it's matching the
+average rate of the long side also it's
+not few trades it's 129 trades compared
+to 200 on the long side so this is a
+huge Improvement to an already robust
+strategy by using a simple filter and
+picking a stable area
+and the shape of the curve now looks
+much better than before remember we had
+a huge crater before with the RSI
+strategy and now this one they are all
+below uh 20 the drawdown and of course
+we know it's only 28 000 now that
+doesn't mean that you should drop all
+other RSI 2 strategies and pick this one
+it is just this one although it's really
+good but it's producing a different
+Equity curve than other rsi2 strategies
+so even by changing only the filter you
+can get a different kind of result from
+the same strategy and if you combine
+those in a portfolio then you'll smooth
+out your Equity curve of the same
+strategy on the same instrument which is
+of course huge and that's one of the key
+Concepts that I push on this channel
+which is to always diversify your
+portfolio through style through time
+frame through side and then worry about
+the instrument because only by changing
+simple things on the same strategy you
+get different results to watch more RSI
+2 strategy watch this video and I will
+see you
+foreign
+[Music]

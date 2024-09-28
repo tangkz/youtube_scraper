@@ -1,0 +1,415 @@
+if you are serious about trading then me
+reversion strategies should be an
+integral part of your portfolio me
+reversion strategies come with many
+advantages like high win rate and they
+work beautifully on stocks and stock
+indexes now if you search my channel for
+me reversion you will find many videos
+discussing this subject also there are
+many free strategies included now
+because I am a Futures Trader I usually
+feature some Futures Contract in my
+strategy but I know a lot of you trade
+stocks so in this video we will build a
+miror version strategy that works on
+stocks so here is the simplest mirror
+version strategy you can apply it to an
+index now I featured many many versions
+of this strategy on the channel the
+simplest form is this when the RSI 2
+below 25 we buy and when the RSI 2 above
+75 we exit there is no other condition
+in this strategy now stop stop loss no
+profit Target no filters nothing this is
+the strategy applied to the S&P 500
+futures buying a single contract at a
+time since
+2007 and this is the result it's making
+$149,000 until October 2023 on average
+we are making
+$473 after slippage and commission which
+is set here so if you go to Money
+Management we're using one and if we go
+to slippage and commission I'm using $15
+per trade usually in all my videos I
+don't use slippage and Commission
+because as an experienced Trader I
+already know what each instrument
+requires as an average trade to cover
+three times the slippage in commission
+so for the S&P 500 futures usually I
+look for $100 at least as an average
+trade because slippage and commission is
+about
+$30 and we need about three times that
+so $100 is good enough but in this case
+I put the slippage and commission there
+so it's covered and the strategy of
+course is wonderful but it comes with a
+caveat which is the big draw down so if
+we look at the open Draw down here you
+see it's
+86% and of course no samean Trader will
+trade with this draw down of course draw
+down is highly Dependable on your
+starting Equity now the platform I'm
+using comes with the default starting
+Equity of $10,000 $10,000 doesn't even
+start to cover a single contract so in
+Futures there is something called the
+margin requirement to trade a single
+contract and for the es it is
+12,320 you are required to have that
+amount in your account to trade a single
+contract now of course even $113,000 is
+not enough so let's do double that so
+let's start our Equity with
+$26,000 now you will see that this will
+not affect our total profit number of
+Trades it will not affect anything other
+than the draw down because we are
+trading a fixed one contract so if I run
+the full back test now you can see
+everything stays the same except the
+draw down has changed so now our open
+Draw down is
+47% by the way I'm using the latest
+version of strategy Quant X this is
+version
+137 with the stock picker engine if you
+are new to this platform you can
+download it for free and play with the
+full features for 2 weeks and if you
+decide to buy it use my coupon stases to
+get 23% off this is the equity and we
+see the huge draw down this is in March
+2020 now most me reversion strategies
+have one problem so if we go back here
+you see I'm waiting for the RSI 2 to
+reach above 75 to exit and of course
+that could take a long time and that's
+why we have this huge draw down so here
+is an example where this might go wrong
+you can see for example this is sunlife
+and this is the 25 level is the red line
+so in our example we are trading below
+25 so when the RSI 2 goes below 25 we
+are entering long and then we are
+exiting when it's reaching above 75 and
+so here we barely touch it but look at
+this then we go down here and we stay
+down for a long long time until we exit
+and same thing here we are below 25 and
+we are still down so we can mitigate
+those conditions by a directional filter
+for example the most popular is the 200
+day moving average we can also add a
+stop loss and we can also add a maximum
+bars since entry so for example example
+here we enter here and we count if we
+are not above 75 and 10 bars for example
+we can exit the trade and when we do
+that the strategy becomes more realistic
+so coming back here if I add the
+directional filter which is close above
+the 200 day moving average and I run the
+back test now it's already much better
+because we get rid of uh so you can see
+here this is March 20 we are below 200
+end of 2018 and and most of 2021 and of
+course in the
+subprime uh crash which is 2007 2008 so
+that's very good and I can also add the
+maximum bars so if you see the overview
+we can see on average we are about six
+bars in a trade and the average number
+of bars in losses are about 10 so if we
+limit our bar since entry between these
+values we should cover our basis so this
+is the long entry and exit after bars
+let's start with six and see how that
+affects our numbers so that is huge and
+let's do
+12 12 seems to be uh doing well so in
+this case I don't affect my numbers as
+much and I have a limit to how long I am
+in a trade so this is now much more
+practical strategy where I am exiting
+after 12 bars if nothing happens and of
+course I'm only entering if we are above
+the 200 day moving average so far all
+what I showed you is the RSI 2 m version
+strategy on the S&P 500 Index using the
+Futures Contract which represent the S&P
+500 Index in total now to apply the same
+strategy to stocks and let's say we're
+going to apply to the S&P 500 stocks
+that means we have 500 stocks to choose
+from at any point in time there could be
+500 400 300 whatever number of stocks
+that matches our criteria which is the
+RSI 2 below 25 the close is above the
+200 day moving average so at that point
+we need something else to trade a
+manageable number of stocks so say I
+only have Capital to trade three or 10
+or 20 stocks how would I pick now those
+20 stocks out of the 500 or any number
+of stock that matches our criteria in
+that case we need something to sort the
+available stocks for us to trade this is
+the stock screener in trading View and
+in our example let's say I'm looking at
+all these stocks this is the stocks in
+the US that are on the nysse exchange we
+have about 3,000 stocks so if I apply
+the moving average where the price is
+greater than the 200 day moving average
+you see now we have
+623 stocks that matches this criteria
+and if I put the
+rsi2 below 20 now we are down to 200
+stocks so we went from 3,000 stocks to
+200 stocks that we can trade but even
+200 is too many so now I can sort by
+this so if I sort so by sorting now I
+have the first stock which is the lowest
+in terms of RSI and the highest will be
+the highest in RSI but even the highest
+of course matches our criteria which is
+below 20 so in this case I have gen
+worth Financial uh which is the highest
+RSI and I can do the same thing in
+strategy Quant X so now in strategy
+Quant x i Am using the S&P 500 data
+since January 2000 all the way to
+October and I'm using $10,000 to start
+and also I am using a kind of high
+considered today is high so I'm using
+one cent per share minimum $5 and
+maximum $10 in fact today you can trade
+for free all stocks depending on your
+broker but this is a very uh
+conservative
+um estimates for commissions now this is
+a directional long-term filter I will
+add another shortterm directional filter
+so I will use adx as rising so adx 12
+bars this is a shortterm directional
+filter but the reason I add this is
+because we are going to trade stocks I
+need something else for the stocks
+because remember this is an index and
+for stocks the individuality of each
+stock will be huge so we we need
+something else to confirm the direction
+so now we are using the stock picker
+engine and this is our strategy RSI
+below 25 we enter long close above the
+200 day moving average and the adx is
+rising so these are the entries and the
+exit I changed it a little bit so now we
+are exiting with the rsi2 above 65
+instead of 75 so that's
+faster also if the close greater than
+the previous close close two bars in a
+row also if the close suddenly gaps up
+4% we are exiting and instead of bar
+since entry I have a 25% stop loss now
+if we go back to our settings we can see
+that I'm trading of course the stocks
+and the money management is $10,000 to
+start in but something important here is
+the ranking so remember when we ranked
+on the RS I I'm using here momentum rank
+now I'll show different ranking in a
+second so st's momentum rank is ranking
+all the stocks that matches this
+criteria out of the 500 stocks in the
+S&P 500 Index so going back to this
+ranking that means on this day I will
+trade the lowest RSI for
+example I will trade the top five so 1 2
+3 4 five so only these five stocks will
+be traded on this day and I do this
+every day so that's what five maximum
+positions mean now I'm not trading the
+short side so there's nothing there and
+now if I trade this so run full back
+test so these are my result since 2000
+we are compounding at
+13.4 we have 3.38 return to draw down
+Ratio or Draw down at
+26% and if we look at our Equity chart
+this is what it looks like we made a
+peak in 2021 and we are not there yet
+and our over overview we are making
+$26 after slippage and commission per
+trade so this is the reason for the low
+average trade because our starting
+Equity is
+$110,000 we trade five positions so each
+position gets $2,000 and then
+$2,000 get a maximum number of shares
+per that stock and so you can see our
+trades are low and that's why we have an
+average a low average but once we get to
+let's say the 2023 we can see how the
+trades are all big so 300 700 500,000
+500 because now we have more Capital to
+trade so we can buy more shares and this
+is the caveat that you need to learn
+when trading stocks because in Futures
+we have a fixed one contract and the one
+contract will always make $50 per point
+in the S&P 500 so it doesn't matter when
+you trade in in the year 2000 or today
+it's $50 per Point although the margin
+rate will change but the profit and loss
+will not change but in stocks the
+starting Equity will have a huge effect
+on your Equity profit and loss so for
+example the same
+strategy if I
+start with instead of $10,000 I will
+start with a
+$100,000 so I just added a zero so you
+probably think that instead of making
+170,000 we will make 1.7 million so
+let's run the test and see so instead of
+1.7 million we are making 8.7 million so
+that's a huge difference because we are
+trading stocks and also another thing
+you will see that if I sort by size so
+you can see now we're having more than
+100,000 shares to trade now at this
+point you might be a small fund that
+trading this size although many stocks
+today you can trade this size but if
+this let's say happened in
+201 you probably could not trade that
+size so the way to mitigate this is you
+either limit the maximum number of
+shares you trade so for example you can
+say maximum number of shares is 5,000 a
+but way is to limit it per the volume of
+the stock so you can do this manually
+for example this is viat TR stock and we
+can see the average volume is about 8.8
+million and a good R of thumb is you can
+trade 0.5% of every million of the
+average so in this case we have let's
+say 9 million that means 5,000 shares
+per million so about 45,000 shares for
+this stock now unfortunately in sqx in
+the current money management rules we
+cannot do any of these things also I
+want to bring to your attention that the
+25% stop loss is not 25% of your Equity
+since we are trading five positions so
+this will be divided by five so this
+will have a 5% on your Equity so if a
+stoploss hit that means you just lost 5%
+of your total Equity now I just Pro to
+you that the same strategy will work on
+Stocks by just using some method of
+ranking on your stocks to trade a
+manageable number let's say five to 10
+uh stocks but using the same principle
+which is Mir version which of course is
+a straightforward conclusion because we
+know M version strategies work on the
+index then theoretically it should work
+on all the stocks that are part of this
+index now I'll go a step further which
+is I want to cement the me reversion
+Concept in your head so I did the RSI
+it's the same strategy now I'm only
+going to change how I am measuring this
+uh miror version concept so here for
+example I have pullback so same
+everything it's all the same rules we
+are using the same index we are using
+the same commission and we are using the
+same money management rules
+everything is fixed except I'm adding
+the condition instead of RSI I'm using a
+pullback so in this case if the close
+lower than the previous close three
+times in a row we will enter so that's
+just another measure of mere version so
+let's run the full back test
+now and we can see that we are making
+12.3% compan annual growth rate with
+about 40% draw down
+and now I will go with this this is the
+Ballinger band so if the close is below
+the Ballinger bands now I'm using a
+shortterm Ballinger bands to match the
+shortterm of the RSI or three lower Clos
+in a row so I'm using the 5 day moving
+average and 0.5 standard deviation for
+the channels so if I run
+this again we see a very close
+performance so we're making
+14.6% compound annual growth rate with
+42% draw down but of course we're making
+more money and finally I will use
+stochastic so again I'm using a shorter
+version to match the RSI 2 so this is
+stochastic 3 and three lower than 25
+everything else is the same and if we
+run the full back test and this is the
+best version we are making compound
+annual growth rate 18
+% with a 24% draw down so this is the
+best me reversion strategy out of these
+four remember these are all trading the
+same universe same stocks same
+commission same conditions so the
+stochastic doesn't mean it's better it's
+just because at the end of last let's
+say 5 years we have more Equity to trade
+so that's why we are making more money
+so keep that in mind the takeaway is
+mirr version works regardless on how you
+measure it what filters you add and what
+stocks you trade if you just implemented
+the right way and I just showed you four
+ways to measure the mirror version
+without changing the filters the
+commissions the number of stocks to
+trade or the starting equity and I just
+showed you that all of them work now
+I'll just add the icing on the cake now
+which is ranking
+affects your strategy a lot so if you
+remember this screen where we are
+ranking bar RSI you can Rank by anything
+so going back to our original strategy
+the RSI 2 on the S&P 500 stocks and this
+is using momentum rank so if I just
+change the way we rank the top five
+stocks so let's use the RSI and remember
+now we are having 13 compound annual
+growth rate with 20 the 6% draw
+down so just by changing the ranking you
+can see now we are at
+16% compound annual growth rate and our
+draw down expanded to 36 and if I change
+the ranking to rate of
+change you can see now I am at 26
+compound annual growth rate with 32%
+draw down just the ranking now almost
+double our compound annual growth rate
+yes we increased our draw down but we
+didn't add leverage we're just changing
+the ranking so you see the ranking in
+this type of strategy have huge huge
+effect to learn more about miror version
+strategies watch this video and I will
+see you
+[Music]
+there
+[Music]

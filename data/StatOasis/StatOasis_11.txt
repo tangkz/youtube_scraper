@@ -1,0 +1,380 @@
+in a previous video I talked about
+strategy filter types I talked about the
+categories and showed you some examples
+of filters that we can use later on in
+the newsletter that I published weekly I
+showed an example of a Bas strategy and
+I applied different filters on it and
+showed you the results of those filters
+on the same strategy and from the
+feedback I concluded that not all people
+got what the filters do they think they
+are an optimization of a strategy that
+achieve better results but in reality it
+is not so I thought I explained this in
+a video so this video I will show you a
+type of filter how it works and how it
+filters strategies and I'll show you
+example of a strategy on gold Futures
+now most of the time I use the S&P 500
+futures with the rsi2 strategy as the
+base because by now I've done hundred of
+variations of the strategy and I know
+exactly how it behaves so I know
+immediately see if the filter is working
+or not but I chose to apply to a
+different instrument and different time
+frame just to show you that these
+filters will work on any type of
+strategy you produce so for this video I
+chose the gold futures from 8:00 a.m. to
+1:30 p.m. New York time now this is not
+some Voodoo time frame you can do this
+by looking at the intraday volume and
+you pick the most active time that this
+Futures is being traded so once once you
+find that 8 to 130 p.m. you make a
+special session a custom session that
+encapsulate all these time frames in
+this case from 8 to 130 p.m. that's 330
+minutes so although I will be using a
+daily time frame but the day session is
+between 8 and 1:30 now this is one of
+the pillars of the algot trading master
+class which is you need to diversify
+your strategies with time frame better
+than instrument because you see now this
+time frame has nothing to do with the
+exchange time frame and it you will get
+different results by applying different
+patterns on this session so let's start
+with a simple directional filter
+directional filter as the name suggests
+it will tell us the direction of the
+instrument we are trading so it will
+filter if the direction is up or down
+for that instrument so here I have the
+gold Futures with 300 30 minutes session
+so this is the active session that I
+told you about it's from 8:00 a.m. to
+1:30 p.m. New York time and I have the
+200 day moving average so this can be
+considered a directional filter when the
+price is above the 200 day moving
+average we are in a bull market and when
+it's below we are in a bare Market here
+is the same indicator now colored for
+slope so this is when the slope is up
+it's green and when the slope is down is
+red so the same indicator we can use it
+as the close above the indicator we are
+in a bull market we can also say we are
+in a bull market and the slope is up
+because here for example the price is
+above so we are in a bull market but the
+slope is down here is the opposite we
+are in a bull market because the close
+is above the 200 day moving average the
+slope is up but the price is going down
+so from a single indicator we can drive
+many filters because each one is doing
+something different but very important
+to notice that a 190 day moving average
+is not a different filter because the
+200 day moving average to the 190 day
+moving average should not produce
+significant changes in your strategy and
+if it does that means you are over
+optimizing so you need to have a
+significant change in the look back to
+make that a new filter so for example if
+you are using the 200 day moving average
+then you should at least use the 100 day
+or the 50-day moving average now in
+strategy Quant X you can take those
+different types that I told you so for
+example the price is above the 200 day
+and the slope is up that's a one filter
+and the price is above the 200 day and
+the slope is down that's another filter
+and you can use those filters in build
+Builder to generate different strategies
+with these different filters the reason
+I use optimization in multicharts or
+trade station it's because I need to
+trick the platform to go through all
+these filters through the optimization
+because they don't have this Builder
+workflow in strategy quantex so that's
+why we need to trick the platform so
+what I do is I number these filters from
+let's say 1 to 100 and I say okay
+optimize by changing the numbers but in
+reality I'm just trying different
+filters for the same strategy so I'm not
+optimizing the filter I'm just using
+different filter through the
+optimization so this is the same chart
+and this is the 200 day moving average
+and now I added my market regime
+indicators these are proprietary uh
+indicators they are included with the
+alot trading masterclass which by the
+way is open now depending on when you
+see this video and if you click the link
+and the enrollment is closed just
+register so you'll be notified for next
+enrollment so what does this directional
+filter do it's basically a clever way of
+incorporating many signals into one
+green that means we are in a bull market
+yellow it means we are in a sideways
+market and red means we are in a bare
+market and same indicator also has have
+a slope so it goes up and goes down and
+above zero and below zero so just like I
+told you with the 200 day moving average
+I can derive many filters from the same
+indicator below it is the same concept
+but now this is for volatility so
+volatility is red is very volatile green
+is quiet and yellow is normal it's like
+the sideways and again we have
+volatility rising and volatility falling
+and again from these combinations I can
+build many filters so this is very
+important point to grasp so I'm not
+optimizing the strategy signal so the
+signal could be the highest high the
+lowest low an oscillator below a level
+above a level or a breakout above a
+level all these signals are fixed what
+I'm testing is a different environment
+for that signal so I test different
+environment to see when that signal give
+me the best results so then I know that
+signal is suited for this environment
+and to drive this point further I will
+show you a detailed statistics of the
+filters that I just showed you so this
+is a strategy on the gold Futures that I
+showed you 330 minutes day session and
+basically here I am buying every day and
+selling the next day so I I buy the open
+I sell the next open and I registered
+the state of each filter so I have
+long-term filter short-term filter and
+volatility filter and then long-term
+slope short-term slope volatility slope
+and this is the volume slope I'm not
+going to use the volume here because I
+don't want to complicate things these
+are all the trades I have about
+4,300 so these are all the trades
+aggregated so I have the
+longterm directional filter this can be
+equated to the SMA 200 and I have the
+shortterm directional filter this can be
+equated to the SMA 30 and then I have
+the volatility filter this can be
+equated to the ATR 20 average through
+range 20 bars this is the total of all
+trades so we have 4,300 trades and then
+here the values are the average standard
+deviation maximum and minimum for each
+column so this is volume
+this is range so let's focus here out of
+about 4,300 trades the bull market is
+about 1,700 the bare Market is, 1500 and
+the sideway is about 1,000 these are the
+percentages so we spent 40% of the time
+in bull market 35% in bare Market 24% in
+sideways and then rising and falling
+about the same for short term I'm
+spending about 50% in bull market and
+30% in bare market and 22% in sideway so
+you that's what I'm telling you you need
+to separate the filters a lot to get a
+different Behavior so in this case we
+went from 200 to 30 to get this
+different Behavior again the rising and
+falling is about the same and then
+volatility so volatility we spending 40%
+of the time in volatile Market 133% of
+the time in normal market and almost 50%
+of the time in a quiet Market that's
+below normal that means the volatility
+is very very low again about the same
+rising and falling the average of what
+we make in the bull market if we buy
+every day the open sell every day the
+next open so that means we're holding
+one bar
+$13.56 no commission and slippage but
+then in the bare Market same thing we
+are B buying and selling the next day we
+are making $50 and then in sideways we
+are making
+8.72 so the differences are huge
+obviously if I want to go long in Gold I
+should be going long in bare market and
+then gold makes
+$51.50 in shortterm bull market and
+almost scratch in bare market and
+sideways so it's completely different
+picture than this this is the average of
+every day also very noticeable that
+falling slope of longterm is more than
+double the performance of the rising
+slope same thing in the short term and
+finally for volatility it looks like
+normal
+volatility and volatile Market in the
+gold Futures are much better these both
+of these filters are much better than
+this one now to get the exact results so
+if I pick this regime so this is
+long-term bear I can come here and
+select long-term
+bear so this filter produces
+$50 on average it spends 1521 days which
+we know already from here and these are
+the results for the average the standard
+deviation maximum minimum and the sum
+for example this strategy will make
+$75,000 if I buy every day in the
+morning sell in the next morning in this
+market regime so it looks like a lot of
+information which it is but I just
+wanted to prove to you how these Filter
+Works and why do they work it's just
+they are a different environment for
+every instrument so if you apply these
+Market regimes uh to any instrument it
+will give you a different picture for
+every instrument now of course this will
+be be very tedious and it will take I
+don't know a lot of time and hundreds of
+hours just to research every single
+strategy and bring it here and see which
+one in the Excel so a much better way is
+to take all these filters number them
+and then just run an optimization on
+your signal to see which filter performs
+the best okay so for the same Futures I
+chose the RSI 2 strategy but this time
+we are using it as a breakout signal
+because remember the gold is positive it
+has a positive tendency so we want to go
+long and so I'm going long when the RSI
+2 above 75 example here the price is
+above 75 we go long next bar and I'm
+holding for four bars so 1 2 3 four I
+sell and then the next time here the
+price above 75 I buy X bar I sell four
+bars again the price here is up I buy X
+bar and so on so forth so for example
+here you can see we did not cross and
+then we cross here above 75 we buy an
+xar and we sell after three bars and now
+we will optimize the filters so again we
+are not optimizing the strategy we are
+just running the strategy through
+multiple filters by tricking the
+platform into optimizing through the
+number of filters so what I'm doing here
+is I'm running
+248 combinations of my market regime
+filters you need to build filters that
+is significantly different from the next
+adjacent filter so while yes you can
+build hundreds and hundred hundreds of
+filters it's much better to focus on
+different filters basically you are just
+producing to your strategy a different
+environment so this is dry this is cold
+this is hot and which one the strategy
+thrives in that's the one you're going
+to keep and then you get rid of the rest
+and these are the results of the uh
+filters that we tested so this is the
+number of the filter and the results are
+sorted by return to draw down and you
+can see we went from the best average in
+the Excel sheet was
+$50 and here we have like 400 600
+800 uh 2 400 many many strategies with
+over 100 trades and over 400
+on average so for example this filter
+103 is the shortterm bull market and the
+long-term bare market so basically I am
+trading these two so this is 49 alone
+this is 51 Alone by combining them
+remember we are not adding the averages
+when the when we combine them we are
+basically getting the best out of both
+which is in this case 46 $68 on average
+now look at this 95 which is lower in
+terms of retent to draw down but it's
+almost making double the amount of money
+this filter 95 is the shortterm bull
+market and sloping down and by the way
+the difference is also going to be huge
+in the equity so let's look at this one
+so let me pick this
+one and let's look at the
+equity but now let's go to the adjacent
+one which is making less money so this
+one 55 and let's pick that one this
+strategy now is going up all the time
+and it's not making anything from 2015
+till uh 2021 but this time the strategy
+is totally different because it's flat
+most of the time look at this this
+straight line means it's not trading
+this one is here this one is here in
+fact we can see that from time analysis
+look at this it's almost % only in the
+market so that means 90% of the time
+this strategy is not trading so this
+will be excellent to add it to a
+portfolio because you can use the same
+Capital to trade other strategies now
+let's look at this one which looks like
+in between it's making
+77 and the draw down is 24 and this
+strategy looks like just uh going up
+slowly every year and as you see from
+the same signal which is not optimized
+not nothing I just know that the gold is
+positive it will work well with long
+strategies so any signal I take going
+long should work now some signals will
+work better than others but most of the
+time any signal long will work on gold
+then I pair it with just a filter and
+already I am way ahead of many other
+Traders who's trying to sculp and five
+minutes and support the resistance
+distance and Fibonacci and all this
+mambo jumbo really it's picking the
+instrument uh personality
+characteristics match that with a signal
+add the right filter and you are way
+ahead now you can still work on this
+strategy I showed you now three you can
+combine 10 of them that's a portfolio
+going long on gold you can add then stop
+loss profit Target change the number of
+days remember I'm exiting here fixed at
+three days because I just want to show
+you the performance but probably that's
+not optimal probably the optimal it's 2
+days or 10 days I don't know so that's
+more testing but just driving the point
+filters are like one of the pillars of a
+strategy it's entry exit and a filter if
+you like this video then you will love
+this one so make sure to jump in and I
+will see you there
+[Music]

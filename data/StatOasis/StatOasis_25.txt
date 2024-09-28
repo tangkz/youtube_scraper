@@ -1,0 +1,184 @@
+in many of my previous videos I talk
+about Market Edge where you need to
+align the strategy style to the market
+and one of the most prominent edges that
+I talk about in this channel is the
+tendency of the S&P 500 to drift up most
+of the time now once you find that edge
+in the market you're going to face a
+problem which is most likely your
+strategy just going to be lucky instead
+of a driver behind it because if you
+know the direction already then you're
+just going to pick up anything and it
+should be aligned and the strategy will
+do well so how do you know if your
+strategy is lucky or not now this is not
+robustness testing this is just to get a
+base of what's luck is in this market
+and our strategy has to beat That Base
+so this is the S&P 500 and like I
+mentioned this Market tend to drift up
+most of the time and although I teach a
+different way to find out in my Alo
+trading master class today I'll show you
+a simple example of how this Market goes
+up all the time and this is the random
+strategy that I'm testing on the S&P 500
+so basically the strategy will buy exit
+after three bars wait for 12 bars and
+buy again that's it it's always true so
+we're always buying exiting after three
+bars waiting for 12 bars and doing it
+over and over so this strategy made 270
+trades since 2007 60% win rate and $11
+average trade no slippage no commission
+so it's losing a strategy but it's not
+losing by much since especially this is
+extremely random now if I randomize this
+so if we test from let's say 3 to
+7 and The Waiting 5 to 15 in step of
+three so I'll have 25
+uh strategy combinations and let's look
+at these results so if I sort by return
+to draw down we can see that um well
+even this is profitable so 23 strategies
+out of 25 are
+profitable and I just randomize the exit
+so I'm always in the market I enter I
+exit after a certain number of bars and
+I weigh certain number of bars but all
+of them almost all are profitable not
+only that I have strategies like this
+look at this 300 and plus trades average
+trade of
+$472 so that is like you know that's
+already a strategy but how can that be
+I'm I'm entering like I just find found
+this pattern randomly so first this is
+another proof over the one I did before
+that the S&P 500 tends to drift up all
+the time because if you you do anything
+just go long regardless and you just
+control the exit you are making money in
+the market and you are making really
+good money depending on how long you
+wait and and how long you hold you can
+really have a good strategy and no need
+to worry about indicators or uh about
+patterns there is nothing in this
+strategy I'm just literally waiting and
+buying waiting and buying so let's pick
+the best strategy so this is the best
+one five and eight and the randomness
+that I'm going to do is every time I
+reach an entry I will flip a coin if the
+coin heads I will buy if the coin Tails
+I will not buy and then wait for the
+next signal flip a coin the coin heads I
+buy if it stals I don't buy and then we
+wait for the next signal and so on so
+forth so I am still holding five bars
+and waiting eight bars but every time I
+wait I will flip a coin to see if I
+enter again or not before we test I took
+a screenshot of this so we can compare
+what's going to happen next so as you
+can see five and8 is the top uh
+performers making
+$145,000 308 trades $472 on average so
+now I introduce this percent so if I put
+this at 50 that means it's a coin flip
+basically 50/50 so you see now every
+time I compile my strategy we will get a
+different results here so this is$
+288
+$261 on average and if I compile
+again 287 $328 on average and
+again 287 and so on so forth so you see
+we having a flip so now I'm going to do
+this same one so we will do 25
+combinations but now we will have the
+coin flip for every trade so let me show
+you what happened so again this is
+sorted by return to draw down and we can
+see let me bring this and look at the
+difference now so the top one was 58
+this is
+38 and the top one was making 145 this
+is making
+102 and if I do it again
+and sort while return to draw
+down again the top one is 515 making 122
+it's not the same so you see it's random
+I'm just trying to prove to you of
+course I know because I coded the
+strategy but just to prove to you that
+this is using a coin flip and every time
+I run it it will bring new results so
+now that I have the basis to do a random
+Str strategy I need a big sample and I'm
+going to look for about 50,000 strategy
+so I can get the average of that to find
+out where the luck sits in this
+instrument to get a bigger sample I will
+randomize the weight bars 5 to 15 step
+three and the exit Bars 3 to 7 step of
+one and the random percent this is the
+coin flip I will do it from 50 to 70
+step five well 50 50 is half and half
+and 70 that will yield more trades than
+not so when I reach a trade and flip a
+coin it will land ahead 70% of the time
+instead of 50/50 that's what 70 means so
+basically we are giving it more trades
+than normal and then I have some clever
+code to increase the number of coin
+flips because right now with this we
+have 125 combinations and I want a
+bigger sample so this will multiply that
+so if we do like let me show you if I do
+100 you can see now I have
+12,000 so if I do
+400 that should give me about 50,000 uh
+combinations which is what I want so
+these are the results that I got it's
+about 50,000 strategies you see this is
+the count and these are the filtered
+strategies so overall I I'm about 28% in
+the
+market and my return to draw down is
+1.6 and my average trade is
+$248 Win percent is about
+60 1.3 profit factor and about 250
+trades now I filtered the really good
+strategies and you can see they are
+about
+20% of the total but uh interestingly
+it's about the same number of Trades
+double the uh return to draw down and
+about double the average trade but same
+exposure and about same uh profit Factor
+so what do we get out of this basically
+we get the base strategy for the S&P
+500 so your strategy in the S&P 500 it
+needs to be at least these numbers
+in order not to be just block I think
+that is the minimum that you should uh
+accept on the S&P 500 of course this
+will be tied uh to the exposure so lower
+exposure that means this number is lower
+because the S&P 500 tends to drift up
+most of the time this test shows that
+your strategy has to pass a certain
+level to be be accepted profitable alone
+is not enough here now this can be
+applied to all markets once you find the
+market Edge you can do random strategies
+like this going with the market
+Direction and then you can find the base
+for that market and then your strategy
+has to pass that threshold to be
+[Music]
+accepted
+[Music]

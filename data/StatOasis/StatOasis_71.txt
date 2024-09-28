@@ -1,0 +1,278 @@
+check the rotation strategies were very
+popular in the 90s many hedge funds and
+billions of dollars are still invested
+in this strategy in some flavor or
+another in this video I will show you
+how simple it is to implement such a
+strategy in today's market and you will
+be able to beat the stock index first of
+all let's start with the definition the
+stock market is divided into 11 sectors
+this classification is done by the gics
+this is the global industry
+classification standard those 11 sectors
+are subdivided into 24 industry groups
+69 Industries and 158 sub Industries and
+these are the 11 sectors we have the
+healthcare materials real estate
+Consumer Staples consumer services
+financials and Technology now for
+example the health sector includes
+Pharmaceuticals medical devices
+Healthcare biotech stocks insurance
+companies while consumer discretionary
+include retail e-commerce hotel luxury
+goods and Leisure and travel industry
+basically all the public companies that
+are listed on the stock exchange are
+categorized into an industry and then
+into a sector so instead of holding
+individual stocks you can hold a sector
+that holds many stocks inside it and
+therefore you are diversifying into that
+sector in today's market we are
+fortunate because we have many types of
+ETFs representing those sectors we can
+invest in one ETF that buys all the
+stocks in the sector or in subdivision
+of this sector for example here we have
+the U.S sectors represented by spiders
+ETF so each ETF represents one sector
+and you can see here we have 11. also we
+have the U.S small cap sectors
+represented by ETFs and we have the
+global sectors now these are the major
+ETFs representing those sectors but of
+course you can have sub sectors
+Industries sub-industries and so on so
+forth also for each sector you don't
+have a single ETF so for example these
+are the ETFs representing the 11 sectors
+issued by the spider but also we have
+the same sectors represented by
+different ETFs from Vanguard the reason
+is because the US is very liquid and
+easily we can have competition
+representing those sectors targeting
+your our money also I want to bring your
+attention that even though we have the
+same sectors they don't actually work in
+the same way and here I brought two
+examples so this is Vanguard the energy
+index and we can see we have 99.72
+represented by the energy sector and
+0.18 percent represented by basic
+materials 0.1 percent in utilities same
+sector represented by the spiders has
+one hundred percent in energy here is
+for example the top 10 holding for the
+Vanguard energy sector and we can see
+Excel mobile is 22.8 percent Chevron is
+14.8 percent konoka Phillips 7.3 and if
+we look at the top Holdings in the
+spiders energy sector we can see Exxon
+is 23 Chevron is 18 and konoka Phillips
+is 4.46 so the the difference is Big
+that's why the same rotation strategy
+implemented on the U.S sectors using the
+spider ETF will behave differently will
+produce different results than if you
+invested using the Vanguard ETFs because
+each ETF has a different algorithm to
+pick the allocation for each stock in
+that sector now that is not a glitch
+because depending on the manager running
+that
+ETF they can have a different algorithm
+and I can show you here for example how
+easy it is so for example this is the
+technology services and we can see that
+Microsoft is the big cap in the sector
+so I can choose my ETF to represent the
+same weight or to represent equal weight
+or to represent price per earning and so
+on so forth so there are million ways to
+represent each sector for our purposes
+we will stick with Vanguard and spider
+ETFs these these are the most liquid
+ETFs you can get in and out with minimal
+slippage and sometimes zero slipping now
+let's build our rotational strategy so
+we have 11 sectors every month we will
+look at the best performing sectors and
+we will invest in those sectors that
+means we will not put our money in all
+sectors equally we will pick the top
+five sectors every month to invest in
+and that's why it's called rotational
+because every month you measure again
+and you rotate into the best performers
+and rotate out of the worst performance
+and this strategy is based on the
+concept that all these sectors perform
+differently every month and we can check
+that on the chart so these are all the
+spider sectors and we can see this is
+one year performance even though all
+these sectors are part of the S P 500
+and if you buy all of them equally you
+will get the same performance of the S P
+500 but we can see clearly that they are
+not all the same for example here the
+xlk is 31 performing this year while the
+xlu is minus 12.8 percent so our
+strategy revolves around three months so
+every three months we check the
+performance of these sectors so for
+example if we are doing this strategy
+today the past performance of the last
+three months XLE is number one
+it made 14 percent
+xlc 2.9 XLF 2.1
+XLV minus 1.3 and the fifth one is xlb
+which is minus two percent but even
+minus two percent beats minus 2.4
+percent so that's it the strategy is
+extremely simple every month we check
+the performance of the past three months
+of those 11 sectors we pick the top five
+we invest 20 in each and we hold until
+the end of the month and then we repeat
+this again now this type of strategy
+rotational strategies cannot be tested
+in any platform in fact most retail
+platforms they cannot test this type of
+strategy but thankfully we have a free
+tool that we can do the testing with so
+this is the tool we are using it's
+called portfolio visualizer you can use
+it for free to test this strategy so
+here I added the 11 sectors that we are
+going to test these are 11 sectors used
+using the Vanguard ETFs you can see we
+are using the three months look back
+period to see which one is performing
+the best
+and then we will invest in the top five
+assets the condition we have is the
+sector has to be above its six month
+moving average we will trade at end of
+the month and we will compare with the
+Spy so let's run the test and here we
+have the three portfolios so at the
+bottom here this is the S P 500 sector
+so since 2006 this is the data I have
+here until September 2023 the S P 500
+was compounding at 9.3 percent with a
+maximum drawdown of 50 percent and a
+worse year performance of 36.8 percent
+if we buy all these sectors equally that
+is the equal weight portfolio we can see
+we perform a slightly worse in terms of
+money slightly better in terms of
+drawdown but this is our portfolio we
+are making slightly more money 9.9
+percent but the amazing part is this the
+maximum drawdown is about 20 percent so
+instead of 50 we're about 20 the worst
+year is 16.29 instead of 36. so even
+though we are slightly ahead in terms of
+money
+but this this is huge because we are
+less than half the drawdown that means
+we enhance our drawdown by more than 100
+and this is easily shown here you can
+see our blue line which is our portfolio
+and this is the equal and the Spy alone
+you can see in 2008 crash how we are
+capped at around 20 percent and this is
+the covet crisis we are capped at around
+10 percent and you can see the model
+selection we are basically investing in
+the top five sectors by investing 20
+percent of our capital in each sector
+and you can see it is sometimes in cash
+because the sector is below is six month
+moving average so strategies like these
+makes a lot of sense then Buy and Hold
+also it makes a lot of sense for people
+who don't have time to trade also it
+makes a lot of sense for people who are
+trading but they want to also diversify
+and other buckets so if you are a
+student if you are working full time if
+you are trading but have extra money to
+invest you can use those type of
+strategies because they are very easy to
+manage it takes like 15 minutes 20
+minutes a month to implement such a
+strategy so this is our strategy making
+about 10 compound annual growth rate
+with about 20 Roda we can further
+enhance the strategy by not allocating
+the money equally to each sector but by
+allocating the money based on volatility
+and this is the result that we will get
+so now we enhance our return to 11.29
+and we reduce our drawdown to 18 also
+our worst year goes down to minus one
+three seven now this is huge if you are
+calculating your performance every year
+but of course you still have this
+drawdown and you can see the difference
+now in the model selection you can see
+now even though we have the five sectors
+for example in September we are only
+invested in this sector and in August we
+are investing 35.7 while the other
+sector is 64.29 so you can see we are
+not holding five blindly 20 each but we
+are allocating based on the volatility
+of that sector and that's why we are
+extracting more profit and reducing our
+drawdown this can be further enhanced
+using different methodologies and and I
+use those methodologies to build
+different portfolios so here in the VIP
+plus Community where I have all these
+portfolios these are all portfolios
+using some version of this rotational
+momentum strategy so for example here I
+have the core and US sector rotation and
+for example I introduced this portfolio
+last month
+and it trades all these sectors so the
+Vanguard
+U.S sectors the global sectors and the
+small cap sectors and then it uses some
+version of rotational strategy to invest
+in and if we look at the PDF file that
+comes with this portfolio you can see
+that we are making
+15.38 percent compound annual growth
+rate with 15.9 percent drawdown so as
+you can see we enhance our return and we
+enhance our drawdown by using different
+flavor of this rotational strategy algo
+trading is not for everyone but
+investing it is for everyone and with
+strategies like this you have no excuse
+not to invest in the financial Market
+but you need to do it with a system the
+system will take all the emotions away
+we'll take all the research all the news
+all the spikes away and it becomes
+extremely easy to invest your money
+those rotational strategies momentum
+systems have been researched with more
+than 400 white papers already invested
+with billions of dollars so they are
+very robust they've been working for the
+last 100 years and there is no reason
+not to expect them to keep working for
+the next hundred years to learn more
+strategies like this watch this video
+and I will see you there
+[Music]
+thank you
+[Music]

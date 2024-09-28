@@ -1,0 +1,251 @@
+if you are a Trader who is losing money
+more than making money then most likely
+it's because of Leverage in this video I
+will show you how leverage wiped out my
+account and made me lose more than
+$337,000 now granted there are many
+reasons why Traders lose money more than
+make money but if I want to pick the top
+three reasons why Traders fail then
+leverage will be in the top three now
+don't get me wrong Leverage is an
+extremely important factor in your
+trading journey in fact it is one of the
+best reasons to grow your account
+quickly but the slight misuse of
+Leverage will wipe your account about 16
+years ago I bought an indicator set this
+happened at the time when I was looking
+at the best indicator to trade with
+because in my head I thought a single
+indicator single strategy that what
+makes uh Traders Rich so the three
+indicators basically gave you signals to
+entry and exit and the whole set work
+together and I paper trade with the
+whole set and of course it was
+profitable so then I decided okay now
+it's time to trade so I wire
+$335,000 to my existing account which
+had about $2,000 in it with a total of
+37,000 and change now at the time the
+S&P 500 E mini Futures requirement to
+trade intraday was
+$500 so I thought since I had $37,000
+I have a big buffer to trade more
+contracts and I calculated well you know
+I can make four points a day that's $200
+if I trade 10 contracts so that's $2,000
+so I should be making around 20 to
+$30,000 a month depending on my win rate
+which I'm sure most of you listening to
+this video are doing the same thing now
+I started trading and I was making money
+off and on for a week and then suddenly
+I was hit with a big draw down and then
+the next day another draw down so I
+thought well you know the system works I
+traded you know I paper trade uh the
+system for a while so I thought okay now
+the percentage are even higher that the
+system will make money so in my uh
+feeble head I decided to double the
+contracts so I went from 10 contracts to
+20 contracts and within two days
+literally two days I over traded wiped
+out my account account moral of the
+story is more leverage will always yield
+to more losses it's actually
+mathematically buil in but it's so
+hidden that Traders don't see it and
+they will always welcome more leverage
+of course the advantages of the Brokers
+because then you trade more and you wipe
+up your account and you add more money
+and so on and so forth and I will prove
+this to you with data so here is a
+robust strategy that that's trading the
+S&P 500 in Min Futures the strategy is
+trading a single contract so we can see
+it's a single contract starting capital
+is
+$225,000 for the past 18 years we make
+about
+$180,000 after slippage and commission
+the win rate is very respectable at
+about
+73% average trade is about 520 and the
+draw down is 32,000 return to draw down
+is 5.4 this is an extremely simple St
+strategy It's A Mir version strategy on
+the S&P 500 long only no filters I just
+wanted to illustrate to you how leverage
+works so first let's start with the
+historical back test this test most
+likely will not be repeated in the
+future that means even though this
+system is robust it is profitable the
+sequence of the trades most likely will
+not be repeated in the same way in the
+future so we can see here we are making
+about $180,000 and if I change the
+sequence you can see nothing change the
+graph Chang but I'm still making exactly
+the same amount of money same trade same
+average trade same everything except for
+the draw down the draw down will change
+because the sequence of the trades will
+determine my draw down while my total
+net profit is determined by by the
+number of Trades and the average trade
+so I can repeat this you see every time
+I change
+it we have a different draw down but
+it's the same net profit so if I go back
+to the original and remember we are
+starting with
+$225,000 now the current margin
+requirement for the S&P 500 is
+$115,000 so if I change my starting
+Capital to $20,000
+well nothing changes because I still
+have enough money to trade this sequence
+but if I go to
+[Music]
+$18,000 you see now my trading stops
+here this is the number of contracts and
+you see my trading stopped at about 24
+trades let's look at the trades you see
+this is my starting Equity
+$188,000 First Trade was profitable
+profitable profitable and so This Is My
+Equity so it went 18
+1921 and then over at this trade I lost
+$3,000 lost
+780 profit,
+1495 profit losing trade losing trade
+losing trade and then when I hit this
+losing Trade My Equity Falls below
+$115,000 which mean I cannot trade
+anymore so therefore the strategy
+stopped trading so lesson one because we
+have leverage we need to take care of
+the this sequence of Trades meaning the
+sequence of trade will decide if we can
+trade the strategy or not now how can we
+find out the leverage in
+Futures and what's the amount of capital
+needed not to fall into this drop so
+first of all you need to take the price
+so this is the price as I'm recording
+this video the price of the S&P 500
+Index it's
+5625 okay so 5625
+now each point in the E Min Futures is
+$50 so times
+$50 that means every contract in the S&P
+500 E mini Futures is controlling
+$281,200
+but the margin requirement as of today
+when I'm recording this video If you go
+to any broker the margin requirement is
+15,180 now this is not determined by the
+broker this is is determined by The
+Exchange and this moves up and down
+depending on volatility so as of today
+if I divide this number by the margin
+requirement then I get my leverage so my
+leverage today is 18 and2 so every
+future contract has leverage built in of
+course that's one of the advantages of
+trading Futures you don't need to borrow
+money to trade with leverage it's
+already built in and you don't pay any
+interest for it of course the
+disadvantage is you need to know how to
+use it so let's start here first every
+Futures Contract has leverage built in
+and in this case we have a 18 a half
+leverage for S&P e mini this is like you
+are depositing money in Forex and they
+give you 18 to1 okay so we go back to
+our strategy we have leverage year 18
+to1 if even though the strategy is
+robust this part is done we did our
+research we buil the strategy it is
+robust how much Capital do I need to
+trade this strategy and not face the
+probability in the future that I will
+lose money and cannot trade anymore so
+if I do a Monte Carlo testing here so
+I'm starting with
+$25,000 and to trade this
+strategy by taking into account all the
+possible Equity Curves in the future and
+I run a 5,000
+simulation this is the result I have a
+76%
+chance of ending in profits that means
+there is 24% chance probability that my
+account will be wiped out at some point
+even though the strategy is good this is
+because of Leverage now if I increase my
+account to 5
+5,000 now my probability goes up to
+[Music]
+99.68%
+99.6% chance that my strategy will be
+profitable at the end of whatever number
+of Trades I have 300 trades or so and I
+have less than 1% chance that my uh
+strategy will face a WIP up so that's
+how you deleverage your strategy now let
+me show you what usually happens and
+what I did 16 years ago now to show you
+what happened to me 16 years ago I was
+trading intraday and this is what's
+intraday margin today so it's about uh,
+1550 so let's imagine this scenario now
+I start with
+5500 my initial requirement is
+$1,550 but now I'm going to trade more
+contract because you know I can afford
+it well I will trade one contract for
+every $2,000 in my account that means
+I'm taking more leverage so this is what
+I'm doing every
+$2,000 I will trade a single contract
+it's it's the same strategy but for
+every $2,000 in my account I'll trade
+one contract and if I run the simulation
+now let's see what we get I have almost
+90% chance of getting wiped out 90%
+chance of getting wiped out and this is
+how the Leverage is working so you see I
+started with
+5500 and for every $2,000 I'm trading
+one contract so in this case I trade two
+I may
+uh 1,500 so my account now is 7,000 72 8
+9 11 1622 and then at this moment in
+time because I'm trading more because my
+account grew to 22 and for every 2,000 I
+trade one contract that means now I'm
+trading 11
+contract and I get uh basically this is
+exactly what happened to me I traded
+more contract and suddenly I was hit
+with a big loss but because of my number
+of contracts this was Amplified and this
+is exactly what happened here look at
+this so400 instead of losing 2400
+because I had 11 contracts I lost
+26,000 plus and that wiped out my
+account regardless of how many
+simulations I show you the end result is
+always the same more leverage always
+yield to being wiped out it doesn't
+matter how robust is the strategy if you
+like this video then you will love the
+next one
+[Music]

@@ -1,0 +1,15 @@
+recently a new macd indicator is making
+some noise on YouTube this indicator is
+based on Dr Elder work where he used it
+in his system which called impulse macd
+system the indicator is a little bit
+different than the regular macd and of
+course after seeing those videos I
+thought I should test this the right way
+and not the crappy way now I've done a
+couple of videos on macd and the most
+important one is the one in the algo
+versus crap series and you can watch
+that over here so before we jump into
+the testing let's see the regular macd
+and how we can use it to build strategy

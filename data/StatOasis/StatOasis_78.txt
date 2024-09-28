@@ -1,0 +1,319 @@
+in every Market there is usually
+sometimes where the herd mentality
+forces everybody to go in One Direction
+that tends to be the best time to buy
+that market of course this doesn't
+happen all the time but it is true most
+of the time and we can get really
+creative of describing that event and
+programming it but really I like Larry
+Williams explanation of this pattern in
+fact he coined the term oops which
+denotes that oops you made a mistake and
+the market will reverse right now let me
+explain how this pattern works so
+imagine we have a day like this so this
+is the open close high and low
+so if the next day the Market opens in
+this area and this area is anywhere
+below the law of yesterday
+so if we open here that is below the law
+of yesterday and then the market starts
+to climb to that level
+then you can buy Here expect the market
+to go up and that is the oops pattern
+this happens on the opposite side so if
+the market is like this and then this is
+the high and if the Market opens
+anywhere in this area so it is Gap up
+and then the market starts to Trend down
+once it breaks this level then you can
+short the market expecting the market to
+go down and this is the oops button here
+and that is the pattern in its simplest
+form it's basically Gap up or gap down
+after a trending time where the market
+just makes a mistakes where the all the
+orders pile on One Direction it's
+usually a good time for you to get in
+the opposite direction and of course as
+algo Traders anything we read anything
+we see on YouTube anything we learn
+through a course we need to test and
+verify ourselves to make sure that it is
+correct so this is the chart of the S P
+500 Index the top section is the 15
+minute bars of the daily session that is
+between 9 30 a.m to 4 P.M Eastern
+Standard Time
+and the bottom section is the same as
+the S P 500 day session but it is daily
+bars and this is an example of one trade
+so we gap down and then when the market
+rallies to the lowest point of yesterday
+we go along and we exit end of day
+expecting the market to go up let's look
+at the performance of this strategy so
+the data here since 2006 and we have
+440 trades averaging about 40 dollars
+and if we look at the performance graph
+this is what it looks like nothing to be
+happy about but the edge is there that
+means buying on a gap done when it
+breaks the low of yesterday
+it's a positive Edge you only need to
+add maybe filters and this will be a
+good trade also you can of course use
+the opposite you can use this as a
+filter for other signal this is an
+important concept because most of the
+time the signal can work as a filter
+most of the time and you should always
+keep that in mind to switch it to a
+filter when you need to if you are a
+regular viewer of the channel then you
+must have heard me saying that the SMP
+tend to drift up most of the time so it
+makes sense to hold this Edge a little
+bit longer because we already have a
+really good entry it's already positive
+Edge so it makes sense then to hold it a
+little bit longer now I'm using 15
+minute bars and you can really get
+creative with programming and set it to
+exit after three days and so on but I
+will only play with bars since entry so
+we can set how many bars we can hold so
+although you're seeing many variables
+here but don't worry about them we're
+not using any of them this is just the
+definition of the session so there is no
+optimization there this is futures or
+stocks I'm using Futures no optimization
+there and these are zeros meaning we are
+not using them so I'm only going to use
+number of bars so instead of ending on
+the close we need to switch this
+variable to 1. and now we will optimize
+the number of bars so let's do from 70
+to I don't know double
+so that should be between I don't know a
+day and a half to three days depending
+on when the entry happens and let's
+optimize by 10
+so this is only eight variations that
+should be very quick so right away we
+can see that all of the holding bars
+perform much better than exit end of day
+which of course is expected because
+the S P 500 tends to drift up and if you
+have a really good entry then it makes a
+lot of sense that you hold it longer and
+we can see 70 to 140 all the way they
+are all crafted and the best one is the
+90 which sits somewhere a little bit in
+the middle but the best average trade is
+140. so 140 is making four seventy
+dollars on average while the 90 bars
+exit is making 450 on average so now
+let's look at the performance that's
+making on a single contract since 2006
+163
+000
+and 364 trades 450 dollars on average
+that is really really good
+we draw down is twenty three thousand
+dollars
+and if we go to periodical analysis we
+can see 2008 is a down year
+2015 is a big down year and 2020 is an
+awesome year
+and 2020 actually any mere version
+strategy will do extremely well
+in 2020 even though we had the crash of
+covet but because the recovery was so
+fast that's why this year is extremely
+good for Middle version started in any
+case for this year we have 16 trades we
+made 12 500 the performance graphs is
+good we are moving up all the time
+except in this area starting of 2015 all
+the way to 2018. so so far the patterns
+hold really well it pays to bet against
+the herd and that usually works in your
+favor by making money as you see from
+the average trade but so far the pattern
+is just there we are buying gaps there
+are Million Ways now to add variations
+for example how far is the gap you can
+play with that variable and how far can
+you buy after breaking that Gap so
+imagine you have the low you don't have
+to buy add below you can buy at the low
+plus some ATR distance also you can add
+profit Target and stop loss so you can
+see the variations are huge now I am
+only going to play with strategy filters
+to me that's the most stable way of not
+overfitting yours writing so the filters
+I will use is day of the week so this is
+from one to five zero means we're not
+using it
+and filters here I have three filters
+and they are ATR representing volatility
+moving average representing a market
+regime and adx representing a Direction
+so there are three filters zero means we
+are not using any and that's it so these
+will yield 24 combinations and here are
+the results so as you can see the top
+result is where we are using no filter
+but remember the filter is not only
+about making more money of course if you
+make can make more money and enhance
+other metrics that is beautiful but
+sometimes you might want to have a
+different filter even if it's making
+less money and let me show you an
+example so let's take the second best we
+are making 98 000 this is based on
+filter number one and filter number one
+correspond to volatility by using the
+ATR now I did the calculation here so
+163 divided by 22 is 71 that means we
+are making 7 times our maximum drawdown
+the second best is 6.87 so it's not that
+far behind I know we are making less
+money but in terms of ratio we are not
+that far behind there is about fifty
+dollars in average trade so that
+corresponds to about ten percent it's
+better here we are making a better
+average trade of course we are less in
+the market so that's a plus but most
+importantly I want to show you this look
+at this graph so remember this graph is
+losing money the drawdown is between
+2015 all the way to 2018. so if I pick
+the second best let's look at what
+happened to the graph
+you can see now this is a totally
+different profile this is now 2015 and
+all the way to 2016. so first of all we
+shaved two years from the drawdown also
+the drawdown is a lot shallower and the
+periodical return now also change so now
+we are losing in 2008 and 2023 only and
+that is very very important to keep in
+mind but not always the net profit is
+the best thing to look at you need to
+look at all other metrics and one of
+them of course is the equity curve so in
+this case the equity curve is much
+better smoother there is a lower
+stagnation period which is the time that
+you are in a drawdown and also you can
+pick from all these variations and
+combine two or three strategies instead
+of trading the highest net profit and by
+combining two or three of these
+strategies you will actually get higher
+net profit while keeping the equity
+curves more other things to look at so
+for example look at the average trade so
+the original one is 450 dollars this is
+720 7 11 852
+738 so these are almost double the
+original average trade but yes they are
+making less money so for example this is
+making 37 but remember these are using
+day filters so this is day three this is
+also day three this is day one so if you
+combine these the net profit will be
+added all together there is no overlap
+because these are trading on different
+days when using day of the week filter
+it's extremely easy to add multiple
+strategies in a portfolio because you
+know exactly that Monday will not
+overlap with Tuesday and so on so forth
+so you can easily combine multiple
+strategies into one that produce a
+smooth Equity curve like I mentioned the
+strategy works on many markets here we
+have the Dow Jones represented by ym
+Futures and if we look at the strategy
+this is exactly the same strategy you
+can see no filters we're using 90 bars
+to exit
+and same session time so I didn't use
+any filters just exactly the same
+strategy and here we're making 92 000
+and our average trade is also amazing
+246. periodical returns is totally
+different than the one we picked and
+this is the performance graph and if we
+go to NASDAQ we can see that NASDAQ had
+a huge run this is most likely 2020 and
+above
+and you can see here correct so 20 20 60
+000 21 64 000. let's look at the other
+statistics so we're making 200 000 this
+is a single contract
+330 trades with
+600 dollars on average so the option
+without any filters you're making the
+highest net profit 2 200 0002 but option
+number one is making
+4.48 return to draw down ratio the
+second best is making 4.9 so in this
+case
+we have a higher return to draw down
+ratio but here I want to draw your
+attention to the average trade look at
+this so the original one is 615 here we
+have thirteen hundred dollars that's
+more than double
+and here we have fourteen hundred
+dollars again more than double this one
+is fifty percent higher it's nine
+hundred dollars notice also that the
+fourteen hundred dollar average has a
+higher win rate this is 64 while the
+original is below 60. and finally this
+is the Spy this is the ETF so in this
+case we are using the full account to
+buy the maximum number of shares here we
+are making a hundred thirty four
+thousand dollars 370 trades with 364
+average and let's look at the periodical
+return
+losing 2008 14 15 and
+2022. again 2020 is the highest and so
+far this year 15 trades
+and making seventeen thousand dollars
+performance graphs looks like this its
+match is the S P 500 futures uh which is
+totally expected and if we optimize on
+day of the week and the three filters
+that I have which is the moving average
+and the ATR and the adx we can see that
+filter number one again is the best uh
+after the you know filter so while we're
+making half the money we are of course
+have the drawdown but let's look at the
+profile again so if I pick this one
+we can see again we enhance the profile
+a lot by picking this option which is
+filter one and this is day of the week
+filter so there is no direction or
+volatility filter this is just day of
+the week and you can see again how the
+curve is completely different so by
+mixing this one and this one you can get
+a really good curve if you are
+interested in more of Larry Williams
+watch this video and I will see you
+there
+thank you
+[Music]

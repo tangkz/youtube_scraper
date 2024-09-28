@@ -1,0 +1,323 @@
+if you search YouTube channel on RSI
+plus Ballinger bands or Ballinger bands
+plus RSI you will find many videos
+trying to combine these two indicators
+to come up with beautiful strategy now
+many of you know when it comes to the
+rsi2 strategy irain Supreme I did many
+versions of this strategy on my channel
+in fact if you go to my channel and
+search rsi2 you will find many videos on
+the subject plus I tested the RSI
+strategy on 36 Futures markets and I did
+different speeds and I got all the
+results in the algo versus crab Series
+so when I started to see these videos it
+was puzzling to me because the RSI and
+the Ballinger bands are basically doing
+the same thing here is a chart of the
+S&P 500 daily time frames now it doesn't
+matter if it's daily or any other time
+frame the indicators will work the same
+so on the top panel here we have the
+Ballinger bands with the upper band and
+the the lower band and this is the
+moving average in the middle the upper
+band and lower band basically it's a
+calculation of the standard deviations
+of the prices above and below the moving
+average now the LSI is trying to do the
+same thing in a different calculation
+and basically it's an oscillator that
+measures the current position of the
+close in regards to the previous closes
+there is something called the percent B
+which is basically it measures where the
+close sit in the Ballinger band channel
+so as you can see here when the close is
+below the Ballinger bands this percent B
+goes below zero and when the Clos is
+above the Ballinger bands the percent B
+goes above one and the reason I put
+percent B is just to show you how close
+they are because they are trying to do
+the same thing so since they are trying
+to do the same thing it makes no sense
+in combining both of these indicator
+together in a St straty because
+basically you are at best overfitting
+your strategy and at worst your filter
+adding more complication without doing
+anything else to the strategy and this
+reminds me of a story that happened to
+me a long long time ago when I was doing
+my bachelor's degree in computer
+engineering the math Prof in the first
+week he spent over 40 minutes in one
+lecture describing a theory and then he
+told us that this is the wrong Theory
+and you should not and when he mentioned
+that I raised my hand because I thought
+I was smart and I asked the prop saying
+why did we spend 45 minutes learning
+something that it is wrong and we will
+never use it and the reply was that you
+need to learn what not to use because it
+is as important as learning what to use
+and that's why I'm doing this video
+because I want to show you what not to
+use as much as I want to show you what
+to use first of all if this is your
+first time on the channel then I should
+let you know that I don't use the
+default parameters for these indicators
+so for example the RSI I use the RSI 2
+which is a strategy that was popularized
+by Larry Conners so this is the RSI 2
+and basically when we are below 25 we
+want to buy we when we are above 75 we
+want a short and you can see that we
+have many signals when we switch to RSI
+2 because rsi2
+is highspeed indicator while the
+Ballinger bands with 20 and two you can
+see it's slow and we need to match this
+Ballinger bands with the rsi2 so very
+simply to match this speed we can change
+the Ballinger bands to 10 and one so 10
+is the moving average and one is the
+standard deviation and now you can see
+that we match the rsi2 not completely
+but we definitely have the same amount
+of signals close so you can see this is
+a signal this is not this is a signal
+this is not but otherwise we match it
+closely and just to show you how this
+looks here so we can do this here so
+this is 10 and this is one and you can
+see now we have more signals because the
+close now goes below the lower Channel
+and the upper Channel a lot more than
+the 20 and2 so this is very important
+important because if you leave the
+Ballinger bands at 20 and two you don't
+get the required results to compare it
+with the RSI 2 that's why I wanted to
+show you visually how they look like and
+now we will test it with numbers and
+we'll see what we can achieve in order
+to see if the RSI and Ballinger bands
+work together we need to test each one
+separately so we will test the rsi2
+signal with the Ballinger bands as
+filter and then we will test the
+Ballinger bands as the signal and the
+rsi2 as the filter and the reason is to
+see if the filter will add any value to
+this strategy so this is multichart and
+I have the S&P 500 the Futures daily
+chart here and the Ballinger band is on
+top and this is the RSI 2 and then here
+I have the percent B also I have the
+width of the channel because we will use
+that as a filter now first of all let me
+show you the different in the Ballinger
+band look back and the standard
+deviation you can see we are optimizing
+the look back this is the Ballinger
+bands look back which is basically the
+moving average and The Sweet Spot is
+between 10 and 24 so 10 to 24 step two
+and then the standard deviation between
+75 and 2.25 in step of 0.25 so all in
+all we have 56 combinations and this is
+our strategy so out of 56 combinations
+it sits at number 45 if we sort by net
+profit so we have 44 strategies that
+perform better if we change the look
+back and standard deviation so that
+shows the robustness of this strategy
+this is going long only when the close
+below the lower band of course long only
+because this is the S&P 500 which is a
+stock index which usually drifts up all
+the time and if we look at the top this
+is 10 10 14 12 16 12 10 12 14 and 16 so
+the top 10 they're all between 10 and 14
+with one strategy sitting at 16 and all
+the standard deviations are between 75
+and 1.25 so you see the sweet spot sit
+here and this is the 10 and one that I
+told you about it sits here at number
+two usually this will perform the best
+on all markets now I fixed the exit for
+all the test that we are doing in this
+video at three bars this is so we can
+easily compare different strategies
+different filters without affecting the
+exit with a stop-loss or with an
+indicator this is the performance of the
+Ballinger band strategy on the S&P 500
+long only using 10 look back and one
+standard deviation we are making 100
+3,000 with 41,000 draw down so basically
+we are making 3
+to1 and our number of Trades is 360 and
+average trade is 363 so now we will test
+with the RSI filter basically we will
+test when the RSI below or above a level
+and we will see if we can enhance this
+strategy so now we will test the RSI
+filter and the filter is if if the RSI 2
+below a level or if it is above a level
+so the filter will be between 1 and two
+one when the RSI 2 below a level and two
+when the RSI 2 above a level and then
+the level will be between five and 95 in
+step of five so that means if the RSI 2
+below Five Below 10 below 15 so on so
+forth and also mean if the RSI 2 below
+95 below 80 below 75 and so on so forth
+so all in all 38 combinations and here
+are the results so just to compare this
+is the original strategy when the
+percent B below zero that means when the
+close below the lower band moving
+average is 10 the standard deviation is
+one we are exiting after three bars
+these are the stats we got so let's see
+if we can enhance our strategy by using
+the RSI filter so if I sort by net
+profit first of all we notice that there
+are only three St strategies that beat
+our original strategy but we notice that
+it is not significant so we reduce our
+draw down a little bit and our trades by
+29 trades so we barely touch our draw
+down the top two strategies I don't
+consider them any enhancement because
+look at this this is 360 trades and
+these are 358 356 that means we took two
+trades off four trades off and to me
+this is
+overfitting that means that you know we
+took basically whatever was the worst
+trade and we made our strategy a little
+better so all in all this filter did not
+perform at all the RSI 2 below a level
+or the RSI 2 above a level great that
+means when we use the Ballinger bands to
+enter into a trade the RSI filter
+doesn't add anything and if it's adding
+anything it is usually overfitting just
+like we saw it's basically taking two
+trades off to enhance our net profit or
+our draw down now we will test the
+RSI as an entry signal with the
+Ballinger band as a filter now with the
+Ballinger bands we will have more than
+one filter because we will use if the
+close is below a level or above a level
+that is the percent B we will also use
+the width of the Ballinger bands if it's
+expanding or Contracting as a filter for
+the entry first this is the basic rsi2
+strategy so when the RSI 2 below 25 we
+go long and we exit after 3 days there
+are no filters nothing so this is the
+basic strategy so we can compare it to
+the Ballinger bands now the strategy is
+making about
+159,000 the draw down is about
+$440,000 return to draw down ratio is
+four and and if we look at the trades
+466 trades
+61% win rate and
+$341 on average per trade so first test
+we will do filter three and four which
+is measuring when the close below the
+lower band all the way to the middle of
+the band or when they close above the
+upper band all the way to the middle
+band and we will do it in step of 0.1 so
+zero is the lower band One one is the
+upper band so you can see we are going
+from below all the way to above in step
+of point1 all in all we have 38 filters
+here are the results of the optimization
+and as you can see on the left this is
+the original strategy 158
+988 and here at the top these filters
+are doing nothing so when the percent b
+lower than
+one that means any close below the up
+upper band so basically that's doing
+nothing and as you can see it's doing
+nothing because the original strategy
+466 trades all these are 466 then we
+start to filter some so 65 428 so let's
+say this is the first one and what I
+mean by this is this is the first filter
+that takes off a considerable number of
+Trades and we can see the results that
+we have higher draw down and less net
+profit and this goes the same for all as
+you can see we keep making lower net
+profit and either higher draw down or
+the same but basically we are not
+enhancing our return to draw down
+remember our the best return to draw
+down is four and these are the top four
+without removing any trades okay so we
+know that this filter doesn't work
+meaning measuring where the close in the
+Ballinger bands as a filter for our RSI
+entry does not add anything so now we
+will measure the width of the Ballinger
+bands okay so now we are optimizing only
+the filters 5 to 8 so that gives us four
+filters only and let's optimize and see
+the results so remember the filters
+where the Ballinger band width greater
+than zero that means it's greater than
+the average Ballinger bandwidth and
+filter number six is smaller than the
+average Ballinger band width and then
+filter number seven is when the
+Ballinger band width expanding for two
+bars and filter number eight is when
+it's Contracting for two bars and these
+are the filter numbers and no filter
+enhances our strategy so our strategy is
+making 158 and here the best one is
+making 91,000 our draw down is
+39 and this is the best draw down 23 but
+for 23 draw down we are taking off half
+the profits and that's why the return to
+draw down here is four and none of these
+come even close except this one 3.37 but
+look at these 1 194 1 12 1 one so even
+though our filter reduces our trades a
+lot enhances our average trade on some
+of them but no filter makes a better
+strategy when it comes to return to draw
+down ratio so like I expected from the
+beginning because Ballinger band and RSI
+they are usually trying to do the same
+thing when we are using them as a mean
+reversion signal to enter into a trade
+but as algo Traders we cannot just
+depends on the theory we need to test to
+find out what is true and what is not so
+if you come across any blog or a YouTube
+video combining the RSI with Ballinger
+bands to get a better result usually
+that is overfit and because these two
+indicators add nothing there is no value
+of adding one indicator to the other to
+come up with a better strategy to learn
+more about using Ballinger bands in
+developing a good strategy watch this
+video and I will see you
+[Music]
+there

@@ -1,0 +1,283 @@
+welcome traders to another exciting
+journey into the world of algorithmic
+trading today we are delving into a
+strategy that is a favorite among
+quantitative Traders while I always use
+an oscillator to build a Mir version
+strategy but in this video we will use
+linear regression as the star of the
+strategy now why me reversion is a
+favorite among quantitative Traders it's
+because me reversion strategies have a
+high win rate plus they give us a lot of
+Trades so statistically they are
+significant and if you pair a Mir
+version strategy with the right
+instrument then you are almost always
+will get a robust trading system to
+Simply explain miror version I plotted
+here a 30-day moving average with the
+S&P 500 chart and basically what we are
+looking for in me Rion strategy is when
+the price deviate away from the mean so
+in this case our mean is the simple
+moving average of course this can be be
+measures in a million ways but for
+Simplicity I'm using the simple moving
+average and you can see whenever the
+price deviate a lot from the mean
+average then we pull back to it so same
+here same here and same on the opposite
+side so we go down we pull back to the
+average we go up we pull back to the
+average we pull down we go back to the
+average and so on and so forth and this
+is the same chart with linear regression
+so basically this linear regression now
+looking 30 bars back and plotting the
+mean which is in the middle and two
+channels which are to standard deviation
+up and down linear regression is used a
+lot in the finance and many other
+Industries and basically it shows you
+the relationship between two or more
+variables the way we are using it now is
+the line that best fits a number of
+points so here is an example we have
+have uh many points on this uh chart
+basically we have two axes and each
+point represent a value between these
+two axes and this black line represent
+the best fit between all these points
+now of course you can go further look at
+the slope and the intercept and there
+are many uh figures that you can get out
+of this but this is the simplest way to
+use linear regression so going back to
+our chart and let's zoom in so currently
+this red line it's the best fit in the
+last 30 closes and the upper Channel and
+the lower channel are two standard
+deviations away from this best fit line
+so of course this line will change
+whenever we have more points so this is
+the best fit of the last 30 points now
+today we are fortunate enough to have
+many sources of education and here I am
+asked CH gbt to train me on how to use
+linear regression and it went along and
+gave me everything and in fact you can
+expand on each point if you want to
+learn more and then I ask it to give me
+a simple A Mir reversion strategy using
+linear regression so this is easy
+language code here we are in multi-chart
+and this is my linear regression plot so
+this is the best fit in the LA
+50 bars and the channels are 1 and a
+half standard deviation up and down now
+for example here I will show you what
+was the plot looks like on this green
+bar so if I plug the date so you can see
+on this bar this is how the channel
+looked like now the channel plots
+forward but I just want to show you that
+the plots will change of course with
+every new point now sometimes it doesn't
+because the best fit line between these
+points might not have changed and
+sometimes it Chang a little bit and
+sometimes it change a lot and the idea
+behind using linear regression as a
+miror version strategy is because of
+these channels so basically when the
+price touches the lower Channel then we
+are looking to go long for the mean and
+when the price touches the upper Channel
+we looking to go short to get back to
+the meat basically it's the same way
+that we treat all me reversion
+strategies we are looking for some kind
+of pullback to go along or some kind of
+overshoot to go short now let's apply
+the chat gbt strategy and let's see how
+it turns out so this is the strategy
+applied and the returns are not good
+this is without commission and slippage
+so basically both sides are losing but
+the strategy comes with input so let's
+optimize it and see the result so here
+are the the inputs we have the look back
+length and the standard deviation
+multiplier profit Target and stop- loss
+so I put these values and we have 16,000
+combinations and looking at the result
+if we filter for all strategies that has
+a return to draw down ratio more than
+one so out of 16,000 possibilities we
+have 3,300 strategies making more money
+than their maximum draw down and the
+best one is making
+117 with 700 trades on average $150 per
+trade and we can see the look back is
+five the standard deviation multipliers
+Point 2 5,000 profit Target and 2,000
+stop loss and this is how this strategy
+looks like now as you can see from the
+test the strategy is not that good I
+didn't even do robustness but I just
+wanted to show you that you can get
+ideas from chat gbt nowadays so even
+though the strategy is simple but it
+gives you a framework to start with and
+if you add filters or if you change uh
+the look back period and so on you will
+get to a good strategy especially if you
+started with pairing the strategy to a
+me reversion instrument now I mentioned
+this in the beginning of the video and
+what that means is not all instrument
+are suited for me reversion I press on
+this point a lot in all of my videos you
+need to pair the strategy Style with the
+instrument character istics in this case
+the S&P 500 is a Me reverting instrument
+that doesn't mean you cannot build
+breakout or long-term Trend following
+strategies on it but it's very simple to
+build uh short-term Mir version systems
+on it so I built my own strategy using
+linear regression don't worry about the
+code usually I post it below each
+YouTube video in the YouTube Post in the
+stat wases free community now my Strat
+uses the same logic that chbt produced
+but I use a different length for the
+exit so this is the length for the entry
+and the length for the exit no stop-
+loss no profit Target and this is the
+multiplier for the standard deviation
+now removing the stop loss and profit
+Target reduces our combinations and now
+we have about 6,000 combinations so
+let's test this so out of 5,700
+strategies we have more than 2700
+strategies uh with return to draw down
+ratio more than one and no profit Target
+no stop loss and no filter also so that
+is very good and if we sort by net
+profit and now we are above
+$200,000 for the top strategy and more
+than 40 strategies above 150,000 now if
+I look at the top strategy here this is
+the equity curve and we can see number
+of Trades 188 dat we are making really
+good average trade on both the long side
+and the short side but here I want to
+bring your attention to something really
+important because we are trading this on
+the same account we cannot be long and
+short at the same time so that means if
+we are long and we get a short signal we
+will close the long signal and we will
+go short and of course the opposite is
+true so this means that we are not
+getting the exact number of loans long
+trades and short trades because they
+overlap and when they overlap they
+cancel each other and the right way to
+test this is to separate the long from
+the short so this is what I did I put
+the same instrument which is the S&P 500
+same data but now I separated the long
+here and the short here so we have two
+strategies working on the same time so
+the difference will be that when the
+signals overlap they will not cancel
+each other they will still keep going so
+on the right side here this is the
+strategy with long and short in the same
+logic and we pick the best one which is
+188 trades and the strategy is making
+229 with 8 to1 return to draw down ratio
+this is the portfolio on the left side
+here and each strategy is working on its
+own and I can show you this so this is
+the correlation based on on daily equity
+and we can see that we are negatively
+correlated at almost half that means
+that half of the time while one strategy
+is making money the other one is losing
+money and of course that is a huge
+advantage and we can see this in the
+number of Trades so for example here
+let's compare the trades 188 here we
+have 350 now if we look at the
+performance summary for both you can see
+this one is
+$230,000 almost and this one is
+$291,000 but still keeping the same
+return to draw down ratio so we increase
+our net profit a lot while keeping the
+draw down in the same ratio so that is
+very good if we go to the annual period
+analysis you can see that since 2006 we
+had 6 years losing money in the strategy
+that has both long and short logic in
+the the same system while when trading
+the strategy separately even though it's
+the same logic but trading them
+separately you can see we have only one
+year losing money actually it's two
+because there's no slippage on
+commissions so this is also will be a
+losing year so two instead of six but
+also notice the number of Trades so here
+it's almost always 20 something and here
+they are all in the teens and especially
+this year we have have eight trades here
+and 18 trades here and finally we look
+at the curve and you can see how this
+curve is doing nothing from almost 2009
+till
+2018 while this curve is sloping up all
+the time and while sloping up all the
+time we didn't lose this huge jump since
+2019 so you can see here since 2019 it's
+exactly the same jump in fact if
+anything we made more money the key take
+ways here is there are a million ways to
+build a mere version strategy but like I
+always say this with my students with my
+Q&A sessions in the chat segment of the
+community everywhere with everybody I
+meet always match the strategy Style
+with the instrument always test long and
+short separately and if you want to
+combine them you have to combine them in
+a separate account or in an account that
+lets you trade both directions at the
+same way because most Brokers will not
+let you do this Trading long and short
+at the same time but you can easily do
+it by two accounts so you trade the
+short strategy in one account and the
+long strategy in another account the
+advantages are big and you cannot
+neglect that the other big takeaway is
+any indicator can be used in any way you
+like so don't depend on the defaults or
+what every body is showing you explore
+and do a lot of trial and error to find
+out what other ways you can use this
+indicators so for example I use linear
+regression in this video As A Mir
+version instrument but I also used it in
+another video to build Trend following
+strategy which is totally the opposite
+of Mir R Vision in fact if anything they
+complete each other in a portfolio and
+if you want to learn how to do that
+watch this video and I will see you
+there
+[Music]

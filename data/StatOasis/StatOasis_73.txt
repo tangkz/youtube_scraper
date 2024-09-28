@@ -1,0 +1,271 @@
+the S P 500 most likely is going to
+break down very soon the reason is the
+VIX Index the VIX Index is calculated
+using the standard SP 500 options the S
+P 500 options has multiple expiries and
+only the options that will expire in the
+next 23 days to less than 37 days will
+be included in this calculation
+no need to worry about the math used in
+the calculation or the fundamentals
+behind it basically the VIX Index
+measure the fear and the S P 500 Index
+so when the VIX Index is low that means
+there is nothing to fear in the market
+and usually the S P 500 will be drifting
+up and when the VIX Index spikes that
+means there is an event that is going to
+happen soon or just happened and usually
+the market which is the S P 500 will
+take overall the VIX Index is always in
+a down drift which is expected because
+the S P 500 is always in and up drift so
+this is the S P 500 Index with monthly
+bars and in general we hover between 10
+and 20 and anything above 20 is
+considered a spike that means there is
+an event in the market going to happen
+or just happened and when the index is
+extremely low below 10 that means we
+should should expect an event to happen
+very soon I just wanted to show to show
+you here the spikes this is the subprime
+crisis 2008 and this is the covet crisis
+in 2020 and these are small spikes but
+if I put the S P 500 below it you can
+see that whenever we have a spike the
+market tanks and even those spikes
+remember this is monthly chart so we can
+see a small drift down here
+also this is kovid and we can see the
+the appeal
+now if I switch this to daily
+now we can see the correlation in a
+clearer way so we can see anytime the
+vix is up the market is down we can see
+there is a high correlation between the
+S P 500 and the VIX Index because the
+VIX Index as I mentioned is calculated
+from the options on the S P 500. this is
+the weekly chart of the VIX Index and we
+can see we are making new lows recently
+these laws did not happen since 2020 and
+from the daily time frame of the VIX
+Index we can see that we made a yearly
+low in June of this year and two lows in
+July and then another low in August and
+just recently we are also hovering
+around the same low in beginning of
+September the VIX Index which is also
+called The Fear index is a mean
+reverting index that means usually when
+we contract a lot we are going to blow
+up very soon and when when we blow up
+usually we will come down also very soon
+so as you saw from the previous chart we
+already made three new laws this year
+alone that only tells me that we are
+going to spike very soon of course I'm
+not the only one looking at the chart
+and expecting a huge Spike soon in fact
+season next just published an article
+about the volatility now season X is a
+seasonal pattern recognition engine and
+using their engine they come up with
+this chart this chart represents more
+than 100 Years of seasonal study on the
+Dow Jones volatility basically what the
+seasonal chart shows is that the
+volatility usually drift lower in
+January and again Lower in April lower
+in July lower in November and December
+and go up February March May June August
+September and October now we can use the
+seasonal to trade the effects index the
+way we do that is by trading the future
+derivatives of the VIX Index so here is
+the VIX Index represented by at VX
+that's the continuous future symbol of
+the VIX Index here I applied a strategy
+that shorts the beginning of every month
+like I told you the VIX Index drift
+lower all the time just like the S P 500
+it drifts up all the time of course we
+will have the spikes on the way up so
+for example this one and again this one
+but even with all these spikes the
+strategy is very profitable sure thing
+every beginning of the month and exiting
+at the end of the month that means you
+are always in the market and here I have
+data for almost 17 years we can see we
+are making about 160 thousand dollars
+with a maximum drawdown of 71 000 so of
+course that's a huge drawdown and it is
+expected because we're holding all the
+time and of course we will called these
+spikes in total we have 203 trades on
+average 785 dollars per trade that is a
+very good average trade and our win rate
+is almost 70 percent so if I want to add
+the seasonality to the strategy I'm
+going to optimize by buying every month
+separately and this is the result so
+from January all the way to December and
+now we can compare our strategy to the
+seasonal pattern so genuine is down so
+we expect to make money in January and
+we are February and March are up so we
+expect to lose money so if everybody
+were losing but much we are not and then
+April is down we expect to make money
+that's also true and then July is down
+we expect to make money that is also
+true and then August September October
+we are going up so we expect to lose
+money so August we're losing September
+is very low October we are losing money
+and then November and December are down
+and we expect to make money and it is
+also true so so this just shows how
+robust is this pattern the seasonal
+pattern for the past 100 years matches
+the trades that we are having for the
+past 15 plus years so now we can build
+the strategy using this pattern
+confidently all we can use the seasonal
+pattern as a filter for other strategies
+on the S P 500 to demonstrate how we can
+use this seasonal pattern as a filter
+for other strategies I'm going to use a
+strategy that is well known especially
+if you are a viewer of the channel which
+is the RSI tool it's the default
+strategy fdrs I2 below 30 we will buy
+and fdrs I2 above 70 we will sell this
+is the strategy result 180 000 in
+profits with thirty five thousand
+dollars in drawdown about 400 trades for
+the past 16 years with 450 dollars on
+average per trade now at the bottom here
+I have my proprietary indicator Style
+Oasis volatility Market regime this
+indicator is included in my algo trading
+Master Class algo trading masterclass is
+about teach
+LED robust strategies I use strategic
+Quant X software to automate the
+building process and the robustness
+testing of the strategies and like I
+mentioned study Oasis Market regime is
+included in ATM so this is version 2 of
+the indicator which will launch very
+soon and as you saw from the VIX Index
+the volatility is drifting down this
+year so this is May of last year and we
+pick July last year and we have been
+drifting down now this indicator has
+three states the green is low volatility
+the red is high volatility and the
+yellow is normal volatility so I can
+optimize the strategy which is the RSI
+instead of the months now I can optimize
+it based on the volatility regime so we
+have three only zero means there is no
+Mark the gym selected so zero is the
+original strategy and one two three are
+the volatility regimes and here are the
+results of the optimization so this is
+the original strategy 180 000 profits 35
+000 in drawdown about 400 trades an
+average of 450 per trade so I would turn
+to draw down is five and our
+profitability is 74 the First Market
+regime is the quiet Market regime we can
+see when the market regime is quiet that
+means the volatility is drifting lower
+that is the best time to go along on the
+S P 500 which of course makes perfect
+sense it is aligned with all that we
+mentioned previously in this video so we
+make less money but also we make almost
+third of the maximum drawdown we do this
+with half the trades same average trade
+but now because of the low drawdown even
+though we are making less money we are
+seven to one and return to draw down
+ratio we don't sacrifice the win rate of
+the strategy and we increase our profit
+Factor two two and a half the second
+Market regime is the normal volatility
+this is the yellow bar and we can see
+this is the lowest average trade low
+number of Trades so we make less money
+but we have a higher drawdown than the
+original strategy and finally this is
+the high volatility Market regime we are
+making almost the same amount of money
+but now our maximum drawdown is even
+higher than the original and that's why
+we have 2.3 return to draw down ratio
+now we can use this indicator to filter
+the normal volatility Market regime and
+then our RSI strategy will only trade in
+low volatility and high volatility so
+this is our original strategy and if we
+exclude the normal volatility so we
+lower the net profit from 180 to 165 but
+our drawdown did not change now if we
+notice the indicator it is three states
+and it matches the evix index by going
+up and and down but we can see clearly
+that even though this is red and this is
+red and this is red they are not all at
+the same level so there is another way
+to use this filter which is a rising
+volatility and a falling volatility from
+all the information that we mentioned in
+the beginning of the video we know that
+when the VIX Index is falling usually
+the S P 500 is drifting up so it makes
+sense then that we test if this
+indicator falling then we take the RSI
+tray although I mentioned the
+fundamental reason why the RSI strategy
+should perform better in a falling
+volatility regime still I would like to
+test the rising volatility regime so
+this is the original strategy and if I
+compile with the rising volatility
+regime we can see now we are making 89
+000 with 45
+000 maximum drawdown so we definitely
+reduce the profits to almost half and we
+increased our maximum drawdown by almost
+half and now let's use the condition of
+the following volatility regime so that
+means we will only go along using the
+RSI 2 below 30 if the volatility is
+falling so if we compile
+and now we can see we're making less
+money but also our drawdown is 20. and
+of course we increase our return to draw
+down ratio so using the trade analysis
+we are making 244 trades making almost
+600 on average per trade so using the
+falling volatility it's better than
+using the state regime which is only
+trading in lower volatility our Equity
+curve is amazing I mean look how smooth
+is this curve if you are a regular
+viewer of the channel you know how I
+love this strategy and I have many
+versions of it in my portfolios and in
+fact I am building a big template with
+the right filters for this strategy
+alone so keep an eye on this channel to
+see when you can get it to learn more
+make sure to watch this video and I will
+see you there
+thank you
+[Music]

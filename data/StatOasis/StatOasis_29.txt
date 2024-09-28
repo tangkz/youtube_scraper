@@ -1,0 +1,202 @@
+this is the equity chart of a portfolio
+based on Turtle Traders strategy
+unfortunately the strategy doesn't work
+well you might say what the heck is the
+portfolio you just showed me so I should
+correct myself the strategy works but
+not in the way that you think the ttal
+trader strategy is a trend following
+strategy it was popularized by Dennis
+Richard because he brought regular
+people and he taught them how to trade
+using this strategy and in fact his
+strategy is laid out clearly in this
+book by Michael Kil and this book is
+what put me on this algo trading path
+because you can easily program it and
+see the results of the strategy now the
+strategy is still being traded by
+billions of dollars it's the most
+popular strategy in the hedge fund
+industry so first I will show you the
+strategy how it works how we can build a
+portfolio out of it but why it will not
+work for you the strategy is extremely
+simple it's called Trend following
+because you are usually following the
+trend when the price Mak a new high you
+are usually following in the footstep of
+the price and you are buying this high
+in the hope that the high will continue
+to make higher highs and the same goes
+for the short side so when the price
+makes a new low then you are shorting
+that instrument in the hope that the
+price keep going down making lower lows
+so here is an example of the strategy
+applied to the gasoline Futures at the
+bottom of the chart here I have the
+linear regression indicator so so this
+is the angle of the linear regression
+and basically the strategy will buy when
+the 100 day linear regression angle goes
+up and we will sell when the 100 day
+linear regression angle goes down so you
+can see when it's up it's green when
+it's down it's red this is the equity
+chart of the
+performance and we are making about
+$240,000 61 return to draw down ratio
+and if we look at our average trade is
+about
+$2,000 and 41% profitable this is very
+good for a trend following strategy this
+is the annual period analysis since 2007
+and as you can see we are making money
+most of the years so now if we optimize
+this strategy by changing the look back
+period of the linear regression so we'll
+go from 40 to 240 step 10 we will get 21
+strategies and this is the result of the
+optimization so if I sort by return to
+draw down you can see that the 100 day
+look back is the peak the next best
+thing is 110 at
+172,000 the next best thing is 70 13060
+and 80 and here we stumble on the first
+problem of this strategy which is
+picking the look back period what is the
+best look back period that will work on
+multiple markets now in this strategy I
+just showed you we are using the same
+look back period to enter and exit of
+course we can change that and actually
+Dennis Richard uses half the look back
+period for exit so if you entering with
+100 then you are exiting with 50 so now
+I will optimize the strategy with the
+entry look back from 40 to 240 and the
+exit look back also 40 to 240 so in
+total we will have
+441
+strategies so these are the results and
+if we sort Buy return to draw down now
+we have a better strategy which is the
+look back to entry is 90 and the look
+back to exit is 100 again we see 9110
+9190 and so on so forth now most people
+will tell you that you need to fix the
+look back for all the markets in order
+to make this strategy robust of course I
+don't fall in that camp but I will fix
+the look back and apply the strategy to
+multiple markets so out of 72 markets in
+eight categories I picked one market
+from each category so you can see these
+are the Futures agriculture
+cryptocurrency energy Equity Meats
+metals and softs so for the long section
+I have soybeans Bitcoin Canadian dollar
+heating oil Russell lean Hogs copper and
+sugar and then for the short side I
+changed the Canadian dollar with British
+pound and the Russell with the VIX Index
+and the cop with the silver so let's run
+both of them again the data here since
+2006 and this is the result of the
+portfolio of course the portfolio is
+doing very well and we can see the
+breakdown by symbol we have the Canadian
+dollar losing and the lean hog also
+losing in total this is long and short
+and then all the other markets are
+making money now I didn't put the
+gasoline Market because obviously we
+know it's doing very well so I try to
+pick something in the middle the
+portfolio just so use 80 look back
+period for the entry and 40 look back
+period for the exit for all instruments
+and that's of course really good because
+then the strategy is very robust and
+it's performing on totally different
+markets the only problem is I picked
+those markets out of the 72 not because
+they represent the sector but because
+they are profitable so here is the same
+strategy the long side appli to all
+markets and as you can see not all of
+them are profitable and here's the same
+strategy this is the short side on all
+markets again as you can see not all of
+them are profitable so what I did
+actually I picked the best Market from
+each sector that performs well with this
+strategy which is buying at 80 selling
+at 40 and that is the second big problem
+with Trend following which is once you
+pick let's say a stable area for the
+look back that works on all markets now
+you need to pick good markets that works
+with that right stry and of course you
+have many markets so you need to be
+lucky to pick the best market now
+obviously hedge funds they don't depend
+on luck to perform and make money so
+what do they do in order to use this
+strategy the hedge funds use a concept
+called the rainbow so the rainbow
+basically it's the look back period
+adjusted multiple times so here I have
+the EMA which is the exponential moving
+average with different look back period
+and that's why you get this rainbow so
+obviously this will be a long period
+probably 200 of course we can change
+this if you click on this you can see
+the input here starting from two all the
+way to 200 so remember what I showed you
+the optimization of the gasoline Market
+where I picked the 100 day as the best
+one in this case I don't need to pick
+the 100 day as the best one because I
+will trade all the way from 40 to 240 so
+I'll trade TR the 40 look back the 50
+the 60 all the way to 240 so I have the
+full spectrum of all the curves and I
+don't need to be lucky to pick the best
+curve in the future so using this
+methodology you are 100% you will catch
+any Trend in the market you are trading
+be it short or long and then all the
+curves will actually average to the best
+Equity curve that you can trade on this
+Market okay so I showed you a good
+portfolio producing good results and I
+showed you the solution so now why I am
+saying this will not work for you or for
+me the reason is you need good
+infrastructure and also you need lots of
+capital because imagine if you let's say
+want to trade 50 strategies 50 look
+backs per market and you need let's say
+50 markets in order to have some Trends
+so 50 * 50 that's 2500 strategies each
+strategy needs Capital to trade so if
+you do the math you can easily reach $50
+million as a capital requirement to run
+a trend following portfolio now there
+are multiple variables here that I
+didn't show you which is position sizing
+picking Market based on momentum and so
+on so forth but still at least at least
+you will need $5 million to run a proper
+Trend following portfolio and for all
+those reasons outlined you are much
+better running a short-term strategy
+portfolio than a long-term which is
+Trend following portfolio to learn more
+about Trend following watch this video
+and I will see you
+[Music]
+there

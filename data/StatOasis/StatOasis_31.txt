@@ -1,0 +1,296 @@
+if your trading screen looks something
+like this then you need to stop trading
+right now more indicators will not yield
+to a better strategy in fact if anything
+less is more in this video I will show
+you an extremely simple pattern that you
+can trade without any indicators even
+without looking at your screen and it
+will yield very good results so how do
+you trade without indicators and without
+even looking at your chart the pattern
+that I will teach you today uses only 2
+days or 3 days close price now this
+pattern is so powerful not because of
+data mining or because I cheated somehow
+it is because I know the S&P 500 is a Me
+reverting instrument so in fact any
+pattern that uses some kind of pullback
+it will do well on the S&P 500 it will
+actually do well on any mirror version
+instrument these are instruments that do
+very well with mirr version strategies
+and you can test that now you can watch
+my older video where where I tested the
+S&P 500 mirror reversion property the
+pattern is extremely simple to build in
+any trading platform I'm using strategy
+Quant X here because of other advantages
+that we will use later in the video so
+for starters let's build this strategy
+I'm using the algo wizard so I will just
+use lower than for X number of bars so
+I'll choose that and I will choose three
+bars no shift that means we are
+executing
+today and the comparison is when the
+close of today is lower than the close
+of yesterday so I'll check this pattern
+the close of today lower than the close
+of yesterday is true for three bars that
+means I am looking for three consecutive
+lower closes so this is a very nice
+trick and it is available in many
+trading platforms it's like count if
+where you are usually in one sentence
+you are telling the computer that look
+for three close down in a row this is
+not the close below the open this is the
+close lower than yesterday close and
+yesterday close lower than the day
+before and the one before before that so
+it's a pattern it's a 3-day low close
+pattern this pattern of course could be
+extended 1 2 3 5 seven bars it doesn't
+matter and to exit I will use the
+opposite pattern so in my long exit
+signal again look for comparison
+and greater for X number of bars and in
+this case three bars
+also and it will be the close of
+today higher than the close of yesterday
+so the close of today higher than the
+close of yesterday three times in a row
+and I will use like I mentioned I will
+use the S&P 500 because it tends to do
+extremely well with me reversion
+strategies we are using one contract per
+trade and if we run the full back test
+as expected the strategy does very well
+2009 1011 we are in a draw down also
+2020 this is co and this happens to All
+Me reversion strategies in fact if I
+extend this I can make this clearer to
+you so let's go for 7 days
+pullback and we will exit after seven
+closes so we will go long when we have
+seven lower close in a row and we will
+exit when we have seven higher close in
+a row so we should expect definitely
+lower number of Trades and let's
+test so we have only three trades and we
+are profitable but here I will show you
+the problem so these are the trades on
+the chart and if we look at the first
+trade this is easy I mean we are getting
+out I don't know within 20 30 bars but
+let's look at the next trade look at the
+this look how long it took to exit so we
+are in a big draw down but no seven
+higher closes in a row happen let's look
+at the next trade this even worse look
+at how how long is this so let's extend
+so this trade took almost a year to find
+out seven higher close and look at this
+draw down this is a typical drawback for
+any mere reversion strategy and you need
+to mitigate that now beginner Traders
+usually will jump to a stop
+that is the wrong way to deal with any
+strategy stoploss usually hurt any
+strategy especially mere version
+strategy so the best way to deal with
+this is to have a fixed number of bars
+to exit the trade in case whatever your
+pattern your indicator whatever your
+condition is doesn't happen so in this
+case since we are looking for 7 days
+maybe if we limit 15 days then we exit
+now what if we want to test a different
+number so for example one bar or two bar
+three four and what if you want to test
+a different exit so we can randomize
+that very easy in strategy Quant X we
+just need to go to settings switch the
+strategy to a template and then we come
+here and we say instead of three
+generate randomly 1 25 step
+one and then we do the same for the exit
+generate randomly one to five step one
+now one to five step one that means we
+have five steps here and five steps here
+so 5 * 5 that should give us 25 strategy
+so if I save this strategy and go to
+Builder I can load it in the strategy
+from template and it doesn't matter what
+you pick because the strategy template
+is already set there is only an entry
+with a different number of clothes lower
+than the previous close and there is an
+exit which is the close higher than the
+previous close number of bars one to
+five so that's it we should get 25
+strategies now if you filter then of
+course this will be reduced but if you
+remove the filters it should be maximum
+25 strategies and it should be very easy
+and there it is 25 strategies now you
+can sort by any metric you like and
+strategy Quant X have hundreds of them
+and you can put your combine your own so
+let's start by return to draw down and
+here I have 12.7 return to draw that's
+very good and here it is 30 trades with
+an average about $3,000 per trade and if
+we go down I can pick something like
+this this is 472 trades with an average
+of $200 per trade now remember I didn't
+include the commission and slippage so
+if we reduce $30 from this it will be 17
+seven so that's still an amazing uh
+strategy so we can click on this and we
+can check the source code go to pseudo
+code and let's check so this is the
+close lower than the previous close for
+two bars and exit when the close is
+higher than the previous close for one
+bar so that's why we have too many
+trades of course here uh we have
+thousand trades that must be one in one
+and it is you can see here close is
+lower than the previous close for one
+bar and we exit when the close is higher
+than the previous close for one Buck the
+average here it drops to 126 so
+obviously I'm going to go something like
+this this looks like in between so let's
+look at this strategy it's not winning
+all years and we can see the draw down
+here of course we can see this in the
+equity chart this is the draw down we
+have another one here but look at this
+these numbers are really really good
+it's about 70% win rate $200 average
+trade exposure is about 20% so this
+strategy already beats many many other
+strategies and we didn't use anything
+and this is the power of trading without
+indicators trading this pattern doesn't
+get any simpler than this we didn't look
+at any chart we have no indicators we
+are just looking at the close and not on
+100 closes we are looking on a 3-day
+pattern we want two close down in a row
+one close up that's it that's our entry
+and exit we didn't filter with ATR with
+moving averages with Ballinger BS
+nothing but that doesn't mean you cannot
+use that in fact the next step is to
+enhance this strategy with a filter like
+volatility or Direction and when you are
+using strategy quantex that's extremely
+extremely simple yet so powerful let me
+show you so going back to algo wizard we
+are still in this template and we just
+add another condition we go to random
+condition this random condition now will
+be picked up by the Builder and now I
+loaded my strategy with the template but
+now remember this condition will be
+picked up by the Builder and filled with
+these building blocks so we have in
+strategy Contex we have many blocks so
+these are signals predefined conditions
+indicators and stop El liit entry blocks
+and you can pick randomly or you can
+pick your own also you can custom build
+your own blocks so I'm not going to go
+over how you build your custom Block in
+this video and now because we have these
+building blocks now we are not going to
+build 25 strategies because each
+strategy now can be randomized with
+these filters so now we need to use some
+kind of ranking so let me use a simple
+one net profit and number of Trades so
+minimum number of Trades is 50 minimum
+net profit is 5,000 of course here you
+can add your own and there are many
+metrics you can use and you can use in
+Sample out of sample
+but just to simplify let's do this and
+let's see what we get so I'm looking for
+a th000 strategy I already have 911
+these 911 passed my criteria so now
+again let me sort by return to draw down
+and look at this strategy 55 so not bad
+the close is lower than the previous
+close for three bars in a row and the
+close is higher than the previous close
+for four bars in a row that's my entry
+that's my exit but now I have a filter
+for example this one the momentum is
+falling for four bars now let me look at
+another one this is 249 trades obviously
+this is statistically better the average
+trade is 494 again very very good let's
+click on this one and this one the close
+is lower than the previous close for one
+bar and the exit the close is higher
+than the previous close for one bar so
+again it's one bar and one bar but
+remember without the filters we had
+about 1,000 trades and now we have about
+half of that and that is because this
+filter so what is the filter the open
+the weekly open is falling for three
+bars and that is the part of sqx which
+is you can have thousands of building
+blocks thousands of variation and just
+use them as a filter for our simple
+entry and exit and of course here I have
+911 now you can change this completely I
+can say well now I don't want I only
+want 100 trades and instead of net
+profit I will put a profit factor of 1.4
+let's clear all this and let's start the
+process
+again and theoretically now I should
+have a higher equality strategy so
+return to draw down so now every
+strategy has more than 100 trades and
+all of them have a profit Factor above
+1.4
+and let me look at this one this is
+228 trades and let's see so again the
+close lower than the previous close two
+bars we enter and close higher than the
+previous close two bars we exit but now
+our filter is a true range that's a
+volatility filter so true range is lower
+than the previous true range that means
+the volatility is going down so you see
+how strategy quantex is an amazing tool
+when you know what you are doing we just
+pick a simple pattern but because we
+have the Automation and the building
+blocks in strategy context that makes
+finding a robust strategy really really
+easy of course all that started with the
+knowledge that the S&P 500 is good with
+long miror reversion strategy because if
+you try this pattern on any Market it
+will not work especially you guys in
+Forex Trading Forex is very very very
+dull all the instruments have no
+characteristics they are just basically
+noise until the government changes the
+interest rate and then the whatever
+currency starts moving in a direction
+related to that while Futures market
+usually perform really well with
+multiple multiple pattern to learn more
+watch this video and I will see you
+[Music]
+there
+[Music]

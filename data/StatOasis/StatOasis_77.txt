@@ -1,0 +1,268 @@
+Market regime is an extremely important
+Concept in trading basically you want to
+segment the market and separate regimes
+for example if you're trading bonds then
+obviously interest rate should be the
+market regime because it affects that
+market a lot but as algo Traders we are
+not specifically specialized in a single
+Market although you can be but since we
+are dealing with numbers it makes sense
+then to use some algorithm to define the
+market regime for any Market as I
+mentioned many times on this channel in
+my alga trading master class and in my
+community that I run the best Market
+regime usually consists of Direction and
+volatility although you can use other
+options like I mentioned but usually
+directional volatility have the biggest
+effect on any Market without getting
+into the specifics of that market an
+example of volatility Market regime is
+the average true range the average true
+range measures the range of every bar on
+daily basis and when that expands that
+correlates with high volatility an
+example of direction is simply a move
+moving average if the moving average is
+up that usually correlates with a bull
+market Direction and of course if it's
+down that correlates with a bear Market
+of course as always as all good Traders
+we need to test to verify so let me show
+you some research that I've done here I
+have the RSI 2 strategy this is the
+basic strategy we are buying when it's
+below 20 we are selling when it is above
+80. I'm using the S P 500 futures and
+this is the rsi2 so 20 and 80 buying
+below and selling above selling not
+selling short I'm just selling the
+position the strategy is long only
+because I'm using it on the S P 500 an
+instrument that usually drifts up all
+the time and let's see the performance
+since 2006 making 177 three to one
+drawdown ratio and 6 81 average trade 75
+percent wind rate so the graph obviously
+it's really good except this hiccup 2008
+is down 2018 is down and since 2018 we
+have been on a huge run and by the way
+this basic strategy I started featuring
+it about two years ago so if you traded
+it on one contract 22-23 that's almost
+fifty thousand dollars in profit this
+year look at this 91 profitable rate for
+the last 11 trades on average you're
+making 3 200 that is huge unbelievable
+it's an outlier but you know if you
+trade long enough then you will face
+this and of course the opposite anyways
+enough rambling Let's test some filters
+so I have here the adx and the average
+true range and the 200-day moving
+average first thing I will use is the
+200-day moving app so now we are only
+trading taking the signal when we are
+above the 200-day moving average and
+let's see the curve so again we still
+have this hiccup in 2020.
+and now we are making 98 000 dollars
+less trades is still a good average
+trade and a good win rate these are good
+but we're making a much less amount of
+money also the return to draw down now
+drop two two to one so now we will only
+take the signal the RSI signal when the
+adx 20 is below 20. and now we enhance
+the win rate we also enhance the average
+trade and let's look at the performance
+here and definitely win has the return
+to draw down ratio we used to be three
+to one now we are five to one so we
+enhance at least three metrics so I
+really really like this filter finally
+let me use the ATR which is the
+approximation of the volatility and now
+this is what we are doing we're only
+taking the LSI signal when the ATR is
+dropping and this is the best filter so
+far because the win rate jumped to 79.
+the average trade jumped to 927 and the
+return to Royal Range 206 to one we're
+making one forty three thousand that is
+the best filter and look at the annual
+period
+it's the same pattern we're losing 2007
+2018 and since then we are been on a
+huge run and by using this filter the 90
+win rate of 2023 becomes a hundred
+percent One Rate which matches another
+100 in 2021 and if we look at our curve
+we mitigated the crisis in 2020 without
+targeting that crisis remember this
+filter is on all period so we are not
+targeting only the 2020. I cannot say
+anything about this filter except it is
+amazing on an amazing strategy already
+so combining these two really you'll get
+one of the best bulletproof strategies
+that I have developed for the past seven
+years I mean I keep developing
+strategies and this one always comes on
+top in terms of robustness of course I
+have strategies that makes more money
+but the robustness of this strategy and
+the Very Creations that you can add to
+it it's never seems to amaze me now if
+you're an experienced algo Trader you
+might have noticed that there is a catch
+with all these filters because I picked
+a fixed value while all these filters
+are extremely optimizable let's pick the
+moving average I pick 200 you can easily
+go from 50 to 300 if you pick the adx
+adx I pick 20 bars and the level 20 you
+can optimize the level you can optimize
+the look back of idea and if you pick
+ATR the average true range again I pick
+20 bars and the slope so again you can
+pick a level or a slope and the look
+back period so the problem with all
+these indicators is the optimization you
+cannot fix it I mean you can let's say
+you pick you say okay from now on all my
+moving averages filters are 200. you can
+do that but it's really hard not to
+optimize that number
+so to solve that you need to pick
+indicators that are unoptimizable and
+that is what I did so I created a
+proprietary indicators I call them stat
+Oasis Market regime they consist of
+Direction and volatility these
+indicators are included in my algo
+trading master class for free and they
+come on sqx multichoice tradestation and
+metatrader 4. now the way these
+indicators works just like I told you
+they you cannot optimize them they have
+a state it's either black or white you
+cannot do anything else so if you say I
+want to trade in a black State then you
+will trade in Black State and so on and
+so forth and of course the best way to
+illustrate this is with an example now
+here I have version 2 of Market regime
+indicators version 2 is under
+development right now and they will be
+included in algo trading masterclass
+version 2 which will be released soon so
+what I did in version 2 of these
+indicators is I make them even less
+optimizable and version 2 there is only
+three states which is either ball
+sideways or bear also I made two of them
+so one of them is fast which will help
+fast Traders so if you're trading on
+intraday or extremely short term then
+the short-term Market direction will
+make sense and if you are trading a
+little bit long term saying daily or
+weekly then Market Direction long term
+makes sense and this is the two Market
+directions and finally I have the
+volatility indicator which is only three
+states quiet normal and volatile now
+although I'm using these indicators as
+filters but they can you be used many
+other ways for example you can use them
+in divergences and here is an example of
+a Divergence so you can see this one
+below was here and this low while we're
+going up the price is down so we expect
+the price to move up also we can pick
+for example this is the long-term Trend
+which is a bear and so we can expect to
+take the next bear Trend this one or
+this one and we go with the direction of
+the big one so here for example we can
+short here all the way down and we can
+short here all the way down of course it
+works on the opposite side so there are
+many ways to use these indicators but in
+this video we'll only use it as a filter
+and the point being is we cannot
+optimize it as just a stain so let me
+bring the optimization and here I have
+the four filters first filter is day of
+the week this is an important filter and
+you can use it in any strategy basically
+you're filtering by the day you are
+trading zero always means that the
+filter is passing through you we are not
+using so that's day of the week and then
+we have three states for direction short
+term free states for direction long term
+free states for volatility in total we
+have 384 combinations and let's run it
+so the top result is 177 this is without
+using anything this is our original RSI
+strategy which is making 177 drawdown
+-58 the average 681 return to draw down
+ratio of 3 75 percent win rate 1.9
+profit Factor so if I sort by custom
+Fitness which is the return to draw down
+we can see immediately that I have a
+huge difference this is
+8.17 profitability Win rate is up to 80
+percent profit factor is up to 3.27
+average trade is up to 977 and we are
+making 143
+000. now I'll skip these two because
+they are making lower trades let's take
+the next one
+this is again 81 win rate 359 profit
+Factor 957 average trade and 659 return
+to draw down ratio huge huge Improvement
+so this one
+it's only using volatility that means
+one is a quiet that means when the S P
+500 is quiet it's not volatile why it
+means it's below normal we usually tend
+to do very well with the RSI strategy
+the next best one is again low
+volatility but this time we are using
+Direction so short tell Direction three
+that's bull that means this one is green
+so when we are in a low volatility
+Market plus we are in a short-term bull
+market then we tend to do very well so
+remember this strategy is a subset of
+the strategy because we are using the
+volatility filter and then we're adding
+weird layering the second filter why
+this filter is different again because I
+cannot do anything I'm only optimizing
+this three states I cannot optimize the
+look back the level there's nothing
+there it's only the states that I'm
+optimizing and in fact I'm not
+optimizing I'm looking at which state my
+strategy performed best in let's look at
+this first one you can see there is a
+drawdown a little bit of drawdown in
+2020 but not as big as we saw in the
+original this is another profile it's
+less trades but again we can see that we
+are barely making a Throwdown you can
+see that there are not enough trades
+with these straight lines that means
+we're not trading at this time but this
+strategy can be easily added to another
+strategy and a portfolio to learn more
+watch this video and I will see you
+there
+thank you
+[Music]

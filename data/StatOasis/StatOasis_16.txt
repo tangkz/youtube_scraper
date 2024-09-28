@@ -1,0 +1,237 @@
+you can build a profitable trading
+strategy with only three bars no profit
+Target no stop- loss no filter sounds
+crazy well stick around because I'm
+going to show you how to do it so let me
+show you what I mean by three bar
+pattern here I have two patterns pattern
+number one the close is lower than the
+previous close and yesterday close is
+lower than the previous close so
+basically we have three lower close in a
+row now I draw here two different
+examples you can have many more but just
+to drive the point you see this bar is
+down and the highlighted yellow here is
+the close so this bar is down this is
+the close this bar is up this is the
+close yet even though two bars are down
+one one bar is up but we have three
+lower close in a row this is the same
+pattern even though all bars are up
+but we have three lower clothes in a row
+so you see even though we have this
+equation this could show up in a
+different way in fact there are multiple
+ways to show this I only drew two and
+here I have pattern two which is today's
+close greater than yesterday close and
+yesterday close is lower than the close
+of 2 days
+ago and again and here two bars down one
+bar is up but the close here is lower
+and the close here is higher same
+pattern two days are up one day is down
+but the close are lower and this Clos is
+higher so you see this is
+counterintuitive when you look at it but
+in fact it's the same equation now with
+three bars you can only have eight
+patterns doesn't matter how you draw it
+at the end of the day there are only
+eight patterns if you are an engineer or
+a programmer you can easily get your
+head around this because it's either
+zero or one if the close is higher than
+the previous close that's one if it's
+lower that's zero so then we have three
+digits and it's base two 2 to the^ of
+three is eight anyway you can only get
+eight patterns out of three binary
+digits you see most Traders fail because
+they don't
+understand the fundamentals of matching
+the strategy style to the market
+characteristics now I've done many
+videos about this subject and you should
+know by now that the S&P 500 usually
+works really well with long miror
+version natural gas short miror R
+version and the Vex short breakout and
+re reversion and just by using this
+knowledge we can easily now combine it
+with a simple pattern to make a
+profitable strategy so first of all
+let's uh look at our base so here is the
+S&P 500 like I mentioned the S&P 500
+works really well with long strategies
+and me reversion strategies by the way
+these are not the same you can have a me
+reversion short strategy here is our
+base we are buying every day the open
+selling the close what do we get if we
+do this since 2006 six it's $4,400
+trades on average making
+$21 and our win percent is 54 and that's
+again it's just a proof that yes the S&P
+500 tends to drift up most of the time
+so if I do this every day I already have
+uh higher percent of winning than losing
+and on average I'm making money now
+there's no commission slippage so this
+is a losing strategy and here is our
+optimization for the 8 patterns so zero
+is our original strategy where there are
+no patterns and as you can see we are
+making $21 on average more than 4,400
+trades and now we have these patterns so
+pattern one is three down close in a row
+and the close is compared to the
+previous close and then eight is three
+up close in a in a row so today close is
+higher than yesterday and yesterday is
+higher than the two days days before
+it's
+clearly the pattern has an effect
+because look at this so here we are
+making one here we are losing
+33 we are losing 43 and here we are
+making
+118 look at the the discrepancy here
+it's huge so if we have three lower
+cloes in a row and we buy the next day
+and we exit so we're this is we're only
+holding one day we're already making
+$118
+on average so this is really really good
+trades analysis so this is not a fluke
+this is an edge that we can find now
+remember we are holding for one day so
+we can easily extend that and let's try
+a number of fixed bars so here is the
+optimization using that same pattern but
+now we are holding from one to 10 bars
+so instead of exiting the same day we
+are holding for more than one day and if
+I sort by return to draw down we can see
+two bars is the best not only it's the
+best return to draw down it's also best
+amount of money that we can make and
+this is counterintuitive because if you
+think about it holding more days should
+result in more money but because this is
+a mere version strategy now because
+remember the pattern is what the pattern
+is three lower close that's a pullback
+and we are going long so it's a me
+version strategy and usually me version
+strategy does really well shortterm so
+this is the strategy performance our
+average trade is
+$530 that's amazing 61 win per
+$118,000 2.4 return to draw down now
+remember I told you we will use the
+natural gas because we already know
+Natural Gas Works well with short
+strategies so this is natural gas and we
+are shorting every day and exiting end
+of day so we are shorting the open
+exiting end of day this is what we get
+4,400 trades with an average of
+$75 already we are on a a good start and
+that's what I mean by matching the
+strategy Direction and style to the
+instrument as you can see we are already
+ahead of uh I don't know 90% of other
+traders who are trying to build strategy
+and now Let's test the pattern and zero
+is our original strategy and again we
+have eight patterns and let's look at
+the average trade so average trade 76
+and again here we have a huge
+discrepancy between the pad that means
+the patterns are doing something look at
+this one and this one so number eight is
+three higher closes in a row again this
+is acting now as a mere reversion so we
+are pushing up and as a mere version
+strategy we are shorting at that point
+and that's why we are making a lot more
+money and look at this the average trade
+is 200 already and pattern number seven
+is making more money but a little bigger
+draw down and pattern number seven is
+two higher closes and then today is a
+lower close so that means it's like we
+are confirming the short is happening
+and this is now the strategy with
+pattern number seven but now the holding
+period is from 1 to 10 and Searing by
+return to draw down we find 7even bars
+is the best result 10 8 6 so this is
+definitely different than the S&P 500
+holding more bars does result in a
+better return to draw down ratio and
+also it it makes more money now just to
+show you that all of them are good
+strategies look at these average trades
+so the lowest is 319 the highest is
+about $11,000 so all of them are doing
+really really well doesn't matter what
+you pick how many days you hold so all
+this happened because we started with
+the right foundation matching the
+strategy Direction and style to the
+right instrument because if you go
+willy-nilly trying this pattern on any
+Market yes sometimes it will work but
+sometimes it's not but starting with the
+right foundation you can easily get to a
+profitable robust strategy now of course
+the icing on the cake is you can combine
+all these in a portfolio and like I
+mentioned in the beginning of the video
+I told you we are going to use the es
+long the NG short and also I'm going to
+use the vix and the point I'm trying to
+make is you can combine all these to
+lower the draw down and add your profits
+and that's the whole point of trading a
+portfolio so here now I have three
+strategies one is on the es another one
+on the natural gas and another one on
+the vix natural gas and vix are short
+and the es is long now if you remember
+from my other videos the es is inversely
+correlated to the vix so you would think
+that the es will be highly correlated
+with the vix let's see the result but
+this is the result of our portfolio
+we're trading one contract no slippage
+and
+commission and let's see we have about
+8,000 trades now remember two uh
+strategies are short so we have about
+888 trades on the short side 231 on the
+long side on average we are making 430
+on the short 500 on the long so very
+good average on both sides we have only
+one losing year since 2006 and breakdown
+the es making 120 NG making 260 the vix
+making
+125 but here is the most important Point
+look at this zero correlation between
+three strategy so the es and the Vex is
+just slightly remember these are highly
+highly correlated markets but the
+strategies are not and NG just sits
+about zero so this is like the perfect
+portfolio your composition and that is
+the overview of what I teach in the Alo
+trading Master Class starting from
+matching the style to the strategy build
+a robust strategy combine them in a
+portfolio trade that profitable
+portfolio if you like this video then
+most likely you will like the next video
+[Music]

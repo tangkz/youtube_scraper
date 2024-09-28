@@ -1,0 +1,496 @@
+are your strategies outperforming in
+strategy Quant X but then stumble when
+you move it to other platforms like
+metatrader or trade station if this
+happens to you most of the time no
+worries it happens to me it happens to
+every users who uses strategy quantex in
+this video I will explain to you why
+this happens and how to fix it first of
+all if you don't know let me introduce
+you to strategy quantex it is a platform
+that can generate strategies without any
+code it's not unique in this Marketplace
+but it is one of the best in my opinion
+because of its other features basically
+the platform has a pool of Entry blocks
+and a pool of exit blocks and a pool of
+indicators and filters and it shuffles
+everything up to come up with strategies
+that matches your criteria so here we
+are in strategy Quant X and I am
+building a long only strategy using
+genetic Evolution conditions one to2
+with stoploss and profit Target required
+these are the options for genetic
+Builder and the data here I'm using
+trade station Engine with the S&P 500
+since 2009 and this is my requirement
+profit factor of greater than 1.3
+average trade greater than $100 return
+to draw down ratio greater than four I'm
+requiring 8,000 strategy so running the
+Builder will generate 8,000 strategies
+we can stop it at any time there you go
+you have a th000 strategy is as peror
+requirement or even better once you have
+your strategies you can run them through
+multiple robustness testing and save
+them and they are ready to go so far so
+good you immediately have a th000
+strategies that all base on your
+criteria on your instrument and so on so
+forth now to trade this strategy you
+need to take it to another platform that
+can execute the trades and connect to a
+broker and strategy Quant X offer two
+solutions either export the code as
+plain English it's called pseudo code so
+basically you can take it into any other
+platform and try to program in that
+platform or it exports direct code to
+two types of platforms metatrader 4 and
+five trade station and multicharts met
+Trader uses mql and trade station
+multicharts uses a form of easy language
+so for example I like this strategy I
+click on it and if you go to the source
+code here you have the J Forex this is
+for Java and then you have met Trader 4
+met Trader 5 and you have trade station
+and multicharts and you have pseudo code
+and XML so for example this strategy
+it's on es. D if I click here copy
+all and then go to trade station and
+bring the strategy code paste everything
+and
+verify and now the strategy is running
+so this is the strategy and that's it
+you're done now Trace station can trade
+the strategy on its brokerage firm here
+is our problem in strategy context we
+are using the Futures es. D since 2009
+till end of 2019 same thing is here
+since 2009 same symbol but the strategy
+executed here produce
+$37,000
+947 here it produces 52 something profit
+Factor 2.2 here is 2.4 average trade 214
+average trade here is
+232 number of Trades 177 number of
+Trades here
+226 but the equity chart looks highly
+correlated so the strategy is different
+the numbers are different but the curve
+is very correlated so why this is
+happening first let me point out that
+this problem is not only related to
+strategy quantex all the other
+competitors like build Alpha genetic
+system builder adapt trade they all have
+the same issues now I don't work for any
+of these companies and I don't have any
+inside information but from my own
+research here is why this is happening
+problem number one is engine translation
+if you speak more than one language you
+will understand this it's impossible
+sometimes to translate whatever you're
+trying to translate from one language to
+another perfectly every language has its
+nuances and the way you talk and the way
+you structure the sentence a lot of
+times it will be impossible to translate
+100% whatever you're trying to say in
+language a to language B even if you are
+fluent in both languages and here is the
+same thing strategy Quant X is built on
+Java built Alpha is built on C and the
+other two platforms are also built on
+some version of c and they are
+translating to easy language which is a
+highlevel language and some of them
+translating to mql and some of them
+translating to ninja Trader these are
+all different languages they have
+different structure so it's not as easy
+as it looks to translate from one
+language to another plus these software
+developers don't have direct access to
+the other platforms engines for example
+trade station doesn't welcome this
+platform and say look here's our engine
+go dig in deep and try to translate
+whatever we are doing plus when trade
+station update their engine they not
+notify the other platform this applies
+to all other platforms so their
+incentives are not aligned with each
+other and that's why it will always be
+like a cat and mouse so trade station
+ninja Trader meta Trader all these
+platforms will have their own path to
+update and then all these other builders
+try to catch up to find out what's the
+update and fix whatever it's broken
+second problem is data so data providers
+are totally different from one to the
+other even though they are all receiving
+the data from the same Exchange in case
+of Futures and uh stocks and ETFs in
+terms of Forex every bank has their own
+data stream but let's focus on Futures
+it comes from One exchange but even then
+they're totally different from one data
+vendor to the other because data needs
+to be cleaned up and there are so many
+things that needs to be done before
+servicing it to the other client one
+other major problem is time stamp so
+most platforms timestamp the bar on the
+close but some platforms like metatrader
+stamp the bar on the open and of course
+this is a huge deal so here is an
+example I have here two bars this is
+hourly bars H1 so this one is from 8:00
+a.m. till 9:00 a.m. second bar is from
+9:00 a.m. till 10 p.m. in trade station
+this bar will be stamped at 10 because
+it's stamping the close the same bar
+metatrader will see it as 9:00 a.m.
+because it's stamping the open and of
+course this will have many issues with
+the code and how to generate the orders
+and so on so forth so some platforms
+like strategy Quant X and build Alpha
+who exports to trade station ninja
+Trader and metatrader they will face
+other problems than let's say genetic
+system builder or adap trade because
+those guys only export to a trade
+station and multicharts and uh Ninja
+Trader they're all stamping at the close
+the guys who are stamping the close and
+the open now they have to deal with two
+different engines and they have to deal
+with two different logic so it's just an
+extra layer of complication that adds to
+these platforms problem number three is
+resources all these platforms has to
+have some developers behind their
+platforms in order to develop solve bugs
+add new features and so on so so forth
+also they have to run a business of
+selling these platforms marketing and so
+on so forth and other than strategy
+quantex every other platforms that I
+know it's usually a single person behind
+it so that person is the business
+manager is the customer support is the
+sales manager and is the developer so
+it's really hard to give enough time to
+solve every little nuances happening on
+the other platform platforms so what
+most of these platforms do is they
+export their own indicators inside trade
+station or multicharts or ninja Trader
+in order to mitigate most of the
+mismatches between the strategies in
+both platforms so for example these are
+functions in genetic system builder
+exported to trade station in order to
+match the strategy same thing these are
+the functions by strategy Quant X in
+order to match the the strategies
+between both platforms number four on
+our list is complications the more
+complication you add to your strategy in
+strategy context on any of these
+Builders the more likely that the
+strategy will not match when you move it
+to the other platforms those
+complications could be anything profit
+Target stop loss many variables many
+filters the more you add the more likely
+it's not going to be the same on the
+other platform and finally at number
+five is other nuances every platform has
+its own nuances so developers know this
+because they know the code under the
+hood and some things you cannot just do
+so for example when I needed to program
+my market regime indicator for strategy
+Quant X I couldn't do some features
+because the way strategy Quant X was
+built could not do that features now
+this is not a bug or a fault it's just
+the way the strategy Quant X engine was
+built it wasn't meant to handle that
+feature so you can imagine when trade
+station ninja Trader metat Trader they
+have some nuances in their engine that
+the other platforms trying to replicate
+they either can do it or they have to do
+a work around to approximate how to do
+it another example is ranking for
+example strategic quantex added ranking
+where you can rank 100 instrument and
+trade the top five that could not be
+done in multicharts or trade station
+without some heavy heavy heavy coding
+and a lot of workr why again this is not
+a bug the platform was not built to do
+that feature take crypto as another
+example crypto uses eight decimals now
+Forex used to use four decimals and then
+they introduce the fifth which is just a
+gimmick but everything else uses two or
+three decimals so those platforms that
+meant to trade futures for example they
+are not used to trade crypto even their
+indicators are not to the point of
+calculating the eigh decimal and
+therefore of course this platform now
+has a Band-Aid solution to trade crypto
+same as strategy Quant X and build Alpha
+and GSB have a Band-Aid solution to
+approximate the export of strategies
+also I get this many times which is
+metat Traders trying to trade Futures
+this platform was not built to trade
+Futures and Futures are different so
+again it's just a Band-Aid solution and
+it will not work properly now that I
+laid down the most probable causes why
+this discrepancy between the building
+platform and the execution platform
+let's find the solutions and number one
+is update you need to update to the next
+version of your platform so when
+strategy quantex update their platform
+they usually update all the indicators
+all the calculations and the function
+and it is really important to reimport
+import those indicators and functions
+into your platform so usually when you
+install a new strategy Quant X you will
+have custom indicators inside the folder
+if you click on it you will find here uh
+trade station for example so if you
+click on trade station and just click on
+the ELD this should reimport all the
+functions indicators and strategies so
+just click on all of
+them and yes to all and and it will go
+and update everything and verify
+everything again now remember when you
+update your strategy Contex keep the old
+version in a separate folder because
+most likely the update version will fix
+something and it will break another
+thing so if the thing that it breaks
+very important to you you have something
+to go back to if the thing that it
+breaks is not that important then you
+can switch to the new version this
+applies to all other building platform
+forms like the one that I mentioned
+Point number two to fix the
+discrepancies is data data is really an
+important part of every algorithmic
+Trader and it's an important part of
+every platform without data you cannot
+do anything and when you use different
+data vendors you will find discrepancies
+even in the same platform so here is an
+example of data here I have a simple
+strategy when the SMA 5 period crosses
+above the SMA 20 period we will go along
+and we will exit after five bars here I
+have the same strategy so SMA 5 cross
+above SMA 20 we go along exit after five
+bars here we are using trade station
+engine at es this is the daily time
+frame since uh beginning of 2009 till
+April 7th and here we are using uh trade
+station engine same historical look back
+but the data is from trade station so I
+exported 24 hours session uh from trade
+station but it's daily time frame so
+both are the same I run this fullback
+test and let's run this fullback test
+and now let's compare so this strategy
+same strategy same engine same platform
+I'm just making use of a different data
+vendor so this one makes
+$110,000 with 487 trades this one makes
+9,9 $0000 with 4002 trades so just by
+changing the data everything else is the
+same I get different results so always
+make sure to use the data that you will
+trade with in your back testings for
+example if you are trading at the end
+with metatrader then it's very important
+to import that data from metatrader into
+strategy context and test on that data
+build your strategies on that data
+because then you will decrease your
+discrepancy a lot also extremely
+important to point is your executing
+trading platform meaning trade station
+ninja Trader whatever your platform that
+you'll execute the trade on if you're
+executing on a special session or
+special time frame like 15 minutes 1
+hour then you need to export that time
+frame that session into sqx also do not
+build the daily time frame or the hourly
+time frame from one minute time frame
+that's also a no no you should export
+any time frame that you want to use in
+sqx as its own so if you're planning to
+test on 15 minutes you should export 15
+minutes if you're planning on trading 30
+minutes or daily you should export
+everyone separate and number four on our
+list is the instrument parameters so if
+you are trading stocks it's extremely
+easy every stock move in one cent at a
+time of course it can move more but the
+minimum move which is called The Tick is
+1 cent and every stock point is $1 so
+the move one point it's subdivided into
+100 moves which is 1 cent each in
+Futures the operation is totally
+different because every future Market
+has its own uh minimum tick minimum
+movement and it has its own value so for
+example this is crude oil in strategy
+quantex and as you can see the PIP or
+the tick size is 0.01 that means we have
+a 100 tick in every point but every
+point is $1,000 and if I bring heating
+oil you can see that heating oil goes
+for decimals and each fourth decimal
+move is one tick and when heating oil
+moves in one full point that's
+$42,000 and this is the settings in
+trade station this is for the S&P 500
+you can see it it has a minimum move of
+25 that means four moves in a point and
+each point is worth $50 so every
+platform has its own place where you can
+set these values the tig value or the
+PIP value the minimum move and the big
+point value and those are extremely
+important to set it up correctly in
+order to avoid any discrepancies number
+five on our list is slippage and
+commission try to not add your slippage
+and Commission in your building platform
+so if you're using strategy Quant X do
+not add slippage and Commission in the
+strategy you can use the average trade
+to mitigate that so let's take the S&P
+500 the s&p500
+Futures uh it cost $25 dollar let's say
+on average to get in $2 and half dollar
+to get out that's the commission for the
+broker now it could be $1 for you $3 for
+somebody else doesn't doesn't matter
+let's say it's $5 in and out slippage is
+one tick so as we know by now one tick
+in the S&P 500
+is15 so one tick in one tick out that's
+$25 so $25 and5 so slippage and
+commission is $30 in total if you add
+that in sqx and there is a bug so one
+version I noticed there was a bug where
+it was not adding $3 sometimes it's
+adding five so it's much better to leave
+it off and you look at your average
+trade if your average trade is $100 well
+you know $30 is slipage and commission
+So you you're very safe you are uh
+almost four times your slipage and
+commission so you look at your average
+trade and you judge if it's good or not
+then when you move to your execution
+platform then you can add your slippage
+and commission number six on our list is
+simple versus complicated I would highly
+advise to stay simple with your
+strategies simple strategies first of
+all they are much more robust than
+complicated strategies they're very
+easily vetted in any robustness testing
+so you don't need complicated algorithms
+to vet if the strategy is robust or not
+also it's extremely easy to debug let's
+say you build the strategy is very
+simple you can just look at the chart
+and see if your logic is making sense or
+not if you're entering on the same logic
+or not it's a lot easier to debug
+complicated strategies on the other hand
+it's the opposite it's very hard to
+debug it's very hard to vet for
+robustness and most likely it will not
+transform well to other platforms so if
+you're adding two three indicators two
+multiplications of ATR stop-loss profit
+Target Break Even stoploss trailing
+stop-loss all these add more
+complications to the code to the engine
+and most likely you'll find that these
+strategies does not trans ER well to the
+execution platforms also intraday
+strategies or multiple time frame
+strategies don't transfer well and the
+final solution is look at correlations
+the best way to vet the strategy from
+your building platform to your execution
+platform is correlation don't look at
+the number of Trades the average trade
+the net profit and so on so forth if
+your Equity curve is highly correlated
+with the equity curve on the other
+platform I think you are good because
+most like the error is in data vendor or
+in your uh instrument properties bigo
+value the stop-loss value it's something
+of these sorts that will change the
+number of trades or the net profit and
+now just debug it in your execution
+platform to vet if it's still good or
+not the key takeaway here is the
+strategy discrepancy between the
+building platform like strategy quantex
+and the execution platform like trade
+station is not a bug this will never be
+solved because the builders will always
+trying to catch up to the execution
+platform and in my humble opinion for
+these platform to succeed they need to
+move on to be an execution platform and
+actually strategy quantex is one of the
+first to move in that direction so right
+now they have their algo Cloud algo
+Cloud will take the strategies built in
+strategy quantex engine and then without
+any translation it's using the same code
+same engine it goes and execute those
+strategies live on the market currently
+it's only for stocks and ETFs and
+hopefully soon they will introduce Forex
+Futures and crypto by the way I have an
+infographic that summarize all these
+points if you go to the community and go
+to docks and go to resources and then go
+to strategy Quant X and here is this one
+reduce sqx discrepancies so this guide
+summarized the whole thing in one
+infographic to learn more about straty
+Quant X watch this video and I will see
+you there
+[Music]

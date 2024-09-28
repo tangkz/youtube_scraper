@@ -1,0 +1,406 @@
+welcome back everyone my name is Ali
+Casey and you are watching stat Oasis
+Channel today we are diving into the
+thrilling world of breakout strategies I
+will show you how easy it is to build
+breakout strategies on different
+instruments and then we will use that
+knowledge to build 10 different
+strategies on multiple instruments then
+we will combine all these strategies
+into a winning portfolio so grab your
+notepads hit the like button and let's
+start breakout strategies are the bread
+and butter for many hedge funds and they
+are an integral part of every
+professional Trader as they offer unique
+opportunities to capitalize on Market
+momentum I know all this sound gibberish
+so let me show you some examples on how
+to spot breakout opportunity this is a
+chart of the Euro US Dollar on daily
+time frame and I plotted here some
+breakout opportunities so you can see
+here this is the channel and this is a
+breakout this is the triangle and this
+is a breakout and and if I go back so
+this is a support that was broken on the
+way down so this is a breakout to the
+downside and then this is a Head and
+Shoulder inverted Head and Shoulder and
+this is the neckline and again we have a
+breakout on the downside and so on and
+so
+forth of course all this is garbage and
+I don't do this but I just you know want
+it to have fun
+we are algorithmic Traders we follow
+rules basically all the systems are
+pre-built with a defined set of rules to
+enter and exit so this mumbo jumbo
+doesn't work so let's do the real thing
+so today I will use an extremely simple
+breakout strategy basically we will
+enter long when the close is higher than
+the close X number of bars ago and we
+will exit when the close is lower than
+the close X bars ago and it's opposite
+for shorts that is it this is the
+strategy now don't worry about the code
+I usually post the code or the indicator
+or all of them under the video in the
+stasis community in the YouTube channel
+I know you're disappointed you expected
+something very complicated but you know
+all strategies that are profitable
+usually very simple especially on long
+time frame like daily time frame now
+that doesn't mean you cannot build a
+complicated strategy and make it
+profitable but in this video we are
+making things very simple the reason is
+so you don't depend on any trading
+platform or back testing platform so you
+can apply this even in Excel so this is
+the entry and the exit opposite for
+shorts and I will add six filters so
+these filters this is an oscillator
+filter 1 and two filter three and four
+are volatility and filter five and 6r
+Direction now of course you can add 100
+more filters and actually that's what
+I'm doing in version two of the algo
+trading master class but usually this is
+the simplest way to start and usually
+you will get results with volatility
+Direction and oscillat so I will start
+with the gasoline Futures the symbol is
+RB this is the daily time frame since
+2007 and as usual I will build the long
+and short separate now breakout strategy
+and Trend following for me it's the same
+thing now I know some people try to put
+it in a different category but to me is
+the same thing because Trend following
+depends highly on some form of a
+breakout pattern so to me and this is
+the general definition in the hedge fund
+space a breakout strategy is usually a
+short-term thing so one to 7 Days that's
+a Breakout strategy and then 7 to 40
+days that usually a short-term Trend so
+if you are looking at any indicator 7 to
+40 that's usually following a short-term
+Trend 40 to 80 look back period usually
+captures a medium Trend and 80 to 160
+usually considered a long-term Trend now
+there are some hedge funds that trade
+above 160 I've seen hedge funds with 200
+day breakouts of course you can add your
+own interpretation on top of this but if
+you have a workflow it's actually very
+beneficial to fix those things because
+then it's easier for you to say okay I'm
+going to combine shortterm with medium
+term and you know what shortterm is and
+medium-term is and these are our
+optimization settings so BLS is both
+long or short so one that is long and
+then we have the entry look back and the
+exit look back so this is the close
+higher than the close 40 bars ago and
+this is the close lower than the close
+four bars ago so we'll go from 40 to 80
+to enter step five and we will exit when
+the close is lower than the close four
+bars ago and we will take that to 24 in
+step of two and then we have six filters
+so zero there is no filter and then one
+through six so all in all we have about
+700 combinations so this is long only
+this is the result of the optimization
+so let's look at the 3D graph of all
+these points and let's maximize that and
+let me set the water level that's the
+blue plane on a
+$100,000 so now everything above the
+water level is more than
+$100,000 and we can see that without a
+filter we have this region is a stable
+region
+so this is 70 or 60 so between so this
+is 65 and 70 so 65 and 70 looks good
+with
+eight okay so I'm looking at this point
+here but let's see if we can enhance
+that with a filter so this is filter one
+uh it's stable but we make less
+money let's see Filter 2 so Filter 2 is
+not good I mean there is no stable area
+unless you're down there and filter 3
+filter 3 is very stable but again we're
+making less money filter 4 also looks
+good so filter 4 uh maybe this point
+here which is 65 and 8 so again we are
+in the same point and then filter five
+again 65 and 8 looks very good and
+finally filter six it looks like here is
+the stable so I'm looking for filter
+4 to me that's the best one so
+65 and 8 or 65 and
+6 now once I find the stable region I
+need to look at the uh maximum Inay draw
+down and let's put the filter on and
+let's see 65 and 8 or six
+so
+65 and 8 sits here and 65 and six it's
+this red point so it's worse I mean the
+draw down is worse with 65 and 6 so I
+will pick that point because then at
+least I am picking the worst point and
+hopefully the future will be either the
+same or better so if we go back to our
+spreadsheet so let's sort by this and
+we're looking for 65 and 6 this is 65
+and 6 with Filter 4 and as you can see
+we are
+making uh 2 and 1/2 times return to draw
+down ratio our average trade is 548
+which is very good for gasoline so if I
+pick this
+strategy and remember this is long only
+so trade analysis 276 trades uh
+$548 on average and we're making
+$151,000 3 to1 return to draw down ratio
+and 64% win rate but if we look at the
+equity curve the equity curve doesn't
+look that good I mean the strategy
+performance is good all the metrics are
+good but the equity curves looks bad
+this is usually where we are different
+from everybody else when we are building
+a portfolio because when you are
+building a portfolio you're not
+concerned that much with the look of the
+equity Cur I mean obviously I want to
+have a smooth Equity curve sloping up
+with all the metrics being good but when
+you are building a portfolio that really
+doesn't matter a lot because more
+strategies will be combined with this
+one and as long as they have low
+correlation with the strategy your
+Equity curve will be smooth on its own
+so we gain the advantage by looking at
+the
+strategy uh metric without trying to
+smooth our Equity curve and therefore
+probably we are overfitting the strategy
+okay now let's look at the short side so
+let's go back here and it's the same
+everything but now I'm only going to
+switch this to two so two is short we
+will do the same optimization same
+number of iterations so again let's pull
+up the 3D graph and let's maximize that
+okay so let me set the water level at 30
+as we don't have many profitable
+strategies no strategy with a filter
+except this one making more than 30,000
+let's look at this is filter one again
+filter number two nothing and filter
+number three looks stable so let me put
+this down a little bit so we can see it
+clearly and you can see this is a very
+stable area over here so anything
+between uh
+70 so anything between 55 and
+70 is good on the entry and number eight
+on the exit is good so this is the
+stable area between 55 and 70 and
+eight uh 6 to 10 so 6 to 10 they're all
+good and now let's look at the uh the
+intraday draw down and let's put the
+filter and this is wonderful so you can
+see that all this area having really a
+very stable draw down region so 6510
+filter number three our average trade is
+389 uh total trades 100 and we're making
+$40,000 so let's pick that up and let's
+see how it looks like so this is now the
+short side and again the equity curve
+doesn't look that great I mean it's good
+strategy we know it's good and we are
+profitable the slope is up but I mean it
+doesn't look like you know the normal
+YouTube strategies where it's a smooth
+curve up again I want to bring your
+attention that today in this video we
+are building a portfolio so the equity
+curve doesn't matter that much as long
+as it is up but if it's not you know you
+know a very beautiful sloping 45° up
+that doesn't matter it's okay as long as
+we're going to add more uncorrelated
+strategies in a portfolio uh this will
+help a lot so the strategy robust having
+good metrics the equity curve is up
+sloping up if it's ugly that's fine
+because you are not trading this
+strategy alone and here where all the
+magic is going to happen so now I build
+a portfolio now now I did the same exact
+same analysis of course I'm not going to
+repeat it and then this video will be
+two hours long so this is the copper uh
+long and this is the copper short so and
+gasoline long gasoline short and then
+heating oil long and then Euro USD short
+and then Euro doll so this is an
+interest rate it's not the same as Euro
+USD and this is is long and then
+Japanese USD dollar short and finally
+the US dollar long so these are 10
+strategies some of them long some of
+them short some instruments like the
+copper and the gasoline have long and
+short in this portfolio they are all
+using the data since 2007 and we're
+trading one contract per instrument no
+slippage no commission no slippage no
+commission is not there because you know
+I'm trying to hide something I do
+actually look at slippage and commission
+but I do it in a different way so here
+is the way I do it let's say you build a
+strategy on the S&P 500 and the strategy
+makes
+$40 so the strategy has an edge but the
+edge is not enough so you definitely
+need a filter to boost that edge now
+maybe you can maybe you can't but you
+don't know but if you add $50 slippage
+and commission from the beginning then
+that strategy will be losing from the
+beginning so you will not have a chance
+to add the filters now of course this is
+subjective it's up to you and it's up to
+your workflow so my workflow I need to
+look at the row Edge in the beginning
+then at the slipage and commission lb in
+fact I don't even add it until at the
+end because I know when I'm let's say
+building on the S&P I need at least $100
+on the average trade so what you want is
+if you don't include slippage and
+commission your average trade needs to
+be at least three times slippage and
+commission so that is the ratio I use of
+course the higher the better four
+usually is where I sit but you know
+three and I'm really liking that
+strategy or it really sits well in a
+portfolio then I don't mind so of course
+all these strategies that I just show
+you in the portfolio although s
+commission is not
+included but each strategy has at least
+three times slippage and Commission in
+the average trade okay so going back to
+the portfolio and let's back test this
+portfolio and let's see what we get so
+this is a breakdown of the portfolio so
+this is copper long copper short
+gasoline long gasoline short Heat oil
+long uh Euro US dollar short and then
+euro dollar uh long and then
+japaneseanime weights even without
+position sizing the performance is
+$861,000 since 2007 percent profitable
+is about
+54% our maximum portfolio draw down is
+$62,000 so now our return to draw down
+is
+13.75 which is impossible to get in any
+of the single
+strategies uh separately and then if we
+look at the equity curve now we have
+have our smooth actica and look how
+beautiful is this I mean of course we
+have draw down here we have draw down
+here draw down here but all in all we
+are smoothly churning up all the time uh
+this shows you where we are making new
+highs with the green dots so you can see
+here we have draw down here we have draw
+down and this is the longest draw down
+so you can see here it's
+$41,000
+$42,000 but it is about 7% at this point
+in the portfolio looking at the trade
+analysis we have about 3,000 trades with
+an average of all the trades of
+$292 now as I told you each strategy
+average trade covers more than three
+times slippage and commission but this
+is averaging all the strategies together
+for short and long periodical analysis
+since 2007 we are profitable of course
+every year except 2018 where we lost
+$50,000 this is the most important part
+of the portfolio this is the daily
+Equity correlation analysis so that
+means we are looking at the daily
+returns of each strategy and we are
+seeing how correlated it is with the
+other of course I build it I select the
+strategies on purpose to show this
+because this is what you what you're
+aiming for it's not necessarily you're
+going to get this uh in the beginning
+but you know the more strategies you
+have the easier it's going to get to
+this but this is your your ambition is
+to get zero correlated strategy now I
+know it doesn't look like zero but
+believe me this is zero .12 0.01 09 all
+these are considered zero the only High
+correlation we have is here so this is
+heating oil long and this is gasoline
+long and they are .16 now this is
+considered very very low correlation but
+in our portfolio here this is the
+highest correlation now here I want to
+point out a very important takeaway
+which is the diversification doesn't
+come usually from the instrument in the
+beginning the style of the strategy and
+the direction of the strategy have a
+huge impact on the diversification in a
+portfolio so yes you can have
+diversification from other markets but
+even on the same Market just by
+separating long and short and building
+separately on those uh directions on the
+same instrument you will get much better
+diversification than building long and
+short in the same strategy now of course
+Trend following is a perfect match for
+meere version strategies so even though
+this whole portfolio was built on Trend
+following strategies breakout strategies
+it is actually a very good idea to mix
+it with Mir version strategy because Mir
+version
+strategies by definition they are not
+correlated also they have higher win
+rates so they will bring the win rate uh
+up also you can add to the mix
+volatility breakout strategies because
+they are usually also not correlated to
+this type of strategy and to learn how
+to build volatility breakout strategies
+watch this video and I will see you
+[Music]
+there
+[Music]

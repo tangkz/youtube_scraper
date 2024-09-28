@@ -1,0 +1,223 @@
+if you are a Trader or an investor then
+most likely you've heard of the
+volatility index short called the vix
+the vix represent the market expectation
+of volatility over the next 30 days for
+the S&P 500 Index basically when the VIX
+Index reading is low that means
+everything is peachy and the market
+usually Trends up by the market I mean
+the S&P 500 Index and its component when
+the VIX Index spikes that means means
+there is fear in the market there is
+uncertainty in the market and usually
+the S&P 500 Index will be going down but
+every now and then it spikes and like
+all instruments in the financial Market
+actually like everything in the world it
+has a pattern and we can see this
+pattern so in this video we will see the
+pattern and I will give you the secret
+on how to trade the VIX Index this is
+season x a platform that discovered
+patterns for thousands of instruments
+and here I loaded the volatility index
+which again is called the vix for short
+this is the last 10 years and if I do
+this this will DET Trend so basically we
+discover the pattern without the trend
+also if you click this bug it will
+remove the covid shock in the market now
+once we do this we can see usually the
+trend of the vix goes down until middle
+of July and then it goes up until middle
+of October then it goes down again you
+can see it here also in the months now
+this is not a fluke of the past 10 years
+in fact if I go to five years you see
+it's almost the same pattern go down
+middle of July go up middle of October
+go down and then if I go to 34 years
+which is the total data can we see goes
+down up and down again now there is a
+mismatch Maybe by couple of weeks every
+now and then but to trade this pattern
+the best way to do it is through options
+look at this pattern so if you go from
+middle of July to about middle of
+October there is 76% chance that you win
+and the median return is about 15% also
+if I switch this to the last 5 years
+it's 100% win rate that means all of
+them win in fact I can fine tunit to do
+this
+and still it's 100 but I can make more
+money median return is 41% that is huge
+so this is an amazing pattern and like I
+told you every instrument has a pattern
+but the vix is easily traded with
+options and Futures and an ETF and you
+can do all this but of course the
+options and Futures are leveraged
+already so you don't need to put a lot
+of money to get the leverage but with
+the ETF you need to put a lot of money
+now the pattern I just showed you it's a
+minimum of two months 2 and a half
+months maybe so it's a long pattern yes
+high wind rate yes uh the median return
+is high but it's a long pattern but how
+can we trade the vix with you know
+short-term trading like I teach in this
+Channel all the time so this pattern
+will not we we cannot use this basically
+so we need to look for shorter term
+patterns now before I show you those
+patterns let me show you the VX with the
+S&P 500 Index on the same chart so here
+I have data for about 13 years the
+orange line is the vix and the green
+line is the S&P 500 cash index and if I
+zoom like
+this we can now see a pattern emerge
+which of course we know the vix moves in
+the opposite direction of the S&P 500 or
+you can say the S&P 500 moving the
+opposite direction of the vix now 10
+years ago usually the vix leads the S&P
+500 so you can look at pattern and the
+vix and trade the S&P 500 but due to the
+efficiencies in the market the speed
+hedge funds arbitraging every little
+thing in the market so I don't see the
+difference now you can look at pattern
+the S&P 500 and trade the vix or do the
+opposite look at pattern the vix and
+trade the S&P 500 but instead of doing
+this we should trade the vix alone and
+the S&P 500 alone and since the vix it's
+the opposite of the S&P 500 then the
+easiest way is just to trade the vix
+with the same pattern of the S&P 500 but
+instead of going long we go short now I
+mentioned this a million times on this
+channel the S&P 500 it's a Me reverting
+instrument that tends to drift lift up
+most of the time and the most successful
+strategies on the S&P 500 is a meere
+reversion strategy going long so that
+means using exactly the same everything
+we will use a me reversion to go short
+on the vix and because they are the
+opposite most every pattern that I
+showed you on this channel on the S&P
+500 will work on the short side on the
+vix here we are in multicharts
+and I loaded the futures of the VIX
+Index and this is our first strategy
+since we are going short using mirror
+version so we need some type of pull up
+so this is one of them if the current
+high is the highest high of the past
+five bars then we will short and we will
+exit after 10 bars so let's apply the
+strategy and see what we get so we have
+the strategy applied now for 17 years
+worth of data and we we have 261 trade
+65% win rate averaging
+$350 per trade that is really good
+average trade for the VIX Index we look
+at return to draw down ratio is 1.23
+that means we have a big draw down which
+you can see here we're making
+$91,000 with $773,000 almost
+$74,000 of a draw down and we can see
+the draw down it's happening here but
+remember we are holding for 10 days we
+have no stop loss no profit Target the
+next strategy is if the close higher
+than the previous close and the previous
+close higher than the two bars ago and
+two bars ago close higher than the three
+bars ago close then we will go short
+again there is nothing special here we
+are just waiting for a pull up so first
+strategy was looking at the highest high
+now we're just looking for higher closes
+in a row and then we will go short again
+we will exit with a fixed 10 bars and
+this strategy behaves much better we
+have 227 trades with 70% win rate a lot
+higher average rate
+677 and if we look at return to draw
+down is 2.17 again it's much better but
+still that draw down is really big big
+but now we are making
+$153,000 with about $71,000 in the draw
+down and the final strategy we will
+check is the RSI 2 above 75 will go
+short again no surprise here since I
+have 100 strategies on the channel going
+long when the RSI 2 goes below 25 so the
+opposite is when the RSI 2 go above 75
+then we short the VIX Index and this is
+the result 2 58 trades 65% win rate and
+284 average trade and the return to draw
+down here is almost one so we're making
+$73,000 and we have a draw down of about
+the same amount of money now remember
+all these strategies have a fixed 10day
+bar so which is usually long since I
+usually exit within 3 days but this is
+the safety exit we need a better exit if
+we get it and usually the better exit is
+the RSI so if the RSI goes below 25 then
+we should exit and the 10 bar will be
+our safety net so if we don't get the
+RSI below 25 then the 10 bar will click
+in so let's add that condition so this
+is how the strategy looks like we enter
+short when the RSI of the vix goes above
+75 and we exit when the RSI of the vix
+go below 25 if this doesn't happen
+within 10 bars then we exit now before
+you take these strategies and add a
+stop- loss or profit Target the first
+thing you should do is add a filter so
+let me test some filters on these
+strategies and see what we get so here
+are the results of the filter and if I
+sort by return to draw down look at this
+now we have six 5 4 3 many threes and
+twos all these are simple filters added
+to the RSI strategy on the vix so this
+is the first strategy with the filter
+77,000 and now our draw down goes to 12
+and A2 so it went from almost 73 to 12 1
+12 which of course going to make this
+look really really good this is another
+filter where we're making 79 and our
+draw down is 162 and this is the equity
+chart so you see how this goes you just
+add a filter and you'll get multiple
+different Equity curves that are much
+better than the original strategy so the
+secret to trade the VIX Index is use any
+successful strategy on the S&P 500 and
+flip it to the short side usually it
+will work most of the time sometimes you
+will need to tweak the filter and these
+are some filters added to strategy 2
+which was three up close in a row and
+then we go short and we can see again
+we're having multiple strategies with
+over three return to draw down ratio let
+me pick this one this is making 105 five
+the equity curve looks very very nice of
+course you can mix and match these
+strategies in a portfolio and they will
+all trade short on the vix using
+different filters so they will trade at
+different times if you like this video
+then you will love the next video
+[Music]

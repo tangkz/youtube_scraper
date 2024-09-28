@@ -1,0 +1,456 @@
+seasonal patterns are a great addition
+to any portfolio you need to always have
+at least one seasonal strategy in your
+portfolio this also could be called bias
+basically we are looking for a pattern
+in the instrument this could be intraday
+it could be daily it could be weekly and
+then you include that strategy in your
+portfolio because the driver of that
+return from the strategy will be totally
+different from any other style of
+strategy that you have in your portfolio
+now in my ATM I'll go trading
+masterclass I have this tool which is
+specialized to find those patterns in
+any instrument you upload from that tool
+you can get many patterns and build
+strategies out of those patterns and you
+can include those strategies in your
+portfolio that tool shows you intraday
+patterns or intra weak patterns that you
+can use but today I will show you a tool
+where you can discover many other
+patterns above the intraday the tool is
+called season act now I have done videos
+on season X but the app was updated many
+times and today I will include all these
+updates and give you a full review of
+the new tool before we go any further
+the basic premise for seasonal patterns
+is this imagine you have the curved
+performance of every instrument for
+every day of the year so this is what it
+looks like and if you stack them all
+together you get a curve like this
+basically you're averaging everything
+and you're getting every day the
+performance for the past however many
+years of data you have and then
+everything is built around that data so
+this is the original tool season X and
+first welcomed Edition is the black
+interface so if you go to your account
+and you click on dark
+you can see here
+save it go back and now you have a dark
+interface of course this is very
+welcomed addition it reduces the Train
+on your eyes now season X have data for
+Global markets for around 25
+000 instruments here you have the
+popular instruments and of course you
+can search and look for Global
+instruments and they have data up to 100
+years depending on the instrument I'll
+start first with the screener this makes
+it easier for you to find patterns so
+this automatically finds pattern that
+are coming soon so for example here this
+is the Dow Jones and the starting date
+of this is night because I'm recording
+this on the 9th of June but you can go
+further so 10 16 23 and 9th of July so
+every time you log into the screener it
+will give you about a month forward
+patterns then also you can decide on how
+many years you can include let's do 15
+and you can also decide on what's the
+time period that this pattern holds so I
+look for short-term patterns this is 5
+to 30 days and then you can filter by
+what's the win percent so let's look
+anything above 80 percent up or down so
+up for long the for shorts for example
+based on this I have Amgen and Johnson
+and Johnson these are two patterns that
+are found within these filters here you
+can pick baskets or you can click
+Commodities currencies U.S indices
+European indices your sectors European
+sectors and other indices around the
+world let's click on Amgen once you have
+the patterns so the pattern is
+highlighted and you get all these
+statistics so this is the performance
+per year this is the community of profit
+if you invested in this pattern for the
+past 15 years now this pattern holds for
+a month from 9th of June till 9th of
+July and if you annualize this the
+annualized return will be 68 so out of
+the last 15 years 80 percent of the
+trades were winners
+with a median return of 2.72 percent the
+average return is 4.4 percent this is
+the profit and points in this case this
+is a stock so every point is worth one
+dollar per share so this is in total how
+much you made per share 72 dollars per
+share so if you invested 1 000 shares at
+a time you would have made seventy two
+thousand dollars and then we have the 12
+profitable trades three losing trades
+the profit and loss on average and this
+number of Trades how many calendars held
+and how many trading days held because
+even though we have a month but in that
+month we had only 21 trading days
+and then you have the all the trades
+listed with Mae and MFE numbers so while
+the screener provides these automatic
+patterns we can of course look for our
+own pattern so for example let me bring
+crude oil so we can see that crude oil
+on average every Monday is down it's
+down what by point two percent and also
+very obvious here we can see that April
+May June are up and July to December are
+down now you might not see it here
+because this includes the trend you can
+D Trend and this is another good feature
+so if you click on this this is
+d-trended now and you can see that's why
+we can short from July till let's say
+middle of December and if we are
+shorting then this is profitable but
+this is 50 50. but what if we short
+from middle of October almost to Middle
+of December now we are much better place
+look at this this is 70 win trade
+because we are shorting it shows the
+opposite and our median trade is 8.25
+percent win rate that's huge percentage
+and I can go back so this is 10 let's go
+back to 25 years and again even in 25
+years look how this pattern is drawn now
+I can finish this let's say I can go
+here and pull back to here and let's say
+now I'm holding less but I'm making uh
+close to the same amount of money and
+let's say I like this pattern so the
+next feature now we have is we can save
+this pattern so if you go here this is
+the bookmark so if I bookmark this
+pattern now it's saved in my pattern the
+nice feature now we have is if we go to
+patterns we can go to manage patterns
+and this is my recent pattern so now if
+I click on it
+or any number of patterns that I have
+saved and I can add them to my calendar
+now you will receive an email three days
+before the pattern starts and three days
+before the pattern ends and actually I
+can go to patterns my calendar you can
+see here I have apple for this month and
+if I go to October here is my crude oil
+saved here so on Tuesday October 10th
+I'll receive an email saying this button
+will be alive in three days and of
+course if you click on it in the
+calendar it will take you to the pattern
+and everything inside so this is a great
+added features because now you can save
+hundreds of patterns and you'll receive
+an email three days before it happens to
+let you know that you can that this
+pattern is coming and you can trade that
+path also in the screener you have your
+own basket so for example this is
+dividend Kings these are the stocks that
+part of the dividend Kings which are
+basically increasing their dividends for
+the past 25 years
+so once you put those in it will also
+automatically search your basket of
+instruments and give you this pattern so
+although these are dividend stocks and I
+have a momentum system built on these
+dividend stocks that I use in the
+portfolio section in the community but
+the screener will also look inside your
+basket and will give you patterns so for
+example I can sort by annualized return
+so this is 44 going long and if I go on
+the downside
+this is 70 on the short side so let's go
+25 years
+so for the past 25 years this pattern
+made money if you short this stock
+between June 9th and 25th of June the
+win rate is 72 percent and you make
+annualized 65 the median is 2.62 per
+trade those baskets you can control here
+you can manage the baskets and you can
+add a new basket and so on so forth and
+each basket can hold up to a hundred and
+strong now season X is free to try so
+you have nothing to lose you definitely
+should try it and find some patterns to
+use in your trading you can use it as a
+signal or as a filter they have the free
+plan and they have basic and
+professional now with basic and
+professional if you switch to annually
+you will get a two months discount on
+top of that if you use my link you will
+get an extra 20 off on top of the 20 off
+annual with the paid plans you get up to
+100 Years of historical data depending
+on the instrument and you can import the
+custom data and also you can compare
+instrument to instrument another great
+feature is you can compare the current
+pattern to a previous year so for
+example let me so this is the SMP and
+there is a pattern here that's 76
+percent win rate the median is 3.26
+percent so if we click on more I can
+pick the years that I don't include for
+example 2002
+looks very extreme so if I click all I
+can exclude 2002 from the curve and you
+can see it barely changed but also I can
+compare it 20 years so for example let
+me compare it to 2012 and now the orange
+line is 2012 and the blue line is the
+average you can also compare it to
+another instrument so for example here I
+will add the triple Q
+and the orange line now is the triple q
+and the blue line is the SMP the next
+feature is you can upload your own data
+and of course when season X built this
+is because let's say you are in a
+country where your data is not part of
+the data inside sqx so you can upload
+all the instruments you want and you
+will find the patterns inside them so
+not only that you can also upload for
+example alternative day so for example
+this is the USC bot soybean oil number
+of Traders so you might get a pattern
+out of this data now of course if you go
+here there are many alternative data
+featured so look at this the agriculture
+weather and this is of course not free
+but you can see how you can build many
+patterns in alternative data and of
+course most likely you've heard of the
+commitment of Traders and you can get
+that data for free here from CFC dc.gov
+and you can get it for many many markets
+long and short and commercials and
+hedgers and so on so forth and you can
+import that data into season X now for
+example here I uploaded some custom data
+so this is a data set that I uploaded so
+this is not an instrument as you can see
+it's called stat Oasis data set and for
+example in this data set there is this
+pattern where if you hold it you can
+make
+9.12 median return with almost 60
+percent win rate
+and if we do this
+12 years of data I have here
+and I can de-trend it so to season X
+this is just like another instrument
+like Microsoft S P 500 US dollar euro
+dollar it doesn't matter to season X
+engine this is the same you feed the
+data basically the date and the close
+and that's it everything else will work
+now by far the best feature which I kept
+it to the end is the event feature they
+added this recently and this is just
+amazing because it takes so much out of
+building those events in your trading
+platform for example I did the end of
+the month trading strategy and you can
+watch that over here and now in this
+version of season X you can test this
+extremely easily let me show you how
+okay so here I have the S P 500 for the
+past 25 years and let's D Trend okay so
+now this is the new feature it's called
+events so if you you click on events
+this is the new chart 0 denotes to the
+event day so whatever event we will pick
+this is the event when it happens and
+this is 10 days before and 10 days after
+you can pick the number of days here
+from three all the way to 30. so let's
+stay with 10 and going back to the
+strategy that I mentioned if we go
+and pick our event so we will go to term
+of the month
+and first day of the month
+so now zero is the first day of the
+month that's the event date so for the S
+P 500 for the past 25 years 3D print the
+price
+we can clearly see that five days before
+the end of the month
+all the way to three days after the end
+of the month we have a really good
+pattern it's 64 win rate annualized at
+18 median is 0.67 now I can try to
+squeeze this and see if we can make it
+better so this is one day before end of
+the month and holding for three days and
+we get almost the same but holding less
+days so 61 win rate annualized and 0.61
+median return now turn of the month you
+can have middle of the month and again
+there is a pattern in the middle of the
+month so minus three all the way to plus
+one that means
+three days before middle of the month
+and holding for one day
+and this is the same pattern so it makes
+again 65 win rate and the median is 0.55
+so if you trade these two patterns twice
+a month because you're holding each time
+four days end of the month and the
+middle of the month you'll make 1.1
+percent on average per month for the
+past 25 years now in recent years this
+patterns behave even much better even
+though we can see clearly that I can
+build less one day
+and I can make more money okay so since
+this is the US indexes I assume it
+should work on the other indexes so this
+is triple q and again look it's like
+copy and paste let's go 24 years same
+thing this is middle of the month and
+end of the month
+again it's the same thing
+I expect to make money one day
+two or three days
+and this even the median is bigger and
+let's see the Dow Jones
+again it's profit so you see the
+programming part is gone you can test
+this on 25 000 instruments of course
+some patterns will have nothing to do
+with other instruments for example 10 of
+the month on let's say I don't know the
+Dax maybe but usually you can find
+really good patterns now it doesn't go
+in the on the day of the month there are
+many more patterns so if we go to
+Central Bank and this is the US Fed rate
+I do not know which one is this and how
+free that one I don't know
+uh but then we have the bank of Japan
+and the Euro bank so the Euro of course
+will affect the European indexes Bank of
+Japan will affect the Japanese index or
+the Japanese Yen and then of course the
+U.S fed will affect the US dollar or the
+bonds and interest rate in the US so if
+we take for example uh rate change
+and I put here the TLT which is the 20
+plus a year treasury bond so this is
+really good because we don't need to
+know ahead of time so after the rate
+change in two days and hold for three
+days there is a good pattern so let me
+go back this is 20 years median profit
+is 0.37
+65 percent win rate so this is
+annualizes almost 50 percent that's
+great this pattern is one day look at
+this one day
+so after a Fed rate hike
+four days you hold for one day
+you're getting 0.33
+median return per trade 72 win percent
+so this is better than the rate change
+and that's 400 annualized because you're
+holding on one day and that's why it's
+big and it's been working for the last
+20 years so again the testing is
+extremely easy and you can easily find
+something now I'm gonna look at the
+Ducks for Europe and let's look at the
+ECB rate change
+and let's look 25 years
+this is a great pattern
+so before a rate change this is the
+event date so seven days before we go
+along we hold for three days we're
+making on average 1.13 percent
+70 win rate that is an amazing pattern
+for the past 25 years
+again if you want to do something after
+so for example after a rate hike so
+we're looking for a pattern here this
+looks very promising
+and it is
+so eight days after a rate hike for the
+past 25 years median return is 0.85
+77 win rate and of course it's a huge
+annualized return because you're holding
+only for two days
+let's see if we have more data 43 years
+and again it barely bought 43 years this
+patterned produced wonderful results now
+of course we have much more patterns we
+have the elections we have future
+expiries
+holidays and I found one very
+interesting in Easter so Easter and Dax
+and look at this
+so two days before Easter one day after
+Easter so you're holding three days for
+the past 43 years
+76 win rate
+1.1 million return it's impossible that
+this is a chance so it's definitely
+something is there fundamentally and
+that's why this pattern works and now
+I'm going to try something different
+this is report and if you go to ISM
+Manufacturing this is in the US
+and since since this is affecting
+manufacturing I will pick here the xli
+ETF
+which is the industrial sector
+and if we pick last 24 years
+and we can see a pattern here from minus
+one two three or four so we're holding
+for four days we're making point five
+six percent median and 61 percent win
+rate and if we increase one day
+that's the same thing
+and if we start
+from minus five days to three
+now we're making 0.77 percent on median
+and same winning percentage so you can
+see it's on and on there are many many
+patterns this event thing is amazing and
+I'm sure they will update it with more
+events and it will be great if they let
+us add our custom event just like we add
+our custom data to build your own first
+day of the month strategy watch this
+video and I will see you
+[Music]
+thank you
+foreign
+[Music]
+foreign

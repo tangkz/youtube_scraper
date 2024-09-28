@@ -1,0 +1,298 @@
+hello everyone and welcome back to St
+OES Channel my name is Ali Casey and
+today we are delving into the latest
+update from strategy Quant X the
+platform released version 137 this
+August and there are many enhancement
+that I'm sure will excite the trading
+Community starting off is the spotlight
+on the final version of the stock picker
+engine sqx team has ironed out all the
+known bugs in the stock picker engine
+and they are making it ready to trade
+live on the algo Cloud which is set to
+launch this December now let's talk
+about the new algo wizard editor algo
+wizard has been Rewritten from scratch
+to be compatible with the algo Cloud
+platform and I can tell you now it is
+much snappier than before and also the
+discrepancies between the other
+platforms and algo wizard are reduced a
+lot you can see now we can have multiple
+strategies open and you can work on all
+of them at the same time the custom
+blocks and random groups are over here
+and I can tell you already it's very
+Snappy so for example this is a simple
+strategy that trades the S&P 100 stocks
+so it looks at if the open is greater
+than the 250-day moving average RSI
+below 30 the price of the stock is more
+than $10 and the volume is more than
+250,000 shares then it enters on a
+another move down and then it exits
+after 20 bars or after the price above
+the 7day exponential moving average so
+remember this is trading on 500 stocks
+but using the position score we will
+only trade 10 stocks at a time so the
+maximum positions we have is 10 and we
+will use this criteria to rank our
+strategies and this is the strategy
+performance results it's making 2 and a
+half million since 1990 these are the
+list of Trades and you can see the
+number of shares is using 10% per
+position so whatever our account is 10%
+of that goes to a single position
+because we have maximum of 10 position
+and here we have the log of all the
+position when we enter when we exit the
+equity chart and so on and so forth also
+we notice that we have new graphics here
+this is a much better for readability on
+the dark background and there are some
+few changes so for example here you can
+see now we have a version two of
+stagnation let me explain this to you
+and if we can zoom here so you see
+before this Red Bracket this is the old
+stagnation where it takes the highest
+high and it looks when we get into
+another high now the new stagnation
+which is version two basically it looks
+that for example since this point in
+2014 we were going up but at one point
+we went below this point so that means
+since 2014 until 2020 in fact we did
+nothing because we are back below that
+point so that's the stagnation period so
+only after this point where we broke a
+new high above this high and we didn't
+go back so stagnation 2 I think it's a
+much better representation now also
+because of this new custom block engine
+for algo Cloud we can build our own
+ranking factors so you see this is the
+original strategy and now I'm using my R
+ranking which is actually a copy of this
+and just written in a custom block and
+you can see we have the same performance
+but now if I change my position score so
+I'm going to use now the RSI
+ranking and let's run the
+test so now this is worse so you can see
+the original strategy is making 788 with
+25.6 draw down and the RSI writing is
+worse but now if I use another method to
+rank so this time I'm going to use the
+momentum
+ranking and now you can see we are much
+better so the original strategy is
+making 788 compound annual growth rate
+with
+25.67514 we saved 20% of our draw down
+and we enhance our compound annual
+growth rate by less than 1% but remember
+because this is since
+1990 this less than 1% translates to
+about
+$700,000 in terms of uh absolute money
+earned also I like these new colors
+because before these were all gray and
+you couldn't tell and now the draw down
+percent draw down are in red and you can
+easily find that out for the Mac users
+in the house good news now version 137
+works on M1 and M2 without anything
+although they say you need to look up uh
+what's needed on the website to make it
+work on M2 but I just downloaded the
+version there and I just installed it
+and it's running flawlessly the bad news
+is although I have the latest M2 Max Pro
+loaded with 96 gab of ram the
+performance unfortunately doesn't match
+my latest test PC so the number of
+strategies generated it's almost half
+what I get on my PC but still if you
+have a Mac laptop and you want to take
+it on the road uh without parallels you
+have now a version for Mac that works
+flawlessly back testing is crucial for
+any algo Trader and strategy quantex
+team made some fixes to the engines and
+now it's has much better compatibility
+with multicharge race station and mt4 so
+for simple strategies I I found that it
+is excellent actually but for
+complicated strategies unfortunately
+you're still looking for
+correlation rather than the exact number
+of Trades and the average trade and so
+on so forth but still I can tell that
+137 is much better than 135 of course
+136 is out because we don't want to talk
+about that version so here we have
+version 135 on the left and version 137
+on the right and and I loaded rsi2
+strategy it's an extremely simple
+strategy RSI 2 below 25 we buy when the
+rsi2 above 75 we sell there are no
+profit Target no exit after number of
+bars there are no conditions nothing
+it's a plain simple so just we can
+compare and we are running it on the
+same data which is the export from trade
+station this is the S&P 500 futures
+daily session also same amount of data
+on both both you can see and we are
+using the same money management so
+100,000 and we are using one contract
+fixed and the results here can see we
+are making 160,000 with
+31675 draw down and if we check version
+135 we are making 161 so the difference
+is very uh minimal and the draw down is
+31675 exactly the same number of Trades
+338 338 so exactly the same so now I'm
+going to copy the code from both and
+insert it into two charts in multi-
+charts to see the difference so in multi
+charts here this is both the same charts
+I just did the different representation
+this these are bars and these are uh
+candlesticks so on the left I exported
+the code from version 135 and on the
+right I exported the code from version
+137 and here we can see both perform
+exactly the same so the code from 135
+and 137 performs exactly the same now we
+are going to compare both in a little
+bit complex strategy so it's the same
+RSI but now the entry is a limit order
+with 25% below the close also we will
+exit after three bars or an ATR profit
+Target of two or a trailing stop of 28
+RS also and same thing here you can see
+we are entering at limit uh same
+conditions so let's run a full back test
+here and let's run a full back test here
+and now if we check both strategies we
+can still see that the performance is
+very close so 113,000 profits here is
+112 So it's almost about 1,000 the
+difference between number of Trades is
+one and same draw down and again here I
+put version 135 here and version 137
+here and if we look at the results it's
+again exactly the same 105 uh percent
+profitable 61 428 Raad of course the
+equity curve is matching very much the
+equity curve in sqx as you can see here
+version
+137 and this is multi-charge version 135
+and the equity curve is exactly the same
+now the problem arise when you use the
+data mining feature of strategy Quant X
+to build strategies and then take those
+to multicharge or mt4 or trade station
+from my testing there are still
+discrepancies between sqx and those
+platforms but the equity curve is highly
+correlated and that's what I teach my
+students all the time is you want to
+look for the correlation and forget
+about the exact number of trades or the
+exact amount of profits or Draw down in
+my head this game will never end because
+sqx will always try to follow up what
+trade station or multicharge or mt4 is
+doing in their engines and their updates
+in fact just today trade station updated
+their engine so when I updated trade
+station whatever they did sqx doesn't
+know and now they have to figure it out
+and they have to match it and so on so
+forth but at least if the equity curve
+is correlated then I don't mind of
+course as always data plays a big role
+in that discrepancy so you always need
+to match the data that are testing with
+the data that you will trade on of
+course in my test I am trading on trade
+station or multicharts using trade
+station data and that's where I imported
+into sqx to test so as to reduce the
+discrepancies as much as possible and
+that will bring us to the data manager
+they did a lot of enhancement to the
+data manager it's more stable now and of
+course now you have the stock groups and
+you can Define your own groups in terms
+of ETFs or stocks or anything that you
+want want to put inside a group in data
+manager now we have a special tab for
+stock groups basically here you can add
+any group that you like and the
+advantage here is you will get rid of
+survivorship bias so you can see in the
+number here for example the S&P 500 the
+number of stocks currently is 543 but
+the total number of stocks is 12294
+that's because since
+1980 there have been 1294 stocks that
+were in inside the S&P 500 at one point
+in time so this group here will have the
+dates of the stocks that went in and
+went out so when you test any strategy
+on the group it will have the exact
+matching stocks at that day that you are
+testing so for example if you are
+testing any strategy on the S&P 500
+let's say in 2004 the constituents of
+the S&P 500 in 2004 are different from
+today and therefore this engine now will
+trade on the stocks that are part of
+that list in 2004 so you will get a much
+better accurate results than today so
+that is an extremely important feature
+and also you can add your own group with
+your own date so for example let's say
+you want to add the M highest momentum
+uh stock so you build your filter and
+you get your stocks and then you can say
+when that stock enter your group and
+when it exited your group so this is of
+course huge it will open a huge
+opportunity for new strategies on
+special group or special sectors inside
+the uh stock market but that's not all
+there have been several updates in the
+preceding months like the addition of
+new Snippets new indicators and the News
+stable algorithm for T free mt5 expert
+advisor which I know nothing about
+because I don't use Mt platform now
+strategy Quant continues to evolve
+addressing user reported issues
+enhancing its platform for better for
+more efficient algorithmic trading
+Journey as you can see they are not
+stopping at version 137 in fact they're
+already working on 138 resolving all the
+bugs all the time this is like a
+NeverEnding task and of course that is
+an extremely good news for us Traders
+because that means that the team will
+always make sure that the platform works
+better of course I'll be keeping a close
+I on the launch of the algo cloud and
+you can expect a detailed review Once
+that happens to check out my full
+tutorial on how to build strategies
+using strategy Quant X click on this
+video and I will see you
+[Music]
+there

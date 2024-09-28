@@ -1,0 +1,411 @@
+is your portfolio not performing as
+expected You Are Not Alone most Traders
+and investors struggles to build a
+robust profitable portfolio but you are
+in luck because I'm going to teach you
+how to construct a robust profitable
+portfolio most people struggle to build
+a robust portfolio because first of all
+they lack the number of Diversified
+strategies to pick from and construct a
+portfolio and even when they do they
+like the tools and the workflow to
+construct a robust portfolio so let's
+dive into this stepbystep guide on how
+to construct your portfolio first of all
+you need a lot of strategies that are
+tested for robustness and been developed
+earlier now this is totally separate
+subject and that's what my algot trading
+Master Class teaches you to do but once
+you have this database of robust
+strategies now comes the part of
+constructing the portfolio and step
+number one is we need to define the goal
+of course most people will think that I
+want to make most amount of money and if
+that's the case then it's extremely easy
+you pick the highest profitable
+strategies put them in a portfolio and
+start trading but in reality you don't
+want the highest profit but you want the
+highest profit with the lowest draw down
+and that's called return to draw down
+ratio because you don't want to make
+let's say double the amount of money but
+suffering 80% draw down because in
+reality you will not be holding that
+portfol folio in that draw down step
+number two is diversification now most
+people think that diversification comes
+from different markets and unfortunately
+that's not true in reality most
+diversification comes from the direction
+and the style of the strategy let's
+think about this for example if you're
+trading crude oil long and short so two
+strategies one going long one going
+short so obviously both of these
+strategies are highly Diversified
+because one is going in the opposite
+direction of the other also you can add
+time so if you're trading intraday
+that's going to be different than daily
+going to be different than weekly you
+can add the style so meor reversion
+strategy by definition will go the
+opposite way of a breakout strategy so
+by diversifying Direction the holding
+amount of time the style of the strategy
+longterm and short term you will get
+huge divers ification rather than the
+market itself because you can easily
+trade crude oil and natural gas and you
+will be highly correlated step number
+three is tools so you will need some
+tools to construct the best portfolio
+unfortunately without tools you are very
+limited in the things that you can do
+let's say you have 100 strategies if you
+don't have any tools then you are
+limited let's say to Excel or Google
+Sheets then you can upload the trading
+data for the strategies do your
+correlation and then out of the
+diversification that we talked about in
+step two and the correlation then you
+will try to combine some of them in a
+portfolio this is an example of about uh
+50 strategies and you can see how hard
+it is if you do this in Excel assume
+this is Excel is the same thing I'm just
+showing the correlation between these
+strategies so from the correlation you
+pick let's say this one and this one and
+you basically you combine some of them
+with different time frame and like I
+mentioned it's a trial and error but if
+you have tools then of course you can do
+much much more and today I will
+construct the portfolio using strategy
+Quant X portfolio module so here we are
+in strategy Quant X and we are in the
+portfolio master module so I loaded here
+a
+249 strategy
+now you can do this with any number of
+strategies but I'm going to pick
+something simpler to explain what I am
+doing so in this data bank I have 59
+strategies and I picked 54 only I
+excluded the crude oil so like you can
+see here we have A6 CT DX these are all
+Futures except for the USD JPY this is
+Forex and I excluded the crude oil so
+out of this whole Data Bank I'm only
+going to use 54 strategies the one that
+are picked to construct a portfolio so
+first of all we are starting with robust
+strategies that been developed already
+and stored in the datab bank so now we
+go to full settings and let's look at
+our options so this is the data bank
+that I will be using so like remember
+it's this one strategy bank and see
+here's 59 remember I picked 54 so I need
+to say only selected that means I will
+only pick from the selected strategies
+in the datab bank so in this case I'm
+not using crude oil in this portfolio
+and then we will store it in portfolios
+now the number of strategies I want to
+pick between five and 10 now this number
+is up to you but I recommend between
+five and 15 actually 15 is a good number
+but let's do 10 now for Simplicity out
+of all these VAR ations from the
+strategies and the portfolios we will
+only store 10 portfolios that doesn't
+mean we will stop after 10 we will keep
+working because you see in the next step
+we are ranking so we are ranking the
+portfolios that we are developing so
+when a better portfolio will come
+through the ranking we will replace it
+and I will show you this in a second and
+then we have sector selection currently
+this is not working I'm in version 138
+so basically what you you need is in
+data manager these symbols has to have a
+sector so when you come here and you can
+say well don't pick from this sector
+then it will affect it currently I don't
+see the effect and even if it's there is
+an effect there is no way to tell which
+Market belonged to which sector I mean
+there is no definition for that and then
+we have correlations so obviously we
+want low correlations so I will use uh
+correlation by week for profit and loss
+and we will
+use3 and I will allow negative
+correlation so that means a strategy
+could be correlated up to3 and negative
+correlation is allowed now correlation
+can be done through multiple ways it can
+be done on the open positions on the
+number of positions or on the profit and
+loss in this case I'm taking profit and
+loss because that's what we are most
+concerned with so for example if you
+have five positions open but they all
+yield to let's say profits that means
+they're already correlated so why would
+I care if they are open or not I care
+about the correlation of the profit and
+loss now the position correlation comes
+handy when you want to find out how much
+money you need to trade because if you
+have five positions open most of the
+time highly correlated that means you
+will need more money to trade this
+portfolio but but we can do this later
+on with Monte Carlo so we are not
+concerned with it right now okay so we
+are good with this let's close now the
+return to draw down here is only for
+ranking the number of portfolios so for
+example if I develop 100 portfolios I
+will only pick the top 10 based on
+return to draw down but what the
+portfolios are graded on is this so we
+have the most flexibility to build our
+portfolio so let me scroll down so for
+example here I want the minimum return
+to draw down is to be five so even
+though I am ranking but the minimum is
+five so I will not have a
+portfolio less than five return to draw
+down ratio next we have profit Factor so
+no portfolio will be less than
+1.3 next I added number of Trades so
+every portfolio will have a minimum of
+500 trades now of course this is
+extremely flexible because you can come
+here and add any value you like out of
+these so you can see the possibilities
+are endless and it's not about adding
+many it's about adding something you
+like so for example I don't want my open
+Draw down to be of a certain value in
+dollars or in Pips or in percent and so
+on so forth let's keep our portfolio
+constructions simple and let's start
+with these finally we have the data
+range So currently I have from 2019 till
+uh 2023 this is the data I have now I
+have older data but I'm not going to use
+it because some Futures they don't have
+all the data and now we come to this
+part which is we are going to use brute
+force or genetic search so unless your
+Brute Force variations come to let's say
+a thousand then it it's you cannot use
+it because anything above a th000 will
+take a really long time to do so most of
+the time I would say
+99.9% of the time you will use genetic
+method because you can tell like really
+the possibilities are in billions
+sometimes in trillions and I'll show you
+how simple this is so going back to this
+remember I have 15 four strategies
+selected and we are constructing a
+portfolio between five and 10 so in your
+head you would think maybe this will
+bring a 100 variations or a thousand but
+if you go to progress let's put this
+down and you click on this number this
+is to refresh and let's count this 1 2 3
+1 2 3 1 23 so this is 30
+billion variations out of only 54
+strategies so you can see how this is uh
+extremely extremely hard to do with
+Brute Force so you should always pick
+genetic search now if you think this
+number is wrong which I thought about it
+so we can test this so I ask chat gbt I
+have 54 strategies would like to
+construct five to 10
+strategies and without the position of
+the strategy making any change so let's
+say if strategy a position number three
+or position number seven it doesn't
+matter and it did its thing and this is
+the result it's 9.6 billion variations
+now I know sqx is showing 30 I don't
+know why but at least we know we are in
+billions so uh it's not a fluke so here
+we are and let's go to portfolios so
+remember we are taking strategy Bank
+selected only and we are putting the
+results in portfolios so let's startop
+this and remember we ask it to come up
+with 10 but once we reach 10 you will
+notice something will happen so here we
+are at 10 but you see there are some
+variations happening and that's because
+whenever the process finds a better
+portfolio in return to draw down ratio
+so if I sort on return to draw
+down so here we can see 1509 and the
+lowest is 12. 17 so you see whenever it
+find a better portfolio it will replace
+the lowest one so currently we have
+12.48 and now we have 12.51 so it will
+keep doing this forever I mean it will
+not stop because it has 30 billion
+variations to go through now let me stop
+it and now we have our 10 portfolios and
+first thing I want to bring to mind is
+the rejected detail so if we click on
+this let's see so you see 61% % of the
+rejection because I have less than 500
+trades so this is important to know
+because let's say if you want more
+variations or you're not getting what
+you are looking for then this is the
+first thing to play with is to reduce
+the this requirement or to remove it all
+the next one is the uh profit Factor 1.3
+and 20% of that and then you notied that
+the correlation is even before the
+return to draw down that means what that
+means my return to draw down actually is
+not doing anything look at this it's
+1.4% rejection because of return to draw
+down so we might as well remove this
+condition Al together and introduce a
+new condition because currently this
+condition is only adding complication
+without any advantage now of course this
+is an pursuit of many many variables
+because like I showed you you you have a
+huge library of variations so once you
+click here you have a huge library to
+choose from and to pick what you want so
+for example I can add edge ratio or
+efficiency ratio and those might produce
+better portfolios now once you go
+through this maybe you know two three 10
+times you will find the most effective
+filters for your portfolios because
+remember these are filters just like
+strategy filter okay so here is our
+first portfolio and this is the weekly
+profit and loss correlations and as you
+can see they're all of course below
+three because we already stipulated that
+in our conditions in our Equity curve
+let's put this down uh so this is our
+Equity curve and you notice that we have
+a stagnation of
+661 days and you notice there is a in
+Sample and out of sample so this is the
+out of sample since half of 2013 so
+strategy Contex is using 30% as in
+Sample and the rest as out of sample 70%
+as out of sample now uh you cannot
+control this for now but it would be
+nice to have control over this in Sample
+and out of sample and I'm sure as this
+uh module develops they will be adding
+these uh more and more because I think
+what the sqx team is trying to do is uh
+bringing everything in Quant analyzer to
+sqx now we can see the strategies inside
+so you can see here these are the curves
+of the strategy and here the colors of
+the strategy So currently we have uh GC
+uh USD JPY es j6 another es remember I
+told you that the currently you cannot
+control which markets or how many
+strategies from a single Market this is
+our trade analysis is and list of Trades
+and of course it will list uh all trades
+so here they are sorted by time so this
+is es J USD JPY another es here we have
+GC and so on so forth now you can see of
+course long short separately in Sample
+out of sample
+separately and also you can pick every
+strategy separately so let me see this
+strategy alone really the implementation
+of this portfolio module is one of the
+best I've seen in the market okay so
+let's say now I have this portfolio and
+I want to add a crude oil strategy to
+this portfolio so this portfolio has no
+crude oil because I didn't use it so
+let's copy the portfolio and let's put
+it in a new datab
+bank and then let's copy the
+strategies and put them in this datab
+bank so now I have this portfolio and
+and five crude oil strategies so we will
+use the portfolio and the five crude oil
+strategies so this is the source Data
+Bank no need for only selected we will
+use all of them and we will put this the
+port new portfolio in temp now we have
+the portfolio and a strategy so this
+will act as one strategy so we want two
+so two that means hopefully it will use
+the portfolio and one of the strategy
+now sometimes it will use two crude oil
+strategy because remember this doesn't
+work currently same data we have and
+again we are using genetic although in
+this case we can use brute force because
+the number of combinations will be very
+low so we can see all of them and I will
+not pick any of these because I want to
+see all the iterations and let's see
+when we get so if I go back to progress
+let's refresh this so you see we have
+Max maimum of 28 variations so we're
+doing brute force and I will increase
+this to 30 to have all of them and let's
+start the process and we should see all
+of them here so 26 only although it says
+28 so I don't know what happened to the
+other two but in any case now we want to
+look and see which one of these produced
+our portfolio with crude oil so let's
+click and let's go to equity it so this
+is two crude oil so this is also two
+crude oil but the third one is our
+portfolio plus the crude oil strategy
+this one is also our portfolio and
+another crude oil now this crude oil
+strategy is
+1356 and this one is 1101 in reality we
+should have five variations because this
+portfolio with this one or with this one
+or with this or so only five VAR iations
+should be left and if you scroll through
+these you will find all five variations
+so without going through all the trouble
+of rebuilding your portfolio from
+scratch you can delete a strategy from a
+portfolio and introduce a new better one
+once you are happy with the portfolio
+then you can take that and trade it each
+separately because the strategy is this
+is not a combined code each strategy is
+a separate code and you need to put it
+on a separate chart and trade it
+separately if you liked what you watch
+so far then you will love this next
+video
+[Music]

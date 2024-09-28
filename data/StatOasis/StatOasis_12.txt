@@ -1,0 +1,237 @@
+are you tired of your strategy not
+performing or not working at all and
+without looking at your strategy I can
+tell you most of the time it will be the
+lack of filters really strategy filters
+is the most important component of any
+strategy now most Traders don't
+understand this critical part because
+they think of a strategy as a black box
+like it's a bunch of statements even if
+you're discretionary you probably have
+many notes trend line and Fibonacci and
+blah blah blah but you don't know really
+any strategy has to have three critical
+components entry exit and a filter in
+the middle so regardless of how many
+statements how many conditions you have
+usually your strategy has an entry for
+example three close in a row the close
+below Ballinger bands the close is the
+lowest in the five days the moving
+average cross below the longterm moving
+average and so on so for that's an entry
+an exit usually a stop loss a profit
+Target an indicator or a certain price
+level and so on so forth but the filter
+which is the most important part of a
+strategy it's what lets the strategy
+trade in a favorable environment and
+that's what makes a so so strategy jump
+to a really good strategy or a really
+good strategy to be an amazing strategy
+and unfortunately most beginner Traders
+overlook this critical part which is the
+strategy filters so in this video I will
+show you the most important filters and
+they usually sit in five categories so
+as you progress in your trading career
+you will start to accumulate filters and
+you'll start actually to know
+immediately that what filter will work
+with what strategy but even if you don't
+know if you collect bunch of filters and
+you run it through your strategy one of
+them will will definitely enhance your
+strategy metrics and those filters are
+not optimization so a filter is a fixed
+filter for example a binary filter which
+is above the 200 day or below the 200
+day moving average that's it it's a very
+simple filter now of course you can
+optimize this look back period but I
+don't recommend that you need to fix
+your filters and it's either going to
+work or not but you can add many of the
+same so 200 day moving average you don't
+want to add 195 or 180 maybe you want to
+add 100 because that's a huge difference
+between 200 and 100 now that we know how
+filter affect the strategies let's start
+with our best filter the first category
+and the most important one you should
+add in Your Arsenal is volatility
+filters really this is usually the best
+filter to apply to any strategy and from
+the same volatility filters apply
+volatility to your trading strategy so
+S&P 500 index for example has its own
+volatility measure which is the vix the
+vix uses the options expiry in 30 days
+to derive the volatility in the S&P 500
+so this has nothing to do with the price
+of the instrument other instruments have
+the volatility measure usually through
+standard deviation or the a average true
+range so for example if the average true
+range of five bars is greater than the
+average true range of the five bars one
+bar ago that means your volatility is
+expanding if your Ballinger band width
+is expanding again that means your
+volatility is expanding if your Kelner
+Channel expanding that again means your
+volatility is expanding because Kelner
+Channel uses the average true range also
+if you take the range of the bar the
+simple range of the bar the average of
+that range of the bar expanding means
+also volatility is expanding and of
+course you can mix and match between
+these two they don't have to be
+expanding Contracting you can say well
+if the range today is the highest in the
+previous 10 bars even though that we
+were shrinking that means we just
+expanding second most important category
+in filters is Direction sometimes it's
+called Trend sometimes called momentum
+they all mean the same thing basically
+we want to go or trade a breakout
+strategy with the direction of the trend
+so if the trend is up I want to wait for
+a pullback to trade a me reversion or I
+want to trade a breakout to trade long
+with that Trend I don't trade a short
+breakout when the trend is up even
+though I might make money but most of
+the time I will lose money so my win
+percent will be affected or my draw down
+will be big so an example of a trend or
+direction or momentum filter is rate of
+change so rate of change will tell us
+the momentum the moving average will
+tell us the direction or the trend third
+category of strategy filters is
+structural filters these filters usually
+have something to do with the instrument
+itself so for example the US indexes has
+something called the advance and decline
+ratio for the S&P 500 we measure the
+number of stocks going up and we measure
+the number of stocks going down and we
+divide those and we get ratio that ratio
+will only apply to this index and the
+stocks inside this index so for example
+we cannot use the advanced decline ratio
+on crude oil Futures but we also have
+something that in the Futures that
+doesn't apply to stock so for example
+commitment of Traders on gold has
+nothing to do do with stocks or with
+crude oil also we have other structural
+issues like volume so volume usually has
+nothing to do with price and usually
+that's also a good filters and again
+like all the other filters you can build
+many of these at a fixed rate so for
+example if the current volume greater
+than the average volume of the last
+three days then that's a filter so those
+structural filters has nothing to do
+with with the trend or the volatility
+category number four is one of my
+favorite which is pattern filters
+pattern filters are like literally
+thousands you can build because there
+are so many variations it's actually
+impossible to encapsulate all of them
+for example let's start with the bar
+patterns now these are not Candlestick
+patterns which are usually one or two
+you can build multibar patterns which I
+actually have this tool built in
+strategy quantex and in trade station
+and multi- charts where you take five
+bars and you build all kind of
+variations in those like two close down
+three close up two open down three close
+up higher highs higher lows so for
+example we can say if the close today is
+lower than the close of yesterday and if
+the close today is lower than the last
+10 closes then that's a pattern or if
+the high today is higher than the
+previous High High and the high of
+yesterday is higher than the previous
+High that's also a pattern you can mix
+and match like literally like I
+mentioned millions of these but I
+suggest you pick maybe I don't know 100
+of them and fix them and those will be
+in your category of filters for the
+pattern filters and last category for
+strategy filters is seasonal now
+sometimes this is called time or bias
+but usually I call them seasonal
+patterns because they encapsulate
+everything that has to do with
+seasonality now you can have intraday
+seasonality for example don't go long on
+Mondays but go long on Tuesdays so
+Monday usually it's bad to go along on
+certain instruments or don't trade in
+the uh us morning session that's
+intraday seasonality or don't trade
+don't go long let's say in September
+that's a monthly seasonal pattern also
+you might go long on the end of the
+month I have a video on that where you
+can trade on the end of the month
+because usually the end of the month has
+a drift upward so that's good to go long
+on stocks and indexes so that's also can
+be a filter which is to only trade at
+the end of the month last week of the
+month or first week of the month usually
+seasonal filters will be few like you
+cannot build a million or hundred of
+them so maybe I don't know 10 20 40 uh
+filters will be the maximum you can get
+with seasonality the more you add then
+you're just adding kind of the same so
+this category is the lowest number of
+filters you will have usually now some
+filters might jump between these
+categories so you might say well the
+narrowing range is a volatility filter
+but it's also a pattern filter so some
+of them will overlap but most of them
+will not but the idea of creating
+categories for these filters is
+extremely extremely important I didn't
+do it to put a list for you usually you
+can mix some of these filters without
+affecting the strategy optimization for
+example if I mix volatility with
+Direction I'm actually using two
+different drivers for filtering so a
+long trend has nothing to do with the
+volatility expanding or shrinking or a
+dodgy pattern mixed with don't trade on
+Fridays also has nothing to do with each
+other so they have two different drivers
+so usually by mixing two or three
+filters from these categories will yield
+a better strategy of course you keep
+diminishing the number of Trades which
+is you need to keep an eye out because
+you don't want to start with a strategy
+of 500 trades and end up with 30 trades
+so you need to be careful with how many
+filters you add let me know what your
+thoughts on these filters and if you
+have any favorite ones and if you like
+this video then you will love the next
+video
+[Music]

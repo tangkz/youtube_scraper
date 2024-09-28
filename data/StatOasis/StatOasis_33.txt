@@ -1,0 +1,256 @@
+have you ever wished for a trading
+strategy that is both simple and
+effective what if I told you that such a
+strategy existed since 2009 and still
+making money till today and not on
+single instruments but on multiple
+instruments back in 2009 Larry Connors
+published his book short-term trading
+strategies that work and they do work
+still till today there are many
+strategies published in this book and
+one of them is called double seven it's
+saying mere version strategy there is no
+surprise there as most of flurry Conor's
+strategies are mere version I'm also in
+that camp I'm slowly tilting towards
+more mere reversion strategy the premise
+of the strategy is really simple we are
+looking for a pullback and in this case
+it's 7 days pullback so when the close
+is the lowest close compared to the
+previous 7 days we will buy and when the
+close revert back to the mean meaning
+when the close is the highest close of
+the past seven trading days we will
+close the trade and here is the code in
+Easy language so it's two lines if the
+close is the lowest close for the past
+seven days we buy and if the close is
+the highest close of the past seven days
+than we sell Larry Connor's added a
+filter which is usually works very well
+for enemy reversion strategy on the
+indexes and the filter is this is the
+close great than the average close of
+the past 200 days basically it's a
+simple moving average the past 200 days
+and this is not optimized you can use
+any number and it will work here I'm
+using multichart and I have the data
+loaded for spy Spy is the ETF for the
+S&P 500 and the data here is since 1995
+so the strategy is applied and we are
+using all the account to buy the maximum
+number of shares this is usually the
+best way to test stocks and ETFs because
+stocks and ETFs when you go back they
+usually smaller
+price and in order to make all trades
+equal in strength you need to use all
+the account as the best way of course
+you can use position sizing but to make
+it simple just use all the C and that's
+why you see different number of shares
+so for 10 419 393 and even though in the
+account here is more money you can see
+where are buying less shares is just
+because the price now is a lot higher
+now the usual problem with any me
+reversion strategy is this when the exit
+parameter doesn't happen quickly so
+usually you get a big draw down see also
+this even though the trade is profitable
+the draw down was big now obviously what
+you want is like this where you buy and
+you keep going up and then you exit also
+notice that we are not holding for 7
+days this this is the seven is just the
+close compared to previous closes so it
+could happen the next bar and so you can
+see here we are holding five days here
+we are holding 15 days and so on and so
+forth and for example this trade we are
+holding only one day because the next
+day the close was the highest close of
+the past 7 days here is the performance
+of the strategy like I mentioned we are
+using the whole account to buy so we
+make
+$135,000 our biggest draw down is
+$25,000 so that gives us 5 to1 return to
+draw down ratio since
+1995 and if we look at the trades we
+have 274 trades and a win rate of
+77% on average we making about
+$500 now remember this strategy has been
+trading for 28 years here but it's been
+out of sample for 15 years and the
+amount we are in the market is about 30%
+sent and let's see the out of sample so
+the book was published in 2009 and the
+research was until 2007 so we have about
+15 years of out of sample and in those
+15 years we have four losing years and
+the rest are winning years so that is a
+great testimony to this simple simple
+strategy now to me starting with
+strategies like this and add your own
+spin on it is the best way to build a
+portfolio instead of trying complicated
+strategies or machine algorithms just to
+find strategies that are complicated I
+would much rather use a simple strategy
+and just add a simple spin on it like
+adding my own filter and you will
+already have a proven strategy because
+you already see the art of sample trades
+and by adding our filter we just change
+the profile of the strategy and now add
+it to our own portfolio but before we do
+that let me just also show you that 7
+days was research up to 2007 and in fact
+today because there are more
+participants in the market it makes
+sense to make the seven days shorter but
+you know we cannot just talk let's test
+that theory so here we have the entry
+and exit and let's test them from 2 to
+10 now I expect the shorter period to
+make better money but let's see so 81
+combinations in
+total and here are the result and if we
+sort by return to draw down so here is
+our original strategy out of 81
+combinations our original strategy is at
+32 so we have 31 strategies better than
+hours and let's look at the top 10 so
+three and six so that is what I expected
+it's the shorter time that makes more
+money so 3 six 4 and six 2 and six 4 and
+five 4 and S all all the way up to here
+so the first 11 strategies at the top
+like I expected shorter term makes more
+money or makes better risk adjusted
+return but here we have three strategies
+that is a surprise to me this is 10 and
+four 10 and six and 10 and S I don't
+know what to say but obviously we will
+have less trades as you can see because
+we're waiting for 10 lower closes so you
+can see this is 200 200 and also this
+200 while all the others are uh 400 and
+500 and this is 800 now if I pick the
+best risk adjusted return so this is
+strategy number
+one and let's look at the performance so
+this is since
+1995 and the out of sample is now 3
+years instead of four down years but
+overall the strategy performs much
+better in terms risk adjusted return
+which is which is basically we're saying
+how much money we are making compared to
+how much money we are risking next we
+are going to test the original strategy
+on multiple ETFs now Larry Connor in his
+book he tested I think three ETFs which
+probably at the time we didn't have as
+money like today we have thousands so I
+compiled a portfolio of roughly above 40
+ETFs many countries Commodities oil gold
+and sectors and so on so forth so just
+to see how the strategy will perform on
+these ETFs so this is a portfolio of 45
+ETFs these are the Spy ETF with
+different weights and then Asia Pacific
+Japan small caps value caps Euro Zone in
+India Canada Russell and sectors it's a
+very diverse list of ETFs so let's back
+test the same strategy so this is the
+original strategy buying 7day close low
+selling 7day close High and the filter
+is the 200 day moving average and here
+are the results of all ETFs and as
+expected the spy and of course these
+derivatives of spy and then the Dow
+Jones and all these countries they all
+behave almost the same way they are me
+reverting and then the DBC Uso this is
+oil and commodities and then this is I
+think gold and this is AR invest ETF and
+I don't know which one is this I forgot
+but you can see that all these ETFs
+perform extremely extremely well even
+though they totally represent different
+underlying asset so for example this is
+the emerging and this is Japan this is
+small cap and this is the world index
+without the US I think then if we go
+down and look at these these are all the
+sectors so yeah yes of course they are
+part of the S&P 500 Index but alone they
+perform differently now previously in
+the video I told you the best way to
+develop new strategies is to use an all
+strategy that is performing in out of
+sample and add your own spin on it and
+your own spin is usually a filter so the
+more filters you accumulate the more
+diversification you add to your Equity
+curve even on the same strategy let's
+see this in action here I have four
+versions of the 7 strategy they're all
+applied to the same data which is the
+Spy this is just to show you that
+diversification comes from different
+strategy filters even on the same
+instrument so here I have my template
+strategy this is a big template I'm not
+going to bore you with the details but
+basically I'm using a different filter
+in each strategy so for example this is
+27 57 91 16 and so on and so forth the
+idea is they're all using the same entry
+and exit so 7 Days low to entry 7 days
+high to exit but the filter now is
+different instead of the 200 day moving
+average I have something else and like I
+always say usually Direction and
+volatility are the best filters although
+there are hundreds of other filters so
+if we back test this now and this is
+very interesting it's the same strategy
+the 7 on the same instrument but I'm
+only changing the filter and by just
+changing the filter look at the
+correlations This is highly correlated
+67 this is 0.25 and this is 0.1 so this
+is like totally different strategy it's
+like totally different instrument this
+is zero correlation now also some of you
+might say well you know 67 this is you
+know highly correlated but still I would
+much rather split my capital in two
+trade this one and this one rather than
+all the capital on one strategy because
+even though it's the same instrument
+it's highly correlated but still I'm
+getting diversification in this case I
+divide my capital in four buckets and
+Trade four strategies instead of trading
+one strategy with all my capital and
+here we can look at the performance of
+this portfolio so yes we have draw Downs
+that doesn't mean we get rid of draw
+downs but in fact if I spend more time I
+can find better filters that take care
+of this draw down meaning I will find a
+filter that performs better in
+down markets and added to the strategy
+so I make a smoother Equity curve to
+learn more about Larry Connor strategies
+that work watch this video and I will
+see you
+[Music]
+there

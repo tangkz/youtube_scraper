@@ -1,0 +1,339 @@
+I get this question a lot from viewers
+of the channel and from students in my
+alga trading master class which is when
+they build a strategy trading Futures
+and then they want to take it to trade
+cfds usually the strategy fails also the
+following question usually is why should
+I trade Futures instead of cfds if it is
+available in this video I will show you
+the huge differences between cfds and
+Futures and which instrument that I
+prefer to trade and which instrument
+that you should be trading first of all
+here is the definition tfd stands for
+contract for difference and the first
+thing that I will draw your attention to
+is that cfd is a contract between the
+buyer and the seller and in this case
+the seller is the broker and this is the
+major difference between cfds and
+Futures I mean we haven't started yet
+but this is the biggest cfds are a
+product of the broker it's like you are
+trading now with this broker only there
+is no global trading happening there is
+no counterparty your counterparty is the
+broker that issued this cfd while
+Futures are issued on the exchange and
+they represent an underlying asset if
+you buy a cfd on Microsoft you don't
+hold any shares of Microsoft you're only
+betting that the price is going up or
+down with Futures you are betting on the
+underlying asset and if you hold that
+future till the expiry you will get a
+hold of that asset now that we
+understand the major difference between
+the cfd and Futures let's go over
+everything else and number one is
+availability tfds are mainly available
+in Europe and Australia they are illegal
+in the US and heavily heavily regulated
+in Canada to the point where they are
+not available basically Futures on the
+other hand are available globally
+representing many assets about 300 as
+the publishing of this video so for
+availability we will award Futures a
+point and cfd don't get the point number
+two is variety if you features have huge
+variety like I mentioned there are
+almost 300 Futures contracts and more
+are coming online but cfd is because
+they are issued by a single broker
+usually they are very limited and it
+depends on the broker you trade with you
+might have let's say around 20 cfd
+contracts compared to the 300 plus
+Futures Contract available globally so
+for that we'll award a point to Futures
+and zero for cfds number three on our
+list is margin requirement Futures have
+a big margin requirements depending on
+the contract you are trading and this is
+an example of merge requirements on
+tradestation trade station carries about
+100 Futures Contract and you can see the
+overnight margin for many Futures
+contracts so for example the micro
+Russell is about 700 while the Bitcoin
+Futures is about forty two thousand
+dollars the Dax is about 31 000 Euros
+and then if we go down this micro Euro
+USD Futures contracts about 300 so from
+their list you just saw you can see
+there is a huge discrepancy between each
+Futures Contract the merge requirement
+also is affected by volatility tfds on
+the other hand they have very low margin
+requirements because the leverage built
+in cfds is a lot bigger than Futures so
+in this case we will give zero point to
+Futures and 1.2 cfds number four on our
+list is finance charges Futures have
+fees related to trading them they are
+usually commission slippage cfds on the
+other hand they carry other premiums
+because remember the cfd is another
+derivative of that future so usually the
+broker have some built-in premium fees
+built in their price usually they get it
+through the spread or through commission
+or through both and probably you don't
+see it sometimes but it is there so you
+see of these usually are much more
+expensive to trade than Futures and so
+for that we will give one point to
+Futures 0.2 cfd number five on our list
+is convenience now Futures have many
+things to take care of first of all they
+don't move in like single digits like
+pennies for example in stocks or in cfds
+usually they have a minimum tick and
+that minimum tick for example let's say
+even if it's 0.01 like in oil it does
+represent one cent it's usually
+multiplied by a big point value to get
+the move of that future contract and
+it's different for every future contract
+also Futures expire and that expiry
+depends on the future contracts or some
+of them expire every month and some of
+them expire every quarter and the
+liquidity of course is totally different
+between each expiry and you have to roll
+over your contract also there are fees
+related to getting the feed of the
+quotes for each contract so each
+exchange have their own data feed and of
+course they charge separately for that
+all what I mentioned for futures does
+not exist in cfd because cfd is a
+product of the broker and usually the
+product code will happily give you the
+feed for free because they have gauge
+the spread to make money off of you so
+there is nothing to worry about in terms
+of data feed expiry and big point value
+minimum take usually all cfds move in
+0.01 and the value of that is 0.01 so
+for convenience we will give zero point
+to Futures 1.2 cfds next thing we want
+to look at is liquidity Futures
+liquidity are governed by the market
+participant so the more popular the
+future contract is the more Traders
+trading the more volume you get having
+said that we already have more than
+120 very liquid Futures Contract so you
+have these on the other hand usually
+they trade only popular instruments like
+the indexes screwed and gold but you
+know for the product available I will
+give both of them a point so Futures
+gets a point for liquidity they're very
+liquid and cfds they are very liquid
+when they are available for that broker
+next thing on our list is guarantees so
+cfd like I mentioned are a product of
+the broker that means if this broker
+goes under for whatever reason your
+money is gone because you don't own any
+asset this is a bet when you are buying
+or selling cfds you are betting against
+the broker there is no underlying asset
+that you are owning so therefore your
+counterparty risk is huge so definitely
+if you want to trade cfds you need to
+look for a big big bro okay so the
+probability that they go under is
+limited Futures on the other hand are
+traded on in exchange and the exchange
+is responsible to make sure that each
+party is liquid and well capitalized So
+when you buy a Futures Contract first of
+all you're buying the underlying asset
+and you can take delivery of that
+underlying asset but also you don't need
+to worry about who is buying or who is
+selling on the other side because the
+exchange will make sure that that party
+have the money to cover whatever the bet
+is just like they make sure that you
+have enough money to cover that bet so
+for that we will give one point to
+Futures 0.2 cfds next thing we will take
+care of is spread the spread is the
+difference between the bid and the ask
+basically it's the difference between
+the price you buy at and the price you
+sell at this spread usually is
+controlled by liquidity so when you
+trade Futures on the exchange the more
+liquidity the closer the spread is and
+usually for liquid Futures most liquid
+Futures the spread is one tick that
+means a minimum of one move so imagine
+if it's a stock that means it's one cent
+cfd is on the other hand because it's a
+product of the broker the broker control
+the spread artificially and in fact it's
+very easy to check that because most of
+the time your commission is built into
+the spread and you can see very easy
+that demo volume you do
+the closer the spread will be it's like
+in Forex because again your broker is
+controlling the quotes so obviously we
+will award one point to Futures and 0.2
+cfds next thing on our list is
+incentives future exchanges make money
+by commission and data feed so they
+don't make money on the spread because
+they don't control this liquidity and
+they have no commission from that part
+the commission comes from Trading a
+single contract and of course multiplied
+by however many millions of contracts
+traded so the more contracts traded the
+more money they make so the incentive of
+the exchange is to make it very very
+liquid
+very very honest so that more people
+join this exchange to trade whatever
+contract they are offering cfds on the
+other hand are issued by a single broker
+that single broker makes money through
+spread and commission and through
+premium built in so they don't make
+money on data feed sometimes they don't
+even make money on commission they say
+it's free to trade but they built
+everything else in the spread and most
+of the time just like Forex they are
+trading against you because they give
+you huge leverage which increases your
+probability to lose all your money to a
+hundred percent so that's why they trade
+against you not because they are smarter
+so from that perspective they are
+incentivized to bet against you so from
+that perspective then the incentives is
+aligned with you with the Futures
+exchanges and it's not aligned with you
+with the cfd broker so we will give one
+point to Futures the 0.2 cfds now we
+come to a quote what are the data feed
+given by the exchanges and the broker to
+all Traders on their platform so that
+they can basically trade that instrument
+so the exchanges give the data feed the
+same globally so if you are in Canada in
+the US and Brazil and the UK in
+Australia and South Africa it doesn't
+matter where you are you will receive
+the same data feed like everybody else
+see have these on the other hand it's a
+product of the broker and the broker
+decide what's the price of that
+instrument is take oil futures for
+example oil Futures are a derivative of
+these part Futures so they are linked
+and there are many arbitrators that make
+this link very close to the original
+price of the spot market and the
+exchange give that data feed globally so
+obviously then we will over 1.2 Futures
+zero point to cfd next we have an
+imported one which is leverage now both
+Futures and cfds are leveraged products
+Futures have a set leverage value built
+into them and each Futures Contract have
+a different leverage built into them so
+for example the S P 500 e-mini contract
+its leverage about 18 times now that
+amount will change based on volatility
+so when the volatility spikes The
+Leverage will decrease and when the
+volatility Goes Down The Leverage will
+increase and this will hover between 16
+and 20 for the s p 500. see you have
+these on the other hand just like Forex
+they are leveraged up to whatever you
+like so if you are good with the broker
+they can give you 200 to 1 100 to one
+whatever you like it's lightly regulated
+so they can do basically whatever they
+like but usually it's like Forex where
+it's heavily heavily leveraged now in
+terms of rewarding points in this
+category I will reward the point to
+Futures and a point to cfds because both
+of them are leveraged so although both
+get one point but just remember 100x
+Leverage is extremely extremely
+dangerous it's like you just learn to
+drive and I put you in a Formula One car
+accidents are bound to happen and in
+this case you lose your money finally we
+will look at trading hours most Futures
+Contract trade 24 hours they have
+different liquidity even though they are
+trading 24 hours so for example again
+the S P 500
+during New York session day session they
+are usually very high volume but then
+even though they trade 24 hours the
+overnight session it's not as heavily
+liquid as the morning session and cfds
+usually have the same pattern so
+although you might not see it because
+the broker is basically showing you
+whatever they like so if they want to
+show you high liquidity they will show
+you high liquidity but at the end of the
+day it is based on that Futures Contract
+so usually they match the same trading
+hour same liquidity hours so in that
+case I will award one point to Futures
+and 1.2 cfds so the total is 10 points
+for futures 5.4 cfds now I am biased
+towards Futures and I prefer to trade
+Futures in fact I don't trade cfds it's
+not available here anyway but if you
+live in Europe or Australia and you are
+you know looking at which want to do I
+definitely recommend trading Futures the
+only part is if you don't have enough
+money or if you don't want to learn how
+to trade Futures those two obstacles
+will basically shift you towards cfd
+which is okay if you know that you're
+gonna pay more
+to trade strategies on cfds so it's all
+about knowledge and in fact there is a
+very good book by Robert Carver about
+trading cfds in the UK otherwise you
+should be trading Futures there are
+million books and million videos online
+about how to trade Futures and of course
+my algae trading master class is about
+trading Futures although you can apply
+the knowledge on everything else but
+mainly I push on trading Futures to
+watch more videos like this click this
+video and I will see you
+[Music]
+thank you
+[Music]

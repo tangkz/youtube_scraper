@@ -1,0 +1,221 @@
+Larry Williams is one of the great
+short-term traders of Our Generation he
+is still trading he's very successful
+and he wrote many books about the
+subject I featured many of his Drive
+his trademark based on his very
+successful book long-term secrets to
+short-term trading in today's video I
+will add another strategy from his book
+that is based on his indicator that's
+called will spread to give a signal when
+to enter a market based on a related
+Mark so for example let's take the S P
+500 and bond these two markets are
+interrelated and they affect each other
+so we'll spread take the ratio between
+these two markets movements and give a
+signal for entry and exit so here I have
+the S P 500 represented by the Spy ETF
+and the long-term treasury is
+represented by the TLT ETF so if we
+divide the close of the S P 500 by the
+close of TLT we will get this spread
+then we build two exponential moving
+averages on this spread one is fast and
+one is low and if we deduct the fast
+expression moving average
+from this low exponential moving average
+then we will get this oscillator the
+oscillator will hover above and below
+zero when it is above zero that means
+the main instrument is performing better
+than the related instrument now once we
+have this oscillator it's just like a
+macd then we can add a signal and an
+average of that signal and we can take
+the cross of that signal and so on and
+so forth you can watch my macd video to
+build strategies using this indicator
+but in this video I will use the pure
+wool spread indicator to take the signal
+so we do that by simply going long on
+the S P 500 whenever this spread is
+above zero so for example let's take the
+cross from red to Green here you can see
+that now the S P 500 is moving up while
+the TLT is moving down and that's why we
+have the green oscillator going up also
+no notice that when the S P 500 is doing
+nothing or moving down slowly while the
+TLT moving down quickly we also see the
+green moving up and that's when I say
+it's relative so we are just measuring
+the performance of these two instruments
+if the performance of the S P 500 is
+better than the performance of TLT then
+the oscillator will move up and of
+course the opposite is true so now let's
+test this strategy that we will go along
+the S P 500 whenever we switch to Green
+now since I am applying the strategy to
+ETFs the position sizing is working by
+using the full account
+so I'm using the maximum amount that I
+can purchase at any moment in time
+and if we check the performance we are
+making 1500 but that's of course not
+good we have 117 trades on average
+making 13 so this is purely by using the
+crossover from negative to positive and
+exiting after five number of bars now
+I'm gonna keep this open and I am just
+going to switch another exit which is if
+the RSI 2 above 65 this is a very robust
+exit I use it a lot in my short-term
+strategies and I will compile now with
+that exit combined with the five bars
+exit
+so now we have a little bit more trades
+so 125 but our average Wing goes to
+thirty dollars which is still not good
+but let's say a little bit but uh than
+the other exit okay so now I'm gonna run
+an optimization to see the best numbers
+that we can get so remember we have the
+fast exponential moving average is five
+I will set it between three and ten the
+slow is 20 and I will set it between 12
+and 30. the number of bars to exit
+between 2 and 15 and I will switch on
+the stop loss one and three profit
+Target one and three instead of 0.5
+remember the stop loss and profit Target
+are a multiplier of the average true
+range so that should give us about 53
+000 combinations and let's run and see
+the results and sorting by the return to
+draw down ratio this is the best result
+which is
+10 and 27 that's the fast exponential
+moving average and the slow exponential
+moving average so profit Target is 180r
+and stop loss is two and a half ATR so
+that means we are hitting the profit
+Target a lot more than we're hitting the
+stop loss so let me double click on this
+to get these values and let's see the
+equity curve so we have 70 trades making
+500 average so this is a huge
+Improvement to the strategy and the
+curve is really good and we can see the
+drawdown in dollars is about ten
+thousand dollars here but of course this
+is the best result and most likely it is
+an overfit and I wouldn't bother even
+with trying to find a suitable range
+because even with the best performing
+numbers I don't like the strategy for
+now and that is very important to keep
+in mind you don't have to accept any
+strategy just because it works you need
+to pick the best strategies and as algo
+Traders we have the luxury today to pick
+the best strategy because you can
+develop thousands of strategies easily
+with optimization or with data mining
+packages and so we don't need to stick
+around with any social mediocre strategy
+now probably you have figured out that
+this can be also switched to pair
+trading because at the end of the day we
+are measuring the relative performance
+between two instruments so how about
+applying this to pair trading which is
+bringing two companies that they are in
+the same market and buying the best
+performing one so now the same strategy
+is applied to Pepsi and Coca-Cola so
+Pepsi and Coca-Cola of course are in the
+same industry in the same group and here
+on the top is Pepsi at the bottom is
+Coca-Cola so when with the oscillator is
+green that means Pepsi is performing
+better than Coke
+and when it is red that means Coke is
+performing better than Pepsi and we do
+the same we have we buy when it switches
+to green and we have our profit targets
+stop loss and number of bots so in this
+case the first exponential moving
+average is eight periods the slow
+explanation moving average is 12 periods
+three bars to exit two and a half at
+hours for stop loss one ATR for profit
+Target and if we check this strategy the
+strategy is performing well with about
+ten thousand dollars in drawdown but the
+performance is now sixty two thousand
+dollars and if we check the total trade
+analysis about 137 trades with 450
+dollars on average and if we look at the
+annual period analysis since 2007 we
+have one down here which is 2012 and
+currently this year is also down with
+five trades now of course you might say
+this is an overfit but if we look at all
+the uh optimization numbers if I sort by
+custom Fitness and I keep going down I'm
+trying to find two to one
+so up to here so that's about 1700
+strategies that has two to one return to
+draw down ratio so this is really good I
+mean you can find easily many
+combinations that will work I mentioned
+in the beginning that this oscillator
+can be just like the macd where you can
+build a signal and an average of the
+signal and then you can the cross of two
+of those signals above zero below zero
+and so on and so forth but also you can
+make this oscillator as a filter for
+other signals so to illustrate this
+concept here I have the S P 500 with TLT
+and now I am buying every Monday and
+exiting the same way either number of
+bars the plus and profit Target so I'm
+using for wool spread the three
+exponential moving average as fast and
+12 exponential moving average are slow
+exiting after six bars two and a half
+ATR as top plus and 380r as the profit
+Target remember I'm not using will
+spread to enter I am buying every Monday
+so the strategy is 700 trades making 560
+dollars on average and we can see the
+curve so the curve is very good and now
+I'm going to use the oscillator the will
+spread oscillator as a filter
+so instead of buying every Monday I will
+only buy every Monday if will spread is
+negative that means the performance of
+the S P 500 relative to TLT is low so
+let me add the condition and I will
+compile
+so now we have less than half the
+original trades but look at our average
+trade it went from about 550 to more
+than double
+so that is a huge huge Improvement if we
+go back here we can see that now we're
+making 358
+000 and the curve looks much better now
+remember before it used to be like this
+and then a hockey stick at the end now
+it's a little bit smoother going up so
+as a filter this also worked really
+really well to watch more of Larry
+Williams strategies watch this video and
+I will see you there
+thank you
+[Music]

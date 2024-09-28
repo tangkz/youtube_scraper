@@ -1,0 +1,11 @@
+but the way I'm going to do it today is
+very simple which is if you are trading
+the es which is in this case what I
+tested you can trade 10 strategies on
+the micro es with the same margin that
+you require for one es contract because
+the micro es is 10th of the mini es so
+therefore we are not using more Capital
+to trade more strategies
+and I pick the best for net profit two
+versions so this one and this one

@@ -1,0 +1,326 @@
+welcome back everyone my name is Ali
+Casey and you are watching stat Oasis
+Channel and this video is another arrow
+towards all the junk trading videos on
+YouTube unfortunately YouTube promotes
+videos that people want to see and
+people want to see how to turn $10 into
+$10,000 every day because that's how
+trading works so they don't want to see
+a real trading strategy and how it works
+of course that's not all people so I
+know some viewers like you want to learn
+the proper way on how to build strategy
+that means we have a defined set of
+rules for entry and exit before we even
+put the strategy in the market the first
+video that I did in the algo versus crap
+series came from the idea that people
+testing indicators for 100 trades so you
+see many YouTubers and YouTube channels
+have like indicators that are tested for
+100 trades manually on some instrument
+on some time frame and then they compare
+it with a list of other indicators and
+they decide well this one is the best or
+this one is the worst of course that's
+totally BS the market doesn't work that
+way and you cannot compare this
+indicator on 5 minutes with this
+indicator on daily time frame so the way
+I did it is to create an equal
+opportunity for all indicators to behave
+on the same instrument in the same way
+so let me explain RSI 14 will produce
+let's say 100 trades on The Daily time
+frame on the es but RSI 2 will give you
+400 trades on the same instrument same
+time frame so we cannot compare that
+let's say with macd
+2619 that produce 50 trades so we need
+first of all to test on the same
+instrument same time frame and then we
+need to tweak the parameters of the
+indicator to produce the same number of
+Trades as the other indicators so here
+is the testing environment we are
+testing on 36 markets from nine
+categories these are all Futures market
+and they represent different assets
+these are Equity indexes crypto currency
+interest rate agriculture soft Meats
+energy and metals the data for all is 16
+years daily bars starting in 2006 ending
+in Jun July 2022 each oscillator
+parameters are tweaked to produce four
+speeds so fast which is more than 400
+trades medium around 300 trades slow
+around 200 trades and the slowest speed
+is producing around 100 traes that means
+if the RSI 2 below 25 producing 300
+trades we either need to extend the look
+back period so we produce RS R I3 or we
+need to lower the entry threshold so RSI
+2 below 10 to produce less trades so but
+the idea is all oscillators has to
+produce around these buckets of Trades
+100 200 300 and 400 and above so then we
+can compare these indicators to each
+other because they are in the same
+environment on the same time frame on
+the same instrument producing the same
+number of Trades now Ballinger B test is
+very simple we will short whenever they
+close above the upper band and we will
+go long whenever the close is below the
+lower band so again we short here we
+long here we short here we lose some
+money then we get it back and we long
+here and we are in the trade of course
+that doesn't work all the time as you
+can see here short here we lose we short
+here we lose we short here we lose also
+I want to bring bring your attention
+that different speed produce different
+results so for example this one the
+yellow line now you can see that we have
+more trays because the close is below
+the lower band more times than the blue
+line and again the close above the
+yellow band on the top side is more
+times than the blue line and the reason
+is because the speed so this one is the
+moving average is 10 standard deviation
+is one and a half and the blue one is
+the moving average 20 and the standard
+deviation is two and so that's how we
+can change these parameters to get our
+desired number of Trades so we can
+compare this indicator with the other
+indicator we are testing the long
+separately than the short and we have
+two types of exit the exit same day we
+enter or a multiple exit which is a four
+days since we enter the trade or a stop
+loss and profit Target The Profit Target
+is two times the ATR of 10 days the stop
+loss is four times the ATR of 10 days
+now so far I tested 11 oscillators eight
+of them in the database and three of
+them are not yet and five of them are
+posted on a video on the channel so if
+you go to my channel start OES on
+YouTube and you go to playlist there is
+a playlist for algo versus crap and you
+will see all the videos in there with
+this testing environment we will have
+many many trades to compare so to get an
+idea we have 36 Market times four speeds
+in each indicator times two types of
+exit times long and short so that will
+give us a total of
+576
+strategies for each indicator and so far
+out of eight oscillators in the database
+we have above 1 million trades with more
+than 4,500 strategies so those are
+really good figures to to judge if an
+oscillator is good on an instrument long
+or short in any speed and if you want to
+do this yourself you need to follow
+these uh guidelines so you need to
+create a testing environment that it's
+equal opportunity to all indicators in
+that way I can compare let's say RSI 2
+to RSI 14 or rsi1 14 to macd and macd to
+aun indicator and so on so forth because
+because they have equal opportunity to
+perform remember there are no filters in
+these strategies the exit on the same
+day is done on purpose because that will
+show us the row edge of that oscillator
+on that instrument okay so this video is
+about Ballinger bands and let me show
+you the results of Ballinger bands so
+Ballinger bands producing 560 strategies
+with about 240,000 trades for the 36
+markets so if we filter the database of
+the Ballinger bands with 65 trades or
+more and $100 on average per trade or
+more we will get
+71 strategies with 20,000 trades on the
+36 markets this is the average of these
+strategies about $60,000 in profit and
+if we go to the Ballinger bands page
+this summarizes all the instruments that
+has more than 65 trades more than $100
+on a per trade and the symbols that has
+more than five strategies that matches
+these criteria now why did I pick five
+strategies for an instrument to be in
+this list because each indicator is
+producing 16 strategies per instrument
+it's four speeds two exits long and
+short and five is like 30% out of those
+16 so 30% is a huge statistical result
+that means definitely you will find a
+profitable strategy using this indicator
+on this instrument like all the
+indicators I tested I put the equity
+indexes in one category because they all
+behave in the same way kind of and then
+all the other strategies in the other
+category now as a comparison so as you
+can see Ballinger band's only natural
+gas has more than five has eight
+strategies all of them are short and
+they cover all speed so if you want to
+compare this for example with stochastic
+you can see we have many other
+instruments that has more than five
+strategies but interesting enough
+natural gas also has eight strategy but
+this time long and short if we go to
+macd again more instruments having
+passed the filter and again natural gas
+is there long and short RSI more
+instruments and again natural gas is
+there this is a clear sign that if you
+want to develop a strategy on natural
+gas
+using an oscillator just throw any
+oscillator pick the short side and
+there's a high degree of probability
+that you will find a profitable strategy
+and then with any filter that strategy
+will be robust enough to trade
+immediately because the edge is so high
+on the short side on natural gas so
+picking any oscillator that is
+overbought will get you really good
+results continuing with our chart so
+this chart this pie chart represent the
+average net profit per strategy and we
+can see natural gas average net profit
+is 94,000 the average number of trades
+for natural gas is
+445 273 for all others and 271 for
+equities the number of strategies
+natural gas is8 equi is 39 24 for others
+and the average
+trade in dollars for natural gas 335
+that is amazing because we are looking
+for $100 something to cover three times
+slippage and commission so that's almost
+nine times slippage and commission
+actually it's even 10 and then it's 275
+for all equities and 239 for others so
+the takeaway from testing the Ballinger
+bands this is a table that shows the
+highest five strategies per indicator
+this is the average of the the best five
+strategies and we can see immediately
+that there is a difference for example
+we have a huge number of Trades and the
+best performing strategies but the
+average trade is actually the lowest but
+then multiplying this lowest average
+trade with the high with the high number
+of Trades we are getting an average high
+net profit so this is matching The ROC
+but like I showed you overall we
+actually other than the indexes have
+only the NG on the short side so let's
+test that theory here we are in
+multichart so now I will test our theory
+that the natural gas works really well
+with Ballinger band on the short side so
+now we can optimize our strategy we will
+test the short side only this is both
+long and short minus one means it's
+short only the look back this is the
+moving average from 5 to 20 standard
+deviation 25 to2 and then the exit
+number of bars that means once we enter
+we are exiting after one all the way to
+five bars and this toop loss we will fix
+it at four atrs and the profit Target is
+at 2 ATR so that will give
+us 160
+combinations on the short side only and
+here are the test results so first of
+all let me filter for 100 trades and
+$100 average per trade so out of that
+out of 160 we get
+155 so we are using Ballinger bands 5 to
+20 look back period 25 to2 standard
+deviation and exit one 125 bars the
+combinations produce 160 strategies and
+155 strategies produce more than $100 on
+average per trades and more than 100
+trades per strategy now remember these
+strategies has no filter so we can
+definitely even get more extract more
+value out of them once we have filters
+in you can see this one is extremely
+good it's 7 to1 return to draw down
+ratio we're making
+$216,000 with $30,000 draw down average
+trade is
+$745 so the slipage and commission for
+natural gas is about $40 and if we do
+745 divided 40 that is1 times slippage
+and commission now of course since the
+the the whole thing is profitable you
+can pick and choose for example I can
+sort by win rate which is 65% I can sort
+by maximum profit which is 220 I can
+sort by lowest draw down which is 14,000
+and of course you can build a portfolio
+out of all of them so if I want to build
+a portfolio I will sort by return to
+draw down and then I will pick the top
+10 and put them in a portfolio now let
+me pick this
+one and let's see what the stats looks
+like so it's all short trades
+291 58% win rate 745 average trade and
+if we go the summary we're making 216
+721 and if we look at the curve
+periodical returns this is the
+annual uh trading remember our database
+was till July by
+2022 so half of 2022 is out of sample
+2023 is out of sample now of
+course now this is definitely losing
+because our average trade is 13 in 2023
+that means we are losing about
+$25 so that means there we should be
+actually minus
+$300 still that's very good because half
+of 2022 is profitable now the same time
+frame we can compare it to
+hold uh you can see why the edge exist
+in natural gas is because most of the
+time it goes down at least since 2006 so
+instead of looking at the BS videos on
+YouTube where they show you exactly the
+look back is 19 and standard deviation
+is
+1.9 and you do the trend line and you
+look at the Fibonacci retracement blah
+blah blah this is the way to build
+strategies you need to create an
+environment where you can compare
+indicators to each other find the row
+edge of an instrument and then build a
+strategy on that instrument and it will
+be very easy to create a profitable
+strategy if you take this route and
+instead of just blindly trying to find a
+profitable strategy over fitting it to
+an instrument to see if it's works or
+not to learn more about algo versus crop
+series watch this video and I will see
+you there
+[Music]

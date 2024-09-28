@@ -1,0 +1,258 @@
+are you looking for the best trading
+books you came to the right place hello
+everyone Ali Casey here from stat ois
+channel in this video we will discuss
+the top trading books in order to pick
+the best trading books we need to Define
+what is a trading book for you so the
+best analogy I have is if I ask you what
+is the best car it will heavily depend
+on your situation so if you are a
+construction worker you're most likely
+like a pickup if you are a m with three
+kids most likely you will like a van and
+if you are a young man in your 20s most
+likely you would like a sports car and
+so on and so forth so you see the
+question is heavily dependent on your
+situation and even if you pick any of
+these categories there are subcategories
+so for example where do you live what's
+your budget so those will decides what
+is the best car for you even though all
+the cars will take you from point A to
+point B so when it comes to trading we
+need to ask what type of Trader that you
+are and also where do you sit in your
+trading Journey for example if you are
+an investor a beginner investor then you
+need to learn the basics so the best
+book for you is learning the basics of
+the financial markets how to open a
+brokerage account what type of vehicles
+you can invest in and so on so forth if
+you are an options Trader then that's
+totally different and if you are an elgo
+Trader like me again it's totally
+different and since I am an Alo Trader
+so this video about the top trading
+books will be from the point view of an
+algo Trader books come in different
+formats so we have the digital copy like
+UB and PDFs and so on so forth we have
+the audio book and also we have the
+printed book all of them are good to me
+the best way is to have if you can to
+have the audio and the printed book and
+the digital book because you don't know
+when you're going to use which for
+example when I'm traveling I cannot
+carry 10 books with me so it will be a
+lot easier to have a digital version of
+it also if you are driving audio book
+will also be very good also I notic that
+if you are reading and hearing the book
+at the same time you have the tendency
+to retain that information a lot better
+than if you are just reading the book or
+if you are reading the book and writing
+notes that also have much better chance
+of retaining that information than just
+reading now there are many tools to hold
+these books
+digitally uh in audio format or in
+digital ink format my favorite tool for
+that is calibra and it's a tool that's
+available on all Computing platform okay
+now that we agreed on the point of view
+that will decide the best trading books
+I will put all trading books into two
+categories first category is for all the
+books that talks about psychology money
+motivational interesting stories
+biography and so on so forth so for
+example these are books about making
+money about the banking system
+motivational book on how to hold on to
+your money once you make it uh the
+market Wizards books of course these are
+very popular by Jack schagger I
+collected here the best psychology books
+for trading of course you know there are
+a couple more but these are the one that
+are considered one of the best and then
+of course there are the direct trading
+books these are books that has a concept
+or show you a program strategy basically
+these books usually will show you some
+concept that you can use in your trading
+and of course this is just a small
+sample because the number of trading
+books is of course unlimited keep in
+mind that 90% of the books books are
+junk literally they are fluff and to
+give you an example I follow Tom baso
+which he was a tural and of course he's
+very successful run his own hedge fund
+and currently he's still trading and run
+some courses and he launched a book
+about I don't know two months ago and I
+bought it and it was very disappointing
+I mean this guy has all the knowledge
+about Trend following and the least he
+should have you know posted I don't know
+three basic strategies I I mean this is
+a common knowledge today you can easily
+find a
+4020 Trend following strategy but his
+book was all like the surface there is
+nothing inside it and so to me yes there
+are little bit of nuggets but to me that
+book you know it's not worth it okay so
+now we get to the best books for algo
+Trader so I will assume that you already
+know how to program simple strategies
+but you're looking for ideas or for
+better ways to implement your strategy
+and so on so forth the top trading book
+for me the one that put me on this path
+the one that made me believe that this
+is possible and you can do it and you
+can make a lot of money out of it is
+this book this is a small book by
+Michael cell but it puts the turtle
+experience on paper basically the turtle
+experience was a conversation between
+two top Traders and one says this is a
+skill the other says this is not a skill
+you are born with it of course I am on
+the camp of it's a skill Richard Dennis
+who said that this is a skill he took
+Everyday People normal from all Walk of
+Life and he trained them to be Traders
+so this book list the story but also
+what's most important it list the
+systems that Richard Dennis gave these
+people to trade now of course many of
+these people became hedge fund managers
+and they iterate on these systems they
+enhance it and so on so forth but still
+the original system still today still
+work and once you program these systems
+extremely simple systems in fact I have
+a video on the channel about these
+systems and once you program the risk
+layer on top and you see how these
+simple systems made money in the80s and
+still make money till today then
+something will click in your head and it
+will say oh okay so this is doable I can
+do it now let me start this journey once
+you finish the turtles book you need to
+get into a series of books so this one
+is it's the total collection of Tintin
+you are my age then you know what this
+is once you get your feet wet in
+programming then this book will be
+really good for you so this is the
+ultimate algorithmic trading system
+toolbox by George puit this books has
+many examples and many strategies that
+you can start with and that's what I
+mean by these books because these books
+are practical books you can take a lot
+of it and test it yourself and build
+upon and all George proit books are
+excellent and he uses easy language so
+it's a lot easier to get into if you are
+a trade station user or a multi-chart
+user my next favorite author is Robert
+Carver he used to work for AHL which is
+a huge successful hedge fund he now
+trades for himself and he wrote three
+books so far I think or four I didn't
+get the fourth book and he also comes on
+a podcast called top Traders unplugged
+and you know he talks about how he
+trades most of the time but this is one
+of the great books this is systematic
+trading by Robert Carver and then we
+have the
+portfolios so he goes into how to
+construct portfolios this you like for
+long-term investing but still it's
+trading but I mean the signals are not
+actively daily unless you trading a lot
+of instruments but really a huge huge
+push if you want to get into portfolios
+and how to construct portfolios and how
+to layer a risk on top of them next on
+the list we have Howard Bandy he is I
+think Australian and he wrote three
+books which I have three of them they
+are not all as good but again he gives a
+lot of system and a lot of insight on
+how to vet system statistically but
+still within like
+retail uh reach so you know because in
+retail we don't have many tools that the
+hedge funds have so it's uh easier to
+implement these tools using this book
+remember the list goes on and on there
+are many many really good books but you
+know we cannot list all of them
+but these are my let's say my favorite
+and they will give you huge value if you
+get these books and of course I cannot
+do this without my number one favorite
+author which is Perry Kaufman now Perry
+Kaufman is a very successful Trader he's
+still trading till today at his age that
+is wonderful he used mainly Trend
+following but still a lot of short-term
+uh trading systems and his most popular
+trading book trading systems and methods
+it's actually now in sixth edition that
+book is the Bible for all algo Traders
+you need to get that book in any way
+shape or form because it's really really
+includes all almost all the concepts in
+algo trading so it's really a huge
+benefit to have that book in your
+library now recently he launched two
+books and gracefully he sent me two
+dedicated copies so this is kofman
+constructs trading systems and then we
+have learn to trade both of these again
+go deep into how to construct a trading
+system and he show you statistics of
+what each system look like on multiple
+markets so again these are practical
+books that you can take Concepts out of
+them implemented in your trading Journey
+now there are Advanced books and again
+it will depend on your journey so for
+example if you are into position sizing
+then Ralph Vince is the best to get into
+that but that's an advanced subject and
+even R Vin's books are also Advanced
+like they need a lot of math and most
+likely you cannot Implement that math in
+your normal uh trading platform you will
+need probably r language or matlb or
+something like it these are the books
+that hedge fund use to implement their
+alos the main goal of this video is to
+get you in the habit of reading
+upgrading your skill remember this is a
+skill you need to work on it to always
+stay on the top I'm will be very
+interested to know what's your favorite
+trading book so please list it below in
+the comments to learn about the turtles
+trading system watch this video and I
+will see you
+[Music]
+then are you looking for the best
+trading books you came to the right
+place

@@ -1,0 +1,184 @@
+one of the great Traders and researchers
+for the past two decades is Larry
+Connors I consider him by admire even
+though he doesn't know my name but he is
+really really good and he is of course
+the one who pioneered RSI 2 which of
+course you know how much I love that
+strategy back in 2009 after the 2008
+crisis he published a book about trading
+ETFs and one of those strategies is
+called the R3 now I love these books
+because we already have more than a
+decade of out of sample so it is really
+an enjoyment for me to code these
+strategies and see how they perform for
+the past decade the strategy is
+extremely simple and here are the rules
+rule number one is that the close has to
+be above the 200-day moving average the
+200-day moving average works very well
+with the RSI 2. the second rule is the
+RSI 2 has to be below 10 today because
+we are looking for a pullback at the
+mirror version strategy so we are
+looking for an extreme pullback so below
+10 that is Extreme Rule number three the
+RSI 2 three bars ago has to be below 60
+because we don't want a pullback from
+let's say RSI below 15 and then it goes
+below 12 and then below 10 that means we
+are doing nothing at the bottom and
+finally Rule Number Four The RSI 2 has
+to drop three bars in a row and that is
+it that means we are looking for a
+powerful pullback that's happening three
+days in a row so usually this is some
+kind of Panic or huge selling and then
+you want to pick up that instrument and
+go along our exit will also use the RSI
+so we will exit when the RSI to above
+75. now the book didn't mention anything
+about a stop loss and of course if you
+leave this without stop loss sometimes
+yes I will know at some point it will go
+above 75 but you will face maybe I don't
+know 90 drawdown so of course that
+doesn't work practically so I use the
+clothes below the average of 50 bars
+anywhere between 30 and 50 will work as
+a stop loss of course you can add a
+dollar figure an ATR but since I'm
+implementing this on a portfolio of ETFs
+I thought the moving average will work
+the best so here is the strategy applied
+to the S P 500 and if we pull the stats
+the strategy made twenty eight thousand
+dollars with maximum drawdown of about 8
+000 so we are making four to one return
+to draw down ratio now remember this is
+shares and that's why you might find the
+number is low also we don't have a lot
+of Trades only 72 trades 54 win rate and
+we are making about 400 on F and here is
+the fun part remember this strategy was
+published here 2009 so 2010 and above
+these are all out of sample nothing
+changes this is exactly the rules from
+the book and here's the equity curve we
+have they draw down here so remember
+this is the out of sample so anything
+above here is the out of sample and we
+can see the curve is beautifully moving
+up with the draw down is lower and lower
+that is amazing to me that a strategy
+published in 2009 we had 2015 crash we
+had the covet crisis and the strategy
+performs beautifully on the S P 500 as
+it was designed in 2009. now of course
+as algo Traders we can expand This
+research and optimize any value we like
+but I didn't want to go that route I
+only want more trades so more trades
+means less restrictions and since we
+cannot play with the RSI too I mean the
+RSI 2 is fixed at two I don't want to do
+three and four and five and so on so the
+only way to get more trades in I need to
+decrease the amount of RSI below the
+previous RSI so instead of looking for
+three RSI down in it all I'm going to
+look for two hours I down in a row and
+not only that I'm going to expand the
+number of look back to 5 instead of
+three so now this should let more trades
+in also asking for the RSI to be below
+63 bars ago I removed that so that also
+should add more trades in okay so going
+back to the strategy
+so let's compile our new restrictions
+so enhance our net profit and if we look
+at number of Trades now we have 225
+trades making 290 on average and let's
+look at the our Equity curve our Equity
+curve is not as smooth as before but
+still it looks very very nice and if I
+want to go to the periodical analysis
+now we have more losses here but overall
+we are making more money now that's not
+necessarily a better Equity curve or
+better periodical returns but I'm only
+looking to increase the number of Trades
+that was my primary target and that we
+did while getting more money so I am
+happy with the result this is important
+concept to keep in mind because filters
+or enhancement doesn't have to be always
+the net profit you might be looking as
+in this case only to increase the number
+of Trades and if we increase the number
+of Trades while keeping the strategy
+intact then that's done that's that's
+the Target of this filter whatever you
+are doing sometimes the filter is only
+to reduce drawdown sometimes to increase
+the average rate and of course if it
+does all of them then all the better so
+now we will apply the same strategy to a
+portfolio of ETFs I have 25 ETFs here
+they represent countries sectors and of
+course indexes Commodities bonds and so
+on so forth I'm testing this strategy
+since 2006 and remember the strategy was
+published in 2009 and we just relaxed
+the rules to get more trades in and this
+is the result we get we have more than 4
+000 trades so that's really good that
+increase our confidence percent
+profitable is about 50 and on average
+we're making 172 dollars per trade so if
+we go to the equity curve there's a huge
+drop here and let's look at that period
+so this is between 2018
+all the way to May 2021. annual period
+analysis
+we did a really bad year in 2022 but now
+we are getting back we already did 20
+000 so that's almost 25 percent back in
+the first six months remember the
+strategy published in 2009 so all this
+is out of sample and if we go to
+breakdown
+we can see most of these ETFs are making
+money uh all of them are doing very well
+in number of Trades except this one labu
+this is I think biotech ETFs it's only
+53 trades and of course it's losing
+money xlb that's a sector and it's also
+losing money this is a form of gold
+losing money
+but interestingly gold
+ETF is making money the best performer
+is xbi it's 500 on average very good
+Equity curve and xpi is the biotech ETF
+and remember the labu it's also biotech
+but this is a leverage ETF I think it's
+two or three x so this is of course not
+Leverage The xbi and this is and that
+shows you that you know leverage ETF not
+necessarily
+good even when the strategy is
+profitable if you're interested in this
+strategy the code will be available in
+the community you can download it for
+free and if you want to replicate it
+yourself remember I'm using the full
+account to buy the maximum amount of
+share in each instrument and I have a
+function for that and it's available in
+the code I buy up to maximum of 5 000
+shares to get more Larry Connell
+strategies watch this video and I will
+see you there
+foreign
+[Music]

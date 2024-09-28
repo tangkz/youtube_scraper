@@ -1,0 +1,254 @@
+average through range is a very popular
+indicator it can be used in many
+different ways in this video we will
+discuss if it can be used as a trailing
+stoploss welcome back everyone I am Ali
+casy from stat ois Channel and before
+everything let me show you what is an
+average true range here is an
+illustration of the true range if
+today's high and today's low engulf the
+day before then that's easy the true
+range is the High minus the low but if
+there's a gap between today's low and
+yesterday's close or between today's
+high and yesterday's close then we need
+to add that distance to the whole range
+to get the true range so basically the
+true range is the whole range of today
+plus whatever Gap is between today's low
+and yesterday's close or today's high
+and yesterday's close although this is
+very easy to calculate but you don't
+need to worry about it as this indicator
+is available in every trading in every
+charting platform so let me show you how
+it looks like on the chart so here at
+the bottom I have the average true range
+for the past 20 days it's basically
+calculating the true range every day
+adding it for the past 20 days and
+divide it by 20 so we get this curve and
+there are two simple ways to use this
+average through range as a stop- loss so
+if we are long we need to deduct this
+amount from the current close to Define
+it as the stop loss so let me zoom in
+here and let's say for example I am
+going long here so the close here is
+let's say 3980 and my average through
+range here is about 80 that means every
+day the S&P 500 in this case is moving
+by 80 points up or down so if I put two
+atrs that means 160 points theoretically
+my stop loss will not hit as often now
+instead of doing this manually by
+calculating this and plotting it here we
+have another indicator that can plot
+this on the chart so if you go to
+indicators there is a trailing stop by
+Sean and if we click it this is what we
+get so basically this is calculating the
+close minus the ATR and
+plotting this line as the stop loss and
+if that stop loss get hit then we will
+flip we will calculate the low from the
+ATR we can click on this and of course
+you can customize it so in this case I
+have the 10 period ATR with a multiplier
+of three that means I have the three
+times the average through range of the
+past 10 days days plotted on the
+instrument here I have the gasoline
+Futures and the reason I put this is to
+illustrate the problem of the trailing
+ATR you see the gasoline Futures is a
+trend following instrument meaning it
+Trends most of the time and because if
+it Trends most of the time this ATR
+trailing stop will work very good so you
+can see here if we entered here you exit
+here and if you enter short here you
+will exit around here because the
+instrument is trending it's hard to hit
+this ATR stop loss the problem comes
+when we are not trending so if we switch
+now to this phase of the gasoline Market
+we can see where we enter here we exit
+at a loss we short here we exit at a
+loss we enter long here we exit at the
+loss and so on and so forth so when the
+market is trending it's very easy to
+have this 8 R trailing stoploss working
+very nicely with the system but when the
+market is not trending the ATR trailing
+stop loss will not work as good now this
+is all good and dandy when we are
+looking at the charts but of course as
+always on this channel we have to test
+to verify the theory so here we have the
+gasoline Futures and I'm using a trend
+following strategy on this instrument
+like I mentioned the Gaz Futures works
+very good with Trend following
+strategies and in this case I am using
+the linear regression as the strategy
+the strategy is very easy we will go
+along when the linear regression angle
+goes up and we will exit when the linear
+regression angle goes down so let me
+zoom in and here we will see how the
+strategy is working so look at the blue
+line here so when it takes up we enter
+the market when it takes down we exit
+takes up we enter the market and here it
+takes down we exit we are entering the
+next day so that's why it's always one
+day late and this is the performance of
+the strategy it's making
+$100,000 with about
+$53,000 draw down trade analysis on
+average we are making
+$895 per trade with 110 trades in total
+for the past 17 years here is an
+optimization of the look back period for
+the linear regression so from 20 to 200
+step of 10 these are the results and if
+I sort by return to draw down we can see
+100 130 160 110 and 80 we are doing very
+well so from 70 to 160 we are doing very
+well with this strategy I'm going to
+pick the best one to test the ATR
+trailing stop okay so this is my
+strategy now and 114 trades on average
+we are making 13 $100 40% W rate which
+is very expectable for a trend following
+strategy and this is how the curve looks
+like now we will test if the ATR
+trailing stop will make a difference so
+on the left here we have the original
+strategy we go along when the angle of
+the linear regression is up and we exit
+when the angle of the linear regression
+is down on the right here we are
+entering the same way when the angle of
+the linear regression is up but we are
+exiting with a trailing stop and the
+trailing stop is optimized through the
+ATR so we have the multiplier from 05
+to6 and we have the look back of the ATR
+from 5 to 50 so overall a 120
+combinations so we are looking to beat
+$151,000 in profits and
+$50,000 in draw down so sorting by net
+profit we can can see that we don't make
+a better version of the top optimized
+version remember this is the top
+optimization and here the top is barely
+close to it but if I sort
+by the ATR I can see that I have a
+stable region here so this is 05
+multiplier and different speeds so 30 35
+40 45 and 50 they're all making
+good trades so the average trade is very
+close number of Trades is very close and
+the draw down and the Prof net profit is
+good also so overall if I want to use
+the
+ATR then this would be a stable region
+maybe 05 and 35 so this is the
+multiplier and this is the look back
+even though this makes less profit than
+this one but remember this is a overfit
+strategy on the left now I can optimize
+all of them together to find the stable
+region so you can see here I will
+optimize the look back the ATR length
+and the multiplier so overall I have
+2,200 combination now since I have these
+variables I have a 3D representation I
+put the slider here at about $100,000 in
+profits and here I have the net profit
+so this line here I have the look back
+period of the linear regression and here
+I have the multiplier so this the third
+V variable is listed here which is the
+uh look back of the ATR now what we want
+to find is a stable area so let me
+scroll through them so this is good I
+can see a stable area here and this is
+even better so you can see here a lot of
+green shows up and that tells me that
+this is stable so now I can pick maybe
+this one this one or even this one and
+these will be a stable area so let's see
+so we have 25 let's see if we have more
+here and then nothing changed so 25 is
+good so okay look back period of ATR is
+25 and now I will pick this area so this
+is a 100 on the linear regression look
+back and going through on this side this
+is five the multiplier for Trend
+following strategies it looks like ATR
+can help help a little bit I'm not happy
+with it but you know it can be used and
+this is where the ATR should shine so of
+course I expect a horrible result if I
+test it on mirror version so let's do
+that so here on the left I have the RSI
+strategy below 25 we go long above 75 we
+exit and if we look at the strategy it's
+$98,000 in profits with $26,000 in draw
+down 4 to1 return to draw down ratio
+ratio this is how it looks like on the
+right here I have the strategy with the
+ATR as the exit so we enter when the
+rsi2 below
+25 but we exit with the ATR trailing
+stop so let's optimize and find out so
+we're optimizing the ATR from 5 to 50
+this is the look back and the multiplier
+from 526 so here we have the original
+strategy of the RSI RSI 2 below 25 we go
+long rsi2 above 75 we exit and here on
+the right is the optimization with the
+entry rsi2 below 25 exit with the ATR
+stop loss and we have many strategies
+that beats this number but none of the
+top strategies beats the draw down so we
+see here we're making almost 100,000
+10030 29 25 all the way to
+110 but all of them make almost 1 and
+1/2 to two times the draw down so yes we
+make more money but we suffer in the
+draw down also we suffer a lot in the
+number of Trades here we have 242 trades
+and over here this one is 279 and this
+one is 104 and this one is 102 this is
+the only one that's above 200 trades and
+this is the difference between the two
+so this is an overfit strategy with the
+ATR and this is the original strategy
+with only RSI remember this strategy
+does not have any filter so of course I
+can make this much better and I have a
+million version of this strategy on the
+channel to make it better so again the
+ATR here did not perform so while ATR
+looks extremely nice on the charting
+software and it makes sense looking at
+it but when we test it it doesn't
+perform as well and actually this is the
+case for all stop now if you are a
+viewer of the channel you've heard me
+say this that I don't use stoploss you
+should use other ways to manage risk or
+use a catastrophic stoploss where it is
+the last thing that you want to hit it's
+much better to mix strategies mix Styles
+in a portfolio and manage your risk that
+way to learn more about trading watch
+this video and I will see you
+[Music]
+there
+[Music]

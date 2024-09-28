@@ -1,0 +1,20 @@
+imagine trading a simple pattern for the
+past 30 years on hundreds of stocks and
+getting this Equity curve this is not an
+overfit equity curve in fact the pattern
+is so simple it is very very robust the
+pattern is extremely simple where we are
+waiting for a pullback then we buy it
+and we exit when it makes a higher high
+the robustness come from Trading
+hundreds of stock at the same time if
+you rank your symbols on some function
+and then you pick the top number let's
+say Theta 5 top 10 top three whatever
+then your small Capital can trade those
+symbols if we go to alguzer remember
+this is version 137 so this is the
+development version and this is the new
+algo wizard and if you build a new
+strategy now you have the option of
+stock picker strategy so let's do that

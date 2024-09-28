@@ -1,0 +1,174 @@
+have you ever felt that you are missing
+out on the great swings in the market if
+you did then you are in luck because
+today I will show you a strategy that
+can capture all these big swings in any
+Market to do that we will use a known
+strategy called Ballinger band squeeze
+but we will implement it in a clever way
+the Ballinger band squeeze consist of
+two indicators the Ballinger bands and
+the Kelner channel the difference
+between these two indicator is simple
+Ballinger bands adds and dedu
+standard deviation amount from the
+moving average while Kelner Channel add
+and deduct ATR multiple from the moving
+average this is how it looks like on the
+chart so the green bars are the heating
+oil Futures and the blue color is the
+Ballinger bands the red color are the
+cner channel so the upper band of the
+Ballinger band uses the standard
+deviation and add it to the 20day moving
+average in the middle and of course the
+lower channel of the Ballinger band
+deduct the standard deviation from the
+moving average the cner channel in the
+red so the upper Channel adds a multiple
+of the average true range and the lower
+Channel deduct a multiple of the average
+through range from the moving average
+and in order to simplify how we are
+going to trade this I build these two
+indicators so again the blue color
+represent the Ballinger band width or
+the range and then the red line
+represent the Kelner Channel range so we
+can easily see when the Ballinger band
+gets inside the cutner channel so this
+is the Ballinger band and you see when
+it crosses below that means the width of
+the Ballinger band channel is smaller
+than the width of the Kelner channel so
+you can easily now decide that this is
+below this is above below above and that
+is our swing indicator so when the blue
+line which is the Ballinger band crosses
+above the red line which is the cner
+channel That means we have a swing now
+the only thing we don't know if the
+swing is on the downside or if the swing
+is on the upside and we can define that
+really easy so if the cross happens and
+the close is lower than the previous
+close that mean we are having a swing on
+the downside and if the cross happens
+and the close is above the previous
+close that means the swing is on the
+upside this concept actually applies to
+all markets because usually volatility
+comes in chunks so the volatility
+doesn't Spike every day up and down it
+usually goes into quiet periods and into
+a volatile periods and then it goes back
+to quiet periods so usually these kind
+of swings last for a longer time so now
+I will optimize the strategy to find
+where is the stable area for the heating
+oil so the strategy now applied and two
+that means we are going long only we
+will test long and short separately so
+two is long only and then the look back
+period this is for the middle moving
+average we will test from 2 to 30 step
+two and then the Ballinger band standard
+deviation we will test from .5 to 4 step
+25 average through range multiple will
+be from 0.5 to 4 step 25 so all in all
+we will have about 2500 strategies and
+these are the results and if we sort by
+return to draw down and if we look at
+the top these are 30 look back and then
+14 12 14 and all the way but if we look
+at 30 look back back with these settings
+we are getting two trades only so in
+reality 14 is the top so 14 14 we have
+10 14 14 12 14 14 and so on so the
+number 14 looks at the top so we might
+as well fix 14 and then see the rest of
+course there is an easier way to look at
+this if we open the 3D graph and if we
+look at the graph so this is the net Pro
+profit So currently the net profit is
+fixed at 100 this is the blue plane and
+then everything above it is green
+everything below it is red so the red
+doesn't mean we are losing money it's
+just we are below $100,000 profit and
+let me show you something so if I bring
+this this way so this is 10 look back
+this is 12 this is 14
+16 and you you see a
+pattern and the pattern is very
+clear it's anything we pick on the
+standard
+deviation the Kilner channel is about
+70% so you can see here when the
+standard deviation is three the cult
+channel is two and when this is 2 and a
+half this is one and a half and so on
+and so forth so actually we can simplify
+our
+strategy and pick the C Channel ATR
+multiple to be always about
+67% of the standard deviation now why
+this is very important because the less
+variables you have in a strategy the
+more robust it is and also of course you
+have less things to optimize so less
+chances to overfit your strategy okay
+now I can fix this at zero because it
+doesn't matter it will be picked from
+the standard deviation it will always be
+about 67% of the standard deviation so
+now we can optimize this from 1 to 4
+step. 25 and we keep the look back and
+we have 143 combinations this is
+capturing the long swings and if we sort
+by return to draw down we have an
+extremely good strategy in fact we have
+many of them look at this the top 24
+they're all doing more than 2 to one
+return to draw down ratio and now we are
+building a portfolio of this squeeze
+strategy so here I have five markets for
+longside soybeans heating oil Bitcoin
+gasoline and NASDAQ and then I have five
+markets for the short side natural gas
+vix Euro US dollar Japanese US dollar
+and lean Hogs and if we test those
+strategies we have a beautiful equity
+chart also if we look at the annual
+period since 2006 we have only two
+losing years where to 2024 it's only one
+month so it's not yet known so we have
+only one losing year so far and this is
+the beautiful part this is the weekly
+correlation between these strategies and
+the only one is the gasoline with the
+heating oil which is expected and this
+one is about 60% but the rest are almost
+zero correlation so even though we are
+using using the same strategy and we
+limit the optimization only for the look
+back and the standard deviation we are
+getting huge
+diversification on multiple markets
+which leads to higher profits and lower
+draw down so here is the breakdown by
+symbol and now you will be surprised at
+how these chart looks like so this is
+the equity for soybeans then heating oil
+Bitcoin gasoline NASDAQ Natural Gas
+vix Euro US dollar Japanese US dollar
+and lean Hogs so other than the vix
+everything else looks like crap but when
+you combine them you get this great
+Equity chart and that's because the low
+correlation between these strategies to
+learn more about Ballinger bands watch
+this video and I will see you
+[Music]
+there
+[Music]

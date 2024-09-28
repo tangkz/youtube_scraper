@@ -1,0 +1,364 @@
+as a Trader most likely you've heard of
+fair value Gap it's a special kind of
+Gap that happens in all kind of markets
+and there are many videos on YouTube
+articles and blogs about the subject but
+really all of them are BS as usual and
+none of them at least the one I saw
+attacked this problem quantitatively so
+this is what I'm going to do in this
+video I will show you how to spot these
+fair value gaps and how to trade them
+this is an example of fair value Gap to
+spot it we need to look at three bars in
+a row so this is Bar number one bar
+number two and Bar number three we are
+looking at a gap between the high of bar
+number one and the low of bar number
+three while Bar number two being a big
+range bar so these two bars they don't
+overlap there is a space between them
+but they both overlap this big big huge
+bar and so this phase in Orange is
+called fair value Gap so basically the
+fair value Gap points to imbalance in
+the market in the example I showed you
+where bar three is higher than bar one
+the imbalance points to the Bulls
+overcoming the Bears or the buyers
+overcoming the sellers now there is an
+opposite to this which is the bar one is
+higher than bar three and in this case
+the sellers of overcome the buyers and
+that's why you have this fair value Gap
+so if you look anywhere on the internet
+on how to trade these fair value Gap
+usually they will point you in the
+direction of the Gap so if we have a
+buyers overcoming sellers then you go
+long and of course the opposite to go
+short also most of them will tell you
+that this fair value Gap will be filled
+at some point in time maybe it happens
+maybe it doesn't but that's just what
+they usually say and then they will tell
+you well if it comes back to that zone
+then you should buy or sell in that zone
+to go in the direction again nothing
+concrete I didn't see any quantitative
+way I didn't see any strategy built with
+metrics on it that's the normal way on
+YouTube and anyway we will do our best
+here to explain how to trade this
+solution number one is to go with The
+Gap so in this case if the fair value
+Gap is on the long side meaning bar
+three is higher than bar one then we
+will go long and of course it's if the
+fair value Gap is in the on the opposite
+side meaning bar one is higher than bar
+three then we will go short the next way
+to trade the fair value Gap usually that
+you will find is that the fair value Gap
+will be filled at some point in the
+future so the fair value Gap happens you
+keep watching the chart until the price
+comes back to this Gap to fill it and
+then once it's in the Gap you buy it
+with the expectation to go up and of
+course it's the opposite for the short
+fair value Gap in this video I will
+focus on trading this pattern now you
+can find the fair value Gap in any
+market and in trading view there are
+hundreds of indicators that can show you
+this I picked this one by Lux algo this
+is the fair value Gap on the long side
+and you can see that we have many of
+them and actually you can tweak this so
+you see now it shows when it's filled so
+you see when the price gets in it gets
+lower in it gets lower and so on so
+forth again so in this case the price
+comes back to fair value Gap and goes
+down now if you look at videos and blogs
+about this subject they will point you
+to two variables which is how big is
+this Gap and how big is this bar usually
+they say well this bar needs to be too
+big that's vague but anyway we will test
+it and this needs to be too wide also
+that's vague but again we will test it
+so basically we have two variables how
+wide is this and how wide is this bar
+now in order to do this for all markets
+you cannot do this in points because for
+example the S&P 500 will have different
+points than the USD Japanese Yen so you
+need to do this in ATR basically how
+wide is this Gap compared to the average
+through range of the instrument and also
+how wide is this bar compared to the
+average through range of this instrument
+and then you can apply the strategy on
+any market and you can compare it easily
+so here is the strategy applied in
+multi-arts on the S&P 500 futures so So
+currently the way it's implemented we
+don't care about the size of the gap or
+the size of the middle bar so let's look
+at some examples so you see this bar the
+low is higher than the high of this bar
+and we have this bar in the middle
+that's a fair value Gap we go along next
+bar and we exit after one bar and again
+here this bar low is higher than this
+bar high this is the bar in the middle
+we go along next bar we exit after one
+bar holding for one bar only just to see
+how good the strategy is or if there is
+an edge so looking at this strategy we
+have
+644 occurrences of this bar on average
+we are making $6 obviously this is a
+losing strategy but it is positive
+nonetheless this is the long side only
+and this is the short side so 584 trades
+and we are losing losing
+$77 on average I've mentioned this
+hundreds of times on this channel that
+the S&P 500 is a Me reverting instrument
+tends to drift up all the time so
+instead of taking the breakout measure
+which is trading the fair value Gap when
+it is on the long side the miror version
+is we trade long when we have fair value
+gap on the downside so this is what I
+mean we will use this side to go along
+and this side to go short so when we
+have a gap on the downside we will go
+long and of course because we are
+trading the S&P 500 I will not even
+bother with the short side so just to
+compare this is the original strategy
+and now we are going to flip it and as
+expected we do very well so we have
+413 trades and we are doing 73 average
+per trade already there is no filter
+we're exiting in one day okay now comes
+the quantitative approach we will first
+test if the bar in the middle if the
+range of that bar affect our strategy or
+not and then we will test the gap size
+if it matters in the strategy or not so
+here are the results of optimizing the
+range of the middle bar again I'm doing
+this in average true range size so from
+zero all the way to six zero means the
+strategy is the original strategy so we
+have 43 trades we're making $73 on
+average per trade and this is the size
+of the middle bar in terms of average
+through range from zero all the way to
+six so let's go back here and if I sort
+by return to draw down I can actually
+enhance so 1.7 1.6 1.4 85 that means if
+the middle bar is within 1.4 to 1.9
+average through range I enhance my
+strategy so comparing it to the original
+strategy I make more money and a lot
+less draw down now we are testing the
+size of the Gap so the Gap is down and
+we don't care about the middle bar and
+we're just testing the size of the Gap
+in ATR and again zero is our original
+strategy and we go all the way to six
+and like we saw with the other one so
+here about 3.6 so when the gap
+is about three and a half times the
+average through range there are no
+trades and if we go all the way up so
+this is 148 if we saw by custom draw
+again we can enhance the strategy so
+this is the original strategy and we
+have nine sizes that does better and
+again it looks like from 1.3 4 5 7 and 8
+all these atrs are good and then double
+the ATR is also good but these producing
+one trade so I wouldn't consider these
+so it looks like 1.3 1.4 1.5 7 and 8 are
+good and we find out
+quantitatively that the size between one
+and two atrs of the middle bar and of
+the Gap usually produce better results
+when trading the fair value Gap but
+remember we restrict our strategy to
+hold for one bar well you know one bar
+is extremely short I mean you can still
+do it but let's increase our holding
+period which usually for me reversion
+strategies anywhere between three and
+seven bars is really good so let's pick
+something in the middle maybe five and
+see what we get so this is the number of
+bars holding from 0 to 15 and this is
+the net profit and we can see we have a
+peak here at number five and another
+Peak at number 14 so if I want to pick a
+stable area not here so this is 12 it's
+a stable area but I can achieve the same
+thing at about six so six I am
+surrounded by a higher Point here and
+about the same here and the same here so
+let me pick six bars as the exit point
+so here is my strategy at six bars so
+for example here we have a gap between
+this one and this one and again we are
+not measuring the Gap this is zero I
+don't care and I don't care about the
+length of the bar in the middle so I'm
+just measuring any Gap with any bar in
+the middle and then I go along but now I
+am holding holding for six bars so enter
+next bar 1 2 3 4 5 6 and I exit next bar
+and let's see the result of this
+strategy so it's
+261 trades but look at this now
+$626 on average this is how the charts
+look like 43% in the market and this is
+the annual period performance we lost in
+2008 2018 and 2022 to so the effect of
+testing how many bars to hold is much
+better than the effect of the threshold
+of how wide is the gap or how wide is
+the bar in the middle now that we fixed
+our exit at six bars which looks like a
+stable area let's now go back and see if
+the middle bar range will affect the
+strategy remember it used to be between
+one and two atrs and we will also test
+if the wide if how wide the fair value
+Gap is will affect the strategy so here
+is our original strategy this is holding
+for 6 days and now we are testing the
+bar in the middle in the fair value Gap
+so again from 0 to six and this is the
+custom Fitness so 509 and I sort the
+highest look at this the highest is zero
+this means that it doesn't matter how
+big is the bar in the middle if I
+exclude it from the equation I make the
+most amount of money with the least
+amount of draw down this is now
+comparing the gap size so the fair value
+gap between Bar number one and Bar
+number three that's what we are
+measuring here again from 0 to six in
+terms of average through range and if I
+sort by return to draw down again zero
+is on the top not only zero is on the
+top look at the next value so this is
+almost 5.1 and the next one is 3.7 so
+the also so the difference is huge
+between zero and the next step so our
+testing shows Once you increase number
+of bars to hold this gap size and the
+bar range in the middle doesn't matter
+anymore which is extremely good now that
+we have an excellent strategy less
+variables that means it's very robust
+now we can just sit and relax add
+filters from our collection and just see
+if we can enhance the metrix
+significantly now I tested the strategy
+with my market regime filters this is
+version two of my market regime they are
+only Direction and volatility and
+currently there are about 250 of them so
+0 0 is our original strategy we're
+making 163,000 our draw down so
+basically we're making 5 to one return
+to draw down ratio our average trade is
+at
+626 so if I sort by custom to return
+grow down and let's look at our or this
+is our original strategy so 14 so we
+have about 13 filters that doing very
+well now remember I'm sorting by return
+to draw down so it's not necessarily we
+are making more money although we have
+some filters making more money but it's
+not because my my main concern is the
+draw down and without looking at the
+code for the filters I can tell you that
+filters up to number 30 they are
+volatility so this is volatility this is
+volatility this one and this one and
+this one and then the rest are Direction
+so sitting at the top is Direction
+number two is volatility and if I pick
+this one so this is filter 73 and this
+is about 40 trades that we taking out
+but we took out only the one in the bad
+regime now remember this one at the top
+it's making the same amount of money
+almost so the original strategy making
+163 this is making
+169 but the draw down is 50% less so
+this is huge and this filter 66 is again
+a derivative of shortterm Direction now
+remember these are not optimizations
+each filter is fixed so now I cannot go
+back to filter 66 and optimize 66 on a
+value this is fixed all my market regime
+filters are fixed you cannot touch them
+you cannot optimize so picking the
+strategy now this is how it looks 141
+trades making
+$1,200 per trade that's very good 65%
+win rate this is how the curve looks
+like I mean this is beautiful it's going
+up all the time with simple draw downs
+and actually we can look at these draw
+Downs so it's about $6,000 in the
+beginning and lately it's about
+$111,000 annual period analysis down in
+20 8 almost scratched 2011 and 2018 is
+down and since 2018 we are up all the
+way now filters comes in all shapes and
+sizes in fact I have 700 more filters
+that I can put in this optimization but
+I didn't want to bother you with usually
+Direction and volatility are the most
+effective like just like I showed you
+easily come up with 15 better strategies
+than your original uh strategy just by
+applying simple filters now my market
+regime filters are proprietary they are
+only available to the students in my
+algo trading master class but still you
+can easily mimic my strategy performance
+if you're using a directional filter
+like uh moving average or linear
+regression or you can use the volatility
+filter using ATR or standard deviation
+and like I mentioned in the beginning of
+the video that the fair value Gap exist
+in all markets of course you can apply
+now this strategy in other markets but
+you need to test from scratch now I can
+use the same strategy on let's say the
+Dow Jones because the Dow Jones is
+highly correlated with the S&P 500 this
+is the result of the strategy applied to
+the Dow Jones 112,000 for the Dow Jones
+this is really really good 3 to1 return
+to draw down ratio total trades 200
+making about 550 per trade and annual
+analysis it's a scratch 2007 down 2008
+2010 and 28 18 and this is how the
+curves looks like again it's really
+really good to learn more strategies
+watch this video and I will see you
+[Music]
+there

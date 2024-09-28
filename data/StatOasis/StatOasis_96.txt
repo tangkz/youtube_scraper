@@ -1,0 +1,319 @@
+building a strategy using seasonal
+patterns will add a lot of
+diversification to your portfolio
+because the returns from seasonal
+patterns usually are very different than
+returns from near version breakout and
+so on so forth I will show you how to
+build a seasonal pattern strategy on
+copper Futures Market within this video
+that's like 10 minutes the tool I will
+use to build this strategy is included
+in the algo trading masterclass so if
+you're are a student you already have it
+and that will significantly reduce the
+time needed to build this strategy this
+is the tool so you can upload your data
+into this tool and it will give you this
+dashboard basically seasonal patterns
+based on your data so it doesn't matter
+what data you upload is it currencies
+ETF cfds it will find patterns in the
+data here I have the copper Futures
+Market uh since 2006 and the first p
+that jumped to us is Monday is a down
+day and Friday is an up day now this is
+already beneficial because if I'm
+building a long strategy on copper it
+will make a lot of sense not to trade
+long on Mondays or short on Fridays
+because most of the time the average
+trade on Monday is down and the average
+trade on Friday is up but if we dig
+deeper and we go to the heat map this
+curve represent the hourly return of
+copper Futures market during the week
+and clearly Monday is a down day just
+like we saw previously so this is the
+move down but also we notice that
+Tuesday has a move down and also
+Wednesdays has a huge dip down and then
+again Thursday starting around 2:00 a.m.
+that's a huge move down and then Friday
+is up now I can already use this to
+build the strategy but I can dig even
+deeper and I can go to the averages here
+and to prove my theory this is Monday so
+if I start Monday day from 1:00
+a.m. all the way let's see here till
+8:00 a.m. you can see I am making $126
+that I'm making that means if I'm
+shorting cuz this is negative so if I
+short from midnight till 8:00 a.m. on
+average I should make
+$126 now I can keep going and let's see
+if I make more so this is less all the
+way is less and if I continue till
+Tuesday so this is
+153 and this is
+162 168 so Monday midnight till Tuesday
+7 a.m. I am making on average
+$168 and if you remember uh Wednesday
+was also a dip so if we continue this
+process and include Wednesday so
+definitely yes Wednesday till 8:00 a.m.
+we are making $224
+and if we continue to include Thursday
+which also has a dip so let's stop here
+till minus 30 this is
+189 and if we continue here let's do 12
+include this one 205 this one 205 so it
+doesn't add any benefit to include
+Thursday so that's another day meaning
+we are exposed to the market more so I
+will leave it between
+Monday and Tuesday and Wednesday till
+8:00 a.m. that's 224 that's the maximum
+we can make shorting around midnight
+exiting here around 8:00 a.m. now that
+we found this pattern extremely easy the
+chart just show you the pattern if there
+is a pattern you will see it so I built
+this pattern in strategy context the bar
+time is 23 this is hourly time frame so
+this is copper hourly time frame
+and the reason I am doing it from Sunday
+because the bar will execute on next bar
+so if this bar is true then next bar we
+will open the trade that means Sunday 23
+is Monday at midnight and I will show
+you this in a second and then we're
+exiting 7 on Wednesday because again the
+exit is next bar which is 8:00 so let me
+run this strategy using a single
+contract and as expected the strategy is
+profitable so it took us less than 5
+minutes to find a pattern and verify
+that it is profitable on the copper
+Futures Market this is what I called is
+a target building meaning you already
+know what you're doing it's not like
+trial and error it's not like data
+mining you already know that you're
+supposed to have an edge might not work
+but most likely you might have an edge
+here and we just tested it and it is
+true now we need to verify if this is
+real if it's an outline
+how can we improve it and so on so let's
+verify the trades and here is the most
+recent trade so it's May 8th and so May
+8th should be a Monday at 00 and if you
+check your calendar you will see that
+May 8th is indeed a Monday and then May
+10th is a Wednesday so we're entering at
+midnight exiting at 8:00 a.m. this is
+perfect exactly what we want and if we
+look at the performance let's do the
+open Draw down so we're making 180,000
+134 average trade not bad almost half
+and half winning and our draw down is
+about
+$288,000 and if we look at trade
+analysis it looks good 2008 is an
+outlier year but this is interesting
+January and February are down months but
+if we look at the win loss by
+month January has more winning trades
+than losing but February definitely more
+losers than winners so first let me
+verify that this is
+true and if I
+add our month is
+February Let's
+test and let's verify okay so this is
+not an outlier February definitely is a
+down month and since
+2006 I mean this is 650 that's scatch 75
+scratch scratch so we probably have
+three five almost 10 years definitely
+are down and three years are up so
+definitely February is a down month yes
+sometimes only once we made a lot of
+money not a lot I mean still it's good
+amount but most of the times we are
+losing so I am very happy to take
+February out and if I take it out
+so let's say bar month is not
+February let's see if we enhance our
+strategy by a
+lot so definitely we're making more
+money and we increase our average trade
+and win percent so overall it's a good
+condition to add so up till now the
+strategy is done I mean there is a
+robustness verification which I teach in
+the algo trading master class and if you
+use that then the strategy is baked you
+can already use that but of course we
+have strategy Quant X which is a data
+mining package and we can use that
+strength to our advantage and this is
+how we will do it so instead of taking
+February out let me put it back in and I
+will switch
+this to a
+template and I will add a random
+condition here so now this strategy has
+a random condition on Entry other than
+the time so if I go to Builder and pick
+strategy from template and we pick our
+strategy it doesn't matter what you pick
+here because it's already set in here so
+since there is no stop- loss no profit
+Target it will not be used and the exit
+is fixed so there's no other conditions
+to add so there is nothing to add
+actually other than data which we add
+the same data of course so it's copper
+H1 since 2006 we have our out of sample
+and trading option there's nothing to
+pick and building blocks I picked
+everything so you can see here
+everything's picked 461 blocks picked
+order types and then money management
+you're using one contract there is no uh
+robustness here and ranking I only
+picked profit Factor 1.3 stability. 7
+average trade I on it above 100 and I
+need at least 65 T that's the typical
+that I look for before going any further
+so we are building 200 uh strategies out
+of a th000 so once we find 200 we will
+keep
+optimizing up to a th000 let's run this
+and see what we
+get so immediately we have over 5090 124
+I mean I'm talking and it's done this is
+an extremely good sign if you are a
+strategy quantx user then this is a very
+good Nuance to know if the strategy is
+coming up extremely quick that means it
+was very easy for sqx to find profitable
+strategies matching your criteria that
+means sqx did not work hard by hard I
+mean overfit to find a profitable
+strategy to your condition so we come
+back here and let me sort by net profit
+and let's see what kind of strategies we
+get so remember our strategy made
+145,000 with February off return to draw
+down of
+638 and a 53 winning
+per. so if we are looking for more here
+well first I can sort by return to draw
+down and we definitely have more so this
+is 98 and even though it's less money
+but it's still it's much less draw down
+so it's preferable and remember I'm not
+sacrificing trades all these trades are
+around 400 so this one
+130,000 with 8.71 so we already beat
+this return to draw down all these
+strategies sorted by return to draw down
+already have a higher win rate and
+finally if we go by average trade so
+definitely all these remember the last
+one with February out was around $170
+and these are all above 200 uh some of
+them 300 300 300 so that's all so we
+improve everything with the strategy but
+of course we don't know what conditions
+here remember we added only a single
+condition so let's see what uh
+conditions this is a great one the uler
+index this is an extremely simple
+condition and it looks for uh standard
+deviation of losses and so this is very
+robust uh condition to have and second
+one is linear regression again this is
+really good this is almost looking at
+the trend in this market and this one is
+a moving average so you can see we don't
+have any exotic conditions to get a
+better strategy these are extremely
+simple
+filters and even then you can still work
+on February I mean we didn't check but
+let's go back so let's say this is the
+strategy I love it's making 130 but
+return to draw down 8.7 300 average
+trade 435 trades and if I want to look
+at the performance of this I can see
+that February is still down but it's
+down barely 1800 it's not worth taking
+February out but it's not the same for
+all conditions for example this one is
+the same this one February is losing a
+lot which proves that February
+definitely regardless of what you're
+going to do is a down month and then
+this is I mean extreme so look at this
+this is
+$23,000 so if if you take February you
+can add 23 here which is going to make
+it
+$130,000 so that's going to change all
+the figures here and still our theory is
+is correct because the losers are more
+than the winners in February and now I
+will show you another trick that I have
+in my sleeve which is to combine two
+time frames to get even more variety in
+the equity C so if we go back to the
+original strategy and now we can add a
+second chart which is the daily time
+frame of copper now of course you can
+test other instruments here but just to
+make it simple copper and then the
+random condition we will apply it only
+to Copper so right now we have two time
+frames the first one is for entry and
+exit and the second one is for the
+filter so I save this as two time frame
+and if we go to Builder and let's clear
+all this go back to full setting and
+let's load the St strategy the two
+templates so we Lo the strategy again it
+doesn't matter what you pick here
+everything is fixed but now our data
+should show second time frame and you
+can see here once we loaded it's already
+showing us the second time frame fixed
+at D1 and now all these building blocks
+will be applied to the second time frame
+so we can use the same ranking same
+everything and let's start
+building and again we immediately get
+more strategies but you can see it's
+already it's a little bit slower that
+means it's a little bit harder to get
+those strategy but still I like it's
+going really fast so we can close it now
+it's already 200 now let's look at
+return to draw down we get better return
+to draw down only probably two or three
+strategies but to return to draw down
+this is good this is 142 with nine 76 to
+draw down and our average trade is again
+above 300 really good 400 so this is all
+good and let's see now what this
+condition is and again extremely simple
+condition the open monthly of the daily
+time frame is lower than the session
+close uh this is the super Trend and
+let's look at the top one this is the
+CCI again extremely simple filters for
+more seasonal strategies watch this
+video and I will see you there
+[Music]

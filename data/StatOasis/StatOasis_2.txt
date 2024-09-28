@@ -1,0 +1,240 @@
+if you look up the term Market structure
+you will find hundreds of videos
+rambling about Market structure where
+you need to Define higher highs lower
+lows higher lows ascending triangles
+Market profile volume and on and on and
+on in fact all this is garbage it means
+nothing to you when you want to trade by
+the time you define higher highs and
+higher lows the trend is already gone
+and I promise you no nobody is managing
+millions of dollars sitting and watching
+the screen pointing higher highs and
+lower lows they don't do that so when it
+comes to trading we should follow the
+professionals who are making money in
+the market consistently year after year
+and we should not follow gurus on
+YouTube including me without testing the
+pattern that they are teaching you I
+promise you by the end of this video you
+will be ahead of 99% of Traders out
+there looking to sculp and find the
+perfect strategy and the perfect
+indicator because it all boils down to
+Market Edge I Define market Edge as the
+characteristics of the market a good
+analogy is let's say if you have kids
+then even though your kids came from the
+same parents living in the same house
+speaking the same language but each have
+different skill if you are in a sport
+suppor in team is the same thing not the
+whole team have the same skills each one
+excel in a certain skill if you are in
+school or university then the same thing
+applies not all students attending the
+same class having the same skill and
+markets are exactly the same every
+Market is traded by thousands of
+participants and each has their own
+fundamental principles that guides the
+price along the way so when you hear the
+the term that the strategy has to be
+symmetrical that means nothing in the
+real world I mean long-term Trend
+following I might say yeah kind of maybe
+some fundamental strategies long term
+will work on all markets but even then
+long is totally different than short
+short usually is very volatile and with
+it comes with an expansion of uh the
+ranges and it's short it doesn't uh
+sustain for long term while long-term
+trends usually it's not volatile and it
+takes a long time to build but for
+shortterm strategy this does not exist
+at all the long is totally different
+than the short and each market behaves
+totally different in Long than short so
+Market Edge is all about finding that
+characteristics of each market does it
+work well with long or short with mere
+revers or breakout once you find that
+then it becomes very easy to build a
+strategy but of course like always we
+need to test to verify the Merit of our
+thesis this is the export for crude oil
+data since 200 and 7 so as you can see I
+have the date then we have open high low
+close and volume then I calculate many
+things most importantly let's focus on
+this number so this number is the amount
+of dollars we make if we buy the open
+and sell at the close so this is the
+next day we lose
+$150 the next day and so on so forth and
+if you make a pivot table then you will
+end up with something like this so this
+is the average of the amount of dollars
+we make for all the periods in the
+analysis which is since 2007 so if I buy
+the open sell the close every single day
+since January 1st 2007 all the way to
+September 2024 on average I will be
+losing about
+$25 this is not taking slippage and
+commission into consideration so here is
+the first takeaway when it comes to
+crude oil Market which is overall it
+tends to go down more than go up because
+as you saw from the data if we buy every
+day we end up losing money on average
+now you might say well you know some
+days you lose more than you win so it
+makes sense also to see the win loss
+percentage and here is our win loss
+percentage so you see we win more than
+we lose that means the close is up more
+than the close is down but when the
+close is down it travels further meaning
+the range is bigger when we are losing
+that's why the average is minus instead
+of plus so the second takeaway in the
+crude oil Market is the win percent is
+higher it's about 7% higher than the
+loss percent but because when we lose we
+lose more that's why the average is in
+the minus so here the edge is not clear
+we lose on average but the win percent
+is higher so it's like conflicting
+results so here is the EUR US dollar and
+we can see on average we are- $6 here is
+the S&P 500 and on average we are making
+about $20 here is natural gas on average
+we are losing $70 and finally here is
+wheat and on average we are losing about
+$37 and here is the wind loss for wheat
+on average we lose about
+$37 but also we lose more than we win
+and we see the number number of losing
+trades 2350 about to about 2050 so we
+almost lose 14% more than we win so for
+the wheat Market it's a totally
+different story The Edge is there on the
+short side because on average we lose
+$37 if we buy every day the total number
+of losses is 14% more than the win so
+then now these edges align so for the we
+Market if you only take these two data
+points that on average we lose more than
+we win and on average the close is below
+the open that alone can give you a head
+start of everybody else because now you
+only need to build short strategies on
+the wheat Market more than 90% of the
+time your short strategy will be
+profitable and will be robust now we can
+go a step further so on average in the
+wheat Market we lose about
+$37 now I have my market regime
+indicators these are proprietary
+indicators that are included with my Alo
+trading master class and if I include
+the long-term Market regime we can see
+also the behavior is different when we
+are in bare Market on average we lose
+about $20 when we are in bull market we
+lose about
+$70 and when we are sideways we lose
+about $45 so for the wheat Market we
+lose on average and we lose more than we
+win also when the market is trending up
+if we buy every day we lose more than if
+the market is trending down so those are
+huge pieces of information that if I
+Define the market let's say the 50-day
+moving average above the 200 day moving
+average let's say this is our bull
+market if I short every day in this bull
+market I will make on average $70 a day
+I can take this a step further if I put
+the previous day filter so this filter
+is checking if yesterday is an update
+and this probably shows it better so
+this is when you yesterday is up and
+this is when yesterday is down and we
+see the difference in the behavior yes
+all of them still short is better cuz
+remember all these are negative that
+means every day if I short I make money
+and the difference in this market regime
+which is the bull market when yesterday
+is up is huge because here on average I
+make $112 per day now of course you can
+take this analysis further and you can
+see the behavior per month the behavior
+per day of the week but overall we start
+from the main characteristics of the
+market which is wheat works very well
+with short that means if you start with
+a short strategy you'll be much better
+off than any other indicator out there
+you drill down and if you define the
+market in up down sideways you find
+shorting in up Market is much better and
+then just a simple filter which is
+yesterday is down or up gets you even
+further now of course these filters this
+is just one that I use uh just one bar
+so it's not optimized but of course you
+can use any type of filter like macd adx
+the possibilities are endless but the
+idea is not to build a strategy yet we
+are just defining what this Market will
+do very well with which type of of
+strategy Direction so this is shorting
+every day we have about 4,500 trades on
+average we are making $37 because
+remember the Excel sheet shows a minus
+so I'm shorting here that's why we are
+positive and now I'm going to add the
+condition to short only in bull market
+so let me compile and now we are down to
+about 1,000 trades and our average trade
+went to almost $72 and now if I add the
+condition of yesterday's bar is up
+meaning just yesterday the close is
+higher than the open so let's
+compile and now we are down to about 530
+trades with
+$124 so this matches my Excel sheet
+perfectly like in every step of the way
+the uh starting which is about $37 and
+then the uh bu Market which is about7
+something dollars and then when we add
+the filter of yesterday's bar we end up
+with about 50030 trades with about 120
+plus dollars on average this average is
+alone is you can work with like this can
+be a strategy already but that is not
+how you use Market Edge you use Market
+Edge to Define what is the best
+direction for this Market to go long or
+to go short
+and which strategy style to use is it me
+reversion or breakout because again each
+market has a separate behavior for Mir
+reversion or breakout and if you start
+with this information it will be a lot a
+lot easier to build profitable robust
+strategies also this information make it
+really clear that not every strategy
+will work the same way long or short or
+not every strategy that works on Market
+a will work on Market B because of this
+inherit behavior in each market if you
+like this video then you will love the
+next video
+[Music]

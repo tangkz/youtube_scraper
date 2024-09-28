@@ -1,0 +1,370 @@
+the secret to consistently build robust
+strategies is exploiting patterns
+patterns is one of the most powerful way
+to build strategies because usually well
+most of the time they are hidden and if
+you find it and exploit it and you add
+some filters then you'll have a unique
+set of rules for your robust strategy in
+this video I will reveal two patterns
+they are the up and down thrusts now
+usually I don't do these patterns on the
+channel at least because usually they
+involve something complicated in this
+case these patterns although they are
+very simple but they require finding a
+pivot and pivots it's kind of tricky I
+mean you can find it easily but in
+programming you need to take care that
+you avoid the look ahead bias so let's
+draw a high pivot let's assume that we
+have four bars and let me change the
+color here okay so this is the pivot
+high and as long as the pivot high as
+long as this bar is higher than the bars
+on the left and higher than the bars on
+the right that's called a pivot high now
+this
+interpretation is open because you can
+use the close higher than the previous
+closes also you might require that each
+high is higher than the previous height
+in our case in this pattern we only
+looking for the Center Bar this guy to
+be higher than the bars on the left and
+the bars on the right this means if I
+move this bar here the pattern will
+still be true because this high is
+higher than all these highs now
+currently this pivot has four bars to
+the left and two on the right so the
+right strength is two and the left left
+strength is four so this pivot requires
+four on the left two on the right and
+that's why I say it's a little bit
+tricky because only here you will know
+that the pivot happened like you need to
+wait for two bars after the pivot
+happens then you will know that the
+pivot happens and if the strength was
+one then you will know over here and if
+it's three then you will know over here
+and so on so forth so when the program
+shows this pivot happened you cannot act
+next bar you need to act after the
+second bar and this is what I mean by
+the look ahead bias now most platforms
+will behave properly meaning they will
+issue the signal after the second bar
+and when we have the right strength as
+two bars but when you're back testing
+you need to uh keep account of how many
+bars when that happens so that's what
+you need to take care of once you take
+care of that then it's very easy so
+we'll start with the up thrust pattern
+so the up thrust pattern is for long and
+the rules are as follows we wait for a
+high pivot to happen and then we wait
+for an open above the pivot and the same
+bar close is lower than the previous two
+and also the same bar close is in the
+bottom of the range so let's show that
+with an example so here is what I mean
+by the upth thrust pattern so we are
+looking for a pivot tie that has four
+strength on the left two strength on the
+right okay so this is the bar and then
+after the second bar we need an open
+above the pivot high so the Red Bar
+means it's a down bar so that's the open
+and this is the close so the open needs
+to be above the pivit high and then the
+close needs to be lower than the
+previous two so this close is lower than
+this and it's lower than this and also
+the close of the same bar needs to be
+below the 50% of the range so this close
+below the 50% Mark once we have all
+these conditions met then then we will
+go along on the next bar our exit will
+be when the RSI 2 above 80 or fixed 10
+bars now this is a general exit it works
+on any single pattern you trade for
+short term so shortterm RSI 0 you should
+get it within two three bars if it
+doesn't happen you give it a little bit
+more chance if it doesn't happen then
+you exit after 10 bars now to optimize
+this pattern we can change the number of
+right strength from one to two and we
+can change the left strength from one to
+four or five and then we keep everything
+else is the same so obviously if you
+have one bar on the right one bar on the
+left you will get more trades and if you
+have more bars like four or five on the
+left and two on the right you will get
+less trades now one last thing to keep
+an eye on is this bar doesn't have to be
+the third bar on the right so when the
+pivot happens you have a window of when
+this bar will happen this is also
+optimizable like let's say this is
+happened now and then 20 bars later
+without a new pivot you get this bar
+then that's also valid like you can
+decide what's the window size and here
+we can visualize this on on a real chart
+so this is the S&P 500 futures the daily
+session the indicator at the bottom
+showing two things the green bars are
+pivots and the plus cross in yellow
+these are the rest of the conditions so
+remember we have high pivot that's the
+green bar and then the open greater than
+the pivot and the close lower than the
+previous two closes and the closes in
+the bottom of the range this is the
+cross sign and so you see sometimes we
+get a pivot but we don't get the other
+conditions so again here is a pivot we
+don't get the condition here we get a
+pivot and we get the condition and
+notice because the window here is more
+than 20 bars so this condition applies
+to this bar so this is the pivot and
+then this condition here the open is
+greater than this
+pivot and the close is lower than the
+previous two closes and the close is in
+the bottom of the range then we get all
+the conditions because remember the
+right strength is two bar so in reality
+this pivot happens we are still trading
+every day every day and then this pivot
+happens but this is bar one so this
+didn't paint yet and then this is bar
+two two didn't paint yet and only here
+actually where this one will paint so
+that's why what I told you in the
+beginning you need to pay attention
+because there is a look ahead bias when
+you back test this kind of pattern now
+of course that's the beauty of algot
+trading because once you program it you
+don't need to think about it it's all
+happening based on your rules like there
+is no uh room to interpret is this true
+or is this false it's either true or
+false and there is no ambiguity in the
+explanation of the pattern so this is an
+example of the strategy of four bar
+strength on the left and two bar
+strength on the right High pivot so this
+is a pivot and at this
+bar we have the open higher than the
+pivot the close below the two the close
+at the bottom we issue an order to buy
+next bar next bar we buy we get this
+pivot painted it's fixed 10 bar exit or
+the RSI above 80 and then here same
+thing so this pivot did not paint here
+so then this bar the open is higher than
+this pivot high and this bar the close
+below the previous two closes also the
+closes below the 50 range
+and so we issue an order to buy an X bar
+which happens here we exit with RSI 2 or
+after 10 bars and so on so forth but you
+can see we don't have trades all the
+time but we're having them when we have
+these cross now we can optimize this and
+you can see the pivot left strength from
+1 to five step one the right strength
+from 1 to two step one and then the look
+back period like how far we want to go
+to look for a pivot we can uh optimize
+this from 10 to 30 and then the window
+so the window is once the pivot happens
+how far can I go to look for the next
+condition and I'm going to look from 3
+to 21 in a step of two so all in all we
+get 1100 combinations here are the
+results sorted by return to draw down
+and we can see that
+42 shows at the top a lot so that seems
+good but the look back period is 10 and
+then the window is all over the place so
+I think it doesn't make any difference
+actually here the top five they don't
+make any difference so from 11 all the
+way to 21 they're all the same so I'm
+going to pick like the middle so 4 2 10
+and 15 so this is our strategy now 74
+trades with 8 81% win rate with about
+$690 and that is a great strategy for
+the S&P 500 E mini Futures this is the
+equity curve it's very smooth we have a
+kind of big draw down here and then the
+annual period analysis so far only 2019
+is a loss I mean 2018 is a scratch but
+overall very good performance the only
+thing is the low number of Trades so 74
+is definitely on the low side now the
+down thrust is a short pattern so we are
+waiting for a low pivot and basically
+everything is the opposite so low pivot
+open below the low and the close is
+higher than the two previous closes in
+the upper range and then we go short now
+remember shorting on the S&P 500 is
+difficult to find strategies with it and
+even if you find it usually it's less
+trades but let's see what we get so
+first here are the r ruls we need a low
+pivot the open below the pivot the close
+higher than the previous two closes and
+the close is in the top 50% of the range
+now the exit you see here I put four
+bars so the rsi2 is the opposite instead
+of above 80 we will exit when it's below
+20 because we are shorting but always
+this is a good tip to keep in mind
+always with short you need to exit
+quickly because short in the end indexes
+they don't last a long time so instead
+of waiting 10 bars you always shoot for
+three to five bars so I put four in the
+middle and here is the strategy applied
+so this is the low pivot and then this
+open is below the pivot and it's the
+close is higher than the previous two
+closes and the close is in the top range
+so we issue an order to short next trade
+we will exit when the rsi2 hit below 20
+or after four bars and let's see the
+performance so we have 38 trades and
+overall we are losing so let's optimize
+and find something else and here are the
+optimization results sorted by return to
+draw down and you can see we are barely
+making profitable strategies so these
+guys have 22 trades 23 trades and if I
+scroll down 18 trades 19 so I will pick
+the same window and look back for the
+long side so 1 one and 10 and 15 so only
+22 trades at
+870 on average so this is how the short
+side look 22 trades about 60% win per
+and
+$870 and this is the equity curve of
+course it's going up but I mean we don't
+have enough trades but at least we can
+combine it with the long side to see
+what what we get okay so now we have the
+two strategies combined now remember
+some trades will overlap you see here
+for example if the short order was
+issued while we are long then the long
+will be closed and we will enter short
+and same of course on the opposite side
+overall when we combine them we get 134
+trades with an average of
+615 and the equity curve now becomes
+much much better than both of them in
+fact we can see this because now our
+return to draw down gets to over s so
+the long side was below six the short
+side was below six but combining them
+now we are over seven because we are
+adding the profits and reducing the draw
+down which is the beauty of any
+portfolio and this also can be
+considered the portfolio long and short
+of course if you watch many of my videos
+then you know the S&P 500 is me
+reverting instruments tend to drift up
+most of the time which means it works
+very well with all long strategies so
+what about we think out of the box okay
+what about we turn the short pattern
+into another long pattern so they pivot
+up close goes below we go long also they
+pivot down and the close goes up and
+then we also go long so that's two
+different signals to go long so let's
+see what we get so here is the low pivot
+now used as a long signal so this is the
+pivot and then the open happens now
+instead of going short here we are going
+long it's exactly the opposite so here
+is the optimization result sorted by
+return to draw down not a lot of Trades
+because remember it's the same pattern
+but now we have more strategies
+profitable so we can pick this pattern
+it's one two with a look back of 10 and
+window of five so this one is making 67
+trades and $35,000 with an average trade
+of 531 so again that's really good this
+is how the equity curve looks like so
+now we have two patterns to go long and
+one pattern to go short we can combine
+all of them in a single strategy now
+sometimes the long side because we have
+two signals sometimes they overlap so we
+need to allow the strategy to take two
+orders if they overlap of course the
+short side will always be a single one
+and it will exit all longs to get short
+so this is the combinations when there
+is no overlap so we're only allowing one
+long signals we get 168 trades with an
+average of
+547 so that's still really good and if
+we allow the signal the strategy to take
+two signals so allow two order entry
+when the order is generated by a
+different uh signal so this is how it
+looks like and now we can see we have
+181 trades still uh say having the same
+average trade and now let's also add the
+short side so overall now we have 22
+short trades 185 long trades uh with a
+total of 207 and our average trade is
+great of course the short side is
+amazing uh but our average trade is
+still very very good with about 70% win
+rate now our return to draw down of
+course we are looking to enhance it
+which is very good
+6.58 and our Equity curve became much
+smoother of course because we're adding
+different signals at different times we
+are not using position sizing like we
+are not leveraging the same signal again
+we are using different signal so that's
+what makes uh this portfolio very good
+and now our annual period returns looks
+like this so 2015 is a scratch year 2018
+is the losing year and then everything
+else is very good in fact Last 5 Years
+this been an amazing strategy although
+keep in mind this strategy is not in the
+market all the time look at this it's
+only
+18% of the time it's in the market since
+the past 17 years even though we're
+making really good return our capital
+is not used all the time and it's
+available to be used for other
+strategies the power of portfolio of
+strategies never underestimate that
+short two different signals for long and
+only with three strategies we have an
+amazing portfolio on the same instrument
+using the same code on one chart if you
+like this video you will love the next
+video
+[Music]

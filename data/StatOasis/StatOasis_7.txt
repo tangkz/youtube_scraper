@@ -1,0 +1,201 @@
+did you know that there is an indicator
+better than the RSI 2 indicator for
+short-term strategies stick around and I
+will reveal to you the power of trend
+strength indicator I've tested the RSI 2
+indicators on hundreds of strategies
+tens of instruments and usually it is
+the best short-term indicator for me
+reversion strategies but the trend
+strength indicator really gives it a run
+for its money now most Traders confuse
+the trend strength indicator with the
+true strength indicator and the reason
+is very simple because they are both
+named TSI in fact in most platforms you
+put TSI and you will get either one of
+them on top of that trade station and
+multicharts they don't carry the trend
+strength indicator but they are not the
+same in fact they are calculated in a
+completely different way and they
+produce completely different signal so
+here in trading view if you click on
+indicators and you search for TSI
+you will find both of them Trend
+strength index and true strength index
+and then there are like a 100 variations
+of them which is totally normal for
+trading view so here are both of them
+plotted this is the true strength index
+and this is the trend strength index and
+if we click on the code you can see that
+the true strength index is based on
+multiple exponential moving averages and
+a signal so it's very pretty much like a
+macd indicator but the trend strength
+index it uses a different function and
+you can see here it uses correlation so
+this function Returns the correlation
+coefficient between the close and the
+number of look backs which is the period
+we are looking for so they are totally
+different now trade station and
+multicharts they don't even carry the
+trend strength index so after searching
+a little bit on Google I found that the
+indicator is sold for 100 sometimes $200
+and
+$300 so I thought that's crazy so I
+turned to chbt to get the same thing so
+I simplified the code from Trading view
+because many of it it's like the level
+and the coloring and basically we just
+want to replicate this correlation part
+GPT came up with something like I didn't
+get this like it's a
+divided by the square root so there is
+nothing related to the correlation at
+least from my understanding but after
+several trials I was successful in
+creating the indicator from GPT and
+basically it gave me something that it's
+opposite so I flipped it and then
+multiplied by 100 so now instead of
+going from minus1 to + one my indicator
+will go from - 100 to + 100 and here is
+a comparison between both so so this is
+trading view this is the TSI the trend
+strength indicator with a 14 period on
+the S&P 500 and here it is in multi-
+charts and like I told you mine now goes
+from minus 100 to 100 but as a Trader
+you need to look outside the box and
+definitely look outside the default
+parameters the default parameters are
+the worst for any indicator you
+encounter because it's usually the same
+published parameter since I don't know
+when probably 10 20 30 40 years and
+those edges are long long gone so you
+need to find something different and of
+course the shorter the look back
+parameter the faster the move is going
+to be the more signals you get and the
+longer the parameter the less signals
+you're going to get and the less
+extremes the values this applies to
+almost 90% of the indicators so I did
+the same thing then it looks immediately
+do something very similar because I test
+the RSI 2 a million times like I
+immediately recognize it it looks very
+close to the RSI 2 when I take the
+period all the way to three which is the
+minimum because with Trend strength
+index you cannot go below three so here
+are now the trend strength index in
+purple and the RSI 2 in yellow and like
+I told you the minimum with RSI period
+is two the minimum with TSI is three and
+you can see they are extremely extremely
+close in Behavior so almost all dips are
+matched by the other indicator so here I
+have the S&P 500 futures the daily
+sessions and on the right here I have
+the rsi2 strategy when we are below 20
+we buy Above 80 we sell on the left side
+again the same data S&P 500 futures
+since 2006 daily session and here I have
+the
+TSI when it's below minus 80 we buy and
+when it's above 80 we sell now I named
+my indicator
+tdsi in order to differentiate it from
+the TSI which is already included in
+multicharts and trade station and here
+are both strategies side by side so both
+of them have the same amount of data
+same instrument and using the same
+levels and you can see the RSI is
+40.7% in the market and the tdsi is
+43.3% when we look at the performance
+this is 190,000 this is
+216 not only that we get a much better
+return to draw down because the draw
+down here is almost
+37,000 and the draw down here is 58 and
+this shows up because here the return to
+draw down is 5.9 and here the return to
+dra draw down is 3.3 when per on the RSI
+is better this is 74 and here it's 71 so
+the reason for the discrepancy is the
+number of trades in fact we have 60%
+more trades in the
+tdsi than the RSI and here the average
+trade is 690 and here is 481 and 481 is
+a very respectable average trade so even
+though it's lower and the win percent is
+a little bit lower so I already prefer
+that DSi and finally we look at the
+annual period analysis both of them
+suffer in 2008 with about the same
+losses 2400 here and here is 2,000 and
+both of them again suffer in 2018 this
+is about 20,000 and this is about 20,000
+2021 which is an outlier positive year
+both of them make above 44,000 the
+difference though this year the RSI made
+23,00
+and tdsi made
+$330,000 and again that's because of the
+number of Trades so you see here we have
+19 trades so far this is up to July and
+this is 10 trades so far now these
+results are without commission and
+slippage but even when you include
+commission and slippage the tdsi is
+still slightly ahead of the RSI so
+overall I think the tdsi takes the win
+in this case now to find other values
+for the tdsi we will optimize the look
+back period from 3 to 15 Step One the
+entry level from - 95 to-5 step 5 and
+the exit level from 5 to 95 step 5 so
+overall we get about
+4700 strategies here are the results of
+all the optimizations sorted by return
+to draw down ratio and this is our
+original strategy so we have 12 more
+strategies better than the original
+strategy but they are all Clos in
+performance and this one on the top with
+$241,000 which is uh look back period 3
+minus 90 the entry level and exit at 80
+this is like RSI below 10 and exiting at
+RSI above 80 this is a 3D representation
+of the data so here we have the exit
+level from 5 to 95 and here is the entry
+level from -5 to - 95 and this is the
+three period look back and the
+four
+five 6 and you see once we get to 9
+everything is below this sea level which
+is set now at
+150,000 we also notice that the look
+back five has a lot more stable areas
+than three so a look back of five with
+an entry above Min
+-70 and then any exit will yield to this
+field of green so that is a very very
+stable region always being open to
+acquire new knowledge is the number one
+issue that separates the successful
+Traders from the unsuccessful Traders
+because when you are open to learning
+new things that means you believe that
+you don't know everything which is
+always true but sometimes ego gets in
+the way and if you like this video you
+will love the next one
+[Music]

@@ -1,0 +1,390 @@
+as a Trader most of the time you feel
+stuck trying to come up with an idea to
+build a trading strategy but what if I
+told you that there is a secret method
+to easily build a strategy on any
+instrument you like and that secret
+method is intraday seasonality this
+method is so good because you don't need
+to come up with an idea the pattern will
+be there and you just need to find it
+and trade it and I'm going to show you
+how to do this very easily if you are a
+stock Trader then you are used to the
+session this would be in the US uh from
+9:30 to 4:00 p.m. in Europe it's a
+little bit shorter and it's also short
+in Asian stock market but Forex Futures
+and crypto trades 24 hours a day and of
+course that attracts different type of
+Traders during different time of day so
+for example we have the US session we
+have the Asian session and we have the
+European session and each session
+attracts different type of Traders so
+our job as Traders is to easily find a
+pattern intraday during one of these
+sessions and then we trade that pattern
+so for example I have the US Australian
+dollar here represented by Futures and
+in the background I have an indicator
+that plots a different color for every
+session so the green session is the
+Asian session so this would be Japan New
+Zealand Australia Hong Kong and then the
+yellow part is the European session so
+France Germany UK okay and then the red
+part is the US session so that will
+include Canada and the US and Mexico of
+course they do overlap and it's up to
+you to Define where those sit so for
+example here is my definition so London
+session from 2:00 a.m. to 9 a.m. this is
+defined in the Eastern Standard Time in
+the US and then New York session from 9
+to 5:00 p.m. and then the Asian session
+from 5:00 p.m. M to 2 A.M like I
+mentioned of course you can change this
+definition up to so going back to our
+chart the white candles are the price
+and the yellow curve is the ATR of two
+days and then at the bottom we can see
+the volume so immediately I can find a
+volume here that usually the last hour
+in European session and first hour in
+the US session has a spike in volatility
+you can see even though the at R here is
+very high compared to this one but the
+pattern is still the same so high
+volatility and go back to low high
+volatility go back to low high
+volatility go back to low and this
+pattern of course does not repeat every
+single time but usually it's there high
+and low high and low high and low now
+this will be hard to find if you are
+just looking at the chart now in this
+case it was easy we can find volatility
+spiking
+usually in the overlap hour between uh
+European session and New York session
+but to really find a pattern that you
+can trade easily you need to use some
+math and that's very easy we need to
+think about it this way if we have let's
+say the last 15 years of data then we
+bring every hour of every day of that
+here and stack it up so for example we
+take Monday 8 a a.m. to 999 a.m. we
+stack every single Monday 8:00 a.m. to
+9:00 a.m. on top of each other and we
+take their average so let's say the
+average of 8:00 a.m. to 9:00 a.m. of
+every Monday we make $10 if we buy and
+sell the close like we buy the open sell
+the close then we bring 9:00 a.m. to
+10:00 a.m. 10 to 11 and so on so forth
+so we end up with 24 hours so that
+24hour cells each cell represent that
+hour on that day for the past 15 years
+now there are many ways to do this
+through programming and of course you
+have Google sheet and Excel sheet so
+this is an Excel tool that does exactly
+what I just described so you see here we
+have 24 hours in every day so from
+Sunday to Saturday and then it just
+Stacks every hour of every day for
+whatever data you have and in this case
+we have more than 17 years now this tool
+is provided to my algo trading master
+class students but like I mentioned I
+described how you can do it and now we
+don't need to look at the charts for the
+past 17 years we can easily find pattern
+so immediately we notice that Wednesday
+Trends up and somewhere in Thursday we
+Trends down all the way to Friday and
+then last day last 3 4 hours in Friday
+we go up of course we know so this is is
+let's say midnight Wednesday all the way
+to 400 a.m. and Thursday and then we go
+down all the way to 11:00 a.m. on a
+Friday and then we go up we also can
+find this here so this is the average
+win loss in dollars look at this so
+normally let's say this is. 21 that that
+hour doesn't give us anything $3 $3 four
+but then we find something interesting
+for example this one 10 a to 11:00 a.m.
+on Wednesday we lose $6.7 on
+average and this hour we lose seven this
+hour we make
+11 and then we have some stacking
+happening so look at this if we short
+the 9 a.m. open of Thursday and we cover
+our short by 11:00 a.m. we make on
+average $20 so this is a huge uh Edge
+and like I mentioned if we buy Wednesday
+at 12 all the way to Thursday at 4 so
+you can see I can pick these Sals and
+also add to them these one up to four
+and look at this $63 on average and if I
+short from 5 all the way to 11 on Friday
+then also I will make $60 so these are
+huge edges because the Australian dollar
+Futures the single take is $5 and the
+commission is like one and a half so two
+tickes in and out that's $10 with
+commission that's
+$13 so $13 will cover the Inn out with
+slippage so 60 it's like four times
+already the uh slippage and commission
+which is what I teach that you need
+minimum of four times slipage and
+commission now once you find this
+pattern you need now to test it in your
+trading plan platform but the rules are
+very easy you know when to enter when to
+exit exactly of course you can test
+other choices and see which one is
+better now the tool is based on 60
+Minutes although the concept can be
+applied to anything can be applied to 1
+minute to 300 minutes the problem is
+this Excel sheet tool that I built is on
+60 Minutes to make the tool usable
+because if you try to make it customized
+or you put more data in like for example
+15 minutes that means you're loading
+more bars and becomes very cumbersome
+and the tool will be very slow to uh
+respond so to combat that issue in Alo
+trading masterclass version two which is
+coming out very soon I took this to the
+next step which is now I have a program
+that scans all the data for for the
+whole week and find out the best
+patterns and let you know it actually
+give you all the patterns and then you
+just need to sort which one is doing uh
+what so roughly you get about 15,000
+strategies per instrument on 60 Minutes
+now if you increase that then you
+increase the number of variations and if
+you reduce that you reduce the number of
+variation so because this is now an algo
+so you can now build it on 240 minutes
+you can build it on 300 minutes
+265 minutes it doesn't matter you can
+build any blocks and then you can find
+different patterns that usually other
+Traders cannot find so here is our tool
+apply to 60 Minutes Australian dollar
+Futures so this is the US dollar
+Australian dollar represented by Futures
+and 60 Minutes bars and at the bottom
+here I have the daily bars the reason I
+have daily bars is because we going to
+use it to apply filters for our strategy
+so here is our Alo optim ization first
+we have long and short or we are testing
+all the Longs and all the shorts and
+then we are testing for day of the week
+so 1 to 5 and then we are testing the
+start time so 0 to 2300 so that's
+midnight to 11 p.m. and then the number
+of holding bar so remember this is
+hourly time frame so 40 that's less than
+2 days so theoretically if I want to
+test everything this should be around a
+100 because 100 hours is roughly 4 days
+and of course you don't want to hold
+like more than 4 days because we only
+have a week remember the pattern will
+repeat the next week so if I do 100 you
+will get about
+24,000 combinations this is remember on
+hourly time frame if this is 15 minutes
+then you can imagine this of course will
+keep growing but it doesn't matter how
+like you can have near 250,000
+combination you can always use the
+genetic to filter the strategies but in
+our case like I mentioned 40 is enough
+because I mean we're cheating but we
+already know the our pattern is less
+than one and a half day so 40 should be
+enough so that should give us about
+10,000 combinations so I have here the
+result sorted by return to draw down now
+let's look at the average trade remember
+the slippage and commission is about $15
+so we really need at least
+$30 per trade on average to really use
+that strategy remember we can always
+enhance the strategy with a filter so
+let's filter for 30 and above so now
+looking at the results sorted by return
+to draw down look at these pattern so
+two is long and one is short this is the
+long and short filter and this is day of
+the week so three is Wednesday and four
+is Thursday and then this is the entry
+hour and the number of holding bars so
+keep an eye here on the day of the week
+so we have three and
+four here is two so the first two is
+number 35 and if we look at this trade
+so it's entering
+Tuesday at 1000 p.m. so this is long
+Tuesday at 10 p.m. holding for 31 bars
+and if we look closely at Tuesday so
+Tuesday at 10 it's over here holding for
+31 bars so that's two bars here and 24
+on Wednesday 26 and then five bars so
+that's about 5 a.m. so basically this
+patter it's trading the same Wednesday
+pattern it's just starting it early over
+here and that's why it's number 35 in
+terms of Return of draw down because
+we're holding more bars and most likely
+we're facing bigger draw down now also
+we notice something else is good so for
+example this is two that means it's long
+on
+Wednesday so 400 p.m. holding for 10
+bars 7 p.m. holding for eight bars 7
+p.m. holding for 9 6 p.m. holding for 9
+4 P.M holding for so that tells me also
+something else which is this pattern is
+really good because it doesn't matter
+where I start or how many bars I hold
+I'm roughly achieving the same average
+trade which is around $40 and if I want
+to go by the average trade so the
+maximum I have is
+$61 which is short on Thursday at 6:00
+a.m. holding for 28 bars next one again
+$60 same pattern because I'm shorting on
+Thursday but this is just starting
+earlier 4:00 a.m. next one same pattern
+starting at 6 but now instead of 28 bars
+holding 26 bar so you see all these are
+the same pattern so here is the pattern
+applied and let's look at the
+performance so we're making
+53,000 and this is the equity curve
+trade analysis $867 trade with $61 on
+average and the annual period analysis
+looks like this so literally within 15
+minutes we can build a robust strategy
+on any instrument now of course this
+strategy already good and tradeable $60
+on average on the Australian dollar is
+very good but we can easily enhance that
+with a filter so if I want to compare
+this strategy to the regular strategies
+that I do on the S&P 500 where they
+usually make about $400 on average this
+will seem like low average trade $100
+but let me show you the comparison
+between these two so to trade one e mini
+S&P 500 contract you need about
+$113,000 so this $113,000 go up and down
+with volatility when the volatility
+increase all margin for all Futures goes
+up and when the volatility decrease they
+go down but this is the requirement in
+June
+2024 so it's about $113,000 to trade the
+S&P e mini Futures now the micro Futures
+is is one10 of the S&P e mini so that's
+why you see here the margin requirement
+is about 1,300 but now let's go down and
+let's see the Australian dollar so
+Australian dollar currently same time is
+about ,600 so if I want to compare the
+S&P 500 average trade with the
+Australian dollar average trade then I
+have to trade about eight contracts
+Australian dollar futures for every e
+Mini contract on the S&P 500 so without
+playing with the code we can do this in
+the strategy properties we can increase
+the fixed shares contracts to8 so now we
+have
+$210,000 we are making and our average
+trade of course will increase to
+775 so compared to the S&P 500 this is a
+really really good strategy remember we
+didn't apply any filter yet next we can
+do the same procedure for the Longs side
+so we pick the straty for the long side
+and we know that pattern already from
+the chart and then we find the best
+average trade we apply filters and also
+we will use eight contracts so that it's
+comparable to the S&P 500 now the long
+and short they don't overlap so that's
+great we can combine both the long and
+short in a single strategy single code
+using the same capital and here we have
+the two strategies applied so this is
+short side on Thursday at 6:00 a.m.
+holding 428 bars and then this one is
+the long side on Wednesday at 400 p.m.
+holding for 11 bars so as you can see
+they don't overlap and of course they
+don't trade the same week because they
+have different filters so for example
+here this is the long side buying the
+long side buying the long side buying
+but the short side only happening here
+and of course this will be different
+every week so again here we have both of
+them trading here we have one of them
+here we have both of them here we have
+none of them and so on and so forth so
+the filters will play a big role and the
+result of this combinations is we have
+about a th000 trades on average they're
+making
+$300 the long side is $200 the short
+side is $400 50 this is the equity curve
+and it's amazing it's going up all the
+time since 2007 overall we are making
+300,000 with 5.6 return to draw down
+ratio an annual period analysis from
+2007 all the way to the current year
+2024 now remember I told you you can do
+this on any bar and I did the same
+sequence on 180 minutes on the Japanese
+Yen so here is the Japanese Yen 180
+minutes bar and again we're using the
+daily bars for the filter and the
+Japanese Yen almost double the margin
+requirement for the Australian dollar so
+to compare it to the S&P 500 we need to
+trade about four contracts and as you
+can see here I'm trading four contracts
+and the result of this strategy is 164
+with 8 and 1 half return to draw down
+ratio this is how the curve looks like
+and we're making about
+$440 on average on the short side annual
+period analysis we have two losing gears
+now of course you can apply this concept
+on every single instrument in the
+universe because every instrument will
+have its own pattern stocks ETFs Forex
+Futures crypto but of course not all of
+them will yield a good pattern so some
+of them will not yield a good pattern
+even though the pattern exists but
+probably there's not enough money or the
+win rate is low or the draw down is big
+and so on so forth if you like this
+video about intraday seasonal strategies
+then you will love the next video
+[Music]

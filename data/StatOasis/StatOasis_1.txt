@@ -1,0 +1,496 @@
+every Trader regardless of their skill
+level will reach a point in the future
+where they have to decide to deploy the
+strategy live in the markets with real
+money usually that decision comes with a
+lot of Doubt or high risk taking but in
+reality it doesn't have to be that way
+we have many methods to test if the
+strategy is robust enough to perform in
+the future as it was performing in the
+back test regardless of the method
+chosen to verify the strategy will work
+the workflow is called robustness
+testing basically we are testing the
+strategy to get a confidence level that
+it will perform in the future on unseen
+data very close to what it gave us in
+the back test in this video I will take
+you a step by step on how to test your
+strategy robustness first let's get
+something clear there is nothing on
+Earth that can guarantee the strategy
+will perform in the future the same as
+the back test if it exist then everybody
+will already know it and that edge will
+be gone so instead we are looking for a
+confidence level we just want to get a
+high confidence level that this strategy
+will perform on unseen data having said
+that there are strategies that's been
+working for the past I don't know 300
+years and will keep working in the
+future but there are some caveats so
+Trend following been working for a long
+time there are millions of white papers
+on the subject there are billions of
+dollars traded with hedge funds using
+these systems but the caveat is you need
+to trade a portfolio of trend following
+strategies on a portfolio of instruments
+and even then there are no guarantees
+that you are profitable in any year but
+on any 5 10 year Rolling returns you are
+profitable for sure but there is no
+guarantee that Trend following using a
+200 day moving average will work on the
+S&P 500 this year and just to enforce
+the statement that there are no
+guarantees I would like to quote Jim
+Simon who ran Medallion fund for 20 plus
+years with returns annually of 40 plus
+every single year at one point in time
+in financial crisis he wanted to switch
+all his Systems off because he did not
+have 100% trust that his systems will
+perform in the financial crisis as it
+did in the back test and in the uh past
+10 years so to reiterate we only want to
+have a high confidence level that our
+strategy will perform okay so I will
+illustrate this with examples first of
+course we need to have a code for a
+strategy because all this without code
+means nothing because you cannot test
+anything manually enough times with
+enough accuracy so we need to back test
+with code and I will use trategy Quant X
+in these examples because it's it's code
+but you're using a graphical interface
+to perform the test so starting with the
+simpl strategy if the close is greater
+than the 200 100 day moving average we
+will enter a position long and if the
+close is lower than the 200 day moving
+average we will exit the position and be
+flat now this strategy is tested on the
+Spy this is the S&P 500 ETF because we
+have a lot of data since 1993 we are
+using the stock size by Price method for
+money management with maximum size of
+5,000 shares starting capital is 10,000
+that means every time I get a signal to
+enter a position I will use all my cap
+capital in my trading account to buy the
+maximum amount of shares hold it sell
+until I get the exit signals and then
+the next signal again I will use all my
+Capital to buy the maximum amount of
+shares this is the best way to test
+stocks and ETFs while with Futures it's
+best to test with a single contract if
+we run the back test this is the
+strategy on the S&P 500 it's 105 trades
+about an average of of
+$1,000 and these are the return in years
+and you see it's a very few number of
+Trades which is expected because 200 day
+moving average is a long moving average
+so we tested the strategy the strategy
+is profitable good return to draw down
+ratio good number of Trades how would I
+trust that this strategy will perform in
+the future the same as it did in the
+back test for a strategy with a single
+variable like this one we have one
+variable which which is the look back
+period of the moving average basically
+we want to change the look back period
+and see if the strategy is still
+performing and not falling apart the
+best way is to illustrate this with an
+example let me put this axis so this is
+the x axis this is the Y AIS so the x-
+axis will be our variable and the Y AIS
+will be our fitness function so this
+could be
+the net profit the draw down the average
+trade and so on so forth we take our
+strategy variable so in this case we are
+looking at the 200 day moving average so
+we start with the 200 day moving average
+and then we change this at steps of 5%
+up and down so if this was 200 then we
+change with 5% so the next one will be
+210 and let's say these are the result
+for 220
+230 so let's say we are looking at the
+net profit and these are the results
+when we test so we test 200 look back
+this is the net profit let's say this is
+50,000 and this is
+60,000 and so on so forth so we test 210
+we get about 51,000 we test 220 we get
+about 40,000 and so on now subjectively
+this looks like a stable strategy so in
+order to verify the robustness of the
+strategy we are looking for
+25% consecutive bars so since each bar
+here represent 5% so that means we are
+looking at five consecutive bars and in
+those five consecutive bars we are
+looking for less than 25% change between
+the highest high and the lowest low so
+to put this on the graph I'm looking for
+five bars let's say these are five bar
+so 1 2 3 4 5 and I'm looking for the
+chain between the highest high and the
+lowest low so this is the highest bar
+and this is the lowest bar and I want
+this change to be less than
+25% once I find five bars that satisfy
+these two condition I pick the middle
+bar as my robust bar so in this case
+this is Bar number number three it's
+always Bar number three so for example
+if I pick these bars so one two so these
+are my bars this is the highest high
+this is the lowest low and then this
+change need to be lower than 25% so that
+is the methodology for a single variable
+strategy basically we are looking for
+our fitness function if it's n profit
+average trade maximum draw down to not
+change a lot in 25% change of the
+variable which makes a lot of sense that
+means if 200 day and 190 190 should not
+drop 30% in performance from 200 if it
+did that means we are over optimizing on
+200 now let's see how that looks like in
+the actual strategy okay so I saved the
+strategy and I loaded the strategy in
+the optimizer so we will use a simple
+optimization and we have only one thing
+to optimize which is the look back
+period so I switched to manual and in
+order to change this to 25% up and down
+we start from 1 200 25% is 150 so we'll
+go from 150 to 250 in step of 10 so
+that's 25% down 25% up now most retail
+packages and even some professional
+packages actually work in numbers and
+not percent so to illustrate this 10 /
+by 200 is 05 so that's 5% but going from
+150 to 160 10 divided by 160 that's
+actually not 5% it is
+6.25% and this problem exists like I
+mentioned in all packages so we just
+have to go with it okay so I'm using
+exactly the same thing same data and
+same money management and I'm not using
+any ranking because we will use all the
+strategies we only have 11 of them so we
+go to progress and we start and it's
+very quickly done one of these
+strategies they will all have the same
+values and we go to the optimization
+profile and we will have this bar so if
+you don't have this optimization chart
+you need to go to settings
+configuration and you need to switch
+this off don't store data for 3D charts
+this option by default is on to save on
+space but of course if you have
+strategic qu X then you definitely have
+space so just switch it off and now
+let's go back to our Theory so this is
+the net profit and this is the SMA
+period so from 150 to 250 so let's bring
+this here and we are looking for a
+difference between any consecutive five
+bars to be less than 25% so to see the
+exact numbers we can scroll down here
+and if we sort by the period we can see
+this is the net profit so for example
+this is 1 2 3 4 5 so the highest value
+here is 89 minus the lowest which is 67
+299 and we divide by the lowest and we
+multiply by
+100 so that's the difference in
+percentage it's 32% so that is too much
+that means I cannot pick this one 170 as
+the robust value so if I start from 67
+to 106 same problem 105 to 89 so let's
+see if this one works this one is 28% so
+this one is on the edge and you can say
+Okay I accept it or not less than 25
+definitely is much better and worse than
+25 basically the confidence level is
+lower so let's move again so this one is
+82 and 112 that's of course going to be
+worse and then 106 and 20 that looks
+good so the highest value is
+12531 minus the lowest value which is
+105 463 divided by the same value time
+100 this is 14% so between 106 and 120
+this is the middle so 220 so the look
+back of 220 is a robust point for my
+strategy I can pick this level and I
+will have high confidence that my
+strategy will perform in the future very
+close to the back test now also if I go
+one step up so between 105 and 106 this
+will be also robust so that means the
+middle one is 230 so 220 or 230 are
+robust points so now I have a
+statistical method of verifying if my
+strategy is robust or not and where that
+point exist on my curve of test now of
+course because it's a single variable I
+can extend this test so I can go all the
+way from 100 to 300 and find any five
+consecutive bars at 5% intervals and
+pick the middle one as the best if it
+falls within 25% also we did this for
+net profit you can repeat exactly the
+same process for average trade for
+maximum draw down for return to draw
+down for Sharp ratio for any Fitness
+function you want you want the change in
+any five bars less than 25% between the
+highest high and the lowest low of that
+Fitness function now let's go with a
+little bit more complicated strategy
+that has two variables so here we have a
+two variable strategy if the short
+moving average is greater than the long
+moving average we will go long and if
+the short moving average is is lower
+than the long moving average we will
+exit we are using same data same money
+management rules and same instrument and
+this is the results we get now we get
+few trades and this is the result so
+same thing we will go to the optimizer
+in strategy Quant X and I loaded the
+strategy which is the 2 SMA and now we
+have two variables to optimize so again
+we switch to manual the long variable is
+the same 150
+to 250 step 10 and the short moving
+average 25% from 50 is around 15
+remember we cannot get exactly because
+we're not using percentages we're using
+numbers so we can go from 35 to 65 in
+step of three that should bring us
+closer to 5% per step so nothing is
+changed here in the data and the and the
+money management no ranking as we are
+storing all strategy
+so let's start the process also remember
+any strategy you pick in the
+optimization results will have the full
+results so we pick one of them so now
+looking at the 2D chart I cannot pick
+two variables I can only pick one
+variable so this is the variable short
+SMA and then I have to pick the long SMA
+separately so in order to achieve the
+same calculation we need to look at 3D
+chart so if we switch to 3D and then
+here here we will have short SMA and
+here we will have the long SMA and this
+is the net profit so let's maximize this
+and see what we get so the green line
+the maximum green line is about
+$25,000 the 180w switches to almost
+light green 180,000 so that's our
+25% so anything within the green is
+within 25% so if I'm looking at this is
+the green area if I want to look at five
+adjacent bars that are all green they
+will be here this is 250
+240 230 20 and 10 all these squares are
+green so the middle part will be 230 and
+then if I look at the short moving
+average we have one that intersects with
+230 so you see all these squares are
+green and then the middle one with 230
+is 47 because we're starting from 35 and
+each step is three so this one will be
+47 so in this case 47 and
+230 is our robust point for the strategy
+remember this is our graph we want to
+achieve the same thing less than 25%
+change but now we are doing it on a
+surface of course you can see this in a
+surface and this is how it looks like so
+again you're looking at the Green Point
+because the green color is within 25%
+change and we can see all these green
+parts are good so
+4750 also will be a robust point also
+there's another presentation which is
+bars maybe it's a little bit hard to see
+and then points which is even harder to
+see so the idea is exactly the same but
+because we have two variables we need to
+look at a surface instead of a bar chart
+and the surface is the same thing the
+intersection has to have two on the
+right two on the left two on the North
+two on the south where the middle is a
+stable area that means between any five
+squares the percent change is less than
+25% now this is done manually so we are
+looking at a surface manually and we
+need to figure out that point so how
+about if we want to do this uh
+automatically and and strategy Quant X
+has something really good for that which
+is system parameter parameterization so
+the same optimization if we look one tab
+further this is system parameter
+parameterization so now this test
+doesn't tell you which point is the best
+point to trade is the optimal point to
+trade this is just telling you if your
+strategy is robust or not so what this
+test does it takes the median value for
+a number of parameters in fact it takes
+the median value for hundreds of
+parameters look at this so all these
+parameters are calculated for you and
+for example so this is net profit the
+median value is
+$172,000 that means for all these
+strategies the middle point is 172,000
+this is not the average this is the
+middle point and then we have our
+original value so our original value is
+the 50 day moving average above the 200
+day moving average we get these values
+so now we divide our original by the
+median and we follow the same rules we
+are looking for these values to be less
+than
+125% so the change is less than
+25% so this is for example 104% that
+means our original value is only 4%
+higher than the median value so that's
+acceptable of course if it's lower
+that's even better because you can see
+here our return to draw down is 15 but
+the median is 21 so that means we are
+already lower than the median so we
+expect the value in the future to be a
+lot higher and you see all the values
+are less than 125% and we can use these
+comparisons in our robustness test
+so when we are in the retest if you go
+to the system parameter
+parameterization and you go to filtering
+you can add these conditions in so let's
+say the net profit so we are looking for
+the net profit of the median lower than
+125% of the net profit so I can add this
+condition in my retesting and that's
+what I mean by we can do this with an
+automation I don't need to look at a
+three surface and like I mentioned sqx
+has literally a 100 parameters that you
+can pick and choose which one to work
+for you now there is no sense in adding
+you know 100 parameters or even 10 you
+should pick and choose the one that's
+most important I suggest average trade
+win percent return to draw down ratio
+and finally we come to test a strategy
+that has more than two variables this is
+an example of a strategy G with three
+variables so I have the short SMA
+greater than the long SMA and the really
+short SMA greater than the short SM
+that's a great naming but anyway we have
+three variables so you can see we have
+the short SMA long SMA and then the
+really short SMA which is 10 basically
+what I'm saying is I want the 10day
+moving average greater than the 50-day
+moving average and the 50-day moving
+average greater than the 200 day moving
+moving average if that happens I go long
+I exit with the opposite condition you
+as you can see we have 14 trades and
+this is the strategy so again I load my
+strategy in the optimizer and we are
+doing Simple
+optimization manual and this time we
+have three variables so our original
+Short moving average from 35 to 65 step
+three our original 200 day moving
+average 150 to 250 step 10 and now we
+have a really short moving average so
+25% of 10 is 7 and a half again we have
+to go with the close approximation to
+that number so we go from 7 to 13 step
+one and we total combination is less
+than 1,000 so we are saving all of them
+again money management is the same thing
+same data same everything so let's see
+progress the test is done and if I click
+on any strategy G it will bring the
+whole data so now just like we had the
+problem with the single variable to two
+now from two to three we can only see
+two in the surface so really short and
+short really short and long or short and
+long I cannot see the three variables so
+the only way to do this is to go to
+system parameter permutation and now
+again I can use this ratio to find if my
+strategy is robust or not so you see I
+have 848 strategies if I pick the median
+value for net profit this is it and this
+is my original strategy and again I can
+see the ratio if it's less than
+25% then the strategy is robust now the
+percent I picked 25% this is the
+suggested optimal value of course for
+you you can decide that 30 is better or
+15 is better of course the lower the
+percent the high higher the robustness
+confidence level is but the less
+strategies will go through this workflow
+so that is the control number that will
+decide how many strategies you will have
+to pass the filter now there are other
+methods that we didn't touch for example
+zcore walk forward Matrix but they are
+all based on exactly the same concept
+that I just taught you which is you you
+want to vary the variable by 20 to
+30% and you want to make sure that you
+have a stable region on those changes
+now I take this concept a little bit
+deeper in my Alo trading master class
+and I go on a workflow using work
+forward Matrix and system parameter
+partiz once your strategy pass this
+filter then you will have a high
+confidence that this strategy will
+perform in the live market like it did
+in the back test and of course when you
+have have multiple of these strategies
+working in a portfolio then your
+confidence is a lot higher because now
+you are not depending on a single
+strategy to make money but on many
+strategies so even if one or two or
+three fail even though you have high
+confidence in them but even when they
+fail you still have seven other
+strategies performing in your portfolio
+if you like this video then you will
+love the next one
+[Music]

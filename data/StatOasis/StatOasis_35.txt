@@ -1,0 +1,408 @@
+have you ever dreamed of effortlessly
+creating hundreds of profitable trading
+strategies what if I told you that you
+can do all that with one powerful tool
+in today's video we will use that tool
+to create hundreds of strategies then
+combine them into 50 portfolios each
+with different markets long and short
+hello everyone I am Ali Casey from stat
+Oasis Channel RSI is one of the best
+strategies that you can employ in your
+portfolio I have many versions of it on
+the channel and you can use any of those
+versions to put in your portfolio today
+we will use strategy Quant X to build a
+template for this strategy then we will
+use that template to generate thousands
+of strategies long and short on
+different markets not only that we will
+use the portfolio component to combine
+all these using some trickery inside sqx
+to come up with a uncorrelated portfolio
+or multi multiple portfolios of
+uncorrelated strategy here we are in
+strategy Quant X version
+138 x and we will use the algo wizard
+module to build a template so the RSI
+template if you don't know it is
+extremely simple just uh type in the
+search
+RSI and you should see it here so we'll
+use the RSI
+to
+lower
+than 25 and the exit will be the RSI 2
+greater than
+75 this is the plain vanilla RSI
+strategy and if you're doing it on the
+indexes there is really a good filter
+which is the close greater than the 200
+day moving average so right now if I
+test this using trade station engine on
+ES data and Futures that's the S&P
+500 and we'll use daily bars and we'll
+use one contract and if we run a full
+back test we know the strategy is doing
+very
+well and this is the equity chart when
+you see flat periods that means the
+price is below the 200 day moving
+average and that's why you don't trade
+and that's why this Filter Works the
+point of using sqx to build a template
+is this so we know the RSI two below 25
+go long above 75 exit Works what if we
+want to do below 20 below 15 below 5 and
+what if we want to do different exit or
+different filters and that's the power
+of the template so the template can have
+all these options built in and then we
+add our own filters in terms of number
+of Trades the average trade return to
+draw down strategy Quant X has hundreds
+of these metrics that you can use to
+filter the strategies so let me show you
+how so now I can switch this to a
+template by going to the settings and
+going to advance and then just switch
+this on once you switch it on you will
+see this green uh template code and now
+I can make any of these to change within
+the template so for example the RSI 2 I
+can change
+that to go from
+2 to 10
+in step of one that means the template
+will try RSI 2 RSI 3 RSI 4 all the way
+up to
+10 now of course I can do the shift also
+we can change the close but let's leave
+it simple just on the close also I can
+play with the level So currently it's 25
+and I will generate
+randomly from five all the way to 45 in
+a step of five now also again you can do
+step of one I don't see the benefit of
+that but you know again you can play
+with this to have more uh Randomness now
+I will not change the filter although
+you might say well we can do this let's
+do the filter instead of 200 we can go
+from 100 to 250 step
+25 that's also
+doable and of course also we can do the
+exit and we have the exit again the RSI
+Look Back 2 to 10 step of one and the
+level to exit 55 to 95 step of
+five and this is our template to go
+long now if we don't have a stop loss or
+a trailing stop or a profit Target here
+then that will not play a role when we
+generate using the template so basically
+the template forces sqx to only follow
+these rules so for example here I have
+built a long
+template so I have a random exit after
+bars from 1 to 15 so other than this
+exit signal I have the number of bars
+also I have an extra random condition so
+this means I have to use always the
+close above the moving average and also
+I have a random condition which I will
+use from sqx this random condition can
+be added using this so random condition
+and you just add it and it's there so
+this is the long side also I have the
+same thing on the short side now you
+notice on the short side I don't have
+the close below the 200 day moving
+average which should be the opposite of
+the long because usually the short side
+doesn't benefit from that filter at
+least in my experience on the indexes
+and again to generate some different
+versions of this strategy so now we have
+two templates and don't worry about the
+code you can get these templates in the
+stes free community okay so now how can
+we use it to generate strategies if we
+go to Builder you see here we can load
+strategy from template and here I am
+loading the long signal now just like I
+told you nothing here will affect the
+template because the template it will
+follow exactly those rules so if this
+rule has an exit after bars it will use
+it if it doesn't then even if you click
+it here so for example in I think
+building blocks here you see you have
+exit after bars even if you switch it on
+it will not be used because it's not in
+the template but remember in the
+template we have a condition so that
+condition will be used here so if you go
+to number of conditions here the minimum
+and maximum so that mean I'm forcing sqx
+to add only one condition in here so
+this is the random condition so even
+though I have only one
+statement in Builder I can force it to
+go one or more so here we are forcing it
+to one now this condition where it's
+going to come from it's going to come
+from the building blocks so right now if
+I switch all these blocks that means sqx
+will
+have 284 blocks to choose from I can
+also add all indicators
+and of course I can add all these so you
+can add all of them and then you don't
+lose anything it's just
+filters that will be used now once the
+strategies are generated which are
+thousands then we need to rank them so
+for ranking I used number of minimum
+number of Trades 50 the average trade is
+100 and return to draw down ratio is
+four and then for the maximum number of
+strategies to store is 50 but generate
+500 that means if I run this template
+now and I get 50 the data bank will stop
+storing more than 50 but it will keep
+generating until 500
+strategies past these
+filters and so we can start with of
+course es now you might ask well why
+start with es all the time and I've
+mentioned this many times on the channel
+That the es usually works very well with
+long me reversion but if you are
+watching this video up to this point you
+will get a tip that is not mentioned in
+the
+description the tip is you can easily
+find out if a market is going to work
+with a certain strategy so for example
+focus on this the es. dd1 this is live
+I'm not editing this I'm going to click
+Start and you see 50 we already reached
+50 now we are looking for better
+strategies to store you can see these
+are changing because when sqx is Finding
+better strategies it's adding them
+although the total will be 50 and we are
+done with
+500 okay and here is the tip let's work
+with something that doesn't work with
+long near reversion and for example
+that's NG let's focus again let's
+start and do you see what's
+happening I hope you figure it
+out so now that we generated multiple
+strategies basically 50 on each market
+that works with long me reversion or
+works with short me rsion we'll have
+multiple markets long and short plus we
+will have different conditions even on
+the same instrument so for example Das
+even on the same instrument I will have
+different look backs and also different
+filters and I can show you the
+difference so going back to the es here
+so let's look at this one so this is
+randomly let's look at the source code
+and it's in sudo code so it's plain
+English and let's see what this strategy
+is doing so this strategy is when the
+RSI below
+45 and also remember we have the RSI
+period which is in this case it's three
+and the close above the moving average
+is 125 and then we're exiting when the
+RSI different period in this case it is
+five so we're entering when the RSI 3
+below a level we're exiting when the RSI
+5 above a level also we have a filter in
+this case I guess this is a Fibonacci
+level yes it's
+38.2 greater than the fractal down which
+I have no idea what this is and then
+let's look another one okay so this uh
+makes sense to me so the lowest price
+the lowest high is is does not equal the
+triple moving average two bars ago let's
+look at another
+one this is the EM that's the
+exponential moving average is lower than
+the super
+Trend and this is the simplest I guess
+so
+momentum of the price which is based on
+the close is rising and the period of
+the momentum is 65 so that's simple to
+me now of course how simple and how
+complicated all comes from these
+building blocks so remember you can pick
+and choose whatever you see simple or
+complicated I tend to go with simple so
+make sure to pick only simple filters
+but now the power of sqx comes into play
+so I use the Builder long and short on
+different markets and then I copied
+every 50 strategy in my portfolio Master
+as you can see here I have 667 although
+there are 50s
+but I didn't like sometime I stop it in
+the middle but all in all I have 676
+strategies different look backs
+different levels different filters and
+long and short and multiple markets so
+you can see this is sorted by the letter
+so A6 B6 CL basically I have currencies
+Commodities all type of Futures but many
+many markets now before this tool
+portfolio Master you need need to take
+all these strategies run them inside a
+software that can calculate correlations
+usually those correlations daily to do
+it on weekly you need to do more so
+maybe something like Python matlb and
+Excel is really difficult I've tried it
+it's not that easy now portfolio master
+in version 138 it's the beginning of
+moving Quant analyzer to sqx at least
+that's what I hope sqx is doing is
+moving Quant analyzer Inside sqx So
+currently in version 138 portfolio
+Master can run correlation and can also
+sort or return to draw down for each
+portfolio let me show you so this is the
+portfolio master and you can do either
+brute force or genetic search now I
+highly recommend now to use genetic
+search and the reason maybe not quite so
+obvious I think they should flip this
+they should put genetic on top by
+default because most people will have a
+at least 100 strategies and if they do
+anything like this like five minimum
+five strategies to maximum 10 they will
+end up with really a large number of
+strategies and brute force will not cut
+it so here if we have 100 strategies and
+we want to do combinations between five
+minimum five strategies up to 10
+strategies in a portfolio so the number
+of combinations look at this 19 with 12
+zeros now if we have 20 20 strategies
+you will have 600 iterations but if you
+want to fix it like if the
+portfolio is only five strategies out of
+20 which is this one then we have
+15,000 possible combinations now in my
+case I have about 700 strategies and you
+can see for 700 strategies to combine a
+portfolio of 5 to 10
+strategies the number is seven Quint
+trillion so that's seven and
+21 zeros so that's why you want to do
+genetic because genetic will reach the
+end goal much much faster so I'm looking
+for 5 to 10 strategies that's what I'm
+looking out of these 700 almost give me
+a 5 to 10 strategies and what I'm
+looking for I'm looking for 50
+portfolios to generate remember you have
+Quint trillion so I only want 50 and you
+rank them based on return to draw down
+currently we have three options net
+profit and percent of stagnation that's
+the amount of draw down you are in not
+how deep just the the time you are in a
+draw down and then return to draw down
+ratio and also allow maximum three
+strategies per sector now I'm assuming
+this is per market right now because the
+definition of sector I couldn't find it
+now the correlation
+this is very important and that's why I
+told you this would be really hard to
+implement without software even in Excel
+So currently we are doing correlation by
+week because I don't want to do it daily
+and I will base it on profit and loss
+and also when you run this I don't want
+any strategy that has a correlation more
+than 04 more than
+point4 that means basically you are in
+the Middle Ground of correlation 3
+really you are not 7 you are highly
+correlated and4 to7 is in the middle and
+we will allow negative correlation
+meaning if a strategy is completely the
+opposite of the other one I will allow
+it okay so and we will use the full
+available data and then the filter so
+once you rank these the filter I put
+here is eight return to draw down ratio
+because remember now we have more than
+10 strategies so I require more from the
+portfolio and the fact profit factor is
+one point of course here like all sqx
+you can have hundreds of metrics to rank
+four and let me show you how fast is
+this so I will start and we we look at
+this database so let's start you see
+it's already 50 now you can see it's
+already updating even though it's
+finished 50 but it's updating if it
+finds better portfolio so let me stop it
+and let's pick for example this one so
+forget the symbol because remember now
+this
+is includes many symbols so you can see
+here these are strategy so D6 CT GC so
+this is gold crude S&P 500 Lew soybeans
+and remember here you have L here and l
+e here so these are opposite so long and
+short and we can see now right now if I
+put this down and these are the
+strategies inside this portfolio we can
+also run a correlation analysis which of
+course we know it should be below 04 and
+so for example these are the strategies
+2 4 6 8 10 so we have 10 strategies all
+of them color is green that means they
+are uncorrelated on weekly basis and
+trade analysis list of Trades so you can
+see this is for example buy and you can
+see the symbol we can sort by time so
+you can see sometimes we're Trading rjs
+sometimes
+SB and these are all buy now we have
+some sells so it's a completely
+uncorrelated portfolio and we did it
+within this video Which is less than 15
+minutes now I cannot stress how
+important it is to trade a portfolio a
+portfolio it's like having a
+team whatever your sports analogy is
+when you have a team you are not
+dependent on a single player to win the
+match you always have to have a team to
+win a match because the best player in
+the world cannot win a team match and
+this is what you have so in a portfolio
+some strategies will work in some market
+regimes and some will not and some will
+break even and so on and so forth but
+overall when you have about 10
+strategies there is always one strategy
+that performing better than all of them
+and that will lift the portfolio at that
+moment in time to learn more about
+building portfol always watch this video
+and I will see you
+[Music]
+then

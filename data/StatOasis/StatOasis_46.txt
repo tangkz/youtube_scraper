@@ -1,0 +1,325 @@
+are you missing out on the hidden
+signals in the stock market what if I
+told you that there is a single pattern
+that shows the sentiment and the S&P 500
+Index intrigued stay tuned as I decode
+the dogee pattern secrets and I'll show
+you how easy it is to build long and
+short strategies around it hello
+everyone my name is Ali Casey and you
+are watching stat Oasis Channel let's
+start with the basic what is a dogey
+pattern think of a Candlestick where the
+open and the cloes are very near to each
+other they are forming a cross-like
+shape that is a dogey pattern let me
+show you on the Whiteboard these are
+multiple shapes of the dogey pattern
+like I mentioned the body which is the
+close and the open they are very close
+to each other which leaves a wick up and
+a wick down so depending on where this
+body cloes we have different names so
+this is a common doy this is long legged
+dragonfly and then there are you know
+Morning Star and shooting star and there
+are many names basically it's an
+indecision pattern by the way DOI in
+Japanese means a mistake so this pattern
+means a mistake happened in the market
+like you saw there are different ways to
+represent this pattern and we need to
+test those different patterns to see if
+we have an edge in this pattern once we
+find an edge then we can build a
+strategy around in order to test the
+different formation of this pattern I
+designed this function we will have a
+number for the ratio basically I am
+measuring the body which is the open
+minus the close compared to the whole
+range so that will give us a ratio also
+the function will check if the position
+in the bottom third in the middle thirdd
+or in the top third so basically we're
+measuring if this is is happening here
+or in the middle or at the bottom and
+also we are measuring how big is this so
+that way we can have all the types of
+patterns we like so just remember
+position one is at the bottom position
+three is at the top two is in the middle
+and position zero that means we don't
+care where this body will sit and that's
+how we will test here is a chart of the
+S&P 500 futures daily session and we
+will test long and short separately and
+this is our optimization so BLS which
+doesn't stand for a type of meat
+sandwich it's actually long short or
+both so one is short two is long so
+that's two steps and then we have our
+position so zero that means uh it
+doesn't matter where it Clos and then 1
+to three is bottom middle and top and
+then the ratio so 0 to 30 zero is the
+close the same as the open and then 30
+that means close minus the open that's
+body is 30% of the whole range so we'll
+do that in step of five in total we have
+56
+combinations so we test that and let's
+look so one is short and let's look at
+our data so these are positive and
+that's good but then look at this jump
+this is the close equal to the open zero
+that's why we have only six trades
+because it doesn't happen that often and
+then five all the way to 30 all of them
+are profitable not only that the average
+trade is huge and also there is a clear
+correlation between the body and the
+average trade look at this when the
+close equal to the open we have
+$390 average trade and then when we
+increase the ratio the the average trade
+starts to go down all the way to 72 and
+79 so there is a correlation when the
+body
+increase the average trade goes down so
+15 is very stable area which is in
+between so we get the middle of the
+number of Trades and the middle of the
+average trade so let's keep that in mind
+now if we go down further if we look at
+the position two interestingly all of
+them are losing which means means that
+if we go long when the position is in
+the middle theoretically we should be
+making money because it's going to be
+the opposite and then if we look at uh
+position
+three uh there is no clear pattern so we
+drop it so first of all we have when we
+are
+shorting we want the body doesn't matter
+the ratio we want it to be at the bottom
+let's go now to going long so this one
+is going long so zero it's everywhere
+and we are losing money and then two and
+one also we are losing money and as
+expected two and two it's making money
+because it's the opposite of the pattern
+we saw when we are
+shorting and we see all of them making
+money but now we don't see that
+correlation between the body and the
+average trade so zero we're making
+$53 and 30 we are making
+$20 but still 15 looks the best so
+either way the body when it's 15 it's
+good for both long and short so that
+means this body ratio the close minus
+open should be 15% of the whole range
+and then when we are shorting we are
+looking for the body to be in position
+one and when we are going long we're
+looking for the body to be in the middle
+which is very interesting because
+normally you would not figure that out
+and that's why we test I didn't mention
+that the exit here is always end of day
+so to find an edge we need to normalize
+everything to see if there is an edge or
+not and in this case the exit is always
+end of day and we saw clearly that when
+the body close at the bottom it's good
+for short when it's in the middle it's
+good for Longs and this is not a fluke
+and that's always the case with all the
+patterns you need to find the edge first
+because the edge usually it's not a
+fluke usually it's there for whatever
+reason I don't know the reason and again
+I don't care as long as statistically I
+can prove it's there and so this is a
+sample of the strategy that we enter
+when there is a dodgy pattern in the
+middle we enter the next day and we exit
+at the end of the day again doy pattern
+in the middle we enter next day we exit
+end of day by the way look at this it
+doesn't look like it's in the middle but
+if we divide the whole range in three
+sections this will be in the middle
+section okay now that we know where the
+edge is let's start testing exit
+strategies so here I'm testing the short
+remember the position for the short was
+one and we decided that 15 is a stable
+ratio for the body to range ratio so the
+exits I have four types zero is exiting
+end of day that's the original Edge
+strategy one is exit next day two is
+exiting when the RSI 2 is below 20 and
+three is exiting when the close is lower
+than the previous close now these are
+not over optimized values you can use
+these exit in any short-term strategy
+short-term strategies we are looking to
+exit within one two 3 days so close
+lower than the close that confirms our
+direction that we went short and it is
+so we need to exit exit because that
+doesn't last long RSI 2 is also very
+shortterm measurement of where the price
+is so again when it goes below 20 that
+means most likely the close is lower
+than the close or at least we gap down
+and now the close is lower than the
+previous close and then the next day
+that means we're only holding for one
+day so those will confirm our Edge and
+will also give us better results because
+now we are holding more than one day and
+most likely we are capturing more uh
+money theoretically so let's test and
+see so this is very simple we have four
+combinations and if we test them we get
+the following results so zero remember
+our original strategy average trade is
+170 draw down is 13 return to draw down
+is 173 we definitely have one exit which
+is enhancing our return to draw down
+enhancing our uh win percent enhancing
+our average trade making making more
+money with a little bit less draw down
+so definitely enhancing all metrics
+that's really good which is what it's
+number three and remember number three
+is the Clos lower than the previous
+close now like I told you this pattern
+is not optimized in fact I will show you
+the optimized version is if you go the
+high is lower than the previous High
+which is again confirming our Direction
+so this is the strategy with the close
+lower than the previous close exit and
+now if I run the high lower than the
+previous High look at the results we
+make 45,000 now with 11,000 draw down
+which increased our return to draw down
+to four so it's definitely much better
+as you can see is the close or high or
+the low lower than the previous low they
+will all work and they're not over
+optimized basically you're looking for a
+way to confirm the direction of the
+trade the expected direction of the
+trade we are expecting we are shorting
+we're expecting the price to go down so
+if we get any of that confirmation then
+we should use it to exit because those
+pattern will not last long they are very
+shortterm patterns now let's test the
+long side so remember the long side is
+two and the position is in the middle
+that's also two and we agreed to keep
+the ratio at 15 and we will test again
+for Exit Zero it's exiting the same day
+that's our original Edge and we will
+test the other three exits and for long
+they will be exit next day and now we're
+looking for the RSI 2 above 80 and the
+close higher than the previous close
+basically it's the opposite of the short
+so again we have four combinations and
+let's
+see so this is our original strategy
+23,000 and now all the exits make better
+stats so we enhance the profitability
+this one is 74 that's a h huge increase
+and return to draw down we go from under
+two to above six again that's huge and
+you can see it here we're making 130 and
+the draw down is 20 also number three is
+making really good money 90 and 14 and
+very close return to draw down so this
+is where the close is higher than the
+previous close but this is the RSI so
+let me pick the RSI and let's see how
+this looks like so these are the trades
+we have a dogey in the middle we go
+along next day and we exit when the RSI
+is above 80 again here we exit above 80
+now the problem with waiting for a
+pattern to exit is it might take too
+long well what if the RSI above 80
+doesn't hit for two months which could
+happen then you will face usually a huge
+draw down so you complement that usually
+with a fixed number of bars exit or
+maybe a a big stop loss because I'm not
+fan of stop losses they usually hurt the
+performance but a fixed number of bars
+is really good because let's say on
+average our trade is 2 three days so
+maybe you know if you hold for maximum
+10 days and if the RSI doesn't hit then
+we exit either way so now I implemented
+long and short in the same strategy and
+I added the 10 bar exit just in case our
+RSI or the close is lower than the
+previous close doesn't hit and let's
+look at our results first of all our net
+profit is about 160,000 no commission
+and slippage we have 8 to1 return to
+draw down ratio before you jump and be
+upset I don't use commission slippage to
+test the strategy for its Edge we can
+easily incorporate commission slippage
+then just to let you know for the S&P
+500 commission slippage is about uh $35
+and you can see our average trade here
+the lowest is 300 so we are more than uh
+six times our commission and slippies
+okay so in total we have about 400
+trades that's really good on average
+$400 again that is really good maximum
+consecutive winners
+22 and maximum consecutive losers three
+that is amazing to say the least and
+let's look at our periodical analysis so
+this is the annual period analysis
+since 2007 the data 2009 is a loss and
+let's say 2018 is
+scratch and the rest are doing very very
+well we're averaging 20 plus trades
+that's almost two trades per month and
+finally let's look at the curve uh I
+mean we can tell because we have only
+one losing year and it's a very very
+good looking curve with a little bit of
+throw downs and we can see actually the
+draw down in dollars so here it's about
+11,000 here is about 18,000 and
+overall we are 23% only in the market
+that's also really good because that
+means you are not exposed to Market
+gation all the time also you can use
+this capital on other strategies that
+are not correlated with this one
+congratulations you just unlock the
+secrets to the dogey pattern by learning
+the proper way to find edges in any
+Market test them and then build
+strategies around them you are arming
+yourself with the best weapons to be the
+best Trader in the market if you enjoyed
+today's video make sure to like And
+subscribe share the video and to learn
+more tips and tricks watch this video
+and I will see you
+[Music]
+there
+[Music]

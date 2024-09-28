@@ -1,0 +1,16 @@
+now we will program this strategy on an
+instrument that likes this type of
+strategy if you watch the channel before
+you know what I mean by this because we
+need to match the strategy style to the
+instrument Behavior so we know the
+energy sector tends to work well with
+Trend following so I'll try heating oil
+with the strategy this is heating oil
+Futures and it's 118 minute bars so each
+bar represents three hours and I applied
+the strategy of
+135 that means when the price breaks the
+high of 100 bars ago we will go along
+and we exit when it breaks the low of 35
+baht

@@ -1,0 +1,222 @@
+would you like to trade a strategy that
+has this Equity curve if you do stick
+around then I will show you how I built
+this strategy it's based on a single
+Candlestick pattern the Candlestick
+pattern that is used to build the
+strategy is an extremely simple pattern
+it's a rejection candle basically when
+you have a candle with a long Wick
+either to the downside or to the upside
+this Candlestick has a body and an upper
+Wick and a lower Wick so this is we call
+the bottom work and this one is called
+the body the body is between the open
+and the clothes and then I have my
+trusted pattern which is the internal
+bar strength basically this measure
+where the close happens inside the whole
+range and the clever way to build the
+strategy with this pattern is by
+measuring the ratio of the wick to the
+body because we know that this work can
+be very long very short the body can be
+at the top or at the bottom so by
+combining the ratio of the wick to the
+body and the IBS you get a really unique
+pattern on top of that we will add the
+number of patterns that happens in a
+certain period of bars so in this case
+we are looking at five bars and we will
+add how many times this pattern happen
+and only then we will take the signal
+now of course this works on the long
+side and the short side so on the long
+side you are counting the bottom works
+and comparing it to the body and the IBS
+and on the short side you are counting
+the upper Wicks and comparing it to the
+body and IBS and since I'm testing this
+on the S P 500 I will only test the long
+side but of course the opposite applies
+for the shot now the strategy code will
+be available in the community and you
+can download it for free here are the
+inputs to optimize so the first one is
+long so I'm testing the long side only
+and this is the stop
+so we're optimizing between one and four
+that means I am taking either 180r all
+the way to 480r as a stop loss and the
+same as profit Target and then the buy
+threshold is the number of patterns that
+will happen in a certain period of time
+now I fixed the period at 10 volts so in
+this case it's either one all the way to
+five and self-reshold I'm not doing it
+because we're doing the buy side only
+and then the IBS ratio and this would be
+where the close happening IBS runs
+between zero and one so we will optimize
+between 0.2 and 0.9
+and then the wick to add the ratio
+so basically we are measuring how long
+the work and dividing it by how long is
+the body when the wick equals the body
+we get one if the work it's double the
+length of the body we get two so I'm
+optimizing between 0.25 to 2 and a step
+of 0.25 now all these combinations come
+to almost 16 000 so let's optimize
+and here are the result of the
+optimization so let's filter The Sixteen
+thousand we don't want anything below
+one hundred dollars on the s p
+and I don't want to trade anything that
+produced less than one replace
+so that's filtered the 16
+000 down to five thousand so it's almost
+33 percent of the strategies having more
+than 100 trades and more than a hundred
+dollars on average in fact we can sort
+on the average trade
+we can see we have 275 all the way to a
+hundred and then if I sort by net profit
+so this is the highest profit and I just
+want to bring your attention why testing
+is so important so let's look at the
+wick body ratio when I was testing the
+strategy and why had I thought the long
+bricks compared to the body of the
+Candlestick will produce the best result
+because in theory that means the sellers
+were trying to push the price down and
+then the buyers came in and bought the
+price and that's why you have the long
+Wick but that's why testing is so
+important because in testing I found
+it's the opposite action so look at this
+the top net profits is produced where
+the work to body ratio is 0.5 that means
+the length of the work is half the
+length of the body and in fact I can
+keep scrolling and you can see it's
+0.5.25.75 and it's only above one when
+we go all the way down and look at this
+the lowest profit is when the wick is
+almost twice as the body so this
+solidifies the idea of testing all the
+time doesn't matter where you hear about
+the strategy or how you build it or
+where do you read about it testing is
+always the best way to know where the
+strategy sits and you see here that the
+top thousand strategies producing above
+125
+000 now of course we can look at the
+stable areas and so on and so forth but
+that's not of an interest to me let me
+pick number 10 here
+and this is the strategy let's see so we
+have almost a thousand trades that is a
+lot of trades on average we're making
+two hundred dollars on average we are
+sitting three bars in a trade strategy
+making 190 27
+000 drawdown so we're making seven to
+one an annual period since 2006
+we have a little bit of loss 2008 Less
+in 2009 the biggest is 2011 and 2016.
+and since 2018 we are on a roll and in
+fact this year up to June which is when
+I'm recording this video we had 28
+trades and we made twenty two thousand
+dollars 57 win percent now at this
+implementation this top loss is 180r so
+that's very close to hit which is okay
+because we are doing a mere version
+strategy and the profit Target is two
+and a half atrs and you need to always
+work that in so you need to pay
+attention you don't want both of them to
+be close because then you need to test
+on intraday to find out if that strategy
+is behaving properly if you're testing
+on daily bars you need to keep them
+further apart so they don't hit both at
+the same time also the strategies that
+we picked had three patterns happening
+in 10 bars and the pattern is the wick
+is half the body and the IBS is above
+0.4 that means the close usually is high
+so it's the uh I don't I don't have the
+range so 0.4 and above around half the
+range now I am using the RSI 2 above 65
+to exit the trade RSI 2 is a really good
+short-term exit strategy I know we have
+stop loss and profit Target but usually
+the RSI 2 is extremely fast so above 65
+usually happens in a day and that's why
+you saw that our average holding period
+is three days the only thing I want to
+add now is a filter to the strategy and
+again since I'm using the also Irma as
+well add the RSI so since this is a
+mirror version strategy it makes sense
+that the RSI should be low so I'll just
+add a filter for the RSI below 50 and
+let's see what that produce so this is
+the original strategy we're making seven
+to one 190 000 profits and twenty seven
+thousand dollar drawdown
+and our average trade is two hundred
+dollars and if I add the RSI to below 50
+and let's compile
+and we can see that half the trades are
+gone that's really a good filter also we
+increased our percent profitable to 70
+and we more than double the average
+trade so this is huge enhancement to the
+strategy on many metrics and if I want
+to go back now to the performance that's
+even like the icing on the cake now I'm
+making also more money you'll have the
+trades have the drawdown double the
+average trade so I'm making more money
+and now this gone to 11. and let's look
+at our curve
+and of course now the curve is smoother
+we have a period of a non-performance
+this is a 2015 all the way to almost
+2019 so about four years where we didn't
+do anything but you know the drawdown is
+not that big because we enhanced the
+drawdown now you might think that this
+performance came from the RSI and not
+the rejection candle pad so the only way
+to figure that out is we need to remove
+the candle pattern and test the RSI
+alone and see what that produced so
+going back to the strategy now I will
+disable the Candlestick rejection
+pattern so now basically we are going
+along when the RSI below 50
+and let's see what that produce
+so it's still very good 142 but our
+drawdown is 62 so return to draw down
+ratio it's two so we went from 11 to 2.
+also if I look at the trade analysis we
+increase our number of Trades we reduce
+our average we reduce our profitability
+so definitely the RSI is not the driver
+of the strategy in this case so that's
+really encouraging to me that means the
+filter is really a filter and it has a
+huge effect on the strategy by enhancing
+about six or seven metrics to learn more
+about Candlestick patterns make to watch
+this video and I will see you
+[Music]
+there
+[Music]
+foreign

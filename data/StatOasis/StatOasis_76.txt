@@ -1,0 +1,320 @@
+I did a video about a profitable
+strategy that buys the stock indexes at
+the end of each month usually before the
+end of the month and selling a couple of
+days after the beginning of the month is
+a very profitable strategy and there are
+some fundamental reasons why the
+strategy Works about seven eight years
+ago I heard of another pattern which is
+buying the indexes when the moon is full
+and the first time I heard of this I
+thought some voodoo magic but of course
+testing proves that this strategy does
+work now I need to preface this that any
+strategy that buys this stock index is
+while mitigating risk usually will work
+with some drawdown first thing we need
+to take care of is the moon cycle is not
+exactly like the monthly cycle and there
+is a formula to calculate exactly when
+the moon is full and I found this
+website that has the calculation for
+finding when the moon is full and you
+can program that in fact I think he
+provides the python code for it but
+there is another easy way which is to
+load all the dates of the full moon so
+if you go to this site Kegel it's free
+and if you search for full moon calendar
+then you can download this data set
+which basically just lists the date that
+there is a full moon since 1900 all the
+way to 2050. so once you download the
+Excel sheet that has all the dates of
+the full moon since 1900 you need to
+convert those dates into something that
+your platform understands now I'm
+testing this using power language easy
+language so I need to convert the dates
+for something that easy language can
+understand so you don't need to do this
+I've done this already and you can
+download the code in the community once
+the strategy is compiled that's it the
+code will buy every time there is a full
+moon and then now you need to decide how
+many days you will hold trade so
+anything below 20 days is doable and of
+course we will test that to see what is
+the best stable area so here I have the
+S P 500 represented by the ETF spy I'm
+doing the ETF because we have more data
+so here the data is since 1993 and
+before I do the strategy I want to
+compare it to the Buy and Hold strategy
+the Buy and Hold strategy is not
+available in every platform so you need
+to build it and I build one here so let
+me switch it on so this is Buy and Hold
+and basically I'm buying and selling
+every end of month so it's the same
+place where I buy and sell and so that
+way we can get the all the data so this
+is the buy whole strategy is making 417
+000 this is starting from fifty thousand
+dollars uh in 1994 and the drawdown is
+59 percent which is a hundred and thirty
+eight thousand dollars now you might
+wonder what is this Buy and Hold so this
+is the representation of the Buy and
+Hold curve unfortunately there is no
+data in that graph still it's better
+than nothing and you can see that my
+strategy that I built matches that graph
+exactly by buying and selling every end
+of month so you can see they are both
+the same the numbers are different but
+they are exactly both the same thing and
+we can see here since 1993
+this is the 2000.com bubble the subprime
+crisis and 2015 The Flash crashed 2018
+and 2022 which we have the drawdown
+recent drawdown and now we are in 2023.
+anyway so this is the performance
+basically we want to beat this uh
+drawdown this is a big drawdown 59
+percent
+and if our strategy is not beating that
+then we might as well do the Buy and
+Hold okay so I added the strategy and so
+the strategy has four variables the
+shift which is the day before and after
+the full moon so we are testing 10 days
+before the full moon so we are buying 10
+days before nine days and so on so forth
+step of one all the way to five days
+after the full moon and we are holding
+this is our exit between 1 and 18 bars
+remember there are 21 trading days and
+you cannot use 21 because then the
+strategy will behave like Buy and Hold
+the stop loss and profit targets are
+zero that means we are not using them we
+will add them later on so let's test
+this combination we have 288 let's
+optimize so if we sort the results by
+the net profit and I'm looking here at
+the top 30 and remember this is an ETF
+so I'm using the full account to buy the
+maximum number of shares this is usually
+the best way to test a strategy on
+stocks and ETFs because
+the price usually splits up and by the
+time you test let's say 1995 the price
+will be one dollars so you cannot test
+with fixed number of shares so we can
+see that the top 30 usually have a
+negative shift in fact if I look at this
+only number 30 is 5
+and number 28 is zero which is buying
+when the full moon is on and here we
+have number 16 which is one that means
+it's one day after the full moon
+everything else is minus so that tells
+me the buying before the full moon is
+much better and we can see that the top
+10 strategies are split between -5 and
+-6 as for the holding bars the top 10 is
+between 14 and 18. 14 is twice 16 is
+twice and 17 is twice but going all the
+way to number 30 they are all above nine
+nine is the lowest number of bars so -6
+and 14 is the top but it is sitting in a
+very stable area so I have no problem of
+picking this one and now we can see that
+our graph is much better than the Buy
+and Hold look at the Buy and Hold we
+have these two deep drawdowns and then
+this one in covid and here we mitigated
+most of these and also we are making
+more money plus less drawdown so all in
+all we enhance our Buy and Hold by a lot
+so it's it's very meaningful to do this
+strategy because you are making lower
+drawdown making more money and you are
+less time in the market so the market
+data that I'm using is 29 years and nine
+months and I am in the market for only
+21 years and nine months this is very
+important to keep in mind that enhancing
+the strategy is not always about net
+profit although in this case we have
+better net profit but usually is about
+less risk so a better metric is the
+return to draw down ratio and that's
+usually what I use but of course there
+are many other metrics that you can look
+at the average trade the number of
+Trades and so on so forth so now we will
+test these stop loss and profit Target
+now the way I program this is in 8 CRS
+so we will put some form of ATR so zero
+that means we're not using it and five
+that means it's five times the 20-day
+average true range so we will do it in
+step of 0.5 that gives us 121
+combinations now again sorting by net
+profit the zero zero that means we are
+not using it is the best one in terms of
+net profit but in terms of return to
+draw down ratio
+five atrs so five time the average true
+range of 20 days as a profit Target is
+better than zero and here I have another
+one which is three that's also better
+and in terms of his top loss four and a
+half ATR stop loss is good this is
+Meaningful so two and a half profit
+Target and four as a stop loss and you
+can see uh how I say it's meaningful
+because look at the return to drawdown
+ratio it does have a big effect than the
+rest because remember not using the stop
+loss and profit Target return to the
+order ratio was around four and here we
+have 614 but of course we are making
+less money but remember the original
+strategy was making about four hundred
+and eighty thousand so if I pick this
+one I'm actually still beating the
+original strategy and I'm making much
+lower drawdown so this is the original
+strategy and this is my cup and here
+another huge concept that I put which
+always in my videos which is strategy
+filters strategy filters perform much
+better job than stop loss or profit
+Target now you can still use a stop loss
+as a catastrophic stop loss so this stop
+loss means that if your biggest loss is
+10 000 you can put a stop loss as eleven
+thousand so I put back the strategy as
+-6 and 14. so the strategy is right now
+making almost eight hundred thousand
+dollars with 32 percent drawdown this is
+based on fifty thousand dollars starting
+capital and our trade analysis we are
+making 365 trades on average two
+thousand dollars per trade sixty six
+percent win rate like I mentioned many
+times on the channel the best filters to
+use are usually Direction and volatility
+this filter is part of my algo trading
+Master Class it's available for strategy
+Quant X easy language and power language
+for tradestation multi-charge and
+metatrader 4. both filters combined make
+the market regime now what I'm showing
+here is the version 2 of these filters
+which will be included in my alga
+trading Master Class version 2 coming
+out very soon version 2 has three states
+for volatility and three states for
+Direction so this is on the top is the
+direction which segments the market
+either ball bear or sideways and the
+bottom section shows the volatility
+indicator which segments the market in
+three sections quiet normal and volatile
+so now by fixing the shift to -6 the
+number of bars to exit to 14 and we will
+not be using the stop loss and profit
+Target we will only optimize the
+direction volatility and like I said
+these are three segments for each zero
+means we are not using them and we will
+keep zero so we have something to
+compare so we have four states in each
+that gives us 16 combinations we can
+easily test them this is our Baseline
+and our Baseline is 65 percent win rate
+we can increase our win rate to 73
+percent while using the three and three
+that means bull market and the high
+volatility and if I want to do the
+custom Fitness we can increase the
+maximum return to draw down ratio by
+using this so this is the bull market
+and not using the volatility filter and
+still increasing the win rate now there
+is another way to look at these filters
+let's look at look at all these all of
+them are making some money I I mean this
+is 199 it's it's almost zero but only
+this one is losing money so this is one
+that means we are in Bear Market this is
+one that means in quiet Market quiet
+means the volatility is below average so
+instead of using one and three and
+combining them I'm just going to not be
+trading when I am in this market regime
+so here is our astrology with both the
+volatility and Direction filters applied
+which is we are not trading when the
+market is quiet and bare and you can see
+the quiet is this green
+and bear Market is red so whenever we
+have green here and red when they match
+we don't take a trade we are now making
+1.1 million still keeping our drawdown
+at 33 so that is amazing our average
+trade jumps to 3500 we increase our win
+rate so all in all we enhance most
+metrics and let's look at our periodical
+returns so losing one year in 94 one
+year 2001 year 2008 and one year in 2022
+and remember this is our Buy and Hold
+curve and now our curve looks much much
+better and making a lot more money so
+you see it filters almost always gives
+better results than using profit Target
+and stop loss now they don't do it all
+the time but if you have enough variety
+of filters you will achieve this goal
+almost always and I am adding more and
+more filters to my algo trading master
+plan as version 2 I'm currently around
+at 700 filters so the same strategy
+buying six days before the full moon
+selling 14 days later and not trading
+when the market is quiet or when the
+market is bare meaning moving down the
+same strategy will work on all indexes
+so this is currently the Spy so this is
+the triple q and same strategy we are
+not trading in Bear market and quiet and
+we are buying six days before the full
+moon and this is our strategy based on
+fifty thousand dollars we're making one
+million 252 trades 63 percent win rate
+almost four thousand dollars on average
+and this is our yearly returns and this
+is the Dow Jones we're making 367
+000 this is the Buy and Hold and this is
+our curve our trade average is 1350 67
+win rate so 172 trades and this is our
+yearly return since 1998 and as you can
+see the full moon has the same effect on
+all indexes which is extremely weird
+because if you check the dates of the
+full moon they don't happen all the time
+at the same point so the full moon will
+shift from day one of the month all the
+way to day 30 of the month during the
+years so they don't fall always in the
+exact same place to watch day of month
+strategy watch this video and I will see
+you there
+thank you
+[Music]

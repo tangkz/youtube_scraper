@@ -1,0 +1,208 @@
+this strategy made over
+$320,000 over the past 15 years and
+$35,000 so far this year with a win rate
+of above 83% to build robust strategies
+like these you need good filters good
+filters usually come from volatility and
+Direction they are not the only ones but
+they are the major ones today's video is
+about a direction filter the indicator
+you see at the bottom is the trend
+intensity index don't worry about the
+for the indicator or for the strategy
+that we are going to build it will be
+available in stasis Community which you
+can join for free to meet other Traders
+the indicator has a default look back of
+60 and a default thresholds of 0 and 20
+so the look back of 60 is the moving
+average and then we are calculating the
+difference between the close and the
+moving average and we add all these up
+over the past 60 bars which is the look
+back period then we divide divided by
+the total sum so we get an oscillator
+that hovers between 0 and 100 and when
+we are over the 80% threshold that means
+we are in a long Trend and when we are
+below 20 threshold we are in a short
+Trend the indicator can be used as a
+filter for other signals because it's a
+trend filter but also we can use it to
+generate signals for entry and exit and
+that is what we are going to do in this
+video now because I'm trading the S&P
+500 and the S&P 500 is a Me reverting
+instrument we need to shorten the look
+back period so we make the oscillator
+oscillates a lot to get more signals in
+so by shortening the length of the
+indicator here the period is four
+instead of 60 you can see now it
+resembles the RSI 2 which is this one
+now although there are differences in
+the magnitude but basically the Peaks
+and the troughs usually matching almost
+I would say with 90 95% uh correlation
+and now we're looking at these two
+charts of the S&P 500 future since 2006
+on the left I have the trend intensity
+index as our signal generator so on the
+indicator below a threshold we will go
+long and when the indicator above the
+above threshold we will exit and on the
+right here I'm using the RSI 2 strategy
+is the default strategy RSI 2 below 30
+we go long above 70 we exit and we have
+the 200 day moving average as a filter
+and this is the comparison between both
+this is our rsi2 strategy making
+$196,000 with 39,000 uh draw down and
+our Trend intensity index used as a mean
+reversion indicator the strategy is
+making 166 with a draw down of 47 now
+obviously this the RSI 2 beats this
+strategy but here is an interesting
+stats so if we look at the number of
+Trades this is almost 400 trades
+remember I'm not including commission
+slippage because the average trade is
+too big so we are not worrying about it
+but this is only 60 trades so 60 trades
+but each trade is more than five times
+the average trade of the RSI 2 so while
+they look the same the numbers tell a
+different story also the percent of win
+here is 7 4% while here is the
+82% so while we are making less money
+not a lot less but we are making less
+money and higher draw down but we are
+making it with a lot less trades and a
+higher win rate now that also comes with
+a caveat here we are staying on average
+about a week and here on average about
+four weeks and that's why we have the
+bigger draw down in the trend intensity
+index still the should not deter you
+from using this indicator because we are
+always looking for more variety in our
+Equity curve even if both strategies are
+using the same mechanism now we are
+adding more variety so the one on the
+left is the trend intensity indicator
+used as a meere reversion entry and exit
+on the right I extended the look back
+period to 16 and now we are going to use
+this as a trend following indicator
+meaning when it is above the threshold
+we go long and when it goes below we
+exit and now let's look at our
+performance now with using the indicator
+as a trend following indicator we almost
+achiev the same numbers so the profit is
+163,000 here is 166 maximum draw down is
+44,000 here is
+47,000 the number of Trades here is 60
+here is 85 so that's a significant
+enhancement in the number of Trades of
+course that come with the sacrifice of
+lower win percent which is totally
+acceptable for Trend following in fact
+if anything this is a huge wi% for a
+trend following strategy because usually
+Trend following strategies are in the 30
+looking at the equity curve we can see
+they are totally different yes both of
+them are going up yes both of them are
+making almost same amount of money but
+this is a lot sharier which is expected
+for a trend following strategy and this
+is a lot smoother both of them making
+the biggest throw down in coid crisis
+now this is an extremely plus point for
+this indicator because using the same
+indicator as a trend following signal
+generator or a mirr version signal
+generator is really an indication of the
+robustness of this indicator that you
+can use it in many situation and
+remember the original Target of this
+indicator is to be used as a filter so
+we did not go into filter so you can use
+this indicator in three way ways the
+long-term Trend following signal
+generator shortterm me version signal
+generator and as a filter for other
+strategy but now that we have generated
+two separate strategies from this
+indicator using totally different
+fundamental reason one is going with the
+trend one is going against the trend
+theoretically we can combine those two
+strategies on the same instrument and we
+should get better numbers so here I did
+an optimization for both strategies on
+the S&P 500 you can see this is strategy
+one and this is strategy two so I
+optimize the lookback period the
+overbought and the oversold with total
+number of optimizations of
+345,000 strategy so first thing if we
+sort by net profit we can see that all
+strategies are profitable more than
+329,000
+strategy of course this doesn't cut it
+because it's 9,000 net profit fit and no
+commission no slippage so this is a
+losing strategy actually so if I filter
+the strategies that are making at least
+$150,000 we still have over
+$245,000 strategies that are profitable
+and if I sort by return to draw down
+this is the best strategy so it's making
+212 and losing 66 now while I did this
+optimization correctly and I'm choosing
+methodically still this is not a robust
+workflow which is extremely important to
+build robust strategy and that's why I
+dedicated a full module on robustness
+testing in my algo trading Master Class
+if I pick this one the
+$324,000 so on the left here we have our
+me reversion strategy on the right here
+we have our Trend following strategy and
+here in the middle we have both
+strategies combined first thing I want
+to bring your attention to is the
+correlation so although we are are
+trading on the S&P 500 and although the
+trend following is holding for more than
+20 days we are looking at the
+correlation of 31 on The Daily and 27 on
+the weekly that is a big plus because
+that means we are not always trading two
+contracts at the same time so 30% of the
+time we will hold two contracts but 70%
+of the time we are holding one contract
+only so now we have
+A2 trades with a 63% win rate on average
+making
+$2,000 and if we look at our periodical
+returns we lose 5 years since 2006 and
+in 2023 we are making $388,000 in six
+trades with an average of $6,000 per
+trade 83% win rate this is our curve we
+dip here in
+2022 and we just made it all back with
+new highs in 2023 by learning how to
+test properly you can build strategies
+by exploiting edges that most other
+Traders cannot find mixing two type of
+strategies using the same indicator
+usually is a good way to diversify your
+portfolio to learn more strategies like
+these watch this video and I will see
+you
+[Music]
+there
+y

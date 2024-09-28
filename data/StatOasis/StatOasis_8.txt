@@ -1,0 +1,338 @@
+as an Alo Trader I am a big fan of
+patterns because they can easily be
+programmed and tested and then if they
+work properly you can easily build
+strategies around them today's video is
+about Bull and Bear hooks these patterns
+comes in different flavors depending on
+who is the name behind it so I know Toby
+krael has one Joe Ras has one and Thomas
+pulowski and probably many others but
+they all revolve around the same thing
+which is usually a pattern that looks
+like a hook you know the fish hook to
+hook Traders on the opposite side so I
+simplify two of them and we will test
+them in this video and this is what the
+bull hook looks like so like I mentioned
+it looks like a hook so think of it like
+a check mark flipped on its side we
+usually have a downtrend and then the
+last bar which is today's bar is an up
+bar and it's a small smaller range than
+yesterday's bar and it's also an inside
+day so the high is lower than the
+previous High and the low is higher than
+the previous low so once we find this
+pattern we buy with a stop order Above
+This High because we're in downtrend and
+we want a confirmation to go long and
+the second variations of the bull Hook
+is the kind of the opposite so the hook
+looks like this and the the pattern
+setup is a up bar and then today is a
+down bar with a range smaller than
+yesterday and the open above the
+previous High and the close below the
+previous close so this pattern requires
+only two bars and this pattern requires
+four bars so let's build these patterns
+and test them so I will build this
+pattern in strategy quantex I'm running
+version 139 here and we are in algo
+Wizard and here is the pattern as
+represented by this picture so we have
+three lower lows and this is the low
+lower than the previous low is true for
+three bars so you can find this In the
+comparison so if you go to comparison
+and you go to lower for X number of bars
+you click that in and you select three
+bars and you can allow the same values
+so basically if the low is the same as
+previous low then that's okay and then
+we want to shift by one because we are
+calculating everything on this bar so on
+this bar I want to make sure that I had
+three lower lows so that's why you need
+the shift and this is what I have here
+so you see the shift is one and then the
+range is smaller than the previous range
+so this is the bar range lower than the
+bar range one bar ago and then an inside
+Day meaning the high lower than the
+previous High and the low higher than
+the previous low again here we look the
+low is higher than the previous low the
+high is lower than the previous high and
+finally this is upd so the close is
+higher than the open and I'm using trade
+station Engine with es. d data so es. D
+is the S&P 500 E mini Futures I have the
+data here since 2006 and we are using a
+fixed contract to trade no slippage and
+commission this is just testing so let's
+run a full back
+test and this is very strange to me so
+if you watch any of my videos on the
+channel you know that the S&P 500 works
+really well with miror version
+strategies going long and this is
+basically a pattern that is a mere
+reversion pattern because it's a
+pullback three days pullback and then
+you go along and I've tested hundreds of
+these patterns and usually anything with
+a pullback works really well so I am
+amazed that this pattern first of all
+it's losing money and second of all we
+have only 15 trades and that made me uh
+think that there's something wrong with
+the logic so I went ahead and tested
+this on another platform which is
+multicharts using easy line and this is
+testing the strategy in multicharts
+using power language and we have the
+same thing so it's 15 trades losing
+$260 on average okay so even though I
+confirmed that this pattern it is
+producing 15 trades it's still like I
+don't get it like why this is happening
+so let's dissect this pattern and let's
+see what's preventing more trades from
+happening obviously it's not the
+pullback because you know all the
+strategies that I build on the S&P 500
+using mirror version and they are all a
+form of pullback three bars five bars
+even 10 bars like the RSI 2 that's a
+pullback of many bars macd the Ballinger
+bands they're all pullback
+so it only makes sense that to test only
+the last bar that's it seems the
+bottleneck okay so let's remove
+everything let's keep this one this is
+the pullback and then we'll remove
+everything and start adding them slowly
+to see which one is the culprit so in
+strategy Quant X right now I don't have
+a short strategy so the easiest way
+instead of deleting you can just pull
+them in the short exit because we don't
+have a short short entry so these
+basically they are null they will not
+produce anything and let's run the full
+strategy
+now okay so this makes a lot of sense we
+have about 200
+trades we are basically waiting for
+three bar pullback and we are trading
+the day after remember there is a shift
+of one here uh because of the pattern so
+remember we are taking the signals after
+the this bar so even when I remove it
+I'm still waiting for a bar the long
+entry is enter other a stop like I
+mentioned we are entering at a stop
+order at the high of the bar and I am
+exiting after three bars so now that we
+know this works which of course makes a
+lot of sense let's start adding I will
+start with the close greater than the
+open so this is means we have a green
+bar today so let's pull that in and
+let's
+test okay so this is definitely one of
+the culprits so but we still have 150
+trades so that's not all of it and so
+let me take that
+off and then we have the bar range so
+this is the range of today smaller than
+range of yesterday so this is acting as
+a good filter because we have less
+profits but we have better return to
+draw down so this is definitely a a good
+condition to keep and finally let's try
+the inside day so we bring back the high
+and the low so this is the inside day
+and let's see what we
+get and this is definitely the other
+culprit so the inside day and the Green
+Day they are what's making this pattern
+produce lower trades I mean let's add
+the uh the up bar and let's see in from
+28 we go to 50 inde definitely so these
+two it's what's messing this pattern so
+if we go back to the pattern it's the
+fact that it's an up day a green bar and
+also an inside day remember we are
+looking for a smaller range so we know
+the bar will be smaller than this one
+but we are requiring it to be an inside
+Day meaning inside this bar that why we
+have very few trades okay so we keep the
+three lower lows
+and the last bar is a small range and
+then we enter at a stop order for the
+high of the day before today and then we
+hold for three bars and that looks like
+a really good pattern on the S&P 500
+which of course is very expected and we
+can see the trade average trade is 550
+64% win rate that's totally expected and
+then the equity chart looks like this of
+course we can add a filter to enhance
+these draw down and then trade analysis
+also we can check it on the charts here
+so we can pick this trade so you see we
+have three lower lows and then this guy
+is a smaller range and so we enter next
+day at the high of this bar so it's a
+stop order we enter and we hold for
+three bars we exit next day and then the
+next trade these are three lower lows
+and now even though this bar is higher
+than this but still the range is smaller
+so we enter at the high of this bar
+which is of course it was the open we
+hold three bars and we exit and let's
+look at the next one here's the next
+trade so we have three lower lows the
+next bar smaller range than this one and
+we enter at the high of this bar again
+which was the open because it's already
+above it and we hold for three bars and
+we exit so the code is behaving properly
+the strategy is good we already know
+this pattern is good but remember this
+pattern now is adjusted so we don't need
+this bar to be an up bar and we don't
+need this bar to be an inside bar only a
+small range and this pattern will work
+and now we'll program bull hook two so
+first we need yesterday's bar to be an
+up bar so the close of yesterday is
+higher than the open of yesterday and
+then today's bar is a smaller range so
+bar range of today is smaller than the
+bar range of
+yesterday and then the open higher than
+the previous high so the open higher
+than the previous High the close lower
+than the previous close the close lower
+than the previous close and finally we
+will enter at a stop order of high of
+today so this is different than the
+other pattern where we enter of the high
+of yesterday but because we are opening
+above the high of yesterday so we need
+to use the high of today so again the
+long entry we are using a stop order
+with the high of today and again we are
+exiting after three bars so let's take
+the signal and I'm using trade station
+same data the es e mini Futures and I'm
+using one contract no slippage and
+commission so let's run a full test and
+again this is very puzzling I mean we
+have about 18 years of data and yet we
+have only 23 trades and this is a two
+bar pattern I mean you expect this to be
+probably happening I don't know at least
+200 times really this pattern only
+happened 25 times so again I tested the
+pattern in another platform multicharts
+using power language and we get the same
+results now this time while still
+puzzling I'm getting only 23 trades but
+remember this is not a pullback now so
+we are it's like a breakout so the bar
+is up and just we have a like a hook
+down and then we want to go up again so
+it's a breakout strategy and we know
+that breakout strategies don't do well
+on the S&P 500 still like the number of
+Trades is very low so again let's try to
+find the culprit why we are getting a
+very low number of Trades unfortunately
+this time we don't have a lot to play
+with I mean we can play with this one
+and the range but the hook is based on
+these two so we cannot remove these so
+again I will move them to the short exit
+because we don't have a short entry so
+this will not have any effect on the
+strategy now and now basically we are
+using the hook so we don't care if
+yesterday was a down day or an up day it
+doesn't matter we only care that today's
+open is above previous day high and the
+close below previous day close so let's
+run it okay so this is much better 62
+trades it's still not a lot of Trades
+and you know the performance is nothing
+to write home about even if we add a
+filter that's already going to go down
+probably to 30 trades so it's not usable
+I mean this Hook is not usable at least
+on the S&P 500 but you already probably
+figured out that flipping this pattern
+should produce very good results on the
+S&P 500 so if we flip it which is the
+bear hook so the bear hook usually is
+used for short strategies but of course
+we can use it here for long strategies
+so this is what it's going to look like
+we have a down day then the open lower
+than the previous low the close higher
+than the previous close and then we buy
+with a stop order Above This high and
+also the range is smaller than this
+range and here is the pattern built so
+the open is lower than the previous low
+so this open lower than the previous low
+the close is higher than the previous
+close so this close higher than this
+close
+and then the range is smaller than this
+and then yesterday this one the close is
+lower than the open again I have the
+same data the S&P 500 E mini Futures
+using trade station with one contract
+fixed and no slippage and
+commission and as expected the pattern
+is profitable but again very low number
+of Trades so just like we did before
+let's let me get rid of the yesterday
+condition that's being down day and let
+me get rid of the bar range so we are
+just looking at the hook basically we
+just want the open below yesterday's low
+the close above yesterday's close and
+then we enter with a stop order so 24
+trades let's see if we can beat that and
+much much better now still the pattern
+looks horrible here but we have more
+trades at least I'm happy with more
+trades because I can always add a filter
+to enhance this so this one looks like a
+good filter the close lower than the
+average close of 10 bars so we get 42
+trades and
+3.93 return to draw down ratio and we
+get rid of this uh huge draw down in the
+beginning now I didn't test any filters
+this is just a simple one I just wanted
+to show you that once you have a lot of
+Trades it's a lot easier to filter
+trades the problem is always lower
+number of Trades now the beauty of
+strategy Quant X is you can take this
+pattern that we just built and make it
+as a custom block once it's a custom
+block you can use it in Builder to
+automate building strategies using this
+pattern as an entry or exit or a filter
+for other strategy if you like this
+video you will love the next one
+[Music]

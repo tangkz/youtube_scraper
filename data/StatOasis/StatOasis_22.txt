@@ -1,0 +1,316 @@
+ever thought you found the best trading
+indicator only to get disappointed you
+are not alone what if there was a way to
+scientifically prove which indicator
+truly rules them all welcome to another
+episode of algo versus crap the series
+where we cut through the noise with real
+data if you've ever stumbled upon the
+countless videos on YouTube testing
+trading strategies with mediocre methods
+like manually analyzing 100 trades on a
+single instrument and a single time
+frame then you know it's time for a
+change and I am here to make this change
+today's indicator that's going through
+this rigorous test is Williams R this
+isn't just a review of Williams R
+indicator but it is a rigorous test on
+Williams r on multiple markets different
+speeds different exits to find out if it
+is good enough to use it in our
+strategies plus we will be comparing it
+to other indicators that we did in
+previous test so don't forget to check
+the algo versus crop playlist in the
+description below Williams are developed
+by the trader Larry Williams he's an
+accomplished Trader and he developed
+many indicators this is one of them it
+is kind of similar to stochastic where
+we are comparing the close relative to
+the highest high and lowest low in
+previous period the indicator ranges
+between 0 and minus 100 and this is kind
+of unusual for an indicator so an
+oversold value will be minus 75 and an
+overboard value will will be minus 25
+there are no positive values in the
+Williams R indicator and here is the
+formula the highest high of a previous
+period minus the close divided by the
+highest high of the same period minus
+the lowest low of the same period
+multiplied by minus 100 so this is an
+example if this line is the highest high
+represented by this one and the red line
+is the lowest low representing this low
+and currently we have this close imagine
+we have these values so the highest high
+is 100 the lowest low is 90 and
+currently the close is 92 so the
+equation will be as follows the highest
+high which is 100us 92 our current close
+divided by the highest high 100 minus
+the lowest low which is 90 * - 100 and
+if you resolve this equation currently
+we have minus 80 that means currently we
+are in oversold and of course we can see
+it from the the picture it's overs so
+and this is how it looks like on the
+chart so here I have the futures of the
+S&P 500 and at the bottom we have the
+Williams R indicator So currently this
+is a 20 bar look back so these bars are
+representing daily time frame So
+currently we are looking at the previous
+20 days and here I have below 75 as
+oversold and above - 25 as overbought
+remember it's from 0 to - 100 now the
+indicator as all oscillators can be used
+in two ways either as a mean reversion
+strategy where we buy when the price is
+over sold and we short when the price is
+overbought or we can use it as a
+breakout strategy so we sell we short
+basically when the price is oversold and
+we go long we buy when the price is
+overbought but since we are trading the
+S&P 5 100 we will use it as a miror
+version strategy to go along when it is
+oversold so this strategy currently with
+the 20 bars look back andus 75 and minus
+25 are the levels we have 87 trades with
+$737 on average our performance we are
+making
+$64,000 with 1.2 return to draw down
+ratio this is how the strategy looks
+like and here is the annual returns now
+we are going to optimize the strategy so
+the look back we will go from 5 to 25
+step five and then the oversold from- 65
+to - 95 step Min -5 and overboard from
+-5 to - 35 with a step of -5 so overall
+we have 245 combinations these are the
+results and let's look at at the 3D
+graph So currently we are looking at the
+oversold values and the overboard values
+so the overbo is where we are exiting
+and the oversold is where we are
+entering and then the z-axis is the net
+profit and currently this level is about
+150,000 and here we have the look back
+period so this is number five and
+obviously all of them are profitable I
+mean even This Thread this is about
+100,000 and this is beautiful uh stable
+area and if we look at the other values
+so this is 10 it's currently below
+15 again 20 below 25 below all of them
+are below so five is the best but
+remember even 25 is still profitable but
+it's around 50,000 so five is the best
+value and then for
+entry we have from -65 all the way to -
+90 and then for exit I would say between
+-20 and -5
+and this area is all stable area so if
+we go back to the
+spreadsheet and if we sort by return to
+draw down we can see the top is all five
+as we saw from the graph and any
+strategy will be good so for example
+this one it's uh average trade 721
+273 uh trades but now we're making about
+200,000 and if we look at this strategy
+this is the periodical return it's much
+better than before the graph of course
+again is much better and the trade
+analysis great now that we understand
+how williams R indicator works we tested
+on a single instrument of course it
+works very well matching the style to
+the S&P 500 will always work we know
+this from many many other videos on the
+channel now we are going to take it
+through rigorous testing in the algo
+versus crap workflow the workflow for
+algo versus crap is as follows first we
+tune every indicator two four speeds
+extremely fast fast normal and slow the
+extremely fast speed will deliver 400
+trades or more in a 10-year period and
+then the next speed will deliver 300
+trades the next speed will deliver 200
+and the slowest speed will deliver about
+a00 trades per 10 years now I do this so
+I don't optimize as the best values for
+the indicator but I do it to optimize it
+for this number of strategies so I can
+easily compare with other oscillator
+next we test Direction so we will test
+long separately from short again this
+will deliver a focus result on the Pure
+Performance of the long side and the
+short side number three in the workflow
+is strategy type we will use mirr
+reversion and Breakout so like I showed
+you in the screen we can use the
+oscillator to buy the oversold or we can
+use it to go short when it's oversold so
+it's either meere reversion or breakout
+now why do we do this because the me
+reversion strategy is exactly the
+opposite of the breakout strategy so I'm
+not depending on matching the indicator
+with the instrument like in this case
+I'm matching it with the S&P 500 because
+I'm testing different markets and I
+don't know which one will work number
+four we have exits I am testing three
+exits exit number one is the first day
+so we enter and then we exit the same
+day exit number two is four bars so we
+enter and then we exit after four bars
+exit number three is a stop- loss and
+profit Target only and the stop loss is
+4
+atrs while the profit Target is 2 atrs
+and I do this so that they don't overlap
+and we get you know some uh weird trades
+and finally point five in the workflow
+is the market we will test all these
+combinations on 66 different markets the
+66 Futures markets are in different
+sectors they are in agriculture crypto
+currency energy Equity index and meats
+metals and softs so the combinations of
+the exits the entries the direction the
+multiple markets will give every
+indicator more than 3,000 strategies so
+that is really good statistical number
+to base our conclusions on especially
+when we can compare it to other 3,000
+strategies per indicator so to give you
+an idea about the data that I collected
+so far it's 22 indicators tested on 66
+markets using the workflow steps that I
+mentioned and total currently is about
+70,000 strategies with above 13 million
+trades and of course that is a huge
+database that we can easily conclude
+which indicator is doing the best so if
+I filter for Williams only we get
+364 strategies about a million trades
+this is only covering Williams up so the
+top rows that are in dark blue are only
+for Williams R and the bottom for the
+light blue are for the whole data
+So currently Williams R represent 4 and
+a half% of the number of strategies of
+the whole database and
+7.2% of the whole number of Trades now
+these strategies are not fully developed
+strategies I'm only testing the edge of
+the indicator in a certain speed certain
+direction so remember we are using it to
+go long and short me reversion and
+breakout and using different exits so we
+are not using the same indicator to exit
+we're exiting either on the same day
+which will produce obviously low profit
+and after four bars that will produce
+better profits and the stop loss and
+profit Target the idea is to gauge the
+edge of the indicator instead of you
+know building a strategy because now
+once we have this Edge we can rank it
+with all the other indicators and then
+we can take that indicator and build
+strategies based on our finding now out
+of the 70,000 strategies that are in the
+database only about 3,000 strategies
+past my robustness filters now I know
+this is not a fully developed strategy
+but still you can judge if the edge is
+good or not so I'm taking the edge
+through a robustness filter to make it
+pass or fail and only 3,000 pass the
+test and this is the database of the
+past strategy so as you can see we have
+2,951 strategies that pass the
+robustness filter this robustness filter
+is only for the edge those 3,000
+strategies produce about half a million
+trades so we still very well in terms of
+numbers now at the top here we have the
+williamsr results we have 169 strategies
+out of the 3,000 that passed the Rob
+buness filter that represents
+6% of the total number of strategies
+that pass the filter and the trades
+represent about 9% of the total trades
+that pass and at the top here I have the
+ranking system for all the indicators
+that I posted so far in the algo versus
+Craft series so we did Ballinger bands
+KCC indicator CCI macd RSI stochastic
+and Williams R and like I told you I
+already tested 2 indicators not all of
+them are posted on the channel but
+currently Williams are sit at number
+three in fact none of the videos I
+posted so far is in number one and two
+because I didn't post yet number one and
+two but currently Williams R sit at
+number three which is really really good
+and by the way my indicator KCC percent
+sits at number five now what does this
+mean so to give you idea this is the
+average performance of the strategy so
+you can see we have return to draw down
+of
+3.8 with a net profit average of
+53,000 average maximum draw down of
+15,000 average trade per year of 20 60%
+win rate average trade of 289 and so on
+so forth this again is not a strategy
+these numbers are based on the three
+exits and remember one of them is exit
+the same same day also you can see the
+variety in Williams art so these numbers
+at the top here are only for Williams
+are robust strategies so we have 82 me
+reversion and 87 breakout so they are
+almost split in the middle 105 long 64
+short so this is almost 2 to one and the
+these are the exit look at this exit end
+of day 69 exit end of day so even though
+we are exiting the same day I have 69
+exits end of day that are robust enough
+to pass the filters and then I have 84
+exit after four bars and 16 only that
+using the stop- loss and profit Target
+and this is a little different from the
+average of all other indicator you can
+see the average of the other indicators
+the mirror versions are more than the
+breakout and the long are a little bit
+more than the shorts so with Williams
+are the Longs are a lot more than shorts
+and the breakout are more than the miror
+version and then for the exit exit end
+of day usually does better on average
+but on our Williams indicator the exit
+after four bars is the best the takeaway
+Williams R is one of the best indicators
+to use it for Mir version or breakout
+strategies you need to match it to the
+instrument remember to get better
+results and as I showed you the first
+example you can easily find a stable
+area to trade on your instrument to
+watch more episodes of algo versus crop
+series watch this video and I will see
+you there
+[Music]

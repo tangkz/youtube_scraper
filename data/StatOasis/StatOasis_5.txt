@@ -1,0 +1,223 @@
+if you are stuck building Mir reversion
+strategies the old way or out of ideas
+on how to build Mir reversion strategies
+then you are in luck because in this
+video I will show you a stepbystep new
+method to build miror rsion strategies
+using a unique indicator most Traders
+know that linear regression is used for
+Trend following or at least for Trend
+filter because linear regression plots a
+line a directional line over the past
+look back period and usually the
+calculation shows if the line fits all
+the bars pointing up or pointing down or
+sideways and from that line you can
+Define that we are in an uptrend
+downtrend or sideways so for example
+here I have the S&P 500 futures and this
+is the miror version for a look back
+period of 100 bars so the line in the
+middle is the linear regression and then
+we have a two channels which are 1.5
+standard deviation from this line so for
+example if I'm looking at a 100 day
+linear regression then we are in an
+uptrend because we see the line going up
+now we can change this and let's say if
+I put it at 30 so now for the past 30
+bars we are considered in a downtrend
+because the linear regression is
+pointing down now instead of taking the
+line Direction for the linear aggression
+we can take only one value at a time
+which is the last bar and add to it the
+standard deviation of the same linear
+regression line so that will give us
+something like the Ballinger bands but
+it's not and this is how the indicator
+looks like so the blue bar in the middle
+that's the linear regression value at
+each bar and then the bands the red and
+the green this is the lower band the
+upper band they are one and a half
+standard deviation of this value and
+like I mentioned it is like a Ballinger
+band but it is not so this is how the
+Ballinger band looked like so the dark
+colors are the Ballinger bands and we
+can see they might expand and Shrink at
+the same time but they have totally
+different response because they are
+using a different measure for the
+standard deviation also this is not like
+the culer channel so these two lines now
+are the cner channel and again they look
+different from the Ballinger bands and
+they look different from the linear
+regression bands and we can see a big
+discrepancy for example at this part so
+this is the lower channel of Ballinger
+bands this is the lower channel of
+Kelner Channel and this is the lower
+channel of the linear regression band
+and then right on top of it we see the
+Kelner Channel and Ballinger bands and
+then the linear regression bands so
+what's the point of just another
+indicator with bands it is actually you
+want to create a unique Equity curve
+with me reversions we know that the S&P
+500 works really well with me reversion
+strategy but it doesn't make sense to
+build the same strategy again and again
+by producing the same Equity curve what
+you are looking for is a different
+Equity curve than whatever strategy
+already built so for example if use the
+RSI oscillator or the Ballinger band
+then you want to build something else
+that produce a different Equity curve so
+it will have a different draw down a
+different Peak during the back test now
+the same as Ballinger bands percent B
+indicator we can use that with the
+linear regression bands so basically we
+measure where the close sits in relation
+to the band and this is what I mean by
+the percent B in relation to the linear
+regression band so the yellow line now
+represent the close in relation to the
+band so you see here it's below here
+it's in the middle and here it's above
+the advantage when we use this as an
+indicator now we can Define exactly
+where this is sitting like if I click
+here you can see this percent B has a
+value that is different than below or
+above so like like I mentioned if you
+divide this close by the bands you can
+exactly know where the close sits so
+zero means it's at the lower band and
+one means it's at the upper band now the
+close can go below which will be minus
+or above which will be above one so
+let's optimize our strategy the length
+of the linear regression is 20 now you
+can optimize this also you can go to 30
+100 whatever you like I'm going to fix
+it at 20
+let's optimize the standard deviation so
+we will go from 0.5 to 2 instead of 0.25
+and then the by level so this is where
+the close sits in relation to the bands
+we will go from minus 1.6 that means the
+close happen somewhere around here all
+the way to 04 so this is like almost in
+the middle of the Bands the middle of
+the Bands is 0.5 we will do that in step
+of point2 and and then the sell level
+once we are in a trade remember this is
+me reversion so we should exit when the
+price pull up and we will start from 6
+so this is just above the middle of the
+band all the way to 1.8 so somewhere
+around here above the upper band again
+in step of point2 so all in all we have
+539 combinations and sorting the results
+by return to draw down ratio we get this
+table so at the top here sitting at 4.68
+return to draw down we have the standard
+deviation at 0.5 and then the buy level
+Min
+-1 and then the cell level 1.2 so minus
+one means we are not just below this but
+further away remember this is zero and
+this is one so minus one should be
+really far and then we are exiting just
+above the channel which is 1.2 now this
+is prod producing 129 trades with an
+average trade of $820 this is really
+good for the S&P 500 because most M
+version strategy on the S&P 500 is
+around $400 but remember this is a uh
+low number of Trades so if we look at
+this one this is
+242 and
+725 so again this is really really good
+strategy and this one is at 0 five
+standard deviation again but this time
+we are buying at 04 exiting at 1.2 that
+means we are entering the trade once the
+close just below the middle of the
+channel so it's not even below the lower
+Channel and we will exit when it is
+above at 1.2 now since this is more
+trades I prefer to take this one because
+I can always add a filter to enhance my
+strategy now just to have a look let's
+see how many trades we have in total so
+this is also Al really good
+384 also very good average remember you
+can always add a filter here and if we
+look at net profit we have here this is
+210 and at 80% win rate the problem is
+the low number of Trades which is 49 so
+if we filter 100 trades minimum and now
+sorting we get the top is at 180%
+profitable 81 that is amazing 109 trade,
+1600 100 on average so no need to filter
+here you can just use this one and here
+is a 3D view of the results so the water
+level here is
+$100,000 and here we have the buy level
+from -16 to4 and the sell level from 6
+to
+1.8 and we are looking at the 0.5
+standard deviation so obviously we have
+really great stable area let's look at
+the other ones so 75 also looks good
+like this area is really good so
+definitely lower standard deviation is
+better so 1.75 and .5 they're all good
+so let's look at the results of the top
+net profit at 180 this is the top net
+profit of over 100 Trade so we are uh
+disregarding the strategies with less
+than 100 trades so this is the strategy
+applied which is 75 standard deviation
+and zero to get in and 1.4 to get out so
+this is so zero basically just any close
+below the lower band and
+1.4 it's you can see here we got out
+here where we are above the upper
+Channel by 04 and same thing here now we
+notice we are a spending a long time in
+this so this will uh face big draw Downs
+so we can introduce exit after number of
+bars and here are the results sorted by
+return to draw down by intr reducing an
+optimization for the number of bars so
+again this is the standard deviation the
+buy level sell level and here we can see
+the number of bars so exiting like
+putting a limit of 25 bars enhance the
+strategy a lot so this is a trade
+analysis 109 trade 70% win rate a huge
+uh average trade because we have lower
+number of Trades and you can of course
+pick and choose whatever suit your
+portfolio in terms of number of trades
+in lower average or lower trades in
+higher average trade this is the equity
+curve it's really good it's going up all
+the time also still up this year now the
+idea here is not which one is the best
+is it RSI is it macd is it Ballinger
+bands the idea here is to pick an equity
+curve that is different than what you
+have before so you mix many strategies
+in a portfolio to produce a better
+Equity care if you like this video then
+you will love the next one
+[Music]

@@ -1,0 +1,302 @@
+would you like a strategy with an equity
+curve that looks like this and would you
+believe it if I tell you that this
+strategy is based on a single line of
+code with zero optimization let me start
+from the beginning I am a big believer
+that each market has its own
+characteristics and in this I differ
+with many of my peers and even some of
+my mentors but I do this for a reason
+because you see most strategies that
+came from hedge funds usually they tend
+to be long term because hedge funds move
+a lot of capital in and out and they
+need long-term strategy and very
+short-term strategies are restricted to
+high frequency trading firms which we
+cannot compete in so we sit in a very
+short term trading strategies that
+trades like hours to few days and in
+this short term the market
+characteristics is totally different
+between each market and you cannot force
+a strategy that works very good on
+Market eggs and you expect it to work
+very good on Market why so from that
+perspective I totally believe that you
+should develop long side alone short
+side alone for each market separately
+and one of the first tools that I use in
+my research is day of week now this is
+not new Larry Williams made this very
+popular in his book 20 years ago but
+this concept is still very important
+till today and that alone is worth the
+price of admission as they say I have in
+this chart natural gas futures
+and each bar is a monthly bar and you
+can see we've been drifting down since
+the peak in 2005. now we had a huge bull
+run here this is 2007 until the crash in
+2008 a small Bull Run remember these are
+months in 2014 and we did so again in
+2021 and we did the huge run in 2022 but
+mostly we are drifting down so of course
+this Market has a tendency to go down
+and you need to apply short-term
+strategies to make the best of the
+natural gas market so just like I advise
+always to go along on the S P 500
+because it usually tends to drift up
+even when it has big drawdowns the same
+goes for natural gas it tends to drift
+down of course it will have some bull
+moves but overall you'll make more money
+with high wind rate by shorting the
+natural gas so here is the daily bar of
+natural gas since 2005 and I am shorting
+every day
+and exiting end of day and you can see
+that strategy performs really really
+well with almost four hundred thousand
+dollars in winnings eight to one win to
+draw down ratio and if we look at the
+analysis of Trades we have about 4 400
+trades an average of 88 dollars that's
+not big and almost 52 percent win rate
+so if we try to isolate which days works
+better let's do an optimization here I
+have four variables let's leave the last
+two for later let's focus on the first
+two so end of day close this we will
+optimize between zero and one so zero
+it's exit end of day one is exit next
+day that means we are holding overnight
+and day of week is zero that means all
+day so we have some reference to compare
+to and then of course days of the week
+one to five which is Monday through
+Friday
+so 12 combinations in total and this is
+what we have so if we pick all days
+exiting end of day so this is zero zero
+this is what we have 393 thousand 4400
+trades 88 average per trade and 7.8
+return to draw down ratio and the next
+best one is this one and we make less
+money by holding overnight so this one
+is four hundred thousand this one is
+almost 300 000. first of all we know
+that holding overnight we we don't get
+any advantage in fact if anything we're
+getting a disadvantage because we're
+holding more risk overnight but if we
+look at the days so this is Monday
+Tuesday Wednesday Thursday Friday
+we can immediately notice that
+three which is Wednesday
+that means we are buying Thursdays and
+exiting end of day
+because if this is Wednesday then we
+will buy the next day which is Thursday
+and look at this the average trade is
+260. and if we hold overnight so this is
+the next one the average trade is 242.
+now this is not a fluke and it's not by
+chance that Thursdays is the best day to
+Short The Natural Gas
+there must be a fundamental reason now I
+don't know this but if we check all the
+trades we will see that this is not a
+fluke like it happened since 2005. we
+had the crash in 2008 and
+2014 and covid and uh High interest rate
+low interest rate and so we can see that
+this is not a fluke there is something
+fundamental in this market that makes it
+better suited to shorted on Thursday and
+also you will notice that shorting
+Fridays is the next best thing because
+this is Thursday that means we are
+shorting Fridays so if we short Friday
+and exit end of day the average trade is
+105 and if we short Friday exit next day
+that means we're holding over the
+weekend our average trade is even better
+at one three seven
+137 that's almost 30 percent more
+so that's definitely worth it and of
+course we can see that in the profit so
+this is 123 000 and this is 94 000. so
+let me double click we will pick that
+and now we are shorting every Thursday
+exiting end of day
+and this is what it looks like
+performance 239 1251
+and return to draw down ratio trade
+analysis uh we have 260 dollars average
+trade that's very good and if we look at
+the curve it's beautiful and look at the
+drawdown we can barely see it of course
+we should see it clearly
+it's about twenty thousand dollars this
+is in 21 but now to check if this is a
+fluke or not let's look at the
+periodical analysis and let's look at
+the annual period
+so since 2005 we have only two years
+down and they are not that big
+I mean look at this 2500 and this is a
+scratch this could easily be up but one
+number will jump which is 2008.
+because you can see all the trades are
+around 50. but we can see the maximum
+here is 22 and the average is about 10.
+but then 2008 is 54. and 2006 is 41. so
+if 2008 let's take an outline yes
+because you can see even the average
+trade is a thousand dollars
+well uh well everywhere it's about 200
+now we need to make sure that this High
+number here does not skew our average
+trade in total so let me get rid of 2008
+and I will even get rid of 2006. okay so
+I put the filter for two years and let's
+compile and you can see now 2008 and six
+they are gone
+and first let's check the average trade
+so our average trade went to down to 181
+that's still very good so we know that
+is not a fluke and we can check the
+curve is even looks better to me now
+because I think it's a lot smoother
+before we had a huge jump in 2008 and
+2016. and now you can see this flat
+curve this is 2006 and 2008. and total
+performance we are making 147 000 71
+return to Total ratio now like all
+strategies they consist of Entry exit
+and a filter and the best filters are
+usually Direction and volatility and in
+my algo trading master class I have my
+own proprietary Direction filter and
+volatility filter so let's add those to
+the strategy and let's see if we can
+enhance this extremely simple strategy
+and make it better so first indicator
+here I have the market Direction which
+consists of ball bear and sideways and
+the second indicator here is Market
+volatility which is quiet normal and
+volatile so each one has three stages so
+let's switch off this and let's optimize
+for volatility so from zero to three so
+zero that means we're not using it that
+will be the reference point and three
+which is the number of regimes in the
+volatility anyway so this is our
+reference point and let's look at our
+average trade so our average trade was
+181
+and look at this 319 it's 138 trades
+compared to age 16. that's already a lot
+of savings were out of the market but
+our average is almost double and our
+drawdown is less than half
+so it's like it's a huge Improvement by
+simply adding volatility and this
+volatility is in the middle that means
+it's the normal voltage it's not quite
+it's not extreme it's just the normal
+volatility of this market now I might
+say this is low now we're reducing our
+profit but that can easily be mitigated
+by trading more contracts in this if I
+want to bring my drawdown to 19 I can
+easily make two and a half
+my drawdown so that means I can trade
+two and a half contracts also you can
+trade this one so this is 262 so you can
+trade both these
+and skip this Market regime so both
+these will give you 450 trades
+and it will give you a hundred and
+twenty seven thousand with lower
+drawdown so still significantly better
+than the normal one and now let's try
+the other filter which is Direction so
+if we go to direction again zero is the
+reference point
+and one two three is both sideways and
+bear Market
+so this is our original
+and again here we see a significant
+Improvement look at this
+so this is the bull market
+and remember the natural gas has a
+tendency to go down and it has short
+pole movements
+and in those movements when it's going
+up you short on Thursdays and you get
+double the average rate and again you
+reduce your drawdown and if you want to
+combine it with the other one this is
+179 the average trade so almost like the
+original and that will be the bear
+market so the sideways the sideways
+Market is the worst one
+and of course you can see this if I
+double click you can see that uh so this
+is Direction and in bull market so this
+is the bull market we trade only these
+times
+to go further again we'll mark it to a
+trade
+here we don't trade so you can see we
+are out of the market a long time
+we're only trading at full market now of
+course you can combine these strategies
+together and they are not 100 correlated
+so here for example I put a natural gas
+and this one we're still shorting
+Thursdays only
+but this one using Direction and this
+one using volatility as a filter
+and if we back test them both you can
+see now we are making a 123 000 instead
+of the 140 and our average rate now
+jumps to 277 so that's very good and our
+periodical analysis still looks very
+good remember I still removed 2006 and
+eight
+and if I put them back on they will be a
+much better but let's keep them off for
+now
+because I just want to show you the
+correlation
+so if we take the daily correlation you
+can see there are 0.56 correlated
+so that is like somewhere in the middle
+but it's not like 90 correlated
+so even though it's the same strategy
+shorting on Thursdays but the volatility
+filter does not always overlap with the
+direction filter
+and that's what makes these two
+indicators really really work well
+together and just to show you if I
+remove the filters for 2008-2006 we will
+get a much better strategy so still the
+correlation is 0.56 but now of course
+we're making more money and this is our
+curve we're still making about 200 000
+with a maximum drawdown of about twenty
+thousand dollars that happens lately so
+simple research tools yield beautiful
+strategies if you know the workflow and
+know what to do to learn more watch this
+video and I will see you there
+[Music]
+thank you
+[Music]

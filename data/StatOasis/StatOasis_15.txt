@@ -1,0 +1,350 @@
+I often get a question about why I use
+the RSI strategy in many of my videos so
+I thought I dedicate a video to answer
+this question so in this video I will
+show you what is the RSI how to
+construct an RSI strategy on the S&P 500
+how to construct many versions of the
+strategy combine them all in a portfolio
+and show you the performance of this
+portfolio with some filters so first of
+all what is the RSI RSI is the relative
+strength index and basically it is a
+momentum indicator that measures the
+changes in price and plot it as an
+oscillator now any oscillator can be
+used effectively in a me reversion
+strategy now what is me reversion in my
+hand here I have an elastic band so this
+is the normal state of the band and if I
+exert pressure on it it will stretch but
+once I release that pressure it comes
+back to its normal State and the
+instrument price behave the same way
+so normally it sits in a band and when
+you apply a buying pressure or selling
+pressure with speed the price will move
+away from that zone quickly and then it
+tends to get back to that zone so that's
+basically me reversion on price okay now
+we know why I do the RSI in a me
+reversion strategy the question is why
+do I do it most often on the S&P 500 and
+the answer to that is really easy I want
+to make money so I'm not concerned with
+how sexy the strategy is or what type of
+instrument or what time frame I only
+want to make money in the easiest way
+possible and the S&P 500 is really
+suited for long Mir version now this is
+not a fluke in fact you can test this
+and I teach my students how to do that
+test so basically you will know this
+instrument will works really well with
+long and me reversion each market has
+their own characteristics and the S&P
+500 changed that characteristics back in
+the '90s and it switch from a trend
+following to a m version instrument now
+that switch doesn't happen overnight
+usually takes I don't know months
+sometimes years to slowly switch to a
+different characteristics and usually
+that is when more Traders trade the same
+instrument so think of the S&P 500 we
+have Futures we have options we have
+ETFs and inside there are like 500
+stocks that also have Futures and
+options and there are all these
+arbitrages that are done on these so
+that create a lot of noise in the market
+short term and that characteristics
+tends to come out as mere reversion okay
+so talk is cheap as they say and it's
+very easy to come up with a conclusion
+after the fact but as algo Traders we of
+course don't care about that we only
+care about testing and validating our
+strategies with statistical numbers so
+before we do any testing let me show you
+the behavior of the RSI on the S&P 500
+at the top here I have the S&P 500 and
+below it I have four RSI indicators so
+this is RSI Period 2 which I usually
+refer to it as RSI 2 and then this is
+four periods eight periods and the 14
+periods at the bottom which is the
+default in every platform on the planet
+now the levels I put here is 25 and 75
+me reversion meaning we will go long
+when it's below a level and we will exit
+when it is above a level because with
+miror version you're going long on a
+pullback and you're exiting when it is
+overbought so clearly you can see from
+the chart that the RSI 2 which is RS i
+period 2 shows many signals in the same
+period of time and then the RSI 4 Less
+signals RSI 8 almost one signal here and
+RSI 14 actually no signals at all to go
+long there is a signal here to short but
+we are just going long so from this
+chart we know that we will get more
+trades with shorter period and less
+trades with longer period so that is
+observation one observation two is we
+get more extreme measurements with
+shorter period and less extreme with
+longer periods for example look at this
+RS I 2 here the value is 2.5 here is the
+same bar the value is 19 and on RSI 8
+the value is 41 on RSI 14 the value is
+53 since November of last year till
+April the r r i 14 didn't go below 50 so
+just from looking at the charts we can
+expect the behavior that the rsi2 will
+have more signals more extreme
+measurements and the longer period you
+go less extreme measurements and less
+signals and we can deduct that the RSI
+14 or RSI 10 and above it's more suited
+as a filter rather than a signal but
+then shorter time frame you can use the
+RSI now to enter exit a trade so that
+means it's a signal not a filter so here
+I have the es mini S&P 500 futures and I
+have the RSI 2 which is the RSI Period 2
+strategy applied which is when the RSI
+Period 2 Go below 25 we buy and then
+when the RSI Period 2 go above 75 we
+sell the strategy behaves really well on
+the S&P 500 on average we get about 500
+$20 with 70 almost 74% win rate the
+strategy made
+$183,000 on a single contract with 4 to1
+return to draw down ratio this is the
+equity curve and we suffer a little bit
+here in covid and in 2018 and this is
+the annual period analysis so we lost
+only in 2018 since
+2016 and every other year is profit
+obviously the strategy is doing very
+well it's been doing very well for the
+past 5 years with its all variations so
+I have many variations of the strategy
+even on the channel and in fact just
+last week I had a really good trade
+where a single contract produced about
+$6,000 in profit now this is not an
+optimized strategy so many people think
+that I optimize the rsi2 to produce this
+in fact the RSI 2 just like I showed you
+produce really good signals on the S&P
+500 because of the characteristics of
+the S&P 5 500 but the RSI 2 produce more
+signals and that's why I use it more
+often but now I will show you that all
+in fact the spectrum of the RSI produce
+good results so I will optimize the RSI
+2 from 2 to4 which is the default in uh
+every platform and then we will optimize
+the level to buy so if it goes below
+five all the way to 45 in step of five
+and we will exit when it's 55 all the
+way to 95 step of five now why I'm doing
+this because like I showed you the RSI
+14 will not have a chance to go below
+five or 25 so we need to give it more uh
+leeway anyway we will see all the
+combinations we have about ,000
+combination so because of these
+combinations sometimes you will not have
+trade so I can show you here we have
+zero so for example period 6 is zero
+it's actually not zero this is one trade
+but it's not closed so it enter once
+below five and then didn't reach 95 at
+all so that's why the trade stays open
+and then this is uh seven below five no
+trades at all and then 7 below 10 that's
+also a trade that is not closed that's
+why it's showing zero and we go further
+down so we have you see we have many
+that are zero trade so first of all we
+need to filter the number of trades pick
+anything about 70 remember we have uh
+1,54 strategy so if we add this filter
+we end up with 288 so that's not bad
+that's about
+30% of
+strategies produce more than 70 traes
+and let's look now at the first
+observation sort by net profit the
+lowest is 303 the lowest so all
+strategies that produce more than 7
+trades all of them are profitable and
+the profits from 33 all the way to
+238,000 now this is not including
+slippage and commission so let's look at
+the average trade so the minimum average
+trade is
+255 so of course that's more than cover
+our slippage and commission both in and
+out so definitely all these strategies
+are viable strategies and the best one
+is about
+$2,000 on average so now let's see what
+parameters produce these results if we
+go by maximum profit we see that the RSI
+2 is on top and then followed by three
+sometimes four here two and three mostly
+is two and then next one is three and
+then if I want to look the lowest draw
+down which is 19,000 so this is RSI 3
+three and then two and then three and so
+on then if I want to go to return to
+draw down ratio again I have 2 3 2 and
+three on the top if I want to go by
+average trade I have four 6 49 47 and
+then if I want to go number of Trades so
+the lowest number of Trades is 47
+remember low number means I pay less
+commission than high number and then if
+I want to go by win per this is
+81% and the RSI period is 8 3 4 7 9 and
+again these are longer periods so so far
+longer periods produce better average
+trade and better win percent and if I
+want to go by profit Factor 6 3 10 7
+again the longer periods are better and
+then if I want to go by maximum
+consecutive winners again longer periods
+are better although here we see number
+two at number 11 and the lowest maximum
+consecutive losers is 2 three first of
+all 30% of my optimization producing
+profitable optimizations this is not
+about finding a strategy then enhancing
+it with Filter stop- loss profit Target
+no it's already profitable with good
+average trade so that's really a huge
+Testament to the RSI but remember it is
+huge because we matched it to the right
+instrument and right direction but as a
+proof of my robustness that the RSI in
+fact all periods produced really really
+good results not only that I can get a
+different Equity curve from choosing a
+different RSI period and entry exit
+level that will help me when I construct
+a portfolio so here I have a portfolio
+of 10 strategies all the strategies are
+applied to the S&P 500 since 2006 uh all
+the way to May 2024 and I apply
+different St so this is bar two so this
+is the RSI Period 2 we buy when it's
+below 30 we exit when it is above 85 so
+this is 3 1060 230 65 43585 and so on so
+forth the these are only 10 strategies I
+basically picked the top uh strategy
+that is in the top 10 for every criteria
+this is what we get it's a about 1 and
+a.2 million
+3.2 return to draw down ratio now first
+I want to draw your attention to the
+correlation Matrix here and and even
+though we are using the same instrument
+the same strategy which is the RSI I'm
+only changing different periods and
+levels and look at these correlations I
+know we have some of them like 93
+correlated but a lot of them are less
+correlated so for example look at this
+one 47. 51 and this is the equity curve
+and this is
+2020 Co dip so this is a huge dip is
+about
+$400,000 but of course at that time we
+are about
+900,000 but still so this is a big uh
+drop now you can pick and choose the
+strategies from the previous
+optimization to lower this draw down
+either you need a good software to do it
+or a lot of trial and error to do it but
+I will skip that part and just try to
+enhance it with a filter remember our
+strategies here they don't have stop-
+loss they don't have profit Target and
+they don't have any filter now instead
+of optimizing the best filter for each
+strategy I'm just going to use a single
+filter for all strategies not because I
+want to do a robust filter it's just
+because I don't have the time to
+optimize all these strategies with
+better filter so this is amazing result
+from a single strategy on a single
+instrument this is exactly the same
+style of strategy I'm not even changing
+the style same indicator yet get a lot
+of diversification just from changing
+the look back period and the entry exit
+level okay so now I introduced the
+volatility filter which is basically we
+will not take a trade unless the
+volatility is going down so our total
+profits go down from 1.5 to 1.2 almost
+but more importantly we increase our
+return to draw down to 7 so that is a
+tremendous achievement single filter is
+the same filter on all strategy produced
+this amazing result and we can see how
+different our Equity curve is remember
+the 2020 dip which is about
+$400,000 that is completely erased from
+our portfolio this is our annual return
+since 2010 we don't have any losing year
+average trade about
+$1,100 77 wi% so overall amazing amazing
+result and also the correlation is
+better of course you cannot see this
+because multiart doesn't doesn't allow
+us to do this so I already saved it so
+this is the RSI classic portfolio with
+no filter and this is the RSI classic
+with the volatility filter taking the
+same strategy but only when the
+volatility is going down and the same
+filter for all 10 strategy first of all
+here uh I mean I mean probably you
+cannot see it from the colors but we
+have lower correlations so look at this
+the average correlation here was 7 here
+it's .5 the lowest here was4 six and
+here the lowest
+is18 so not only we increased return to
+draw down we increased our win rate we
+reduced the draw down we increased our
+average trade we also reduced our
+correlation with the same filter it's
+only a single filter this is the
+difference between the two correlations
+so only one strategy where it got a
+little bit worse so strategy number one
+and strategy number five lost a little
+bit uh increas ined its correlation a
+little bit and strategy number one and
+strategy number one nine increased the
+correlation all other correlations went
+down all of them the takeaway is the RSI
+is an extremely robust strategy when it
+is match with the right instrument you
+cannot go wrong with the RSI any period
+any level on the S&P 500 plus you can
+spend more time and add different
+filters to get even more diversification
+from the same Str strategy save
+instrument if you like this video then
+you will love this next one
+[Music]

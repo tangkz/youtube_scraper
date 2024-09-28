@@ -1,0 +1,238 @@
+nr7 is a term coined by Toby krabble
+back in 1990 in his book day trading
+with shortterm price pattern the book
+was so good that Toby Crable later on
+bought most of the copies that were
+printed still there are few printed
+copies left around and you can buy them
+on the Internet for about
+$8,000 per copy now fortunately for us
+that there are million and billion
+digital copies available online which is
+unfortunate for Toby krabble but we
+don't need to feel sorry for him he run
+a very successful hedge fund with about7
+and5 billion dollars under management
+also the book is 34 years old so I'm
+sure by now Toby CRA will have
+reiterated on these patterns many many
+more times n R7 stands for narrow range
+seven bars basically we are looking for
+a day where where it is the lowest range
+compared to the past six bars so it's
+the lowest range in seven bars now do
+not confuse this with nr4 which is lower
+range for four bars that means the range
+is getting smaller every Bar n r s is
+looking for a narrow range in the
+previous seven bars now why this pattern
+is successful because it identify a
+period of low volatility usually the
+market flows from low volatility to high
+volatility and then back to low
+volatility so if we can pinpoint those
+points where the market might shift to
+higher volatility then we have an edge
+Now Toby Crable combined this pattern
+with his open range breakout although in
+this video I'm going to skip that part
+because I want to make this very very
+simple for anybody to employ it so we
+are just going to identify the neural
+range bar and then buy on the market the
+next day to find a profitable strategy
+and to illustrate this pattern let's
+look at the following chart so at the
+bottom here I have the range of every
+bar so for example this bar the high is
+51
+725 the low is
+5115 75 so as you see the range is 55.5
+points and if we go down to this we can
+see it's the ATR equal 55.5 now ATR
+stands for average through range in this
+case uh my indicator is flexible so I'm
+measuring not the average through range
+it's just the range and it's over one
+bar there is no average and when you
+look at this indicator you can plot this
+indicator in any charting platform and
+then basically what you are looking is
+the lowest point in the past seven bars
+so you can easily do this visually like
+you can count for example this bar here
+this low is the lowest of 1 2 3 4 5 6
+and 7 it's even lower than eight bars so
+this point here this is the lowest and
+we can see here it's highlighted so the
+yellow bars here are highlighting the
+narrow range in the previous seven bars
+now as you can see most of the times you
+will get several bars in a row that's
+what I'm saying is usually the
+volatility shrinks and expands in lumps
+it doesn't happen in single bars so this
+time here this bar is the lowest than
+the past seven bars so this one is lower
+than even this one and then again here
+and again here same thing happens here
+same thing happens here so this is for
+illustration and now we can construct a
+strategy that will buy the next bar when
+we find this pattern and now the
+strategy is applied so basically every
+time we encounter a narrow range that is
+the narrowest of the seven bars
+including this bar so this bar compared
+to the previous six bars then we will
+buy next bar and I have a fixed exit of
+three bars so we are holding for three
+bars so every time it happens I buy next
+bar exit after three bars and so on so
+forth I'm doing this on the S&P 500 long
+only so here we can see the strategy
+Equity chart and the number of Trades is
+422 with an average of
+$174 now compared to the many strategies
+that I did on this channel on the S&P
+500 this is not a wonderful strategy I
+mean it's profitable but we have many uh
+strategies that are better than this one
+but still it's a good start now first
+thing we are going to do is optimize the
+look back period and the holding bars
+now I'm going to optimize between 5 and
+10 so I'm comparing the current bar to
+the previous five six all the way to 10
+also I'm going to hold the trade between
+1 day and 10 days so total we have 60
+combinations and here are the results
+sorted by return to draw down this is
+our original strategy we are comparing
+the current bar to the previous six and
+we're holding for 3 days and when we are
+sorting by return to draw down the
+strategy is number 35 so we can find a
+better strategy obviously holding more
+days will produce more profits but also
+if we compare to more bars we get better
+results so this is six and then all
+these are better so uh comparing to the
+previous 9 8 10 which makes sense
+because that means we are taking longer
+period to shrink the volatility and all
+these are very close in terms of
+performance they're all in the 60s
+except for this one and then all of them
+making hundred and something th000 the
+average trade is really good remember we
+had 170 originally and just by
+increasing the number of bars we can get
+much better results now since I will use
+a filter to enhance the strategy I'm
+going to look for more trades so maybe
+this one is good so we are comparing the
+current bar to the previous eight bars
+and if it's the lowest range we will buy
+and we will exit after four bars uh that
+will give us 336 trades with an average
+of $382
+now this optimization uses my market
+regime filters my market regime filters
+are proprietary code and they are given
+to my algo trading master class students
+they are basically Direction and
+volatility filters and I have about
+240 patterns using uh these filters so
+if I sort by return to draw down and we
+can easily find much better strategies
+using using a single position with a
+filter so for example look at this even
+though we are making same amount of
+money but we slashed our draw down by a
+lot same thing here we're making almost
+same amount of money but we slash our
+draw down but we have strategies that
+are making more money and still our
+return to draw down is better than the
+original if you are a regular viewer of
+the channel you know I usually say
+mostly on the top is volatility filters
+and in this case uh it's not obviously
+because our entry is based on volatility
+so that's why the volatility filter is
+the same basically it will not do
+anything because we're already using a
+volatility filter to enter which is the
+neuro range and so that's why well
+obviously you don't know but I can tell
+you none of these top strategies using a
+volatility filter they are all using a
+directional filter and now I optimize
+the strategy using pattern filters so
+these are multibar pattern and again
+this is our original strategy with a
+single position making 128 and 3.4
+return to draw down and if we sort again
+return to draw down again we can make a
+better strategy just by using a filter
+which is no surprise uh as we know this
+already so for example this filter which
+is making more money better return to
+draw down ratio and better average trade
+it's actually better than everything
+this is looking at the weekly bars and
+making sure that on on the weekly side
+we are also shrinking so that's is just
+checking last week was also a lower
+volatility week meaning the range of the
+week is lower so again these are simple
+filters I mean there is you cannot
+optimize these filters it's just fix
+it's binary and finally I'm going to
+show you time filter so this is our
+original strategy again single position
+and if we sort by return to draw down
+again we can find many patterns doing
+better and this pattern again is very
+simple we are making better return to
+draw down better average trade better
+win percent profit Factor everything is
+better in this filter and of course we
+are making more money and the filter
+again is extremely simple this filter
+will only allow trades in the last week
+of the month again this should not come
+as a surprise I've done videos where I
+showed you that there is a tendency for
+the US indexes to make money at the end
+of the month due to fundamental reasons
+because of the hedge funds and window
+dressing and so on and so forth doesn't
+matter that pattern exists for the past
+20 years and usually end of the month is
+a drift up let's say higher than normal
+so it makes sense we are going long and
+volatility shrinking and if that
+coincides with the end of the month then
+it's like we're getting double wammy so
+that's why the pattern performs much
+better in all uh metrics this is the
+chart of the trading
+last week of the month with this pattern
+and let's see trade analysis 300 trades
+470 on average annual period analysis is
+still all good so all in all it's a very
+good filter the key takeaway here is the
+nr7 pattern it still works after 34
+years since it was printed it doesn't
+matter who trades the market AI humans
+doesn't matter who bubbles no bubbles
+there will always be expansion in
+volatility and contraction in volatility
+and if you can pinpoint those uh times
+then you can make money off of them to
+learn more about Toby crables pattern
+watch this video and I will see you
+there
+[Music]

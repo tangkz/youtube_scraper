@@ -1,0 +1,349 @@
+moving average crossover strategy has to
+the test of time really this strategy
+been working for hundreds of years I
+think aqr hedge fund did a study where
+they found that TR following strategy
+has been working for the past 800 years
+I mean don't quote me on that but it's
+definitely more than a 100 years I
+didn't know anything about Trend
+following strategies and in fact I paid
+for a seminar for a trend following
+strategy without knowing that it is a
+trend following strategy this was like
+20 years ago I paid
+$2,500 which is like $2.5 million after
+inflation in today's money but anyway I
+attended with about maybe 50 people and
+basically he showed us how the 21 Day
+moving average cross over the 53 day
+moving average we go long and then the
+opposite we go short so that was my
+intro to Trend following and I dumped
+good money behind that strategy which of
+course lost a lot of money and got wiped
+out I really got to know Trend following
+strategies when a fund manager
+introduced me to a book the book is
+complete Turtle Trader by Michael Kell
+really this book opened my eyes about
+alga trading and especially Trend
+following strategies about a year later
+I was introduced to another book that
+really took it to the next step this
+book basically takes the public results
+by the hedge funds the trend following
+hedge funds and he builds systems that
+try to mimic the returns of those funds
+without knowing the rules so basically
+he builds like moving average crossover
+system and he tried to find out what
+period they are using and apply it on
+the same universe that they are trading
+and basically come up with the same
+average returns that they are showing
+per year so in this video I will take
+one of the systems that he built in this
+book which is the moving average
+crossover and we will trade that on on a
+currency pair so here we have a currency
+pair which is the US dollar Japanese Yen
+and this is a very trendy currency pair
+and I plotted here two exponential
+moving averages so we can see the
+periods here it's 30 and 60 so basically
+we want to go along when the 30 cross
+over the 60 and we will go short when 30
+cross below the 60 so here we R and this
+is the JY future so basically this is
+the Japanese Yen over the US dollar so
+it's the opposite of the USD JPY and I
+applied the strategy of the moving
+average crossover so whenever the
+shortterm moving average cross above the
+long term we go long and the opposite we
+go short so we are always in the mark
+and this is the 30 over 60 it's an ugly
+Equity curve I don't like this but
+anyway Let's see we have 62 trades split
+right in the middle this is for the past
+17 years now we can easily optimize this
+so here I will optimize the fast length
+from 20 to 100 and the slow length from
+40 to 200 in step of 10 so overall we
+have 153 combinations and here are the
+results sorted by return to draw down
+ratio so at the top here we have 40 and
+170 so when the 40 fast moving average
+cross above the 170 we go long and when
+it's below it we go short that produce
+even lower trades so it's 31 trades now
+but on average we're making
+1519 if we want more trades then this is
+90 trades which is 20 over 40 but we
+make much less money because our average
+trade now goes to 330 so we will
+introduce two rules in order to make
+this a proper system that hedge funds
+use to trade their funds so first rule
+we will introduce is the highest high
+and lowest low so here I plotted the
+highest high with a look back period of
+50 this means that this line will always
+be plotting the highest high of the past
+50 Buzz so rule number one that we will
+add that once the crossover happen we
+need to wait for the high to cross the
+highest high so that means when we have
+something like this so in this case you
+see this one so when this one happened
+that means this High crossed over the
+highest high so that's rule number one
+the crossover happen and we have the
+high crossing over the previous highest
+high the second rule we will add is a
+trailing stop so this trailing stop is
+based on ATR so for example if we enter
+at this bar here we will exit over here
+because over here the price closed below
+this trailing stop and if it happens
+here that means we will enter again at
+this highest high and then we will exit
+at this bar when the price close below
+this ATR let me switch off the moving
+averages so you can easily see it so
+remember the moving average here is
+correct meaning the fast above the low
+and then we enter here at the highest
+high and then we exit here so as you can
+see this ATR stop loss will decide how
+long we stay in the trade so for example
+if I increase this ATR to six you can
+see that once we entered here we are
+still in the trade until this B those
+two rules will play a big role in
+enhancing this strategy because
+basically we are filtering the trend so
+once the crossover happen we are waiting
+for a confirmation which is the high to
+break the previous highest high and we
+will exit faster than when the moving
+average cross below because now we're
+exiting within trailing stop which is
+faster than the moving average the fast
+moving average Crossing below the moving
+average so now we can optimize the
+strategy with these parameters so first
+we have the entry look back that means
+how far we are looking for the highest
+high and the lowest low so we will
+optimize this from 10 to 70 step 10 the
+ATR length I'm going to keep it fixed at
+20 of course you can optimize that and
+then the multiplier from 1 to five step
+one and then I will also optimize the
+fast length and the slow length the same
+as we did before so overall we have
+5,355 strategy and here are the results
+sorted by return to draw down we can see
+here this is this strategy is much
+better it's making
+$77,000 almost with about $27,000 draw
+down the average trade is
+$169 and this strategy is using 60
+period for the fast uh exponential
+moving average and 180 period for the
+slow exponential moving average and the
+ATR is of course 20 the look back the
+multiplier is four this is for the stop
+loss and then the highest high and the
+lowest low that we are using to enter
+short and long is 10 now the strategy
+right below below it has 251 trades
+which is much better because I'm sure
+that I can add a filter for volatility
+or direction to get this to a better
+average trade but let me use this for
+the example so here are the results of
+this strategy we have 72 trades 28 long
+44 short and very good average trade for
+both so the short is doing much better
+at about
+$1,200 and the long about $880
+now about 40 uh% win rate which is very
+good for a trend following strategy in
+fact the short side is doing really well
+uh which is
+52% now all hedge funds use a big
+universe to trade the strategy so they
+apply the strategy to let's say all
+currencies in this case and they apply
+it to Agriculture and indexes and so on
+so forth so they usually trade like at
+least 50 markets using the same strategy
+and some variations of the strategy they
+don't trade it on a single Market
+because it's hard to find a lot of
+Trends on a single Market every single
+year but they also use position sizing
+to enhance their returns when they find
+a trend so I will show you a simple
+method for position sizing this is one
+of the simplest which is basically
+restrict the strategy to use a fixed
+position based on the volatility so at
+the bottom here I have the ATR indicator
+in dollars so what this is showing is
+the amount in dollars that japanes and
+Futures move in a day so for example at
+this entry the short entry the average
+ATR in dollars was
+$1,425 so I will introduce another
+variable that will restrict our position
+sizing based on this volatility so this
+this is the variable let's start with
+2500 so basically I want my strategy to
+build a position that should move on
+average
+$2500 up or down in any given day so
+going back to our example here we can
+see we are shorting two contracts so we
+bring our calculator let's see how we
+get there so at this point in time
+before we took this position the day
+before our ATR was 10 5750 and our risk
+is 2500 so
+2500 divided by 10
+5750 we get 2.36 and since we cannot
+trade fraction Futures at least for now
+so we take the decimal so in this case
+it's two so that's why we are trading
+two now what does this mean this means
+that in any given day after I take this
+position on average
+I should move within $2500 range so that
+means I should go up 2500 or go down
+2500 so I'm limiting my portfolio to
+move up and down by 2500 now remember
+this is a moving Target now we can take
+another example let's see this one so
+this one is short for so at this point
+in time this is the entry so the day
+before our atrn dollars is 545 so again
+we divide 2500 which is the variable
+that we assigned divided by
+545 we get 4.58 again we take the
+decimal which is four and that's why we
+have four contracts like I said this is
+very simple algorithm for position
+sizing because let's say you start 10
+years ago with
+$100,000 and you are using
+$2,500 for your algo to position size
+and now let's say you have $500,000 but
+you're still using 2500 so you're not
+using the full potential of your Capital
+still that is one method of position
+sizing it's very simple you can easily
+explain it and follow it but let's see
+the results of this simple position
+sizing so I'll will keep all the values
+the same so the highest high lowest low
+is 10 the ATR length is 20 and the
+multiplier is four and then the fast
+average is 60 and the slow average is
+180 we're only going to play with how
+many contracts we buy based on the
+dollar average through range so we'll
+start from 0 to 10,000 in a step of
+1,000 so that's only 11 and here are the
+results sorted by the risk metric so
+zero is our original strategy so we're
+always trading one contract remember we
+made
+$76,000
+2.83 return to draw down 72 trades now
+we are not changing the trade so that's
+why you see all of them 72 we are only
+increasing the number of contracts we
+are trading in the same trade so at
+10,000 risk meaning we are allowing the
+strategy to go up and down by
+$10,000 we make
+$678,000 and we don't suffer a lot in
+return to draw down this looks really
+good so at $5 the risk metric we are
+about 257 return to draw down ratio
+but we are making really a lot of money
+so instead of 76 we are making 332 but
+our draw down now is 129 so let's pick
+this strategy so the curves looks like
+the same and let's see the list of
+Trades so you see now the contracts is
+changing so 7 4 5 3 1 2 and three and
+four so we are definitely trading
+different number of contracts based on
+the volatility now what if we add the
+risk variable
+in the optimization so that will
+increase the total optimization to about
+60,000 and here are the results sorted
+by return to draw down and the first
+result is almost double the previous
+strategy so the previous strategy was
+about 2.8 and return to draw down and
+this one is five so it's not the highest
+net profit so we can sort by highest net
+profit we have
+800,000 but return to draw down is much
+better so at five and this is the risk
+is 8,000 and the fast length is 70 slow
+length is 50 which is you might think
+it's odd but really because the JY is
+the opposite of the USD
+JPY and the USD JPY usually go long more
+than It Go short in any case these are
+the settings and then the ATR multiplier
+is three and then the highest high and
+the lowest low is 60 and this is how the
+strategy looks like so
+515 with 5 something for return to draw
+down and now the curve is much better
+but the number of Trades is 25 so
+strategy number 85 is the first one that
+has more than 30 trades so this is 50
+trades but it's still better return to
+draw down and these are the settings so
+4,000 for the risk metric and then the
+fast moving average is 30 slow moving
+average is
+40 with 5 ATR multiplier and 5 for the
+highest High and the lowest low this is
+how the strategy looks like and these
+are the results so 22 long 28 short both
+of them of course making really big
+average trade because remember we have
+position sizing on now remember you
+cannot trade this strategy or any Trend
+following strategy on a single
+instrument you will eventually wipe out
+your account or you will get bored and
+quit it because you will not find Trends
+you need to trade it on multiple markets
+and you need to trade multiple ation so
+just like I showed you like the 30 and
+60 the 40 and 50 and so on so forth you
+need to have multiple so you need a lot
+of capital to trade uh moving average
+crossover I mean it the strategy works
+but you need a lot of capital and that's
+why it's only reserved for hedge funds
+or family offices uh or somebody with a
+lot of capital let's say you know
+million dollars because then you can
+divide the million dollars on multiples
+strategies multiple instruments and you
+can get a really good portfolio if you
+like this video then you will love this
+one
+[Music]

@@ -1,0 +1,377 @@
+most Trader who use Ballinger bands
+struggle to break even today we are
+diving deep into this indicator and
+precisely we are going to use a
+derivative called percent b a tool that
+can transform your strategy from good to
+phenomenal so stick around and I will
+teach you how to build a portfolio of
+robust strategies using percent B
+indicator so first let's get to know
+what percent B actually is percent B
+tells you where the current price s in
+relation to the Ballinger bands so here
+I have the chart of the S&P 500 Index
+with the Ballinger bands plotted on top
+of the price so this is the top
+Ballinger band and this is the bottom
+Ballinger band now the Ballinger band
+uses a moving average which is this line
+and adds a standard deviation to the top
+and deduct a standard deviation to get
+the bottom Channel usually the moving
+average is 20 period and the standard
+deviation is two to use Ballinger bands
+for breakout you usually go long when
+the price breaks above the uh upper
+Channel and you go short when the price
+breaks below the lower Channel now since
+we are trading the S&P 500 Index and I
+mentioned this in many of my other
+videos the S&P 500 Index tends to drift
+up most of the time and also it works
+really well with miror reversion so in
+that case we need to use the Ballinger
+bands in a different way which is we are
+going to use it to go long when the
+price breaks below the lower Channel now
+I mentioned this in almost all my videos
+it is very important to reiterate which
+is you need to match the strategy style
+to the instrument characteristics this
+is what I teach in my alot trading
+master class because it makes a lot of
+sense also it let you reach a robust
+strategy development much much faster in
+this case we are trading the S&P 500
+Index which tends to go up most of the
+time also it works much better with Mir
+verion style than with breakout style so
+using the Ballinger band to trade A Mir
+version strategy long on the S&P 500
+Index will yield much better strategy
+than normal now that doesn't mean you
+cannot build a short strategy or a
+breakout strategy on the S&P 500 it's
+just this methodology works much faster
+and produce much more robust strategies
+than other methodologies now that we
+know how we are going to trade let me
+explain percent B so instead of taking
+the close below the channel to go long
+we are going to use percent V so percent
+V like I mentioned calculate where the
+price sits in the channel so in this
+case I have the 20-day moving average
+with two standard deviation same thing
+this is percent B indic indicator and
+you see how it measure the close in
+relation to the channel so it start from
+zero so this is zero and this is one
+when the price goes above the channel
+like this one we see the price go above
+number one and when the price go below
+the channel like in here and in here you
+see the price is below zero here and
+here now the advantage here is I can be
+very precise so instead of saying when
+the close is above the channel I can say
+when the percent B is greater than 1.1
+or greater than 1.2 or greater than 1.3
+same thing below the channel I can say
+percent B is smaller than zero or
+smaller than .1 or smaller than minus 2
+and the difference here is minus point2
+is somewhere maybe around here but .1 is
+just above the lower Channel and if
+you're using the close it's very hard to
+determine that but with percent B we can
+easily do this optimization so here's
+our first test we will enter when the
+close is below the lower Ballinger bands
+of 20 bar moving average and two
+standard deviation now because we are
+using percent B so the entry is going to
+be like this this is saying the same
+thing percent B of 20day and two
+standard deviation when it's lower than
+zero that means the price is lower than
+zero so that's our entry condition and
+we will exit when the close is greater
+or higher than the previous high now
+that's not necessarily means that we are
+profitable because we could be going
+down down down and then the close will
+be higher than the previous high so it's
+just a a faster way to exit when you are
+profitable so here is an example of our
+trade when the close below Ballinger
+bands which we are measuring using the
+percent B indicator so you see when it
+goes below zero we enter and we exit
+when the close above the previous high
+so this is the close above the previous
+High We exit we are entering on the same
+bar exiting on the same bar and here we
+have another trade so again here the
+close is below lower Binger B but we are
+using percent B so percent B below zero
+we enter same bar and then we wait when
+the close above the previous high and
+that's why I told you it's not
+necessarily going to be profitable for
+example here so we have uh a losing
+trade but it happens here we exit when
+the close is higher than the previous
+high and this is the result of the
+strategy we are making six 6 to1 Return
+to draw down ratio 114,000 in
+total and this is the how the curve
+looks like very good trade analysis 110
+trades 76% win rate and above $11,000 on
+average this is already an amazing
+strategy let's look at the periodical
+return again it's very very well and
+notice that I'm doing this in the end of
+March in 2024 but we don't have any
+trades in 202 24 and of course we can
+see this clearly so this is the chart
+and we see we since November
+20123 we never dipped below the lower
+channel of the Ballinger band and this
+value comes from the values in the
+Ballinger band settings because we are
+looking at 20-day moving average and two
+standard deviation we will have fewer
+trades we can easily increase the number
+of Trades by either reducing the
+standard deviation or reducing the
+moving average or both so we need to
+test to figure out also remember now we
+are using percent B below zero we can
+use percent B below 3 so that's why
+we're using percent B because we can do
+these optimization and here are the
+results of the optimization of percent B
+from Min
+-.3 2.3 that means we have three values
+below 0 0 and then three values above
+zero and that's the advantage of using
+percent B to trade instead of the
+Ballinger band itself because we can be
+very precise on where the price sits in
+relation to the channel and obviously
+you can see the further away from zero
+below zero I mean we get fewer trades
+and the further in the channel we get
+more trades so this is our original
+strategy at 110 and you see3 making more
+than double the number of Trades now
+that doesn't translate to more profits
+because you will have more losers than
+winners and you can see the win rate
+drops from 76 to 72 also our maximum
+draw down uh goes uh fromus 19,000 to
+minus almost
+$31,000 now I'll do another optimization
+by changing also the moving average and
+the standard deviation so now we have an
+optimization for the percent B which is
+again from Min -.3 to3 but also I
+optimize the moving average of the
+Ballinger bands and the standard
+deviation so the moving average from 5
+to 20 and the standard deviation from 1
+to 2 and A2 and now you see that even
+with minus point2 we have above 300
+trades because now we shorten the length
+of the moving average and we reduce the
+standard deviation which gives us many
+more opportunities to have a trade and
+let me show you how this looks like here
+so if I change this to five and
+one you see now when the channel is
+small obviously we will have a lot more
+opportunities and look at this is 2024
+before we didn't have any trades and now
+we have many trades because it's easier
+to break the channel when it is a
+smaller width now I prefer this way than
+the starting strategy because here we
+have more trades it's a lot easier to
+judge if the strategy is robust or not
+you can always go back to the original
+strategy but let's keep the number of
+Trades high and let's introduce A New
+Concept so the New Concept is instead of
+applying one level which is let's say
+percent B smaller than point 2 minus
+Point that's a fixed level now we will
+say if percent
+b lower than
+-24 two
+times so that means the price here has
+to stay below 2 two bars in order for
+our signal to be true we can also Define
+this it doesn't have to be consecutive
+two bar bars we can say look in the past
+number of bars to see if it is true so
+that means I can look in the past four
+bars and let me know if two of them are
+below minus point2 and we do this with
+the if statement and this is how the
+statement looks we are using count if
+percent b lower than Min
+-.2 in the past four bars two times so
+if percent b lower than Min
+-.2 twice in the last four
+bars that mean the entry condition is
+true and we will enter in a position
+same thing as always we will exit when
+the close is higher than the previous
+high so here is an example of this trade
+so you can see this is percent P now and
+this is now adjusted for five bars
+moving average and one standard
+deviation just like the Ballinger bands
+channel so now we are counting in the
+past four bars if two bars are below 02
+and so we can see here the percent B is
+min -46 and then the next bar percent B
+is
+-36 so now I have two bars below Min
+-.2 in the past four bars so we enter
+the trade and we exit when the close is
+higher than than the previous High here
+is another example percent B is min
+-23 and here is
+-28 so we enter and again we exit when
+the close is higher than the previous
+high so this is a strategy performance
+we are making
+$123,000 6.2 return to draw down ratio
+we are 12.6 only in the market so if you
+annualize this this is a huge return on
+the investment and 16 three trades so
+we're slightly ahead uh last strategy
+was 110 trades and we are making
+755 on average for annual period
+analysis we have no losing year now of
+course I can easily increase the number
+of Trades by making this condition true
+but now we can increase the percent B so
+instead of minus we can use a positive
+number we will count if percent b lower
+than three that means we are slightly
+above the lower Channel and we will
+count in the last three bars if two of
+them are below. 3 and again the exit is
+the same close above the high and as you
+can see I have almost double the number
+of Trades of course that comes with the
+price of reducing the average trade and
+finally the annual period analysis looks
+like this and this is our curve so now
+you can easily tell why 5% B is much
+much better than the Ballinger band
+indicator although it's a derivative of
+it but because of the precise price in
+relation to the channel we can easily
+Define different strategies and we can
+easily find better strategies other than
+the binary below the channel or above
+the channel and also by reducing the
+standard deviation and the moving
+average of the Ballinger bands we can
+increase the number of Trades to reach a
+statistical number
+that makes judging the strategy a lot
+easier now comes the part of building a
+portfolio so instead of building a
+portfolio of a different values of the
+parameters that we have once you fix
+your strategy now the better way to
+build a portfolio is through filters so
+we can combine the strategy with
+different filters usually uh Direction
+and volatility and but you can pick any
+type of filters
+and you can build a portfolio of the
+same strategy but now their profile will
+be much different because of the filter
+you apply and let me show you so in
+portfolio Builder I loaded five
+strategies they are the same strategy
+applied to the same instrument so this
+is the S&P 500 futures daily sessions
+this is the same strategy is the percent
+B we are using these values count if
+percent B below three three in the last
+three bars it's true for two bars and
+exit when the close is above the high
+that's it so it's the same strategy I'm
+only going to change different filters
+now I already picked the filters because
+I have now more than 700 filters it will
+take really really long time to show all
+the filters but what I picked is not the
+best filters instead I picked filters
+that behave differently so for example
+volume
+Direction indicator time and so on so
+forth in order to get less correlations
+and with these five strategies let me
+back test and show you so first of all
+this is the total which is
+$786,000 and now our return to draw down
+is 10.2 remember it was 6.5 in previous
+single strategy and now because these
+are uncorrelated we are getting better
+return to draw down ratio and now we
+have 1,300 trades obviously this is a
+much better sample than the first
+strategy we did which was a 100 trades
+we have very good average trade about
+$600 and an excellent 76% win rate this
+is how the curves looks like and this is
+the annual period analysis and now we
+have nine trades in 2024 100% win right
+I always laugh at these because you know
+they're aan using when you are winning
+all the time and so far this year with
+nine trades we made uh
+$31,000 but here is the kicker part so
+this is breakdown of the strategies only
+five strategies as you can see they are
+not the best I mean I have many
+strategies that made2 200 and above ,000
+so but for example this is 112 153 53
+and so on you can see different trades
+and I picked these because of the
+correlation and here you can see why so
+if I pick weekly correlation look at
+this the correlation
+28.4 5.5 this is the highest correlation
+here is 0.92 so this means what this
+means strategy number four and strategy
+number five they are highly correlated
+but even then they're not completely the
+same we have also here High correlation
+this is strategy three and strategy 4
+but overall low correlation and this
+shows up of course here in my return to
+draw down profile that's why I have
+higher return to draw down ratio the
+takeaway here you should start from
+matching the strategy style to the
+instrument this is Paramount because it
+will be very easy for you to find robust
+profitable trading strategies and that's
+what I emphases on in my Alo trading
+Master Class also filters are much much
+better better solution than optimizing
+the parameters of your indicator to
+learn more about Ballinger bands watch
+this video and I will see you
+[Music]
+there

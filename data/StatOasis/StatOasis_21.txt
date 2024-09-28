@@ -1,0 +1,344 @@
+as a Trader most likely you've heard of
+the term scale in and scale out
+basically when your strategy issue an
+order instead of buying the full
+position you divide it into portions and
+then you buy Those portions separately
+the idea is to get a better price than
+the original full position price now
+this scale in and scale out is totally
+different than position sizing which is
+buying the full position when the order
+is issued and then buying another full
+position when the price goes in your
+favor and the difference is huge between
+the two and I will show you this
+difference in this video but first let's
+focus on testing the scalein methodology
+and I think you'll be surprised at the
+results so what is scalein in trading
+basically you want to divide your full
+position into portions and you use Those
+portions to enter your strategy on
+separate uh conditions for example let's
+say you want to have three portions to
+scale in
+so let's say you're buying a 100 shares
+of stock X and instead of buying 100
+shares when the order is generated you
+buy 33 shares and then when the
+conditions lined up again or goes
+against you or whatever your conditions
+are you buy another 33 shares and then
+when the conditions line up again for
+the third time you buy 34 shares so by
+then you will have a full position which
+is 100 sh the idea is you're averaging
+the price to get in so let's say when
+you get in the price goes against you so
+that second portion will bring the price
+the average price down so basically you
+get an average price better than the
+original price so the idea when you are
+scaling in always happens when the price
+goes against you when the price goes in
+your favor usually you are adding
+another full position and that the
+position sizing method which is you
+enter with 100 shares the price goes in
+your favor you are making money now and
+then you buy another full position or
+maybe half the position but you're
+always starting with a full position and
+of course the best way to illustrate
+this is with an example so let's do that
+so here I have the S&P 500 E mini
+Futures and added on the price chart is
+the RSI 2 strategy and this is the RSI 2
+indicator so when the price goes below
+25 we buy and when the price go above 75
+we sell there is no stop loss no profit
+Target no filters and you can see these
+are the trades so the strategy is doing
+very well so far in 20124 this is the
+strategy performance we have
+$183,000 since 2006 with
+3.43 return to draw down ratio and 338
+trades 77 win per with an average trade
+of 541 and now we will test this scale
+in methodology so basically when the
+price of the RSI 2 goes below 25 we buy
+one contract and then if the RSI 2 below
+25 and the close is lower than the
+original entry by a certain percentage
+we will buy another contract so then we
+will have basically the full position
+which is two in this case so four at the
+strategy to have a maximum of two
+positions and now we need to decide on
+the scale in percent so remember the
+price has to be lower than the entry so
+lower by how much we can decide to go by
+Dollar volatility points percent there
+are a million methodology to do it so I
+decide to do it in perc so let's start
+with 1% so that means if the price go 1%
+below our entry we will buy our second
+position to a maximum of two so let's
+see the uh strategy and let's check the
+performance and now we have
+463 trades with an average of $600 75%
+win rate and let's look at the
+performance 278,000 instead of 183 and
+3.3 to uh return to draw down so here is
+an example of two positions so let's
+bring the calculator to test so this is
+the first entry and we can check the buy
+happened at
+4,703 so 4703 and since we are looking
+for 1% down we will multiply the price
+by
+.99 so that means we need to buy if the
+RSI to below 25 and the close go below
+4655 97 so let's call it
+4656 and if we come here where first all
+the price the RSI is below
+225 and then the price is we buy at 461
+1975 so definitely below this price so
+here is another example we enter here
+4362 so 4362 * .99 remember we are
+looking for 1% below so we're looking
+for a price
+4318 and uh RSI below 25 so here RSI
+below 25 and here we buy at
+43027 so again we know the code is
+working properly and now we can go
+forward now in stocks and ETF cfds and
+also in Forex it's a lot easier to do
+scal in and position sizing because you
+can divide and actually crypto is the
+same thing but in Futures we only have e
+Min futures or the full contract which
+is very expensive or the micro Futures
+and the micro Futures are not available
+for all Futures and the micro Futures is
+10th the original contract so we go
+instead of one e mini contract we can
+buy 10 Micro contracts so now I will
+optimize this strategy on the Emi S&P
+500 uh with positions from 1 to 10 to
+see what we get so here is our strategy
+and we will optimize the position
+from 1 to 10 step one because 10
+represent one e contract although I'm
+still trading the e but just to get an
+idea and then the percent is from 0.25
+to
+3% uh with a step of 0.25 so that gives
+us
+120 combinations and here is what we get
+let's look at the 3D graph and let me
+maximize this so this is we are looking
+at the net profit and this is the per 10
+so from 0 to three and this side is the
+maximum position so 1 to 10 now remember
+although this is red remember the simple
+one this one the the lowest point is
+$180,000 so net profit is not an issue
+here we are just looking at the stable
+area and this is a slope like there is a
+although it's a smooth slope slope I
+mean here we have a bigger slope I guess
+than this side so this side is better
+than this side so if we focus on this
+area maybe so maybe a percent between 8
+and4 and a position sizing between 6 and
+8 this looks to me as this table region
+if we go back to the
+spreadsheet so this is our original
+strategy the position is one so when the
+position is one it doesn't matter the
+percent so that's why they're all the
+same values so it's
+183 and average trade 540 something with
+77 win per. now uh we can decide now
+which one I mean we found the stable
+area the return to draw down is 343 so
+if I sort by return to draw down this is
+551 so definitely much better so 343 was
+is this one so we can say that we have a
+about 20
+strategies that is doing better than the
+original in terms of return to draw down
+now we know we're going to make more
+money because obviously we are using
+more contracts because remember I'm
+using still the es the top one is 5.5
+return to draw down it's making
+744 th000 the if I do this on the micro
+this will be divided by 10 so this will
+be 74,000 000 remember the original
+strategy was doing what was doing 183 so
+although we make less money but we make
+better return to draw down so if your
+concern is the draw down then definitely
+the scale
+in uh strategy will be better but if
+you're looking for higher net profit and
+in this case it will be a lot higher
+then uh the scalein methodology will not
+work so this concludes part one of the
+this test where we know now scale in
+position produce better return to draw
+down ratio CU basically you are
+averaging the price getting in and
+that's why you are reducing the draw
+down most of the times and if you repeat
+this test on multiple strategies you
+will reach this conclusion most of the
+time you will reduce your draw down but
+the compromise is you also reduce your
+net profit now in this case the net
+profit destroyed like and we went from
+180 to about 70 but sometimes you just
+reduce the net profit probably by 20%
+while reducing the maximum draw down by
+maybe 50% so sometimes it works now the
+same methodology can be used as position
+sizing so instead of uh trading your
+strategy with one contract well now I
+want to make more money so how do I make
+more money usually is with position
+sizing this this is think of this like
+you are a very good driver and you go
+from a sedan car to a sport car the
+sport car drives much faster hugs the
+road when you turn and so on and so
+forth so it's meant to drive fast but of
+course you need to be a very good driver
+and usually I stay away from position
+sizing because it's very dangerous
+especially for new Traders you can
+easily blow up your account so first of
+all I want to emphasize that do not
+introduce position sizing while you are
+testing the strategy the strategy has to
+be already robust and then you introduce
+position sizing so in this case we know
+the RSI 2 is very robust so let me show
+you what this means if this was a
+position sizing method meaning I'm
+adding full positions every time the
+price goes against me so same logic same
+everything and it's just I'm going to
+show you what does that mean and how do
+you compare it so let's say for example
+we are going to pick this strategy so
+this strategy has eight uh maximum
+positions and the scaling percent is 0.5
+we are making 645 blah blah blah so let
+me pick this strategy and as you can see
+now this is what it looks like so you
+can see here we are adding one one so
+this is 2 3 4 uh five and six so this is
+trade 48 and here we have we see we have
+eight positions
+so these position 1 2 3 are losing
+positions and then 4 5 6 7 8 are winning
+positions and this is how we are going
+to compare so on the right here this
+strategies using eight contracts when
+the RSI 2 below 25 we buy eight
+contracts and this strategy using a
+maximum of eight
+contracts to buy into a position so a
+lot of a lot of times we'll buy one or
+two or three but maximum is eight and
+obviously this one's making more money
+because you're always buying eight cont
+the return to draw down ratio is 3.43
+it's exactly like the original strategy
+because instead of buying one we are
+buying uh eight so it's basically just
+multiplying by eight and but here we
+have a better return to draw down 478
+and then a huge difference in annual
+period analysis so here we in 2018 we
+have about
+193,000 uh draw down and 20120 with
+28,000 and here we only have $2 2009
+about $1,400 so that's negligible so
+this is a huge Plus for using this
+position sizing methodology and finally
+when we look at the curve we can see how
+this is a huge difference so remember
+2018 2020 was a huge draw down here and
+here it doesn't it's just a single line
+and it's a lot shallower so that's
+definitely better so overall yes I am
+making less money here but a much better
+return to draw down ratio and a much
+better Equity curve now although we are
+making more than double the money here
+than this one but remember we are using
+more Capital here here every time we're
+buying we're buying eight contracts so
+that means we need more Capital here
+than here because in this strategy some
+the maximum is eight contracts most of
+the times we're not buying eight
+contracts and we can check this Capital
+efficiency over here so if we look at
+these ratios look at this so the net
+profit as percent of largest loss that
+means we are making seven times the
+amount of money than the largest loss
+while here the net profit is 25 times
+the largest loss also although this is
+very small sharp ratio here is 2 here
+is26 annualized 92 annualized here is 7
+so again this is an indication of a
+lower volatility but also much better
+Capital efficiency so the key takeaways
+are both ways are better than the
+original if you scale in into your
+position by using portions and adding to
+the original entry you will enhance your
+return to draw down rate ratio but you
+will reduce your profitability if you
+are looking for higher net profit then
+usually the scaling method will not do
+well and if you're looking to grow your
+account exponentially usually you do
+that with position sizing but the
+caveats are as follows first of course
+you need to have the capital to run a
+position sizing because remember when
+you increase the positions you need more
+Capital the second caveat which is the
+most important is you only layer the
+position sizing on a robust strategy
+don't test position sizing while you are
+testing the strategy that's not a good
+because usually the position sizing will
+hide all the crap in that strategy will
+make it look better but it's usually the
+position sizing that's doing the job so
+you should start with a robust strategy
+that means you take the strategy through
+all your robustness testing once the
+strategy is robust stable then you can
+layer on top position sizing and don't
+go crazy like I just showed you with
+eight contracts start with two or three
+maximum just to get a feel of it because
+the swings will be bigger yes the return
+to draw down ratio will be better but in
+terms of the amount of money it will be
+bigger so the percentage will be smaller
+but the amount of money will be bigger
+and thus psychologically will be harder
+to do to learn more about the RSI
+strategy watch this video and I will see
+you there
+[Music]

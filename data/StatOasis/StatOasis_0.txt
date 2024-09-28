@@ -1,0 +1,286 @@
+super trend is a very versatile
+indicator it can be used in multiple
+ways you can use it inside a strategy as
+a stop-loss or a profit Target or as a
+signal to enter and exit or as a filter
+for another signal and in this video I
+will show you how to build a strategy
+using super Trend as a signal the
+indicator equation is very simple and
+it's very close to Kelner channel so for
+the upper band we use this average and
+add a multiplier of an ATR so in this
+case we have two variables it is the ATR
+look back and the multiplier and then
+same thing for the lower band so it's
+the same average but this time we deduct
+the multiplier times the ATR so it's the
+same equation for Kelner Channel but
+Kelner Channel uses the exponential
+moving average instead of the high plus
+low divide by two the other difference
+from kelon channel is the drawing this
+is the chart of the NASDAQ 100 Futures
+represented by nq. D which is the daily
+session and the indicator plotted is the
+super Trend indicator so like I
+mentioned it has two channels the upper
+Channel which is in red the lower
+Channel which is in green and notably we
+can see the difference from the Kelner
+Channel because we are plotting only one
+at a time so when the price close above
+the upper Channel we draw the lower band
+and when the price close below the lower
+Channel we draw the upper band another
+difference is we only draw the lower
+Channel when we get a higher high so you
+see once we don't get a higher high we
+are flat so again here we are flat again
+here we are flat same thing when we are
+trending down you see when we don't make
+lower low we are flat both of these
+characteristics make the super Trend
+indicator unique so when the trend is up
+it always follows the trend and have a
+flat area if we don't make a higher high
+and when we are trending down it always
+going down and we have a flat area when
+we don't make a lower low and that's why
+we are drawing one band at a time so now
+that we understand how super Trend works
+we can easily build a strategy using the
+super Trend signal and the signal will
+be when the indicator flips from up to
+down and from down to up and since I'm
+testing this on the NASDAQ 100 NASDAQ
+being one of the indexes in the US it
+tends to drift up most of the time so we
+will not use it to build a short
+strategy we will only use the long side
+so our strategy will go long
+whenever this channel flips from red to
+Green basically whenever the price close
+up above the upper Channel and here is
+the strategy applied so you can see
+whenever we flip we buy the next bar and
+whenever we flip on the opposite side we
+sell the next bar and we are going long
+only using a single contract and these
+are the results of the strategy 125
+trades with about 50% win rate and a
+huge huge average trade our return to
+draw down is 2.7 and this is our
+periodical analysis now of course we can
+optimize this so we can optimize the
+length of the ATR from 5 to 30 step five
+and the
+multiplier from 1 to 15 Step One so
+overall 90 combinations and this is the
+result of the optimization sorted by
+return to draw down and we see at the
+top the length is 30 20 and then couple
+of five 25 so it's all over the place
+and this is the 3D
+representation so we can see this area
+is probably stable so between 10 and 12
+on the ATR
+multiplier and 20 to 30 of the length
+now we can see here the problem is the
+low number of Trades very few strategies
+have higher than 100 so this one which
+is the length of the ATR is five and the
+multiplier is two which makes sense
+because that means we are the the
+channel will be very close to the price
+so we get more trades and if I sort by
+the multiplier you can see this is
+number two and all of them producing
+High number of Trades now this is
+totally different than one so one
+producing more trades but you can see
+the results for the one multiplier
+they're all losing money so it's a huge
+jump between one and two where two all
+of them making a lot of money now just
+like a moving average we can use a
+longer length period for the
+ATR and use it with the short period so
+imagine just like the 50-day moving
+average and the 200 day moving average
+so in this case we can use 2 and 10 as
+our entry
+signal while we have a longer ATR period
+also on the long side and this is how it
+looks like on the chart so the bright
+green and red this is our short length
+ATR and multiplier and then the dark
+green and dark red is the longer version
+and you can see in this case this signal
+will not be taken because this one is in
+an uptrend but the longer version is in
+a downtrend so here is our strategy with
+the two super Trend indicators so one is
+fast and one is slow and we are uh
+optimizing the fast one the same as
+before so from 5 to 30 the length in
+step of five
+the multiplier 1 to 15 Step one and then
+the slow length super Trend will be the
+ATR look back is from 40 to 100 step 10
+and the multiplier from 4 to 14 step two
+all in all we have about
+3,700 strategies this is the result of
+the optimization and we can see now we
+have four variables and this will be
+hard to see in a 3D graph because the Y
+AIS is is the net profit and then X and
+Y is two variables and then this is the
+third but we're still missing the fourth
+so you can overcome this by removing one
+of the variables and it's very easy to
+remove one of the variables in this case
+we can just say that whenever we
+optimize the length of the short super
+Trend indicator we use the same value
+times three for the long super trend
+indicator so as you can see now we have
+three variables to optimize so the fast
+length of the ATR same 5 to3 the fast
+length ATR multiplier 1 to 15 that's the
+same and now our slow length is always
+three times this value so when this is
+five the slow length will be 15 when
+this is 10 this slow length will be 30
+and so on so forth and then the slow ATR
+multiplier is the third variable so now
+overall we have 540 combination and this
+is the result and as you can see we have
+three variables so very easy we can
+represent that so you see now this is
+the fast ATR multiple and this is the
+fast ATR length and the slow length is 3
+times this value and the z-axis of
+course is the net profit and now this is
+our third variable so we can see 4 6 8
+10 and all of them look at this all of
+them are very very stable going back to
+the spreadsheet uh we can see again we
+have a problem of Trades so this one is
+100 Trade so if we filter for 100 trades
+and $100 on average per trade we end up
+with only 16 strategies so this is the
+top strategy the ATR length for the fast
+super Trend indicator is 10 the
+multiplier is two and this low super
+Trend indicator has a length of three
+times this so it's 30 and then the
+multiplier is four so this is the result
+of the strategy 191,000 5 to1 return to
+draw down and this is the curve but as
+you can see we have only a 100 trades
+now we can easily overcome the drawback
+of the low number of Trades by switching
+to a lower time frame because with a
+lower time frame of course we will get
+more signals and then we can easily
+filter the extra signals out so let's
+try the strategy on the same Market but
+we will switch to 60 Minutes time frame
+so now we are on the same Market the
+NASDAQ 100 Futures but now we are using
+the 1eh hour time frame and again we
+have the two super Trend indicator so I
+will optimize the fast and slow super
+Trend indicators with the settings that
+gives us in total 2700 combinations and
+this is the result of the optimization
+so out of 2700 strategies we have about
+50% of the strategies that has more than
+100 trades and more than $100 on average
+per trade and as you can see the
+difference is huge when we switch to
+intraday so look at all these number of
+Trades they are 500 400 1,000 so on The
+Daily we were barely making 100 trades
+and here we have so many and the
+advantage here is we can easily now add
+a filter to enhance our strategy now let
+me pick this strategy so this is
+15770 60 about 642 trades with a really
+good average for the NASDAQ 348 so this
+is our strategy performance 223 with 5.1
+return to draw down and these are the
+trade
+results the problem is here is when we
+look at this Equity curve we we can see
+we are in a big draw down for almost 6
+seven years now from experience when you
+see an equity curve like this it's
+usually a direction filter that will fix
+this type of equity curve because
+basically the market regime was in a
+certain type and volatility Market
+regime doesn't stay long enough so
+usually it's a direction Market regime
+now we can easily do this with a 200 day
+moving average so we say only go long
+using whatever combinations of the super
+Trend indicator when the price is above
+the 200 day moving average that works
+really well on the indexes of course
+since we are using the trend filter we
+can introduce another longer version of
+the super Trend indicator so we have the
+short and let's say the medium term and
+then the really really long term that
+will act just like a 200 moving average
+so I will show you both of them and how
+they will affect the strategy so this is
+the equity curve of the two super Trend
+indicators and now I will add the 200
+day moving average meaning we will only
+take the signal when both of them are
+green both the super Trend indicators
+and the price is above the 20 day moving
+average so if we compile and you see how
+we got rid of of all
+that draw down and let's see the
+performance and also we make more money
+our return to draw down goes down a
+little bit we were 5 something and like
+I told you this is the advantage of
+having more trades because you can
+easily add a filter and even after the
+filter we have
+252 trades 62% and we're making about
+$1,200 on average now going back here
+instead of the 200 day moving average I
+will add a longer version of the super
+Trend this time I'm going to use a
+150 bars lookback for the ATR and let's
+see how that's going to affect so it
+looks almost the same let's see the
+performance even though we making same
+money our return to draw down is not as
+good now of course I can fix the let's
+say long-term Trend filter so I can fix
+the super Trend at 150 and now
+reoptimize the
+short and the medium super Trend there
+are many ways to go about this but the
+idea is the same super Trend indicator
+can be used for everything as a filter
+and as an entry signal in fact I don't
+want to complicate things but I can
+still use the same super Trend indicator
+as a stop loss or a profit Target for
+this strategy and it works really well
+because it's a kind of a breakout
+strategy and if you use it as a trailing
+stop it it will protect a lot of of your
+profits and that's why this super Trend
+indicator is really really versatile if
+you like this video then you will love
+the next one
+[Music]

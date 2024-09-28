@@ -11,9 +11,16 @@ from youtube_transcript_api import YouTubeTranscriptApi
 
 
 load_dotenv()
-api_key = os.getenv("YTB_API_KEY")
+api_key = os.getenv("YOUTUBE_API_KEY")
+print(api_key)
 youtube = build("youtube", "v3", developerKey=api_key)
 
+request = youtube.search().list(
+    part='snippet',
+    q='python tutorials',
+    key=api_key
+)
+response = request.execute()
 
 def get_channel_id(channel_name):
     """
@@ -106,7 +113,7 @@ def fetch_and_save_transcript(video_id, file_name):
         True if the transcript was saved successfully, False otherwise.
     """
     try:
-        transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=["ar"])
+        transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=["en"])
     except Exception as e:
         print(f"An error occurred: {e}")
         return False

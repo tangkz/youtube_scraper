@@ -1,0 +1,232 @@
+imagine a strategy that not only track
+the market but anticipate its next move
+using only a 3-day pattern the strategy
+was developed by Larry Connor and it's
+called 3-day high low pattern Larry
+Connor used that strategy on multiple
+ETFs but as a future Trader of course I
+will test it on two Futures Market one
+is going long and one is going short and
+if you are new in trading there is a
+very important concept to follow which
+is to match the strategy style to the
+instrument characteristics so for
+example this strategy is a Mir reversion
+strategy so that means we need to couple
+the strategy with an instrument that
+works well with me reversion and if you
+want to go along then we have to add
+that condition also that this instrument
+has to be good in miror version and long
+and if you want to go short then we want
+to get an instrument that works well
+with miror version and short so first
+let me give you the rules of the
+strategy it's extremely simple we are
+looking for lower highs and lower lows
+three bars in a row so the strategy
+looks something like this we have three
+lower highs and lower lows and if these
+two conditions are true then we will buy
+on the close and we will exit when the
+close is higher than the previous high
+so this close has to be higher than this
+High then we exit and that's it strategy
+is extremely extremely simple now Larry
+Conners use two moving averages the 200
+day as a filter to go along and the 5day
+moving average as a filter to exit now
+since I have many many filters I removed
+both of these filters so I replace the
+exit with the close higher than the
+previous high and once this strategy is
+good and we like it then we will test it
+with multiple filters so here I have the
+chart of the S&P 500 E mini Futures and
+I'm using this chart of course because
+the strategy is me reversion and we will
+use it to go long on this instrument
+because that instrument works very well
+with me reversion and log so here is the
+strategy applied and you can see this is
+a trade so lower highs lower lows so
+three in a row that means we enter on
+the close and when we have the close
+higher than the previous High We exit
+this is another trade so we have three
+lower highs three lower lows we enter at
+the close and we exit when the close is
+higher than the previous high so this
+happens here this is a losing trade
+there's another one another one so on so
+forth and the result of this strategy is
+it's making
+$124,000 the data here since 2006 with 6
+3 return to draw down ratio that's
+really really good on the S&P 500 total
+trade analysis we have 143 trades about
+80% win rate
+$870 on average this is really good
+considering this strategy was published
+at least 10 years ago to my knowledge
+and looking at the annual period
+analysis since 2006 we have only three
+losing years 23 18 and 15 great results
+we are already on a very good start now
+this happens because we match the
+strategy style to the instrument
+characteristic which is a big concept
+that I drill in every video now before
+we start adding filters to the strategy
+Let's test other combinations of the
+three lower lows and three lower highs
+so I'm going to test the look back
+period and the true number of bars so
+what I'm looking for here is how many
+bars I'm going to check the low lower
+than the previous low and the high lower
+than the previous high and in this
+period how many I want them true so for
+example five and five means that I'm
+looking for the past five bars where all
+bars have lower lows and lower highs and
+so on so forth so to Total 25
+combinations very easy and here are the
+result now some of them are zero because
+they don't make sense so for example
+this is the look back period of one but
+we are looking for three lower lows and
+lower highs which of course doesn't
+exist so 2 3 four five so when this uh
+variable is greater than this then we
+will get zero in any case I don't care
+I'm just going to sort by return to draw
+down and we have a total of 15
+strategies and this is the original
+strategy three and three and three and
+three is on the top that means 3 and
+three is already the best strategy now I
+didn't pick 3 and three remember this is
+lar Conor strategy and it's published
+more than 10 years so this is all what
+we have is is out of sample so this is
+not an
+optimized uh values there are other
+things that we need to look at so the
+strategy
+produced 143 trades so if I want to
+introduce filters of course I'm going to
+decrease the number of Trades so maybe
+it's better that we pick more trade so
+that when we add a filter we still going
+to have a good number of Trades and also
+we can notice that we can make a lot
+more money by choosing a different one
+so this one is making
+210 and it's still very good return to
+draw down ratio this one is making
+230 and it's still good return to draw
+down ratio so this one have a total of
+900 trades which is just too much I
+think and and the reason is because we
+are looking at the previous four bars
+and we are looking only for one lower
+low and one lower high so that's why we
+have too many trades so maybe we can
+pick something in the middle which is
+for example this one so two and one so
+in the previous two bars if we have one
+lower high one lower low then we will go
+long so still we're making more money
+but we definitely have a lot more trades
+so when I add filters it will be okay so
+let's pick this one okay so the strategy
+is applied and as you can see we have
+many trade and if we check the result
+682 trades 257 average trade 71% win
+rate and we are making 175,000 with 4.58
+return to draw down now we can add our
+filters and here are the results of my
+market regime filter so these filters
+are only Direction and volatility and
+different combinations of them and as
+usual you will see at the top volatility
+so up to 35 these are all volatility
+filters but now look at the return to
+draw down ratio so 10 7 7 so that's
+really really good and remember when I
+told you we start with higher number of
+Trades so look at this we filtered
+almost 250 trades doubled our average
+trade from the uh previous uh strategy
+we picked and reduce our draw down so we
+achieved our goal of making more money
+with less draw down and more trades so
+as you can see the methodology really
+robust it works very well and that's
+what I teach in my algo trading Master
+Class to match the strategy style to the
+instrument characteristics and then you
+add your filters you check for
+robustness and voila you got a great
+strategy and now to prove this on the
+other side we are going to use the same
+pattern but on the short side meaning we
+are looking for three higher highs three
+higher lows and then we're going to
+short on the third day which is on the
+close and then we will exit when the bar
+moves down meaning when the close lower
+than the previous low now because we are
+using miror version short side we are
+going to match it with natural gas
+because natural gas works really well
+with mirror version on the short side so
+here we have the natural gas Futures and
+here's the strategy applied we are
+making
+$85,000 3.1 return to draw down ratio
+and 172 trades at about $500 on average
+is really really good and about 70% win
+rate same thing we are going to test the
+look back period and the number of true
+bars and again we have 15 strategies
+only because like I mentioned this value
+has to be lower than this value and
+again for the short side three and three
+is the best so 3.1 and everything else
+is less but again if we want to follow
+the same procedure we need to look for
+something that produce higher trades and
+then we can introduce filters so any one
+of these will work these are all 700 600
+500 and 600 trades these are all will
+work I'm going to pick this one which is
+five and two so we are looking in the
+past five bars if two of them have
+higher lows and higher highs and here
+are the results for my market regime
+filters and this time we don't have
+volatility on the top so all these 4S
+and 121 so 121 is Direction and
+volatility but these first three on the
+top they are all long-term Direction and
+the difference is huge again we are
+removing almost 2 50 trades we increase
+our win rate and of course we are making
+more money and of course the next step
+is combining these strategies together
+in a portfolio this is short the other
+one is long they will Co complement each
+other most likely and you get a really
+good portfolio and that's really the
+trick of algo trading it's building
+robust strategies by following the
+foundations uh that I teach and then
+combining them into a portfolio that has
+less correlated strategies so you get
+better return to draw down ratio and you
+trade your portfolio for profitability
+to learn more about Market regime watch
+this video and I will see you there
+[Music]

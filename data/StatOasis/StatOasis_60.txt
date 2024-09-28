@@ -1,0 +1,308 @@
+day trading strategies are very popular
+for the simple fact that you can trade
+during the day and exit when the market
+closes sleep comfortably at night
+knowing that your capital is safe and
+sound in this video I will teach you a
+simple profitable day trading strategy
+and if you stay till the end I will show
+you how you can implement it in any
+trading platform welcome back I am Al
+Casey from stat O's Channel and although
+I am an algo Trader and I teach algo
+trading but I understand not everyone is
+suited for algo trading first of all you
+need the infrastructure you need to
+learn uh the platform sometimes you need
+to learn to code so simple strategies
+that can be implemented without code
+without trading platform back testing
+are really valuable especially for
+beginners and like I promised this will
+be a simple day trading strategy on the
+S&P 500 futures now although I'm
+implementing the strategy on Futures you
+can theoretically implement this on any
+derivative of the S&P 500 Index the S&P
+500 is the most liquid index and can be
+traded through many derivatives ETF
+double ETF triple ETFs and Futures micro
+and mini and options and so on so forth
+so I'll leave it up to you how to
+implement the strategy I'll just show
+you the rules for this strategy before
+we get into the rules of this strategy
+let's discuss the overnight risk most
+people are afraid to hold any instrument
+of overnight any instrument in the
+financial Market there is usually this
+fear of holding overnight in fact some
+platforms like strategy Quant X have
+this option with a tick like you can
+take to build a strategy that exit end
+of day or that exit before the weekend
+meaning on Fridays but as algo Traders
+we cannot just go with anything we hear
+or read about or even see on YouTube so
+to verify that holding overnight is
+risky or not we need to test here we
+have the S&P 5 00 daily chart and I will
+switch my strategy on this strategy will
+buy the open and we'll sell at the close
+as you can see every day we buy the open
+we sell the close every day we buy the
+open we sell the close and if we do this
+for the whole data that I have which is
+since 2006 that's 17 years this is the
+performance we make
+$80,000 and our biggest draw down is
+$38,000 that's 2 to one but if we look
+at the trade analysis the total number
+of Trades
+4,323 and on average we are making
+$19 now this does not include slippage
+and commission which is for sure this
+will be a losing strategy but we are
+just looking at the edge of holding
+during the day or overnight now I will
+switch my strategy to hold overnight
+only so we'll switch this to one
+and now we are buying the close and
+selling the next open buying the close
+selling the next open and so on and so
+forth so basically we are holding only
+overnight session so now we have these
+two windows on the left we have the
+daily strategy buying the open selling
+the close and on the right now we are
+holding overnight so we are buying the
+close and selling next open and looking
+at these stats so both of them have the
+same number of Trades which is obviously
+is the same we are using the same data
+and coincidentally both of them are
+averaging $19 per trade without slippage
+and commission but we have some
+different stats for example the average
+losing trade here is
+546 here during the day it's more it's
+757 and the largest losing trade in the
+daily session it's 7,000 and overnight
+is 10,000 so now if we switch to the
+perform performance the overnight is
+making 81 of course you know that's
+nothing let's consider them the same but
+here the maximum strategy draw down so
+the draw down where we are holding the
+contract overnight is
+52,000 and this is the maximum strategy
+draw down during the day it's 38,000 so
+definitely the risk of holding overnight
+is more than the risk of holding during
+the day although we are making exactly
+the same amount of money okay so from
+the test we did holding overnight is
+riskier than holding during the day
+although we making same amount of money
+but we are risking losing more overnight
+than during the day now we need to find
+out if this holding overnight riskier
+than during the day is it true for all
+days or only for certain part of the
+week here is the optimization for the
+daily session strategy so this this is
+the strategy that holds during the day
+buying the open selling at the close and
+the filters are from 0 to 5 so one is
+Monday and five is Friday and zero is
+holding all the days so this is our
+original strategy but now we find
+something really really interesting not
+all the days are the same and in fact
+there is a huge discrepancy of buying
+Thursday open and selling Thursday close
+if we only buy Thursday and hold your
+during the day we make $50 on average
+while the rest are 19 and in fact
+Wednesday is the worst where we lose and
+of course this is not including
+commission and slippage but still this
+is definitely it's a huge pattern and
+this is not a coincidence in fact if I
+choose this which is buying Thursday if
+I look at periodical returns since 2006
+so this is not a coincidence is not an
+overfit if I I buy Thursdays on average
+I make money yes it's not enough money
+but there's nothing here no filter no
+nothing the fact that most of the years
+are profitable that is huge pattern so
+this is already really really good and
+the trade analysis shows that we went
+from 4,000 plus trades to 888 trades on
+average we're making $50 per trade our
+largest losing trade is $55,000
+plus and this is the equity curve now
+let's go to the overnight side so again
+here zero it's all days and one to five
+is Monday to Friday original strategy is
+averaging
+$19 and net profit is 81 and again here
+we have a significant pattern which is
+buying Monday close and selling Tuesday
+open on average we make $88 and holding
+overnight from
+Wednesday that's extremely bad so not
+all the days are the same and in fact if
+we click on this so we hold overnight
+and this is our strategy performance we
+make
+$71,000 8 to1 return to draw down ratio
+our trade analysis around 800 plus
+trades same like the day session we're
+making 88 and our largest losing trade
+is now
+below 5,000 and again this is not a
+fluke and it's not an optimization
+overall all years makes money so that is
+something built into the index now why
+these patterns exist I don't know I
+don't care also some people do care they
+want to find out the fundamental reason
+behind why such a pattern exist I long
+time ago dropped this part where I look
+for the reason if there is a statistical
+significance in the pattern I will just
+use it now that we have these two
+patterns that's a great beginning for a
+strategy we have one during the day and
+one is overnight and the nice thing they
+do not overlap we can trade both easily
+with the same Capital but of course like
+all strategies we need to add a filter
+to the strategy to enhance one or more
+metrics of that strategy so starting
+with the day session strategy now out of
+hundreds of filters that you can test I
+picked here 18 from different categories
+so zero that means no filter and 18
+filters so in total we have
+19 and this is the result of all filters
+so of course this is our original
+strategy $50 on average and return to
+draw down ratio is almost two so if we
+sort by return to draw down ratio so
+here we have four and then 3 3 29 27 so
+almost eight filters do better on this
+and if we look at our average trade so
+we had 50 before all of these are better
+than 50 but we notice that some of them
+are really good so this one
+75 and number one so if we skip 117
+which is a low average trade so out of
+75 and 1 15 makes the the most amount of
+money but 15 is my market regime
+proprietary indicator and since this is
+a simple strategy we will not use that
+so let's pick seven instead which makes
+a little bit less money but still very
+good so what is seven and this is filter
+7 which is two down close in a row that
+means Tuesday is a down close and
+Wednesday is a down close then we buy
+Thursday and that will yield the this
+average trade and this strategy so if we
+choose this strategy this is how it
+looks like it's
+$40,000 with a maximum $10,000 draw down
+so that gives us four return to draw
+down the equity curve look like this we
+have a huge stagnation period here but
+that's okay and then total trades it's
+172 so we went all the way from 4,000
+plus trades to 172 trades on average
+we're making 238 eight and this is our
+annual period analysis now if we pick
+the overnight session and let's optimize
+so here we have the overnight on and we
+will optimize the same filters and let's
+see what we get so this is our original
+strategy making 88 and if we sort by
+custom Fitness which is return to draw
+down we have 10 filters that does better
+than the original strategy and this time
+all of them have good average trade
+let's start from from here so all these
+top six filters have great average trade
+so 10 and above are my market regime
+filters so 12 which is number one 11 and
+18 those are my market regime filters
+and they are propriety code we will not
+use them in this simple strategy so
+let's pick number seven which is the
+next best thing in terms of return to
+draw down but look at this one this is
+making 62,000 and very close return to
+draw down and this is filter number
+three and what is filter number three
+and filter number three is extremely
+easy if the close is lower than the
+50-day moving average so let's pick this
+strategy and this is the strategy stat
+$62,000 with 4600 only in draw down so
+that's why we have the 14 to1 draw down
+ratio and the curve looks much much
+better than the daily session 265 TR
+Raad on average
+237 and our annual period is also much
+better than the other one so here they
+are side by side and we can see how the
+overnight perform much better than the
+daily session and we can see how we have
+huge stagnation here the curve here is
+always pulling up so through rigorous
+testing we find out that the overnight
+session is not as risky as they say it
+is in fact we make more money and our
+draw down is less than if we are holding
+during the day even though we applied
+the same filters to both strategies now
+how to implement this strategy without a
+trading platform without back testing
+without automation now although you can
+implement this strategy in any trading
+platform I picked this free charting
+software it's trading view since you
+don't need an automatic algo to trade
+this strategy so this is the S&P 500 the
+Orange Line this line is is the 50-day
+moving average and if you click on
+indicators and look for day of week you
+will find many indicators and I picked
+these two so so this one puts a bar in
+the background so if we scroll down
+these are the settings so I told it to
+show Mondays because that's what we are
+interested in we want to trade Monday
+overnight and there is another one which
+is this one and this one highlights the
+bar same thing so show Monday and you
+can pick and choose what to highlight
+and you can see now if we are above the
+50-day moving average on Monday we buy
+the close and we sell next morning and
+so this is two weeks ago that trade lost
+money and this is a week ago and that
+trade made a little bit of money now we
+are very far from the 50-day moving
+average so so the next month which is
+December as the time I'm recording this
+video all Mondays should be above uh the
+moving average and you can use the
+strategy for the next four Mondays in
+December to learn more about pattern
+strategies watch this video and I will
+see you
+[Music]
+there
+w

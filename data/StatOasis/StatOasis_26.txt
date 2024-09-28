@@ -1,0 +1,362 @@
+if you are a Trader or just interested
+in the financial markets most likely
+you've heard of the evx index in this
+video I will explain what the index is
+and how to use it to trade its
+derivatives or to use it as a filter for
+other strategies on other instruments so
+the VIX Index is a forward-looking
+indicator meaning it can forecast the
+price of the S&P 500 Index because the
+VIX Index is built on the S&P 500 Index
+option prices it basically looks 30 days
+ahead on the price of options and
+determine if there is risk uncertainty
+in the market or there is not so when
+there is risk or uncertainty in the
+market the price will go up the price of
+the S&P 500 will go down and when the
+price of the index is low that means
+there is no risk or there is certainty
+in the market and that means the price
+of the S&P 500 most likely will go up
+over the next 30 days now the index
+itself it's not tradable but there are
+derivatives on the index like VX which
+is the futures or multiple ETFs that you
+can trade on the index so here I have
+the index at the bottom and the Futures
+derivative on the top so you cannot
+trade the index like I mentioned but you
+can trade the futures or the ETFs and if
+I zoom out we can notice something
+immediate which is the vix is always in
+a downd drift so this data going back
+all the way to 2006 and we can see
+whenever we Spike we go down whenever we
+Spike we go down so if we look at the
+previous Spike so this is around 85 and
+that's the 2008 and here we have two at
+45 this is
+2011 and
+2010 and then we have two more at
+45 this is 2015
+and
+2018 and then we have the most recent
+which is co at 85 so if we are looking
+for spikes to trade the index we going
+to have very few signals basically we
+have two at
+85 and four at 45 and maybe another uh 6
+or 10 at around 20 something the problem
+is how do you know if the 10 or 20
+spikes will go to 40 or will go to 80
+because if you short 20 and the spike
+goes to 80 basically will be wiped out
+so the way to trade the index is not to
+trade the spike up instead is to wait
+for a spike up and when it goes down
+then we short that market because
+basically we're only looking for short
+trades there is no point in going long
+on the vix it's drifting down all the
+time now there are many ways to do this
+and I am going to use a simple moving
+average crossover so I have a fast
+moving average a slow moving average and
+when they cross when the fast moving
+average cross below the slow moving
+average I will short the index which is
+basically I'm shorting the Futures and
+when the cross happen on the opposite
+side I exit the TR so very simple but
+that is a signal to enter a strategy but
+we also use it as a filter for other
+signals so let's do the strategy uh on
+its own first okay so now I applied the
+strategy of the two moving averages and
+you can see here the light blue is the
+fast moving average the dark blue is the
+slow moving average so whenever we cross
+above we exit the trade when we cross
+below we enter the trade and so on and
+so forth so the strategy is immediately
+profitable now this is very important
+because you need to learn this I
+mentioned this in most of my videos
+which is priority number one is matching
+the style of the strategy to the
+characteristics of the instrument you
+want to trade in this case we want to
+trade short
+only and we are waiting for a spike to
+go down so we need to match a strategy
+style for that instrument and that's why
+it's very easy to find a profitable
+strategy this and we're making 3:1
+return to draw down ratio and if we look
+at the trade analysis 163 trades 460 on
+average and 52 win per. but let's
+optimize now the entry and exit now
+currently I am
+using the entry and exit the same so you
+can see here the strategy has three
+parameters so the fast length for entry
+slow length for entry and fast length
+for exit now in order to reduce the
+number of parameters
+I made the slow length of the exit three
+times the fast length so it's fixed and
+that's how you can reduce the number of
+parameters to trade also of course
+you'll reduce the number of
+optimizations which is a very good habit
+to get into in any case currently for
+this strategy I was using the same so
+five and 20 so five for the fast moving
+average and 20 for the slow moving
+average and for the exit I am using five
+as the fast moving average and it's a
+fixed ratio remember it's three so that
+means 15 it's the exit moving average so
+now we will optimize all of them from 5
+to 60 step five that should gives us
+about 1,700 strategies so remember I'm
+trading the VX Futures so this is just
+for illustration the index at the bottom
+so here are the results and if we sort
+by return to draw down ratio IO and let
+me go down so let me look at
+three okay so this three so 660
+strategies above 3 to1 return to draw
+down ratio that's really really good uh
+like that's almost a third of the
+strategy so let's filter for 50 trades
+because we're not going to have too many
+trades and let's see we have
+438 and let's look at the
+graph okay so this is about
+,000 so right now what we have is the
+fast length and the slow length the
+z-axis is net profit and then this
+filter is the exit remember the exit
+fast length and then the exit slow
+length moving average is three times the
+fast length so that's why I did it
+because now I can only look at these and
+I can easily judge a stability pattern
+so let's move down okay this all already
+looks good so 15 the exit and I can see
+here there's a huge stable
+area 20 even better almost half of it
+then
+25 so 15 to 30 looks very good 35 is
+going down and 45 very good stable area
+50 again back so almost all of them
+stable except for five and
+10 so 15 and above they're all stable
+area so I have no issues now with 15 we
+have only this section so this is the
+fast length so up to 20 but then if I go
+above look at this from uh 45 all the
+way to five on the fast
+side and actually all the slow side is
+good and you can see this is a this nice
+pattern uh this is when there is no
+crossover so it's zero uh so this is not
+a dip like this considered stable
+because it's just there is no crossover
+because the moving averages are the same
+value uh so let's look at something
+around 20 so if I go here and look at
+20 okay so these are all 20 they are all
+good and I'm going to look for something
+maybe this one this is six return to
+draw down remember they're all stable so
+let me pick this one
+and let's look at the stats so this is
+50 trades 56 uh% uh win rate about
+$3,000 uh per trade that's huge and if I
+look at the curve the curve is very very
+nice the only drawback is the number of
+Trades okay so trading the vix itself is
+very profitable in fact we have so many
+options to trade because there's a huge
+Edge in the the vix which is it's always
+drifting down remember from my all
+videos I mentioned that the es always
+moving up this is even better it's
+always moving down more than the S&P 500
+now you already can tell that because of
+this drift so most likely it's highly
+correlated negatively correlated with
+the S&P 500 and if you reach that
+conclusion you are correct the VIX Index
+is negatively correlated to the S&P 500
+of course it's built on the options from
+the S&P 500 Index so they are huge like
+the relation is very big so that means
+we can trade the S&P 500 based on the
+vix signal so here now I have the Es at
+the top this is the Futures and this is
+the VIX Index and again I'm using the
+same moving average fast and slow and
+but this time when they cross I am
+trading the es instead of the vix and I
+need to do this on the opposite side
+because remember the es is negatively
+correlated to the vix and in fact you
+can see this very clearly if I zoom
+out you can see whenever the vix Peaks
+the S&P 500 bottoms and whenever the uh
+vix bottoms the S&P 500 Peaks so it's
+clearly the opposite uh signal so now I
+can optimize again now I'm optimizing
+this moving average on the VIX Index but
+I am trading the S&P 500 so these moving
+averages are on data 2 and again the
+slow moving average of the exit is three
+times the fast moving average of the
+exit because remember these two moving
+averages are for the entry and this
+moving average is for the exit so again
+we're optimizing from 5 to 60 step five
+about
+1,700 uh strategy so out of 1,700
+strategies I filtered 100 trades and 100
+uh dollars moving average I have 34
+strategies that doing really well and if
+I sort return to draw down I have 4.8
+and if we look at the 3D graph so this
+is five the exit and then
+10 15
+so 20 is already good I have this
+diagonal then 25 is also good this is a
+huge stable area 30 is good 35 H not so
+much 40 starts to drop 45 is really good
+in here so again whatever you pick there
+is a big huge stable area look at 55
+almost all of it is a stable area and so
+let me pick
+maybe this guy 80 trade 64% win rate at
+$1,100 on average this is for the es so
+this is a huge average
+trade and this is the uh the equity
+curve so here are five strategies so as
+you can see I'm trading the es Futures
+and using data 2 as the VIX Index and
+I'm using the signal from the VIX Index
+the moving average crossover to enter
+and exit the es but because there are
+low number of Trades so I picked five
+strategies now I can trade the micro
+Futures and I will need half the margin
+required for One Mini es contract so
+that's also an advantage now I need less
+money and I'm trading better strategies
+of course they will have correlations
+but still is better than picking one so
+let's back test these five
+strategies and look at this this is
+amazing
+so how many trades now we
+have so I have now 283 strategies on
+average I am making
+$2,400 so that is an advanced way to
+trade because most people looking for a
+single strategy the Holy Grail I'm going
+to trade the strategy be rich but
+usually it doesn't work that way you
+need more than one strategy you can add
+five more strategies and now you're
+trading 10 strategies with the the Marg
+requirement of a single e here is the
+periodical analysis and we can see since
+2007 and
+currently I have four trades this year
+I'm doing this video uh till the
+beginning of March 2024 and we have four
+trades with a 100% win rate and uh the
+average is about
+$3,500 but here is the part where I want
+you to focus on so we are trading the
+same instrument the same strategy I'm
+only picking different look Backs from a
+stable area so this is not over
+optimizing I'm picking a stable area and
+yes I have correlations but still this
+is not one this is not 100% correlated
+so I'm still getting
+diversification from this portfolio like
+look at this this
+3543 46 so this is really really good
+and finally because the VIX Index is
+negatively correlated to the S&P 500 we
+can use it as a filter for other
+strategies on the S&P 500 so let's try
+that now we added the rsi2 strategy on
+the S&P 500 so this is the regular RSI 2
+strategy when the RSI 2 below 25 we go
+along and when the RSI 2 above 75 we
+exit so this is the strategy
+$175,000 profit 3.8 return to draw down
+ratio and 327 trades 76 uh% win rate
+$500 on average per trade so now I will
+use the vix as a
+filter to enter the rsi2 strategy and in
+this case we will use when the moving
+average the fast moving average above
+the slow moving average we will allow
+the strategy to go long using the rsi2
+and when the slow when the fast moving
+average below the slow moving average we
+will not allow the trades to happen so
+very easy it's just a filter so now
+because we are using the vix as a filter
+we don't have an exit moving average
+remember we are using the RSI to enter
+an exit the strategy so this is just a
+filter so we'll go from 5 to 100 step
+five and here I have let's go with four
+so I have 89 strategies that beat the
+original uh
+strategy and this is seven obviously
+this is really good and if we pick this
+one this one is using 40 and 65 so 40
+the fast length 65 is the slow length
+and let me pick that one and let's look
+at our stats so now we have we filtered
+almost 15 50 trades we increase our
+average trade we increase our win rate
+so everything is good uh the curve oh my
+God this is one of the best curves for
+the RSI that I've seen uh in a while uh
+because like there is almost no dip and
+let's look at the
+periodical and yeah as expected it's one
+of the best cures so far so 2007 is a
+loss that's nothing and then it's a win
+all the way and again look at this this
+year 100% win rate for three trades and
+making $3,000 on average I mean come on
+if you are watching this Channel and you
+didn't pick any RSI strategy yet I don't
+know what to say CU so like I featured
+probably
+aund
+tradable robust RSI strategy so far on
+the channel the takeaways are the vix
+and index can be traded on its own and
+it's really profitable can be used as a
+signal to enter and exit a strategy on
+the S&P 500 and also can be used as a
+filter and it's really potent filter on
+the S&P 500 because remember all other
+filters are a derivative of price now
+last video I did was about using volume
+which is totally different and now this
+the fix which is also totally different
+to learn more about the evx watch this
+video and I will see you
+[Music]
+there

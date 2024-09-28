@@ -1,0 +1,234 @@
+if your trading chart looking something
+like this then you are in trouble
+because more indicators are not
+correlated with better strategy results
+in this video I will prove this to you I
+will show you a single pattern that is
+traded on multiple Forex pairs with win
+rate above 85% on the major Forex Pairs
+and the pattern has been working for the
+past decade now don't get me wrong
+indicators are extremely powerful and we
+can use them to enter or exit a tra or
+to filter a trade but I would like to
+show you how you can trade without
+indicators because patterns are as
+powerful as indicator and today pattern
+is no different it is an extremely
+simple pattern that we will use on
+multiple Forex pairs exactly the same
+way here is how our pattern looks like
+so it's a two bar pattern the first bar
+we don't care how it looks like if it's
+up or down it doesn't matter the second
+bar is a down bar so this is the long
+pattern we are looking for a down bar
+meaning the close is below the open also
+the close has to be below yesterday's
+low so only two conditions for this bar
+it has to be a down bar and the close
+below yesterday's low once we have this
+pattern then we will enter next day at
+the penetration of the current high so
+if the price goes up through this level
+then we will buy if we buy then we have
+two exit conditions if the close price
+is above our entry price meaning we are
+profitable then we will exit this can
+happen on any B if it doesn't happen for
+the next 10 bars which is a number of
+fixed bars then we will also exit so two
+exits either profitable close if it
+doesn't happen after 10 bars we exit and
+it's the opposite for the short pattern
+again two bar pattern the first bar we
+don't care how it looks like the second
+bar which is the current bar it has to
+be an up bar so the close higher than
+the open and also the close has to be
+higher than the previous high once this
+pattern happen then the next day we are
+looking to short at this low once we are
+in a short trade then if the close is
+below our entry price because we are
+shorting that means we are profitable so
+we will exit this can happen at any bar
+if it doesn't happen for 10 bars then we
+will exit now in this video on purpose I
+didn't pick the best pattern to trade I
+also didn't pick the best Market to
+trade I just wanted to show you that
+this is extremely doable you can easily
+find a pattern to trade on any market so
+here I have the US Dollar Canadian
+dollar Forex pair represented in Futures
+with a symbol CD and the strategy is
+applied long and short let's look at
+some examples so here is a buy example
+so we have a down bar which is the close
+lower than the open and then the next
+day the bar penetrates the previous high
+so we enter also the same day the close
+is profitable so we exit now you notice
+here these are all down days but the
+next bar never penetrates the high this
+is a short trade an up bar and then the
+next day the bar penetrates the low so
+we enter short now we wait for a
+profitable position or 10 bars in this
+case we get the profitable close here so
+this close is profitable and then we
+exit on the same bar this is a short
+trade and the low penetrates the
+previous low because this is an up bar
+we enter short but we don't get a
+profitable close so we exit with a loss
+after 10 bars looking at the strategy
+results we have
+249 trades since 2011 126 Longs 123
+short and we notice immediately the long
+side doesn't perform well so the short
+side is making
+$128 for the Canadian dollar this is
+really good average trade because the
+tick in the Canadian dollar is
+6.25 so two ties and commission is like
+$20 so this is really good so even this
+is profitable with including Commission
+in slippage but it's not the best this
+is the equity curve it's a very good
+Equity curve going up all the time and
+these are the annual returns since 2011
+and you see how the win rate is amazing
+for the past 14 years we can see for the
+short side is
+91% and for the long side side is
+84% now let's look at other Forex pairs
+this is the Swiss frank again about 200
+trades split in the middle again very
+high win rate for both long and short
+but the short side here is amazing and
+the long side is not tradable this is
+the japanesians and this time the long
+side is losing a lot but the short side
+again it's very good this is the
+Australian dollar again about 250 trades
+very good win rate and this time both of
+them are not that good and finally this
+is the EUR US dollar again about 250
+trades and this time both sides are very
+good so the short side is $32 on average
+with a 91% win rate and the long side is
+$150 with about again 90% win rate so
+both sides are amazing the equity curve
+again alone is amazing and the annual
+period analysis all of them are
+profitable and you can see how the
+fluctuation in the win rate is minimal
+you can see we are going from 83% all
+the way to 100% so the strategy performs
+best on the EUR US dollar remember all
+these Forex pairs are against the US
+dollar with the Euro performing the best
+and the Australian doar is the worst so
+here is a portfolio of the six major
+Forex pairs so USD against the Japanese
+Y and USD against Swiss frank British
+pound Canadian dollar Australian dollar
+and Euro dollar only the euro dollar is
+Trading long and short and all the other
+strategies are trading short only and
+this is how the equity curve looks like
+it's amazing going up all the time we
+have 800 trades on the short side and
+127 trades on the long side remember
+this is only for the euro dollar and
+both of them achieving the same average
+and very close win rate so overall we
+have 88.5% win rate with about $150 on
+average this is the periodical analysis
+since 2011 we have all winning years
+with an average of 70 trades per year
+this is the contribution from every
+symbol so so the Euro because Trading
+long and short profitably it's about
+$56,000 the next best is the Swiss frank
+on the short side only about
+$27,000 and the rest are double digits
+and remember the Australian dollar is
+the worst one and we can see how is it
+doing so the short side alone is 77 now
+remember it used to be 50 with the long
+side but because we eliminated the long
+side so some trade will have time to
+work and that's why you get higher
+average trade and this is the best part
+the correlation between all these
+strategies on weekly basis is like this
+and the highest correlation we see
+between Bridge pound and the Swiss frank
+but even then this is 0 two and it's
+almost like this is considered nothing
+anything below 2.3 is really considered
+very very low correlation but here we
+have 0.05 .02 and 0er now this is very
+very good when you are constructing a
+portfolio you want this correlation to
+be very low so every strategy is working
+alone also this will help you a lot when
+you are capitalizing this portfolio so
+the less correlated the strategies the
+less Capital you are going to need to
+trade this portfolio now why this port
+folio and all the strategies I started
+them since 2011 so this is the same
+portfolio and now we are starting in
+2008 and we can see a big draw down
+starting around May
+2010 and ended in May 2011 now this
+doesn't mean that you cannot trade this
+still the strategy is
+amazing the one single pattern on six
+major Forex Pairs and doing very well
+but this type of draw down we can easily
+filter it out with basically a strategy
+filter but because the strategy has no
+filter it's only a pattern that's why
+but I'm going to show you a simple
+filter that you don't need even to code
+it in you just need to look at the chart
+so this is the S&P 500 and you might say
+well why you are doing a filter on the
+S&P 5 remember we are trading all these
+pairs against the US dollar and of
+course the S&P 500 is the best
+representative index of of the US
+economy so this is a monthly bar on the
+S&P 500 and using the 50 bars on the
+monthly chart will keep you on the right
+side so you can see here July
+2001 we get out in October
+2004 and this is July
+2008 we get out in December 2010 we can
+add a 10 bar so again on the monthly
+chart the yellow line now is the 10 bar
+moving average and the red line is the
+50 bar moving average and now we can use
+the cross as the filter and the uh the
+advantage of the Cross now is we will be
+on the right side with these so you see
+here the yellow is above the red again
+here again here again here so we are
+always on the right side and we still
+get out of these draw
+now even though I showed you that you
+can use a single pattern to trade six
+strategies in a portfolio that is not
+the best way to go about it you should
+use all available patterns add filters
+with indicators and produce robust
+strategies that you can combine them in
+a portfolio to trade profitably if you
+like this video then you will love the
+next one
+[Music]

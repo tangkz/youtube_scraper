@@ -1,0 +1,187 @@
+if you are a Trader most likely you
+watch a lot of YouTube videos to get
+ideas about strategies to implement and
+if you are watching a lot of YouTube
+videos about strategies then most likely
+you came about video promoting RSI and
+Bollinger Bands these videos put you
+know numbers and thousands of dollars
+and secrets and the best of blah blah
+blah now I have debunked this before in
+this video and you can watch that when
+you are building a strategy it makes no
+sense to layer the same indicators even
+they have different name Bollinger band
+and RSI both are measuring pullbacks now
+you can change the look back period and
+you can have a different
+plotting of these indicators but at the
+end of the day they are doing the same
+thing and here is what I mean so this is
+the US dollar Swiss franc daily bar and
+the blue channels are the Bollinger
+Bands with 20-day moving average and two
+standard deviation and the bottom graph
+we can see the RSI 7 with 30 and 70
+levels and clearly we can see that
+anytime the Bollinger Bands move up we
+can see the RSI is up and when they move
+down measuring pullbacks the RSI is down
+again here they're above the channel RSI
+is above below the channel here below
+the channel here same thing with the RSI
+it's rarely that they don't overlap
+right for example here this is a
+pullback below the channel and the RSI
+didn't make it but also I can easily
+make a filter because we can clearly see
+here that the Bollinger Bands they are
+not expanding look at the width of this
+Bollinger band so I can easily put a
+filter on the width of the channel same
+as the width of the RSI between 30 and
+70. from the graphics you can easily
+tell they are doing the same thing
+exactly even though sometimes very few
+times they don't overlap but most of the
+time they do overlap still we will test
+to verify and this is the strategy
+applied in multi-charge so I am using
+the Swiss franc Futures Contract which
+represents the US dollar Swiss franc and
+Bollinger band is the same 20-day moving
+average to a standard deviation and RSI
+7 with 30 and 70 levels so we will go
+along when the close below the lower
+Bollinger Bands and when the RSI below
+30 and we will short on the opposite
+side so we short when the close above
+Bollinger Bands and the RSI above 70.
+and I have a small filter which is when
+the price goes above we wait when the
+price to come back in and then we short
+same thing when the price go below we
+wait when the price goes back in to go
+long this will save us from
+something like this
+you can see when this one goes below we
+don't go automatically long we are
+waiting for the close to get in so this
+filter can be implemented many ways for
+example you can see if the expansion
+accelerating then also you can skip that
+trade this is the way I implement it
+which is the close has to be below the
+lower Bollinger Bands in a certain
+threshold and then gets back in and then
+we can go along so applying the strategy
+we get the following performance we make
+82 000 which is really good for the
+Swiss franc and 37 000 in a drawdown the
+curve looks like this we only have a
+problem here in in the beginning in
+2011. this is about 30 percent drawdown
+and we can easily mitigate this with a
+filter but first of all let me show you
+the effect of the RSI currently we have
+109 trades and we're making on average
+757 dollars so if I remove the condition
+for the RSI to align with the Bollinger
+Bands and let's build that strategy we
+get more trades and the long side suffer
+so if we go back unfortunately we don't
+get rid of the drawdown remember the RSI
+did not affect the short Side by much
+but it did affect the long trades so
+long trades 50 making 210 and if we put
+the filter back on this is the RSI
+filter only for long trades so instead
+of 50 we get rid of 11 trades and these
+are the bad trades so the RSI worked in
+our favor only for the long side this is
+now another filter which is extremely
+simple it's the close below the 50-day
+moving average for long and above the
+50-day moving average for short and it
+matches the behavior of the RSI we can
+see that we are making 77 losing the
+same amount of the throw down and we can
+see it's actually still in the same
+place so the RSI and the moving average
+which is a lot simpler achieve the same
+thing so that confirms my initial
+position which is the RSI will not add a
+lot to this strategy and finally I'm
+going to show you another filter this is
+momentum filter and this reduces the
+trades almost by half so we're making
+again half the money but but look at the
+drawdown the drawdown now is 11. so it
+went from 36 to 11. that is a huge drop
+in the drawdown and now this is
+combining the long RSI filter and the
+short momentum filter
+and now I am satisfied that we can get
+Best of Both Worlds look at this the
+curve now still moving up all the time
+and we are making new highs and our
+drawdown now went from 30 to something
+around 12 percent so basically with a
+simple filter like momentum which is the
+close higher than the previous two bars
+we can get much better results than the
+RSI which makes a lot of sense because
+momentum is totally different than the
+pullback that RSI is measuring but all
+this happened on only the Swiss franc
+which of course is not enough we barely
+have 100 trades so let's do the test on
+a portfolio so this is a portfolio of 39
+instruments covering crypto currencies
+bonds energy agriculture indexes and
+lyrics now this is Bollinger Bands with
+the two filters long using the RSI and
+short using momentum so looks like the
+losing strategies are more than the
+winning strategies I mean yes these are
+positive but really this is not if you
+include commission and slippage many of
+these will turn to losing strategies but
+we can pick inside this portfolio and we
+will find that some instrument match
+this style of trading let's look at
+wheat
+and this also looks good I mean same
+thing we have about 15 drawdown curve is
+going up
+let's see what else we have here so this
+is copper
+that's very ugly I will not use it and
+let's look at gold and gold looks really
+good so again about 15 of drawdown but
+Gold's making more than 200 000 and
+curve is up and vix this is horrible ym
+daily
+again this is horrible
+NASDAQ daily again I would not touch
+this this is 40 drawdown after 10 years
+so that's definitely not usable
+and of course we know the es is good for
+Mirror version but look at this I mean
+I've done so many strategies on the es
+using the RSI 2 that beats the crap out
+of the strategy
+so we barely have three instruments that
+are usable with this strategy so we got
+three instruments that work with this
+front that's better than zero I mean we
+did some research we found out some good
+strategies that we need to work on but
+overall the theme stays the same which
+is don't layer same style of indicator
+and astrology to learn more secrets
+about Bollinger Bands Make sure to watch
+this video and I will see you
+[Music]
+foreign
+[Music]

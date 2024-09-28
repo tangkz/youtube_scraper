@@ -1,0 +1,263 @@
+if you want to come up with your own
+entries for a strategy then that is a
+difficult proposal you might do
+meditation read a book go on Forum watch
+YouTube but the reality is you need to
+have a systemized way to build strategy
+now of course you can use a data mining
+package like strategy context but if you
+want to Target a certain type of
+instrument or a certain type of strategy
+then you need to come up with a
+enter a trade I already did a video
+about the most effective exits for a
+strategy and you can watch that over
+here today we will do the most effective
+entries so
+so right in this this is the S P 500
+futures data since 2006 and our first
+entry will be an indicator I am using in
+this example the KCC percent indicator
+you can watch the video dedicated to
+this indicator in the description or in
+the corner this indicator measures the
+pullback it's like the RSI but it does
+its calculation in a different way and
+here I am using the look back of 4
+smoothing of three and if we are below
+25 we will buy it in order to test the
+different types of entries we need to
+fix the exit type so of course we have
+many exit types in this case I'm using
+the bar since entry and the number here
+I'm using seven bars so if you're on a
+trade it doesn't matter if we are up if
+we are down there is no stop loss no
+profit Target we will exit after 7 bars
+and let's look at our performance so
+this is how it looks like and to compare
+we will look always at the total trades
+so 234 trades and 63 win rate we're
+making 340 dollars and this is another
+type of Entry as an indicator if the
+average of 60 bars greater than the
+average of 120 bahts
+now remember if you leave this alone
+there will be very few trades but
+because we have the seven day exit then
+again we have 341 trades so on average
+we're making 265
+with 65 percent win rate of course I
+cannot do all type of indicators here
+because you can imagine you can at least
+have a hundred indicators and each
+indicator has different varieties so the
+variety is here you can write a book
+about entries second type of Entry is
+the price indicator intersection here we
+will use our price either the close or
+the average close or the open the hide
+law any part of our current price we use
+it when it intersects with an indicator
+so those indicators will be the one that
+is in the same space as the charge or
+moving average Bollinger band kelpner
+bands Fibonacci anything that interacts
+with the price we can use so in this
+case I'm using if the close crosses
+above the average of five bucks so if we
+compile this
+we have 306 trades 57 57 win rate and
+130 dollars lost on average now I'm
+using the S P 500 so of course it makes
+sense to use this below because this is
+the newer version instrument
+and like I estimated so we have 62 one
+right now with an average of 291 rates
+another example is if the close crosses
+below a Bollinger band and again we can
+compile this we have 86 trades with 365
+on average
+and 64 when percent again the varieties
+here are endless because out of the 100
+indicators let's say in your platform
+half of them will be with the price and
+you can use any variations of those with
+the intersection of the clause or the
+average clause or the a close plus high
+low divided by three you can see there
+are millions of variations that you can
+do out of those again a whole book can
+be written on twice plus the indicators
+entry type number three is a price level
+this is when we know exactly where we
+want to enter so we don't care about
+indicators we don't care about patterns
+we know exactly where we want in this
+case I put this example so if the close
+of yesterday minus the average true
+range times 1.2 this is a multiplier so
+basically we are looking if today price
+go below yesterday's close and the
+distance is 1.2 times the average true
+range we will enter to go along and if
+we compile this
+so we have 268 trades using this
+methodology 60 win rate on average
+making
+142 dollars per trade this type of Entry
+usually is used either for Mirror
+version or breakout without any
+indicators because you can always add
+some distance from some initial point
+that happened yesterday this initial
+Point could be a moving average could be
+Bollinger Bands could be closed but
+usually an initial starting point and
+then you add some distance up or down to
+either go long or go short entry number
+four is a pattern so in this case I have
+this pattern I am counting if the close
+lower than the previous close and then
+within five bars if I have three or more
+then I will enter the trade so basically
+I'm looking for a pullback but I am
+giving some leeway for this pullback so
+I'm not looking for exactly three bars
+in a row down of course you can do that
+it's also pattern but I am looking for a
+leeway which is in five bars if I have
+three of them are pulling down then I
+will enter that right and if we compile
+this
+we see that this happens actually a lot
+on the SMP and that's why it's a mirror
+version instrument look at this 326
+times this pattern happens and 355
+dollars on average the second example is
+I am looking for an engulfing bot so
+basically if today is closed lower than
+the open that means we have a down day
+and it's also an engulfing bar then we
+will enter a trade and this engulfing
+bar have been 176 times the wind percent
+is 60 and the average trade is 485. this
+like worth a lot
+so you can see here this is the pattern
+so it's engulfing because the high is
+higher than the previous high low
+previous than previous low and it's a
+down day same thing here this is an
+engulfing bar so we enter next part this
+is an engulfing bar we enter next bar
+and this is an engulfing bar we enter
+next bar and so on and so forth but it's
+very interesting to see that a simple
+pattern generates this type of profit
+entry number five is a trend following
+entry we can use many indicators to
+achieve Trend following
+we can actually use geltner channels we
+can use in this case the linear
+regression we can use the highest high
+and so on and so forth so linear
+regression if it's moving up then we
+enter a trade and in this case of course
+we will have less Trace but because
+we're exiting remember always after
+seven bars so that's why we have too
+many entries and even then the profit
+the 1 percent 61 but of course the
+average trade is too low entry type
+number six is the opposite of trend
+following which is mean reversion of
+course you can achieve mere version in
+literally hundreds of ways here I have
+the close lower than the close of three
+bars ago we compile this
+now this is on the es we know it's going
+to work
+364 trades 60 would rate 382 and of
+course we can use the RSI
+if we compile this
+it's 287 dollars on average 61 trades
+and 285 so you can see that the close
+lower than the previous close is much
+better than the indicator that's
+measuring that so again you can achieve
+the mirror version many many ways entry
+type number seven is a momentum again
+with momentum there are millions ways to
+achieve this and here I have two
+examples so the first one is the close
+higher than the previous clause in this
+case I put 10 bars so the Clause is
+higher than 10 bars ago then we will
+enter a trade remember we're always
+exiting after seven bars so we have 371
+trades 217 dollars on average and if we
+try this indicator again I'm looking for
+momentum up so if the momentum of 50
+higher than the momentum of 100 again we
+can do that that's 177 trades 200 on
+average and of course you can use the
+momentum itself so we can do momentum
+higher than the momentum of previous bar
+and again it's 62 percent win rate 367
+dollars 422 trades now each instrument
+has a different seasonal pattern some
+have really prominent seasonal patterns
+and some just nothing happening I did a
+video about the copper and you can watch
+that here where I use this pattern to
+build a strategy really profitable
+strategy so we can use any patterns that
+exist so this you cannot force it the
+pattern either exists or it doesn't so
+in this case I'm using if the day of the
+week is Friday that means if today's
+Friday I will buy Monday this is the S P
+500 so this pattern for example if it
+works it works here only it might work
+on other instruments we don't know we
+have to test but in any case so this is
+using a daily pattern which is Monday is
+up so let's test
+so we have 836 Mondays in this period
+that I'm testing and 53 win rate 85 on
+average now this is not a good pattern
+this is the only testing because I don't
+want to change the instrument because
+remember this is holding overnight so
+most likely all this 85 dollars coming
+from holding overnight the most
+effective entry type is layering so just
+like in the exits where we layer some
+exits together we can layer entries and
+this is very effective and some types of
+entries they work really well when they
+are layered for example if you layer the
+price level with an indicator those work
+really well because now the indicator is
+telling you that it's a good time to
+enter you're also entering at a price
+level that's favorable to you so now I
+layered an indicator with a price level
+in this case we will buy next bar if the
+price is 1.2 times the average true
+range below the but only when the RSI 2
+is below 25 so we're layering an
+indicator with a price level and let's
+compile this
+so 209 trades 65 profitable and 362
+dollars on average so you can easily see
+how it is simple to systemize your
+workflow of building strategy you have
+methods for entries method for exit and
+I will do another video on filters and
+then you have the full recipe for any
+strategy one to learn more watch this
+video and I will see you there
+[Music]
+thank you
+[Music]

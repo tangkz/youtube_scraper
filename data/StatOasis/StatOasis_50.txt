@@ -1,0 +1,18 @@
+the pattern that I found is that the S P
+500 usually have a one big range day
+every month this big range definition of
+course has many interpretation but
+usually it's a big range you can easily
+spot it on a chart and you can easily
+quantify that so here at the bottom I
+have an indicator that plots a bar
+whenever it finds this pattern so the
+way I defined this big range day is
+whenever the bar range
+is double the range of the previous bar
+plus the same bar is greater than one
+and a half time the average true range
+of the last 20 bucks once you put that
+definition in then we have these bars
+and as you can see it's not every month
+but on average it's about once a month

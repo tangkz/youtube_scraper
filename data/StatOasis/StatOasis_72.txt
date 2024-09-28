@@ -1,0 +1,287 @@
+volume is a big part in every Trader
+Arsenal I know some traders who only use
+volume to take their trades they have
+volume profile they only look for a
+surge in volume before taking a breakout
+and so on and so forth as algo traders
+of course we have to test everything we
+read we hear we watch and so in this
+video I will try to see if volume has
+any effect on strategies on your screen
+you see the chart of the S P 500 Index
+represented by the e-mini Futures the
+daily session and at the bottom here we
+have the volume indicator so if the
+volume is higher than the previous day
+then it's painted green and if it's
+lower than the previous day then it's
+painted red and the cyan indicator here
+is the 50-day moving average of this
+volume before I do any testing I will
+show you how the S P 500 drifts up every
+day and it is behind the reason why I
+will only go long in the testing the
+test I will do is we buy every day at
+the open and we sell at the close this
+is the result of the test for the past
+17 years and we can look at the trades
+we have
+4259 trades that's all the days
+basically available and on average
+you're making 19 so this average is
+without deducting the slippage and
+commission this is buying every day at
+the open selling at the close of course
+if I reverse this strategy we can see it
+is exactly the opposite and now we are
+losing 19 on average but the edge is not
+only in making money it's also in the
+wind percent you can see here the one
+percent is 45 and when we are long only
+is 55. this is very important point to
+take in for every Market you need to
+test if the market has a tendency to go
+up or to go down or do nothing because
+basically then you can match the style
+of the strategy to that model of course
+I've said this many times on the channel
+but this test just proves that the S P
+500 tends to drift up all the time and
+we know this by because we're making 19
+positive on average when we go along
+every day also we are 55 percent uh win
+rate on the long side and 45 percent win
+rate on the short side that means we
+have a five percent Edge on the long
+side so although I do this all the time
+but based on this information we will
+only test the long side on the S P 500.
+to test the volume as a signal we will
+buy whenever the volume is higher than
+the previous volume
+and we will sell when the volume is
+lower than the previous volume so this
+is extremely simple strategy we just
+want to see if the volume has any effect
+on the daily time frame and this is our
+strategy applied to the S P 500 when the
+volume Red Bar switches to Green we buy
+and when the volume green bar switches
+to Red we sell so we can see here again
+green we buy red we still green by Red
+Cell green boy red cell and if we look
+at the stats for the strategy we are
+making forty eight thousand dollars and
+our drawdown is 94
+000 we have 1256 trades for the past 17
+years making on average 40 dollars again
+not including slippage and commission so
+this is a definitely losing strategy but
+the volume did provide a little bit of
+an extra Edge than the normal drift in
+the S P 500 remember remember the normal
+drift it's about 19 on average per trade
+and here we are making almost double the
+next test is I will flip this equation
+so we will buy when the volume is lower
+than the previous volume and we will
+exit when the volume is higher than the
+previous one and as you can see when we
+switch from green volume to Red volume
+we buy and when we switch from Red
+volume to Green volume we sell so same
+here again same here and if we look at
+the stats for this strategy we notice
+that we are close in the number of
+Trades but now our average trade is more
+than double and also we enhance our
+return to draw down by a lot but of
+course this average is also not good
+because if you include slippage and
+commission then this is not a
+satisfactory number the next test is we
+will use the volume average
+and now you can see the indicator has
+changed basically when the volume
+average is higher than the previous
+average we paint the bar as green and
+when it is lower we paint it as red and
+so the strategy will be we will go along
+again when we switch from red to green
+and we will exit when we switch from
+green to Red so basically this is the
+strategy when the average volume of the
+past 50 bars is higher than the average
+volume of the past 50 parts then we buy
+and we sell when it is lower and we can
+see here when we switch from red to
+Green we go long and when we switch from
+green to Red we exit so even though
+these are lower bars we are using the
+average and that's why we are still in
+this trade same here we switch from red
+to Green we go long and we only exit
+when this bar switches to red so even
+though the volume is dropping here we
+are still in the trade
+and if we look at the stats now we can
+see we are half the number of Trades
+but double the amount of the average
+trade so we enhance our strategy a lot
+by using the volume average and if you
+look at the return to draw down now it's
+two and this average is usable in the S
+P 500 once you include the slippage and
+commission win rate here is 64 next test
+is we will flip this so basically we
+will buy when the average volume of 50
+bar is lower than the previous one and
+we exit when it is the opposite and we
+can see so we go along when we switch
+from green to red and we exit when we
+switch from red to Green so again here
+green to Red we go along we exit red to
+green and the stat is not as good when
+we flip it the next test we will do is
+if the volume is increasing for the last
+three bars so if the volume is higher
+than the previous one and the previous
+one is higher than two bars ago two bars
+will go higher than three bars ago so we
+have three up volume bars in a row then
+we will buy
+and when this condition is not true we
+will sell now there is another
+smarter way to write this which if I can
+replace this with count F so basically
+count a volume is greater than the
+previous volume in the past four bars
+if it is three times
+so basically I'm looking at four bars
+and if in the four bars I have three of
+them where the volume is higher than the
+previous one then the Y condition is
+true so let's see the result of this
+test so now we have 431 trades and we
+are losing 70 dollars on average so of
+course that's not good and like we did
+with the rest now we will flip the logic
+so we will buy when this condition is
+not true and we will sell when the
+condition is true now we're making again
+same number of Trades 433s but now our
+average trade is amazing this is
+definitely an abstract that can cover
+everything you throw at it in terms of a
+slippage commission and outlier days and
+if we look at the strategy performance
+now we are making
+189 thousand dollars with fifty three
+thousand dollars drawdown so that's four
+to one return to maximum strategy
+drawdown and this is the curve we have
+the maximum drawdown happened here in
+2009 and the next one happened here in
+2022 so it turns out that volume really
+has some built-in advantage that we can
+exploit to build a strategy so in this
+case we only use the volume as a signal
+of course we have the advantage of
+matching the strategy to the indicator
+because I only picked long and I know
+that all long strategies will work but I
+just need to take care of the risk which
+is the drawdown now we will go the other
+way which is using the volume as a
+filter for your strategy so we have the
+same conditions but instead of taking
+the signal we will just add it to
+another entry signal and of course to
+make things easy and we can compare it
+to other stuff that we did on this
+channel I will use the RSI 2 strategy
+because you already know how the
+strategy performs and we can easily
+judge if the filter is good or not so
+first we apply the RSI 2 basic strategy
+basically we go along when the RSI 2
+below 30 we exit when the RSI 2 above
+70. there are no filters no slippage and
+commission we are making 175 thousand
+dollars with fifty thousand dollars
+drawdown for the past 17 years three two
+one return to draw down ratio
+about 400 trades with about 450 on
+average per trade our win rate is 75 and
+now we have six filters to add to the
+strategy so the first one will be if the
+volume is higher than the previous
+volume the strategy is about the same so
+425 362 let's see return to draw down
+it's a little bit lower so the filter
+doesn't have any advantage here now I
+will add the opposite of the filter
+which is I will only take the trades if
+the volume is lower than the previous
+volume and here we lower the trades and
+we increase our average trade to 500.
+also our win rate went up a little bit
+so we look at the performance we're
+still making three to one so the
+drawdown is a little bit lower but also
+the profits is a lot lower so again I
+wouldn't use this filter so now I will
+add the volume is up three bars in any
+four bars so this is 219 and 407 again
+we are lowering the three number of
+Trades and lowering the average trade
+the only thing is more important then is
+the drawdown is the same so that is not
+usable
+and let me do the opposite so that means
+we are only going to take the RSI 2
+signal when in any four bars we don't
+have three bars up and the volume so
+that's 320 trades 545 and let's look at
+the return to draw down return to draw
+down now is five so this is definitely a
+good filter so when we take any four
+volume bars and we look that there are
+no three bars going up then we take the
+rsi2 signal so on its own the volume as
+a signal was working as a strategy also
+when adding that to the RSI 2 it's also
+producing good results and finally I
+will test the moving average of the
+volume so it will take the RSI 2 signal
+when the moving average of the volume
+the 50 bars is higher than the previous
+moving average and here we are making
+two to one so that's definitely not good
+the trade analysis
+is the average is good but you see here
+we are making less money and higher
+drawdown and now let me flip it so now
+we will take the RSI 2 signal when the
+volume moving average is lower than the
+previous volume and again this is good
+so we are making 118 but our drawdown
+went to 25 so that's why we have a five
+to one return to maximum drawdown so
+even though we are making less money but
+still this is a good filter we can take
+the trade analysis we are making 200
+trades and now our win rate is the
+highest 77 percent and our average trade
+is also higher so two of our volume
+logic work great as a signal and as a
+filter the volume average worked great
+really as a filter for our strategy and
+the count number of bars of the volumes
+going up is good as a signal and good as
+a filter to see the effects of more
+indicators watch this video and I will
+see you there
+[Music]
+foreign
+foreign

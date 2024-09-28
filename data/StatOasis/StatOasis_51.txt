@@ -1,0 +1,280 @@
+price action is an important tool in
+every Trader's Arsenal now the
+definition of price action differ from
+one person to the next but to me all
+patterns fall into price action so this
+include candlesticks 4day 3-day
+formations today I will introduce you to
+an extremely powerful price action
+pattern it's a single bar price action
+pattern I use it as entry as exit and as
+filter and if you keep watching till the
+end of the video video you will end up
+with a strategy that works on multiple
+indexes using this pattern in fact this
+pattern just made $4,000 on a single
+contract last week welcome back everyone
+to St Oasis Channel my name is Ali Casey
+and first let me describe what this
+pattern is this is a representation of a
+Candlestick so every day in every
+instrument you will have this single bar
+which shows the open the close and the
+high and the low in this case the close
+is higher than the open so the close
+minus the open this is the body and then
+this is the highest point that the
+market reached during the day and this
+is the lowest point so if we deduct the
+low from the close and we divided by the
+high minus close we will get a fixed
+number between 0er and one and this is
+called IBS short for internal bar
+strength so the equation is close minus
+low divided by high minus low equal a
+number so if the close happen at the low
+that means close minus low is zero then
+this whole equation becomes zero and if
+the close happen at the high that means
+close minus low is the same as high
+minus low so that brings the equation to
+one so the equation is always between 0
+and one and of course if the close is
+anywhere in between then the number will
+be between zero and one so 0 2
+2327 whatever now if you multiply this
+whole equation by 100 then the number
+becomes 0 to 100 so whichever makes
+sense to you you can use that equation
+and that is how simple this pattern is
+first of all it uses only one bar so we
+don't need to look at 100 day moving
+average 5 day moving average we only
+need to look at a single bar and then we
+do our equation and and the result of
+our equation will be used as a filter as
+an entry or as an exit here we are in
+strategy quantx this is build
+1381 1837 we are in algo wizard so as to
+build any strategy we like and we will
+build the IBS pattern inside strategy
+Quant X so we can come
+here
+and I will put the result as a number
+and let's
+say3 so that means the close should be
+at the bottom third of the bar because
+if the close is here then the result
+will be about3 or lower and this worked
+very well as a meere reversion strategy
+so first I will test it on the S&P 500
+the data here since 2006 and we will do
+one contract and just to test our theory
+that these things work I will show you
+the exit end of day and I will save the
+chart data so we can look at the trade
+so let's run the back test and here is
+what it looks
+like and let's see trades on chart zoom
+in so this is what's happening when the
+close in the bottom thirdd we buy the
+next day and we exit the same day again
+bottom third we do it bottom third we do
+it and same thing here bottom third we
+buy we exit our loss same thing here we
+exit our loss and so on and so forth so
+the code working very nice now why do I
+do this is just to find if there is a
+raow edge in the strategy so in the
+overview you can see that we're already
+making
+$60 that is huge and definitely there is
+an edge there so you might say well you
+know you pick this because you already
+know and of course I do know and I have
+a huge bias because I know IBS works I
+have many strategies that uses IBS as an
+entry and exit and filter so there is no
+way for me not to know but still I will
+show you how you can find out if you are
+picking a peak or if this is really a
+raw Edge so the simplest way is to
+change
+this3 to the neighboring numbers so
+let's go to
+0.25 and run a fullback
+test and here we have we make more money
+and let's go
+[Music]
+to2 and now we make a lot more money so
+we know we're going in the right
+direction but now let's go to the
+opposite side which is
+35 and we make less money
+and if we go even to
+[Music]
+four and we back to around the same
+amount of money so we just find out by
+changing the parameter which is the only
+parameter we have we have only a single
+parameter and we went 30% up and down
+and we find out the row Edge is still
+there so that is really really good
+because changing the parameter up and
+down 30% and we still have a great Edge
+that means we are on solid foundation so
+now we can expand and build this
+strategy now this line takes a while to
+build and also we cannot customize it
+easily so in order to build strategies
+optimized we need to build a custom
+block and that is what I did so I have
+two custom blocks here one is where the
+equation lower than a value and the
+other one is where the equation is
+higher than a value so first let me pick
+now the exit so now I will switch the
+end of
+day and I will turn on the exit so now
+the exit is when the IBS is higher than
+a number and in this case it's 80 so
+let's start with 70 because this is
+30 and again you can see it's working
+and we can keep changing these up and
+down to find out that there is a row
+Edge there is a stable pattern so to do
+this the easy way we can go to op
+Optimizer and load our strategy and
+optimize it here so if you go to full
+settings optimization you can see we are
+using simple optimization and your own
+settings so with your own settings if
+you switch other parameters we only have
+two and this is sqx way of naming the
+variables remember our variable here
+were a custom block so when you use a
+custom block uh for some reason
+uh sqx uses its own naming although I
+have name for these variables but sqx
+doesn't use it in any case I know that
+this is the start because this goes 20
+and this is 80 so this is the lower than
+number and this is higher than number so
+let's optimize these from 5 to 45 in a
+step of five and the exit from 55 to
+95 in a step of five so that will give
+us
+81 combinations and those are all the
+combinations so if I run now I click on
+anyone so you can see here it's 82
+because this is the original strategy
+and now we get to the results so if you
+go to the optimization profile now we
+get to see the profile of our
+optimization so let me maximize this So
+currently what we are looking at a 3D
+surface
+of our entry and exit with the z-axis as
+net profit so this is net profit and we
+notice immediately that we starting from
+around 50,000 that means all our
+optimizations are profitable in fact
+let's go there so let me put this down
+so if i s by return to draw down ratio
+you can see minimum is 2.8 and you can
+see the net profit is 39 if I sort by
+net profit so that's 39 9 maximum is 264
+so all our
+optimizations are profitable now let's
+look at the 3D chart not only that we
+have a huge stable area so you can see
+that uh 55 all the way to
+95 they're all
+stable and anything above 15 to 55 is
+stable off and we can see Also let's go
+to maximum intraday grow down also we
+can see that it's very stable so all
+this area the green area is very stable
+the only one that is big here is above
+90 so this is 90 where we have a huge uh
+draw down now there's another way to
+look at this which if we go to
+2D and this is the maximum intraday and
+this is the entry so the entry from 5 to
+45 we can see that the best one is at
+five so green is the best and red is the
+worst and you can see so the difference
+here is big and if we switch to the exit
+so now it's 55 to 95 above 95 is also
+bad so we know that anything above 10
+below 90 will be good so if we go back
+here now and if I pick let's say 15 and
+and
+85 so that is below 15 and above 85 run
+the back test and let's look at our
+strategy now we can easily add slippage
+and commission let's go to settings and
+we can add per trade this is 17 and a
+half so this is uh including commission
+and slippage for the SNP if we run it
+again 377 trades
+221,000 now I I featured IBS many times
+on the channel and this is probably
+three years ago now I started with this
+pattern so you can consider 21 22 and 23
+is out of sample already live out of
+sample you can see the strategy makes a
+lot of money regardless of which one you
+pick as entry and exit in fact this
+December I posted in the community that
+this pattern will happen with the
+seasonality in December IBS was one of
+the strategies that I had and it all
+already made more than $4,000 on a
+single contract on the DS and we can
+check here that the strategy made
+$36,000 21 this is the out of sample
+21,22 and
+8,700 in 23 and as I told you in
+December it made $4,000 on a single
+trade now the title of the video is
+price action on on the NASDAQ so what is
+this es all about of course the es is
+the most prominent me reversion
+instrument and IBS is a mere version
+pattern so now let's test the same
+numbers same strategy same everything on
+the NASDAQ and this is very easy to do I
+just go to settings so it's very easy I
+just change to
+NQ and still doing one contract no
+commission this time and this is the
+strategy it makes more money money with
+an average of
+891 also last 3 years doing very well
+82,0 4,
+58,000 and here is the same strategy now
+on the Dow using the same data same
+everything single
+contract and this is amazing because the
+Dow is like $5 a point and we're still
+making
+174,000 with
+$480 on average and again 21 is
+$119,000 22 is $25,000 and this year is
+27 of course as usual I advocate to
+trade a portfolio of strategies and now
+you can combine all these but remember
+there are no filters here there are no
+variations in this strategy and it's
+amazing that the same strategy produce
+extremely high profits without
+optimization we just picked a stable
+area on the es and it works very good on
+the NASDAQ it works very good on the Dow
+and of course it works very good on a
+lot of other instruments to learn more
+about IBS watch this video and I will
+see you
+[Music]
+there

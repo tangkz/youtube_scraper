@@ -1,0 +1,194 @@
+would you like a system with this kind
+of performance in this video I will show
+you how I took a regular indicator and
+modified it to build this system back in
+1976 Larry Williams built a technical
+indicator called the ultimate oscillator
+basically it measures the true range and
+the bank pressure using three averages
+and its weight each one differently and
+it comes up with an oscillator this
+oscillator Smooths out the regular
+oscillators and basically produce a
+different curve if you use it to trade A
+Mir version strategy following in Larry
+Williams footsteps I built my own
+indicator which is called KCC perc
+basically it measures the changes in the
+clothes and then normalize it to get an
+oscillat and also that can be used to
+build Mir reversion strategies with the
+goal of building a different Equity
+curve than the other oscillators and
+then the next logical step is I took the
+ultimate oscillator concept and applied
+it to the KCC indicator basically I took
+three different time frames of the KCC
+perent indicator and then average them
+together and smooth the indicator to get
+a different oscillator that can be used
+to build mirror version systems but the
+idea is to get a different Equity care
+here we are in multichart and I have
+here the S&P 500 represented by E mini
+Futures going back to 2006 and I plotted
+below four indicators so here we have
+the RSI 2 with 30 and 70 highlighted and
+then below it I have the ultimate
+oscillator so the ultimate oscillator
+default values is 74 and 28 then on top
+I have the KCC indicator this is the one
+I built and this is the most recent
+indicator which is the ultimate C
+percent so the ultimate C percent
+indicator takes three period of KC c%
+average them down and then normalize it
+with a smoothing factor to get this
+oscillator from this chart we can see
+that many times they do align together
+so for example here you see this is
+peing down this is peeking down this is
+peeking down this is not and here we
+have four of them peeking down so even
+though the four indicators are measuring
+some kind of mean reversion but they are
+not the same and of course we can prove
+that with building a strategy using each
+indicator and we can see the results so
+now I have four charts of the same
+instrument the E mini futures of the S&P
+500 but now each chart has a different
+strategy applied to it using the
+different indicator so here top left is
+the
+rsi2 bottom left is the ultimate
+oscillator and then top right is the KCC
+perc and bottom left is the ultimate at
+c% and here are the report cards for
+each strategy so this is the RSI and we
+can see we are making
+$93,000 since 2006 this is up to end of
+September
+2023 74% win rate with 5 to1 return to
+draw down ratio our maximum draw down is
+19% the ultimate oscillator is making
+close to the same amount of money
+188,000 also very close return to draw
+down and a little bit higher percent win
+rate but it's doing all this with have
+the trades so here we have 424 trades
+and ultimate oscillator is
+244 trades very close draw down 21% and
+$40,000 now on this side we have the KCC
+per and the ultimate c% so kc% making
+$257,000 with a 7 to1 return to draw
+down ratio and that's because we have
+more money and lower draw down so the
+draw down even though it's close in the
+amount of money but it happens at the
+end and that's why it's 16% the win rate
+is
+70% but now we even go lower in terms of
+Trades and then the ultimate C percent
+making
+$27,000 with 11 to1 return to draw down
+ratio so even though we are making less
+money but we are are making a lot lower
+draw down that's 18,000 which comes to
+13% we still 70% win rate same as KCC
+perc but now we even lower number of
+Trades now all these strategies are
+optimized just to find a stable region
+and not for the purpose of the highest
+net profit so let's focus on the
+ultimate C perc so I did an optimization
+for the ultimate C perc and the number
+of optimizations is
+5,700 and if we filter a 100 Trade
+minimum and $100 on average per trade
+then we will get a lower number of
+strategies that comes to 2,200 so that's
+almost 40% of strategies so first thing
+we notice is all the strategies well 40%
+they're all profitable so the lowest is
+28,000 and the highest is 260,000 now
+you can sort in any ways but if we sort
+by return to draw down you can see the
+top 30 is above 9 to one uh return to
+draw down ratio so that's very good and
+you can see here we have all kind of
+values so I am not worried about picking
+any ones there are almost 2,000
+strategies making above
+$800,000 so that is great news for this
+new indicator because it's very stable
+it produce different result than the KCC
+perc with fewer trades I mean granted we
+want more trades but we can apply this
+indic indicator to multiple instruments
+to get more trades of course I didn't
+build this indicator to get the best net
+profit or the lowest number of Trades
+and so on I buil it for the single
+purpose of producing a different Equity
+curve and let me show you what I mean so
+now we are in portfolio Trader of
+multicharts and I applied the four
+strategies on the same instrument so if
+we back test this now so this is the
+four strategy G's combined together we
+have almost 8,000 trades with 73% win
+rate on average making
+$8,000 annually since 2006 we only have
+one year that ended up in a loss and so
+far this year for the past 9 months we
+had 48 trades of the four systems and on
+average making $2,000 per trade and so
+far we made
+$92,000 and this is the most important
+part you can see the correlations
+between these strategies is on the
+higher side but they are not extremely
+high now first thing we notice is even
+though the ultimate C perc is a
+derivative of the KCC percent the
+correlation it's not even close to 80
+it's 63 and also the ultimate c% it's
+medium correlated with the RSI and also
+medium correlated with the ultimate
+in fact if anything the RSI 2 and the
+ultimate oscillator are kind of on the
+high side correlated but here is the
+most important part if you are trading a
+single system on the S&P 500 futures the
+E minis you have its cousin which is the
+micro Futures the micro Futures is
+on10th of the e- mini that means each
+move in the S&P 500 E mini is equal to
+10 times the move in in the S&P 500
+micro Futures so instead of trading one
+contract on the EMES you can trade 10
+contracts in the micro Futures and the
+reason I'm telling you this is because
+now you can have five strategies like
+the one I showed you trade two micro
+Futures contracts in each strategy and
+those will produce a better smoother
+Equity curve than a single contract on
+one strategy on the S&P e Min I know
+it's a lot but basically you're trading
+a portfolio with the same amount of
+money dedicated to a single strategy on
+The e- Minis and that is why I am
+building a huge template that trades
+only me revering strategies using all
+these different indicators with
+different exits and different filters
+remember all these strategies that I
+just show you they have no filter at all
+zero not even the 200 day moving average
+to watch How I build the case CC perc
+indicator watch this video and I will
+see you
+[Music]
+there

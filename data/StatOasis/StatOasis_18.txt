@@ -1,0 +1,399 @@
+about a year ago I created an indicator
+called KCC perc it is an oscillator that
+basically measures the percent change
+between the price close and rank those
+percent changes and then smooth average
+it and create an oscillator now it is
+not created to be the best oscillator
+although I did my best to make it the
+best oscillator but basically we just
+want an oscillator that functions
+differently than the other oscillator
+so you get a different profile of the
+strategy that you build there is a
+separate video for the indicator and the
+link is in the description below and
+basically I tested the indicator and it
+beats the rsi2 which is like the
+measuring stick for uh all me reversion
+strategies 6 months later I added
+another variation called the ultimate C
+percent now the ultimate c% is based on
+the ultimate oscillator method of
+calculations so I take the KCC % and I
+do four speeds and then I add different
+weights to each speed combine them all
+together and get a new oscillator and
+that oscillator performs much better
+than KCC perc and again I have a
+separate video on that indicator you can
+watch it with the link in the
+description below in this video we are
+going to take the ultimate C
+oscillator and torture it with the algo
+versus crap workflow to see where it
+sits compared to the other indicators I
+am very proud of the algo versus crab
+Series this series was born out of
+necessity because of all the junk and
+the BS videos on YouTube about you know
+Traders testing I don't know what for
+100 trades manually and somehow they get
+the results and they rank it which of
+course means nothing 100 trades is
+nothing to get a conclusion about an
+indicator and espcially if you're
+comparing it with other indicators also
+I want to point out that all these tests
+that are done they are done like
+randomly sometimes on 5 minutes
+sometimes on 1 hour sometimes on daily
+and of course you know it's like
+comparing apples and not even oranges
+and watermelon so it's totally different
+on the other side the algo versus Craft
+series test each indicator with four
+speeds so we are not looking for the
+best trades we are looking for the
+number of Trades per speed so the
+indicator is tuned to produce 100 trades
+200 trades 300 trades and 400 plus
+trades those four speeds are then tested
+long and short meere reversion and
+breakout three different exits 66
+different markets all in all it produce
+about 3,100 strategies and about 65,000
+trades so it's extr extremely difficult
+for any indicator to go through all
+these testing and produce something most
+of the indicators fail but some of them
+do succeed and then we rank those
+successful indicators and to see which
+one is better now both indicators are
+available for free on many platforms so
+if you go to stasis Community to free
+shares you'll find this is KCC perc it's
+available for sqx mt4 mt5 trade station
+multi-arts and trading View and of
+course the code is open so you can
+easily uh transfer it to other platforms
+and then if you go above it a little bit
+then you will see the ultimate C
+oscillator currently it's only available
+for easy language but I'm working on
+making the code available on other
+platforms again the code is open and you
+can easily Port it to other platforms so
+this is how the indicators look on a
+chart at the bottom we have KCC percent
+oscillator and on top of it we have the
+ultimate c% both of them plotted on the
+S&P 500 uh e mini Futures daily chart so
+they look very similar but of course the
+signals are totally different you can
+see here we have many false signals
+basically or not even false but we have
+more signals here even when when we are
+using around the same speed so here is a
+simple strategy that is using ultimate C
+perc we buy when the price go below 25
+and we sell when the price is above 75
+and if we look at the results we have
+130,000 in profits
+3.2 return to draw down ratio 169 trades
+an average of
+$773 that is really really good and then
+if we look at the annual period analysis
+this is what we get now for the ultimate
+C we have six variables so the look back
+and the factor for the waiting and the
+smoothing average and then we have the
+buy level and sell level uh number of
+bars to exit so I'm not going to play
+with this smoothing average and the buy
+level and sell level just to make it
+more robust and it's easy to figure out
+so we are only going to optimize the
+look back the factor and the number of
+bars as exit on top of the cell level so
+it's about 420 strategies and let's look
+at a 3D
+graph so this is the look back for the
+ultimate C uh from 2 to 7 and then here
+we have the number of bars as exit on
+top of the exit when the oscillator is
+above
+75 and here we have the uh the factor so
+this produced the weights so one and a
+half half 2 2 and 1/2 3 and three and A2
+all of them are good by the way so even
+if it's below you can see the 100,000 is
+here so if I put this at a 100 so
+everything is above as you can see all
+of them are
+above but anyway obviously one and a
+half is really good so I can lift the
+price all the way to 180,000 and this is
+still very stable area so it doesn't
+matter I mean what I pick as long as I
+am
+above uh four bars for the
+exit and above three for the look back
+everything is stable so if I sort by
+return to draw down look at this 10.6
+return to draw down that's huge and as
+expected is above four the uh number of
+bars and then the look back above three
+so that's six and one and a half is the
+factor so uh we know everything here is
+stable it doesn't matter what we pick
+but let me pick this one and let's see
+how it looks like this is the periodical
+analysis obviously it's much better
+total trades now look at this it's
+almost $1,000 on average and more trades
+230 and overall 221
+10.6 return to draw down come on and
+look at this curve so this definitely
+beats the RSI 2 which as I said is the
+measur Tak and very proud of this
+indicator I use it in many strategies
+and the nice thing is the stability of
+this indicator because it averages down
+already multiple speeds so that's why
+you have many values already stable
+whereas the RSI or even the KCC perc uh
+it's very sensitive to the different
+speeds and now we will take it through
+the algo versus crb workflow first of
+all we are not looking at average trade
+we are not interested in making a
+profitable strategy instead we are
+focusing on the number of Trades so we
+tune the parameters the look back and
+the factor and the smoothing average to
+produce a certain number of Trades so we
+can compare it with other oscillators so
+I want to issue in the slow speed at
+least 100 trades so then I can easily
+compare it with the RSI with 100 trades
+or with percent B 100 trades or with
+Ballinger bands 100 trades and then we
+go long and short meere reversion and
+breakout so basically we're taking the
+opposite so we are not going along with
+what the indicator works on as usual and
+then we tested on
+66 diverse markets these are not ETFs
+and stocks where they are all the same
+basically these are Futures Market what
+I do then is I apply my robustness
+filters it's not about a profitable
+strategy it's about if it's robust or
+not and then once we have these filter
+strategies we compare it with other
+indicators so first of all let me show
+you the current database I have which is
+about 22 indicators and in total we have
+about 70,000 strategies with more than
+13 million trades so it's a huge
+database and out of that we have about
+3,000 Strat
+that passed the robustness filter with
+about half a million trades now so far I
+tested 22 indicators but not all of them
+are posted on the channel only eight are
+posted and you can see those eight and I
+am very proud to say that ultimate C per
+is number one so far out of the 22 now
+bear in mind I show you that KCC percent
+was number five so this is not tuned to
+make my indic looks the best I judge on
+the number
+strategies that passed the robustness
+filter and you can see out of the 22 the
+lowest is
+66 and the highest is 198 which is the
+ultimate C the next one is 179 and again
+179 I didn't show you but I already
+posted Williams R which is number three
+at 169 strategies now this section
+represent
+the ultimate c% numbers so 198
+strategies which represent
+7% out of all the strategies that pass
+the robustness filter in 198 strategies
+we have
+31,000 trades and those represent 6% out
+of the half million trades and if we
+focus on this part out of the 198
+strategies we have 53 me reversion and
+45 breakout we immediately can tell that
+this indicator although it's good for
+breakout but the edge lies in me
+reversion because we almost have three
+times the number of robust strategies in
+me reversion than breakout and slightly
+higher Edge in Long versus short now
+like I mentioned these are not
+strategies per se but they are already
+passing my robustness filters and we can
+see here this is end of day remember end
+of day they don't have enough time to
+produce enough profits but it's still 74
+pass and 89 for bars and
+35 uh stop loss and profit Target okay
+so we know ultimate C is number one
+produc the highest number of strategies
+that pass the robustness filter went
+through torture with the testing without
+optimizing for average trade or net
+profit or any anything remember that's
+the key we are not optimizing for profit
+we're just randomly testing our only
+target is the number of Trades so when
+we find a robust strategy with good
+average trade that really tells you
+something but now we have all this data
+so now what we know it's number one what
+do we do so now we can go through the
+database and find out where the edge
+lies so I sorted here all the markets
+that these strategies are based on so
+for example this is Australian dollar
+only one strategy on Australian dollar
+so been oil two British pound one
+Bitcoin 2 crude oil five okay so we
+immediately notice that even though the
+oscillator is number one it's robust but
+I wouldn't use it immediately on the
+Australian dollar I only have one good
+strategy but crude oil I have five and
+if I highlight this and we go a little
+bit we can see out of the five three
+long and two short and look at this
+they're all the same speed so 3 2 and
+four and long below 30 short above 70
+this is end of day and four bars and
+this is only the S SMP and the mid cup
+these are not including the NASDAQ they
+are sorted alphabetically so if I go on
+the right as expected most of them are
+long so no surprise there and if I go
+down look at this this is
+ethereum uh this is crypto Futures so
+this is very interesting we have five
+strategies of
+ethereum and three of them are short two
+are long but they are all breakout so
+this is really a good Edge that means I
+use the ultimate C for breakout strategy
+on ethereum short or long and I am
+positive I will create a good strategy
+then I go a little bit down also lean
+Hogs I have four
+strategies and we go they're all short
+that's very interesting three of them
+are breakout so I know the edge is in
+short breakout and soybeans uh this is
+also good I have five strategies on
+soybeans this is agriculture soybeans
+have the same uh big point value I like
+the S&P $50 and if we look at this again
+this is really good all of them are long
+mirror version so this is what I can
+extract which is some markets this
+indicator will works really well
+different speeds and concentrated on
+either mirror version or breakout long
+or short and that's is what I'm looking
+for and so for example like I showed you
+just now the soybeans all of them long
+all of them miror version so this is a
+strategy built on soybeans Futures and
+it's using
+the basic numbers which is 3 2 3 75 and
+25 so 3 2 3 for the ultimate C and 75 is
+we sell and 25 is we buy and there is
+also a number of bars to exit which is
+number four just remember the
+agriculture Futures most Futures have
+this problem and you need to take to
+look at it so for example if I go back
+all the way you can see now we are in
+negative values so this is zero and
+these are all negative so for example
+with soybeans we need to start at 210 in
+order to be positive values so this will
+change of course because Futures this is
+continuous contract and it's stitched
+and every time it's stitched the premium
+shift up or down for all data still
+since 2010 this is the regular
+strategy and uh like I told you soybeans
+is 50
+the big point value so if we look at we
+have almost 200 trades at
+$326 so this is really good average
+trade and we have 4.3 return to draw
+down ratio now from the database this is
+not a strategy we just picked that we
+have an edge here and now we can build a
+strategy and of course to build a
+strategy we need we can optimize and
+find the stable area and uh we can
+optimize all all these look back Factor
+Smooth by level s Lev and number of bars
+and find the stable area instead I'm not
+going to actually optimize but I will do
+something even better and this comes
+again for robustness what I will do is I
+will only add a filter I know these are
+stable values because all the edge are
+built around this value so I'll just add
+a filter and see if I can get something
+so these are pattern filters and this is
+the original strategy 68,0 3.28 return
+to draw down ratio our average trade is
+about 370 so if I sort by return to draw
+down we can immediately see a huge
+Improvement so 5.16 5.13 5.8 and look at
+our profit jump to 89 and 86 and these
+filters are extremely simple first of
+all they're not optimized they are fixed
+as all my filters you cannot optimize
+them they are basically binary it's
+either will work significantly or not
+work so for example 58 here this is a
+filter based on range of the bar and now
+these set of filters are all volatility
+and Direction so these are using my
+market regime filters again this is the
+original strategy a 328 and here I
+sorted by return to draw down and this
+time we have many more strategies doing
+better and this is expected because as
+usual volatility and direction are the
+best filters so let's say 47 strategies
+are doing much better and just to give
+you an idea here all these top filters
+are Direction filters these are using
+Market regime Direction and this is
+surprising because usually on the top I
+see volatility filters the key takeaway
+here is don't be afraid to take your
+strategy or your indicator through
+highly highly rigorous testing even if
+they are going to fail because out of
+this whole failure you will end up with
+something really really robust for
+example now that we have ultimate C perc
+I don't need now to look at another
+million indicators I have one indicator
+that's robust on at least 20 markets
+that will give you you know 100
+strategies easily long and short miror
+version and breakout to learn more about
+algo versus Craft series watch this
+video and I will see you there
+[Music]

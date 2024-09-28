@@ -1,0 +1,180 @@
+one of the most profitable strategies
+you can add to your portfolio is a mere
+version strategy trading these stock
+indexes this works almost globally but
+it works really well on the US indexes
+and there are many indicators that we
+can use to build a mere version strategy
+I did build the KCC percent indicator to
+get a different profile for a mirror
+version strategy than say the RSI KCC
+percent uses the closest to measure the
+percent difference between them and then
+rank those values to get an oscillator
+between 0 and 100 and then you from that
+you can get the signal to enter and exit
+the mark and this how the indicator
+looks on the chart you see it's an
+oscillator and here I have the levels 75
+for overbought and 25 for oversold just
+like the RSI but we will get a different
+profile if we trade this signal now you
+might say why bother with doing doing
+the same thing like the RSI or the
+stochastic or the stochastic RSI the
+reason is to get a different profile of
+your Equity curve because for example
+your RSI might be losing in 2021 and KCC
+percent will be winning that doesn't say
+that this indicator is better than that
+indicator it's just they get a different
+Equity curve and that will help you in
+building a portfolio and now I'm happy
+to say that KCC percent indicator is
+available on multiple platforms for you
+to explore build strategies with and so
+on and so forth it is available on
+tradestation using easy language on
+multi-charge using power language on sqx
+using Java and on trading View using
+pinescript and on MP4 and MP5 using mql
+instead of sending you on different
+pages to download the indicator I put
+all of them together in the community so
+if you go to start Oasis Community which
+is Free by the way for everybody to join
+it has huge content and you can ask
+questions share ideas it has all the
+previous recorded stream with a database
+this is the database for all questions
+that are answered on video and you can
+search for anything so for example if we
+want to search for Monte Carlo you'll
+get the episode the question number the
+timestamp and what the question is so do
+yourself a favor and join this great
+Community now the KCC indicator will be
+in the free shares where I share a lot
+of code for strategies and indicators
+and you can see I put everything
+together here so this is where you can
+get strategic Quant X and mt4 mt5 and of
+course it will include tradestation
+multi-charge code and also here this is
+the point script for trading view it
+includes the indicator and a strategy
+here we are in trading view the
+indicator is already there so in the
+meantime you can download the indicator
+and upload it to your the scripts so
+once you upload the indicator to your
+script it will be available under my
+script and you can see here this is my
+indicator and it's the same thing it has
+a look back period smoothing period and
+an overbought level and oversold level
+also if you downloaded this spine script
+package you will get a strategy and once
+you upload it to your script this is the
+strategy and this strategy is not coded
+by me
+so if we look at the code it was
+developed by Michael Patrick he's a
+viewer of the channel and basically used
+the indicator with a strategy to go long
+and short all the time in the market and
+this is the strategy tested on the es if
+we close this you can see this is the
+indicator and these are the signals and
+this strategy is always in the market
+long and short so I'm really happy that
+the indicator now available on multiple
+platforms that you can use it to test on
+other strategies of course you can use
+the indicator also as a filter for other
+signals for example if you build let's
+say uh go along on engulfing candle
+pattern you can use the KCC percent to
+filter so you can only go long if it's
+below 25 and you can use it also only
+for exit so for example exit if it's
+above 75 and so on and so forth here's
+the indicator now used on a portfolio of
+Futures market and I'm still using using
+exactly the same indicator so look back
+of seven more than three buying below 25
+exiting above 75. in this case I have
+the 200 day moving average as a filter
+to go long or short and if we back test
+this strategy since 2007 there's no
+Commission in slippage just just to show
+you the robustness of this indicator and
+this is the chart we get and if we go to
+the breakdown we can see that most
+Futures Market making money of course
+the indexes are the most uh will will
+benefit the most of this indicator but
+we also notice that gold is behaving
+really well with this indicator of
+soybeans and Bitcoin now Bitcoin there
+are only 17 trades so I wouldn't put too
+much thought behind this but then the
+nice thing is when we look at this
+portfolio you can see the correlation
+many of them of course are red like the
+DX is red with everybody and soybean
+meal oil and wheat lean hog they are red
+almost with a lot so the correlation is
+definitely good considering we are using
+exactly the same settings for all
+markets now this is not new information
+I share this a lot on this channel that
+mirror version strategies works really
+well with us indexes but also works
+really well with a lot more markets than
+you think of and the future portfolio
+that I just showed you proves that now
+it also works really well on ETFs so
+here are 15 ETFs there are sectors and
+indexes and this is leveraged ETF so the
+Leverage is built in and if we test this
+portfolio again we can see that the
+correlations are not as expected so
+obviously we expect the triple Q This is
+the NASDAQ is highly correlated with spy
+and E The Leverage NASDAQ
+ETF is also highly correlated with spy
+but we can see that not all of them are
+so for example a CZ this is the small
+cap World index it's 35 that's
+considered not a lot xlu of course these
+are sectors even though they are part of
+the Spy they are not highly correlated
+with then em this is the emerging market
+and SLV these are really really low
+correlation of course ivv this is it's
+like the Spy except you know the
+weighting are different so that's why
+the huge correlation here but the
+performance is actually better than the
+Futures and of course I picked the the
+best e ETFs that work with this
+indicator
+and we can see that we barely hit
+14 drawdown but since 2004 this is
+performing beautiful so I highly highly
+recommend that you download the
+indicator use it in your own systems
+because the indicator produce signals
+different than the RSI macd stochastic
+and so on and so forth and that's the
+whole point the whole point is to get a
+different Equity curve even though this
+is a mere reverting indicator and of
+course like I mentioned you can use it
+also as a filter to find more about this
+indicator watch this video and I will
+see you there
+[Music]
+foreign
+[Music]

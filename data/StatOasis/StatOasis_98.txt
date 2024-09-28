@@ -1,0 +1,291 @@
+about seven months ago I created an
+indicator called KCC percent it stands
+for my name Casey and the percent change
+in the closes of every bar the idea
+behind the indicator came when I wanted
+to create a different profile for me
+reversion strategies so this indicator
+uses a different method to calculate the
+pullback in price on every instrument
+from the other mirror version indicator
+just like the RSI you can watch that
+video over here today I will use the
+same indicator KCC percent to build a
+mirror version strategy on the Futures
+silver market it's an extremely simple
+one I'm using the KCC indicator default
+so this is the lookbook and the
+smoothing four and three so four look
+back three smoothing and then the levels
+just like the RSI is 30 and 70. now I
+have this condition if true so in case
+when you're developing the strategy you
+want to add any condition here any
+filter it could be volatility it could
+be Direction anything you like so of
+course right currently we're not using
+anything so when the KCC indicator is
+below the buy level we will buy
+and when it is above the cell level we
+will sell short of course buy and sell
+sure that means we are always in the
+market flipping between long and short
+and as you can see clearly here so we
+are always in the market using this
+strategy and if we look at the
+performance of the strategy so it's
+already making a thousand trades almost
+split in the middle I mean not almost it
+is split in the middle and making 300 on
+average which is very very good if you
+are an algo trading masterclass student
+then you will receive this as part of
+the tools and you can see the silver
+requires 65 dollars for round trip for
+commission and slippage so three times
+65 is around two hundred dollars so 330
+is definitely much better than two
+hundred dollars now if we look at the
+total we are making 356 000
+and 81 000 drawdown so again that's
+really really good but you might say you
+probably optimized this before doing the
+video which I did not but also by chance
+you could have picked the peak numbers
+just randomly but few developer lot of
+strategies you will have a built-in bias
+because you develop those strategies
+some numbers will stick in your head and
+this also might happen to me here
+because I know those numbers usually get
+a good result so in order to fight this
+to fight the built-in bias so we need to
+test the adjacent variables to this
+strategy and here are the settings I'm
+using so the lockbox between 2 and 10 I
+mean 10 is already long but I will use
+it and then the smoothing 2 and 6 and
+then the by level between 10 and 40 and
+the cell level for the short is between
+60 and 90. so all these come up to
+2205 combinations so we test them all
+and the first thing we do is we filter
+so we will not trade anything below a
+hundred trades also I'm not using
+anything below 200 on average 200 means
+that I am getting three times my average
+slippage and commission that's really a
+safe number of course the more the
+better remember the total number of
+strategies was 2205
+and with this filter we get 689 so 689
+divided by 20205
+that means 31 of the strategies after
+checking all the adjacent parameters are
+usable not only profitable but usable
+because profitable probably they are 90
+profitable but usable because of the
+average trade so if I sort by the return
+to maximum drawdown this is my custom
+Fitness
+so we can see here we have 4.4 and on
+the lower end we have 0.14 of course
+this is not usable so this is what I
+mean I have an average trade of more
+than 200 I have more than 100 trades and
+of course my strategy is profitable
+based on my average trade but look at
+this drawdown 200 0005. so obviously
+this is not a usable strategy so what we
+want is at least two because two that
+means the total net profit is twice the
+maximum drawdown of course we want more
+so let's add this filter so greater than
+two
+and now the number of strategies is 174
+and again we bring our calculator so 174
+divided by 2205 that's almost eight
+percent profitable strategy so if you
+are new or a beginner Trader then you
+might think this is very low just to let
+you know this is extremely high because
+if you build
+how many strategies and you test them
+for robustness usually you get like
+point one percent uh robust strategy so
+the fact that we are getting almost
+eight percent that's still a huge number
+and we are comfortably should eliminate
+many of these strategies so now out of
+these strategies let me filter the top
+25 so this is 25 and return to draw
+Downs three five seven so let me do
+three five one so my three five one that
+should give us 25 strategies
+and now let me sort to see our
+robustness so this is the look back
+period
+so starting three remember we had two so
+t two seems not usable and we went to 10
+10 and 9 doesn't exist
+and seven is only ones so basically we
+are between three and six and between
+three and six number four is the most
+so then I would say number four is the
+best in this column and also it's
+adjacent by stable profitable strategies
+so if I take four here now let's look at
+the second column which is the smoothing
+factor if I sort by smoothing we went
+from two to six six doesn't exist four
+only two and the rest are all good
+but two and three are a lot they are up
+to here that's more than that's 18
+strategies so two and three here are
+very very good
+and then if we go by the by level
+so it's 10 to 40 10 doesn't exist 15
+doesn't exist
+and two only in twenties
+and 3 and 25 so 30 and 35 is the stable
+area
+and they occupy the most number of
+strategies and finally the cell level
+so it's between 60 and 90
+and after 75 there is nothing so 60 a
+lot of 60 65 is also really good
+70 and 75. all of them looks really good
+between 60 and 75. although the the
+focus will be on 60 and 65. so now if I
+want to pick a stable region for all for
+all of them we start here
+let's sort so let's pick four in the
+beginning
+and then either two or three here
+and then 30 or 35 so this is with 35
+this is with 35
+and these are with 30. so we have four
+strategies to match them with the exit
+so let's look at those in details so
+this one is one thousand trades this is
+971. this is making 50 000 more than
+this one with lower drawdown and then if
+I go to the 4 3 and 30
+so we have two of them and both of these
+are higher drawdown than this one so
+four two performing better than four
+three this looks really good now
+remember this one 356 640 is not the top
+making strategy
+so this is what we picked and this is
+the most profitable strategy so this is
+very close to our original strategy
+which is 4 3 30 70. so instead of three
+smoothing we are two and instead of 30
+buying level we are 35
+but we have now a confirmation that what
+we picked was not over optimized or was
+not the peak and that's the idea so even
+at the end if we reach the same values
+what we picked is really a stable region
+and this should work on many many other
+instruments so now we have this let's
+look at our Equity curve so it's not the
+cleanest Equity curve I mean we are
+making money all the time we are going
+up and we can see these green dots are
+making new highs all the time and so
+this is end of April we just made a new
+high so this is uh what we suffered in
+the beginning a big drawdown and then
+there is nothing to talk about here the
+maximum loss here is about eighty
+thousand dollars which is huge we just
+starting here so we need to mitigate
+that with other filters this is our
+periodical returns we have three losses
+2008 2015 and 2020. now remember this
+strategy is always in the market so
+that's 100 exposure which is not
+recommended I mean if this strategy is
+part of 25 other strategies then it's
+not a problem but if it's part of three
+four five strategies then it is a
+problem you want to limit your exposure
+to the market as much as possible so now
+it's the part where the first sentence
+remember is if true now you can test
+other filters so you can add filters
+like volatility Direction patterns you
+can add the trailing stop stop loss
+profit Target there are many many other
+ways to limit your exposure to the
+market and of course the simplest one is
+the number of bars in trade like I
+mentioned if you are an algo Trader
+Master Class student you receive this as
+one of the tools and here you can see
+that the silver
+have a range of almost three thousand
+dollars per day so this means the silver
+e-mini Futures contracts on average move
+three thousand dollars per day that
+means if we put these stop loss or the
+profit Target at three thousand dollars
+most likely we will hit it and then we
+can play with these so if we put them at
+different numbers we can make sure that
+we hit one and not the other and this is
+what I did I put the profit Target at
+three thousand dollars and the stop loss
+at six thousand dollars so most likely
+we will hit the profit Target but we
+don't hit the stop loss and then I added
+the exit after number of days which is
+10. so these act as floor and ceiling
+and this act as time exit so this way we
+are protected that we are not always in
+the market and then if we compile this
+we get this strategy so it's 272
+thousand dollars with forty six thousand
+dollars in a drawdown so we definitely
+reduce our drawdown to almost half but
+of course we also lost a lot of the
+profits and that's a compromise that you
+have to decide if you want to make more
+money and assume bigger drawdown or you
+want to reduce your drawdown and accept
+making less money but now this is our
+curve it looks much better than before
+and if we see it with the drawdown
+remember the first strategy we had
+eighty thousand dollars in the beginning
+and now the maximum is about 40 which
+happens here when you have a lot of
+money a lot of profits already happened
+and then the trade analysis is now again
+we are split in the middle for long and
+short and the average trade went up so
+416 but we're making less trades and the
+periodical analysis one big loss in a
+year and then medium and then nothing to
+speak about but the distribution is
+different and what happens with this
+strategy is it looks like it's getting
+better you can see how we are at 52 in
+2017 58 61 62 66 so you can see how the
+trajectory is up since 2017. that means
+the edge is getting better somehow and
+it's either we picked it up at the right
+time or at the end I don't know but so
+far this looks very very promising we
+try to be simple with our development
+and in this case we hit the gold mine
+because it's an extremely simple
+strategy and using extremely simple
+exits no filters in this strategy to
+learn more make sure to watch this video
+and I will see you then
+[Music]
+thank you
+[Music]

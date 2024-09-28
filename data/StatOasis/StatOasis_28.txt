@@ -1,0 +1,235 @@
+it is extremely difficult to make money
+trading the Forex Market not only there
+is the leverage and the shenanigans of
+the Brokers against you but also you
+don't know what you are doing in all
+these markets but what if I told you
+that there is a secret sauce to trade
+any market profitably and in this video
+I will show you that secret sauce and we
+will use it to build a strategy and then
+we will use that strategy to make many
+derivatives out of it to get a portfol
+volume regardless of your experience
+level this is very important so listen
+carefully every single Market in the
+financial Market has a tendency to do
+something we call that an edge so the
+edge could be small or could be very
+very big now I teach how to find an edge
+in any Market to my students in my Alo
+trading master class and I have a
+database of every market and what is
+that edge because usually that edge
+doesn't change or flip on daily basis it
+changes over years and years so once you
+find that edge you can easily build a
+strategy that matches that edge and this
+is especially especially true in
+short-term trading short-term trading
+depends highly on the characteristics of
+that market although I am a Futures
+Trader I get many requests to do
+strategies on the Forex Market but I can
+tell you this methodology works on any
+asset class it doesn't matter in fact it
+doesn't know that this chart belongs to
+a Forex pair or futures or stocks it
+works on any asset and without showing
+you how to find that edge because that
+is for my algo trading master class
+students I can tell you that the Forex
+pair USD JPY has a huge Edge in the
+wrong direction now the Futures
+counterpart of the USD JPY is the JY and
+the JY Y is the opposite of USD JPY
+because the JY is the reverse so it's if
+you're buying the USD JPY that means you
+are shorting the JY Futures reason I'm
+mentioning this is because I'm going to
+show you now how I tested hundreds and
+hundreds of strategies on JY and you can
+see here that the strategies that pass
+the robustness filter they are all short
+except for one long so that's prove my
+my original point which is this pair has
+a tendency to go up and again because
+I'm doing the the Futures so that's why
+it's the opposite it's short and not
+only that not all these short strategies
+are the same in fact 24 of them are M
+reversion and nine of them are breakup
+okay so now you know my secret SS which
+is to find an edge in the market and
+then match that edge with a strategy
+style that that works with it so in this
+case we know the JY works on the short
+side and not only that we find that most
+of these strategies are mirror version
+that doesn't mean you cannot build the
+opposite strategies it's just this is a
+lot easier and most of these strategies
+will already be robust because it's
+matching its characteristics okay so
+since this is the opposite of the Forex
+pair that means on the Forex pair we are
+going to do me version going long that
+means any strategy that's waiting for a
+pullback will work on USD JPY and I will
+prove it to you okay so I have here the
+Forex pair USD JPY since 2006 and I put
+here three types of Mir version
+strategies this is just to show you that
+it doesn't matter once we find that the
+USD JPY tends to go up and also we find
+that most of them are miror version so
+now any pullback will work and I'm going
+to start with the close lower than the
+previous close three times in a row if
+that happens we buy and then we will
+exit at fixed number of bars which is
+four bars so this is the strategy it's
+making
+$60,000 and this is again on the Forex
+pair that means we are buying one lot
+which is a 100,000 on average we're
+making
+$240 and we have
+253 trades and if we look at the
+performance graph this is how it looks
+like periodical returns now I'm going to
+go back here and let's flip something so
+now instead of counting pullbacks I'm
+going to use the RSI so of the RSI 2
+below five that's
+extreme and let's see how many trades we
+get here so now we get 173 trades making
+349 on average now of course this
+extreme if I loosen it up a little bit
+bit so we should get more trades but
+less average trades so if I
+verify you can see now we're getting 333
+trades at $60 on average and of course
+if I use 10 then we are somewhere in the
+middle so 275 trades at $154 on average
+and now if I use something else so this
+is a CCI it's any oscillator will work I
+just pick this from the strategy that I
+have so CCI 16 below minus 150 we should
+get close to this so 140 trades making
+$326 and if I go to 100 we should
+theoretically get less trades and higher
+average uh trade so 74 at 540 average so
+as you see the exit is four bars that
+means I'm not optimizing anything and I
+use different look backs different
+levels any pullback measurement will
+work now some of them will work really
+well some of them will work less but all
+of them will produce really good
+profitable strategies really good
+starting position some of them are good
+strategies on the start they don't need
+anything else you just need to find a
+stable area and since we are doing this
+with fixed exit and fixed look back I
+can only change the level so in case of
+the AL I I changed the level from 5 to
+15 and you can easily find that 10 is a
+stable area that's it that's already a
+tradeable strategy so here we are in
+multichart and I'm trading now the JY
+which is again is the opposite of the
+USD JPY so we are going to short
+everything and in shorting that means we
+are waiting for the price to go up and
+then we short it and again any way you
+do it it's going to work so in this case
+I'm counting the close higher than the
+previous close three times in a row we
+will short and then we will exit after
+four bars so these are the results 224
+trades on average we are making
+$311 now again I can make this four and
+four of course we will get less trades
+but most likely higher average trade and
+as expected 105 trades making
+$477 this is the rsi2 above
+90 you can see 237 223 and again and CCI
+above 150 remember this is everything is
+the
+opposite and 134 and 525 and here is the
+same thing if I double this and increase
+this it will be the same thing I will
+still make money it doesn't matter how I
+do it so you see it's not about
+optimizing what indicator or what's the
+look back it all started because we know
+the Japanese end has this huge Edge in
+Direction and then once we test it all
+the strategies we know what strategy
+will work in this case is me reversion
+so any way you going to measure miror
+reversion it will work on this pair now
+remember all these strategies no filters
+so now I'm going to pick a single
+strategy and test many filters on it so
+this is the close higher than the
+previous close three times in a row
+that's the average trade and the number
+of Trades and this is the curve this is
+the trading summary we're making 69,000
+profit factor of 2 something and the
+maximum draw down is 20,000 so that
+gives us a return to draw down ratio of
+slightly above three so using my
+strategy template I tested about 150
+filters and you can see that this is 3:1
+return to draw down ratio and look at
+this I mean uh even the first 33
+Strategies are all above uh 3 to one
+return to draw down ratio and all these
+are different filters in fact when I
+tested more than 500 filters half of
+them worked really well on this strategy
+which is the close higher than the
+previous close and that is of course
+because we started on the right foot we
+are matching a miror version strategy on
+the short side to a pair or an
+instrument that has an edge in the short
+side so that's why you can easily get
+many robust strategy so here I loaded 10
+filters on the same strategy this is the
+close higher than the previous close
+three times in a row but now I'm using
+only 10 different filters so this is how
+the equity curve look like for the 10
+strategies and the trade analysis we
+have about 1,800 trades at 62% win rate
+and on average we are making
+$441 but this not important what I
+wanted to show you is this so even
+though this is the same strategy I'm
+just changing the filter but look at
+this the number of Trades 225
+182 166 215 183
+120 so it's it's very very different
+also the amount of money and the draw
+down we're making per strategy is very
+different so by using the same data and
+the same logic of the strategy I didn't
+change anything in the logic and same
+time frame I only change the filters and
+we get so much divers ification just
+from changing the filter imagine if you
+change the measurement of the lookback
+or the level or even the logic of
+measuring the mirr version you will get
+hundreds and hundreds of strategies and
+that is the secret sauce to learn more
+about short-term trading strategies
+watch this video and I will see you
+[Music]
+there
+oh

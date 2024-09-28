@@ -1,0 +1,387 @@
+most likely you reach this video by
+searching for scalping strategy and in
+this video I will show you how to build
+a successful sculping strategy on the
+NASDAQ 100 hello everyone my name is Ali
+Casey from stat Oasis Channel and I know
+YouTube is filled with sculping strategy
+sculping usually means that you are
+trading on a lower time frame Traders
+love this because they think holding for
+a shorter period of time remove the RIS
+away which which is not true but we are
+not here to debate that in this video in
+fact sculping is one of the biggest
+reason why most Traders lose money
+because usually you're trying to capture
+a small move so you need to be highly
+highly accurate and very low on slippage
+in order to capture this 10 Pips 15 Pips
+or 15 cents on stocks or two tickes in
+Futures you have to be right all the
+time very focused no slippage and it's
+very hard to do since stat channel is
+about alga trading so I will show you
+how alga Traders approach sculping so
+here is the NASDAQ 100 Futures and this
+is the daily time frame you can see it's
+all over the place and if I go to 1 hour
+again it's all over the place there is
+nothing to gain here so you definitely
+need to put some indicators and so on so
+forth to find a strategy that you can
+follow to sculpt this so here is where I
+differ from my would say 90% of
+YouTubers where most of them put some
+indicator support and resistance F
+retracements and try to squeeze you down
+in a certain window and then they tell
+you to take the trade here and oh by the
+way you have to put 3 to one you risk
+one unit and you expect to gain three
+because you know the market will usually
+listen to the trader who is placing the
+trade which of course it doesn't work
+that way so the way we will build the
+strategy to today is purely on the nasda
+characteristics you see every Market has
+some nuances to its price structure what
+I mean is every Market have some
+patterns that do repeat over time for
+many reasons fundamental because of
+Traders because of the way it's
+structured and so on and so forth but
+every Market has certain characteristics
+and you can exploit those
+characteristics to your advantage and
+that's what we are doing here when we
+are trying to sculp the NASDAQ Market if
+you take my course the algo trading
+Master Class you'll receive this tool
+which gives you the characteristics of
+each market I call it seasonality some
+Traders call it pattern some call it
+bias whatever you want to call it it's
+basically the characteristics of this
+Market on daily basis now you can do it
+on daily you can do it on minute by
+minute you can do it on hourly I find
+that hourly it's the lowest that I can
+go and find some meaningful pattern so
+if we go to the heat map this shows us
+the pattern of the NASDAQ entad day you
+can see this is starting on Sunday night
+and ending on Friday afternoon and it's
+clearly that the trend is up Monday to
+middle of Wednesday then we go down and
+then we do nothing and then Friday we
+dip and go up and I can see this in
+another way so if I look here at the
+average per hour what's every hour
+making you can see that I can easily for
+example draw Tuesday here and I can see
+I can make $57 on average by holding
+from Midnight to 800 a.m. now you might
+think that this is overfit but really
+every Market has a certain pattern some
+of them for two hours some of them for
+two days and some of them have multiple
+patterns and you can use this tool alone
+to build multiple strategies without any
+indicators of course we can add
+indicators later on as filters but this
+is just pure on time basis so the NASDAQ
+has about four to five patterns
+depending on how you want to look at it
+I will show you the simplest one and the
+most profitable one this is strategy
+Quant X it's a data mining package but
+I'm using the Alo wizard module to build
+the strategy at as per my instructions
+and the pattern of the NASDAQ is this so
+we are going long on Monday at 4:00 a.m.
+and exiting Wednesday at 2 p.m. that is
+it this is the pattern now you can play
+with the hours before and after before
+and after the changes are not that big
+and it doesn't matter so uh I'm sticking
+with this this is based on the tool that
+I just showed you because it showed me
+that this is where the trend starts and
+ends so I'm using trade station engine
+for the NASDAQ futures this is the
+24-hour Nasdaq futures and uh it's the
+hourly time frame from January 1st 2009
+till November 1st 2023 you can see here
+there is another time frame which is the
+NASDAQ
+daily and for now we are not using this
+so just leave it alone and I'm putting
+the slippen Commission in one so it's
+seven and a half per trade so $15 in and
+out we are using only one contract and
+if we run a full back test this is the
+strategy we have
+741
+trades and the open Draw down is about
+26% on average our trade is
+$400 the win rate is 57 and based on
+this the compounding annual rate is huge
+27.7 especially when you consider that
+the open Draw down is 25 so the pattern
+is amazing and you can see it's working
+all years uh the only losing year is
+2018 but uh in any case 2023 is doing
+very well so far this is the equity
+chart and we have here about 2 years of
+stagnation and this is the trade
+analysis and let me change this to win
+loss profit by month so we can compare
+because I want to show you something
+something so you see May here we have
+more losers than winners so 32 trades
+were winners 35 trades were losers also
+this is confirmed by the profit and loss
+so in may we lost
+$76,000 and we win
+$499,000 so may is a good month to
+filter out because it's confirmed by the
+number of Trades and by the win rate so
+we can easily remove May from this and
+even make more money enhance the
+strategy but in any case this is the raw
+strategy and is doing fine now the power
+of strategy Quant X is I can add a
+filter easily here so for example I can
+add the RSI 5 is lower than 35 this is a
+filter now I'm using this remember I
+showed you the second time frame which
+is the daily time frame so I'm using the
+RSI on the daily time frame so if I
+confirm this and let's see if this makes
+any change so we have 741 trades and if
+we run full back test you can see it's a
+huge effect now overall did this makes
+our strategy Better or Worse we have to
+check it out and see the effect but what
+I'm trying to show you is just the
+filter but now the power of sqx is here
+so you can imagine now how many versions
+of this I can do there are literally
+thousands of versions so here we can do
+something really nice we can switch this
+strategy to a template and once it is a
+template I can add a random
+condition on The Daily time
+frame so now this is the random
+condition on The Daily time frame then I
+can go to Builder and load the strategy
+as a template so once it's loaded as a
+template I can only play with this
+condition so here I'm asking it to add
+one condition to this entry remember
+this is the strategy I cannot add a
+condition here because there's nothing
+available I just added here so this is
+the only effect on the strategy so what
+I'm telling sqx is add one condition
+only to the entry so I save this and we
+go to building blocks and I picked all
+the indicators available and the
+patterns and the
+blocks and this doesn't matter so we are
+entering so we will enter on a market
+order and we are using one contract we
+are not doing any cross check and this
+is simple ranking profit Factor 1 three
+return to draw down is four and I'm
+building 100 strategies so I'm asking it
+to go and add random filters here here
+and check that they pass this criteria
+and give me the top 100 and this should
+be done in
+seconds so it's done and if I want to
+sort by net profit so the best one is
+311 this is the strategy and if I want
+to sort by return to draw down ratio so
+this one makes 27 return to draw down so
+this is is making
+107 and if I want to assert by winning
+rate this is 75% win rate and if I want
+to sort by average trade this is making
+1253 per trade and but remember it's
+only 35 trades so you can see you can
+pick and choose which one is the best
+now here is a big concept that most
+Traders don't know especially new
+traders that you see all these
+strategies are built on the same concept
+The Edge is there from 4: to 2:00 p.m.
+on Wednesday so now every filter I'm
+adding is just enhancing the strategy in
+a different way so some of them are
+making high win rate some of them making
+high average trade some of them making
+lower draw down some of them increasing
+the net profit so you can see you can
+pick and choose which one or you can
+combine 5 six up to 10 because we have a
+micro contract for the NASDAQ which is
+one0 of the E mini contract but now you
+can combine High win rate high average
+trade lower draw down high return to
+draw down and so on and so forth you can
+pick your criteria that you want to
+combine in this portfolio and here is
+the pseudo code so this is just plain
+English code uh so for example I picked
+this one this is the highest average
+trade and you can see the filter is it's
+the same we're entering at 4 exiting at
+2 p.m. Wednesday and this is Osa of
+subchart sub chart is the daily chart uh
+crosses zero blah blah blah and then if
+I pick the next one you can see this is
+bearish fractal 5 two bars ago this is
+linear regression so you can see all of
+them are simple filters now for example
+if I sort by wind rate so this is the
+75% win rate again this is the custom
+block and this one is the H moving
+average and you see how simple it is I'm
+only adding a single filter to the entry
+that's it there is no stop- loss no
+profit Target no optimization nothing
+I'm just adding a simple filter and that
+is the power of sqx with a single line n
+of code with a single line of user
+interface I added a random condition and
+now I have easily 100 strategies with
+100 different filters that achieve
+different results and because my Edge my
+original Edge is raw that means it's not
+overfit I just picked it up from the
+anomaly in this market I can easily and
+confidently add a filter of course you
+still have to do the robustness testing
+which is a full module in my algo
+trading master class so now let me show
+you how I can combine more of these
+strategies into a portfolio now this
+code here is the plain English code and
+if you click on easy language you you
+will get the easy language code so you
+can see all this you can just copy it
+and paste it in trade station the only
+disadvantage here is there is a lot of
+code that is not used because this is a
+template so sqx in order to be
+compatible with trade station they build
+this template so instead of taking this
+template and basically almost 70% of it
+is not used I code my own strategy in
+trade station or multicharts but you can
+still take this strategy and it will do
+just the same like I told you I coded my
+strategy directly in trade station for
+the Simplicity because easy language is
+extremely simple I can I can achieve the
+same thing literally in three lines of
+code the page you saw in sqx uh that's
+not a problem in sqx that's just the
+power of easy language but what I did is
+I didn't combine the 10 filters just
+like I told you which of course you
+totally can do and you can build an
+emble and you can actually build a
+voting system there are many ways to go
+about this but what I will show you here
+is combining four patterns from the
+NASDAQ Market remember the Excel sheet
+that I show you in the beginning I told
+you there are four to five patterns so I
+combine four patterns here on the same
+chart those patterns they don't overlap
+so each one happening in a different day
+different time so they all use the same
+amount of money without overlapping the
+only issue here is two of my patterns
+overlap because one of them end at a
+time and the other one start at the same
+time so when there is a holiday this
+usually get messed up and so I miss some
+trades but you know it's all in all I
+miss only 10 trades out of 1,700 so it's
+negligible here we are in trade station
+and I'm going to show you the four
+strategies and here are the four
+patterns so from one to four zero is
+combining all the patterns so strategy
+number one is the one I showed you
+Monday at 4 a.m. to Wednesday at 2 p.m
+it's making
+$322,000 including commission and
+slippage which is
+$15 the draw down is
+$227,000 but what I want to show you is
+these strategies are not created the
+same so you see that the average bars in
+winners for strategy one is 57 because
+it's Monday to Wednesday but then these
+are very short strategies and and
+strategy number four is the shortest
+it's holding only five bars on average
+in winners and in losers five bars this
+is an hourly bar so this is five hours
+and that's why you see the different
+amount of dollars in because this one
+has more time to work and this one has
+the least time to work but now we come
+to the most important part which I
+always push to all traders to all my
+students in the community everywhere I
+go I push this which is never trade as
+single strategy always trade a portfolio
+and here is another way to show it so
+you see number zero this is all the
+strategies combined the profits are
+added together so although this is not
+exactly the total like I told you there
+is a simple overlap these are 10 trades
+more than this so these comes to 1488
+trades the that will not make a huge
+effect it's like $110,000 so we're
+making 512 so basically we're adding all
+the profits but look at the draw down
+our portfolio draw down is
+23,800 but strategy number one alone the
+draw down is 27,000 so that's the beauty
+of the portfolio you add all the profits
+but you don't add all the draw Downs if
+anything you reduce the draw down
+because some of the profits will overlap
+the other draw downs and that's why you
+see the maxim Maxum draw down here is 23
+Which is less than 27 because some of
+these strategies the profits are
+affecting this draw down on the positive
+side and this is the equity curve of the
+four strategies and if we go by year so
+since 2019 we had a huge run and
+actually most of this run Is 2020 the co
+year but all in all we are climbing up
+and if we look at the periodical returns
+we see all years are positive we have
+660 minus in 2006 2400 in 2007 4,300 in
+2011 so far this year we are 69 trades
+with
+$34,000 so the average was
+$55 per trade this year so that means
+the portfolio is still performing very
+well of course not as well as the
+2020 or 2022 but still it's very
+respectable return to learn more about
+seasonal patterns watch this video and I
+will see you
+[Music]
+there

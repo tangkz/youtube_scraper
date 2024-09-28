@@ -1,0 +1,292 @@
+about 10 years ago through my research
+on the S P 500 I found a small Edge and
+I built a trading strategy around it
+that I used to trade it manually the
+strategy is still profitable today and
+in fact it's still part of a big
+portfolio that I have that trades
+automatically today in this video I will
+show you how to find such edges in every
+market and how to build strategies
+around it and trade them in a portfolio
+if you trade any Market enough time and
+you pay attention then you'll definitely
+find some patterns that repeat over time
+when I used to trade the S P 500
+manually I picked up on a python that
+happens about once a month the pattern
+that I found is that the S P 500 usually
+have a one big range day every month
+this big range definition of course has
+many interpretation but usually it's a
+big range you can easily spot it on a
+chart and you can easily quantify the so
+here at the bottom I have an indicator
+that plots a bar whenever it finds this
+pattern so the way I defined this big
+range day is whenever the bar range
+is double the range of the previous bar
+plus the same bar is greater than one
+and a half time the average true range
+of the last 20 bucks once you put that
+definition in then we have these bars
+and as you can see it's not every month
+but on average it's about once a month
+so we can see here if we focus here it's
+clearly that we are seeing this bar it's
+a huge bar and it's of course that more
+than double the previous bar and
+definitely bigger than the 20-day
+average true rate we can see here it's
+the same thing and this one of course
+but then look at this one this is a big
+bar but it's like an illusion if I
+actually switch this to bars like these
+you can see that this is actually not
+double as this so you know that's why
+you need to quantify it because if
+you're looking at the chart yourself
+manually then you can easily make a
+mistake so this is how I Quantified the
+pattern which is when today's range is
+at least double the previous range and
+also today's range is greater than one
+and a half times the average true range
+of the last 20 bucks and this indicator
+will plot these stats so looking at the
+S P 500 I have
+6500 bars and the average range of All
+These Bars is about 23 points of course
+this will heavily be influenced by the
+volatility but averaging all these years
+is 23 points per day since 1998 and this
+stats the event is the number of Big
+Range days depending on this definition
+so plotting this definition will give us
+230 occurrences that happens in the past
+25 years
+that comes to three and a half percent
+of all the dates so this is less than
+once a month once a month is about five
+and a half percent out of the 230 events
+that we have
+61 of them which is 26 percent is an
+update and 73 is a down day so here is
+something that we immediately get that
+most of the Big Range days are down day
+the average bars between events is 26 so
+that's about five weeks of trading days
+this is an extremely nice stat which is
+if we have an update the probability
+that the next bar is up is 13 that means
+if we have a bot like this this tall
+green bar this is a huge range day and
+it is up closing up the probability that
+next day is up it's only 13 which tells
+me that there is 87 chance that the next
+day is down day so imagine having that
+knowledge when you are trading if you
+have a big update yes it is less
+frequent but when it happens you have 87
+percent chance next day is a down day so
+you can short at midnight you can short
+at the open you can short when it breaks
+the previous low or the previous close
+or the previous open because you just
+want to go short you're just waiting for
+anything to tell you yes go short now
+because we still have 13 chance that
+it's not gonna go down it's going to go
+up but 87 that is huge in any uh
+probability book and let's look at the
+next ad and the second bar after the big
+range update it has a 60 probability
+that it will be up and that's how you
+build your strategy around this huge
+huge pattern which is we wait for a big
+range update
+we short the next day we go along the
+day after and then for Big Range down
+days there is a 30 that it's gonna go
+down the next day so we still have a
+huge Edge that is 70 percent that the
+next day is an update and look at this
+there is a 62 chance that the next day
+also is an update so when we have a huge
+range day that it is down closed down
+then most likely scenario next day is up
+and the day after is also up the chances
+are 70 next day and the day after is
+about 60 chance still those are
+extremely good edges that you can
+exploit to build your strategy now every
+Market has their own patterns but this
+pattern in particular is available in
+many many markets and we can see so this
+is the SMP and if we go to NASDAQ we can
+see almost the same odds exist on the
+NASDAQ where 31 of the events are up and
+the rest are down also look at this the
+chance that the next bar is up is 15
+same thing for EMD same thing for Dao
+this is soybeans and we can see soybeans
+has more updates than down days but
+again we see the flip next day Where The
+Down usually have 80 chance of flipping
+to up this is heating oil on an up day
+next day is up is only 19 that means
+again you can short the next day this is
+crude oil and we see 35 percent of the
+Big Range days are updates followed by
+down day 81 of the time this pattern
+also exists of course in stock so we can
+go to for example Tesla
+and Google
+Amazon
+Coca-Cola and you can see in all these
+instruments that I pull from stocks to
+futures
+they are all usually have the same
+behavior well the next day like if today
+is a big range day and it's up usually
+the next day is down and the opposite is
+also true so now we need to test our
+theory that when we have a big range
+update we want to short the next day and
+when we have a big range down day we
+want to go along the next day we're
+basically playing the opposite so let's
+test our Theory and see if we can make a
+strategy out of it so here is the
+strategy applied and we can see all
+these days are read so there are no
+trades only this one is green and we go
+short at the open we close the trade at
+the close this is how the performance
+looks like
+and these are the stats 61 trades making
+about 300 on average now this is really
+a good average trade for the S P 500
+that should covers all slippage and
+commission and you're still ending up
+with a good profit the only drawback of
+the strategy is the number of Trades so
+to get more trades in the strategy we
+need to ease up on the restrictions now
+there there are only two conditions that
+we have in this strategy which is the
+Big Range day has to be twice as big as
+the previous day and it has to be
+greater than the average true range so
+if I keep only the first part of the
+conditions which is the range has to be
+double the previous range and I get rid
+of the average true range condition
+let's compile that strategy and look at
+this we went from 61 trades to 198 rate
+of course that came with a sacrifice
+which is the average win went from 300
+to about 100. now that's a huge drop so
+now the strategy is not usable we need
+to make it usable and we can do that
+easily with a filter and like I
+mentioned on this channel many many
+times a good filter is usually a
+direction or volatility so let me use a
+simple Direction filter which is the adx
+so if the adx 20 bar is greater than 20
+and we will take the trade and let's see
+what that produced so that bring us back
+to 65 and yes it's better average trade
+but you know we lose all the trade so
+let me try something else
+so this is now if the close is greater
+than the 50-day moving average
+and that's good we still have 149 trades
+but now our average trade went to four
+dollars which tells me that if I flip
+this it should work and let's flip it
+which is now the close is lower than the
+average uh 50 bars
+we increase our average trade which is
+really good but now we even reduce our
+number of Trades so again that is not
+usable so now we are back with our
+filters so 200 trades and 112 and let me
+use one of my favorite filters now which
+is IBS so if IBS is greater than 85 we
+will take the trade and this is It's
+like a compromise but a good compromise
+so we almost doubled the trades from the
+original strategy so from 60 we went to
+115 and we also reduce the profits but
+it's still it's a good profit so 222 on
+average that is still very good and if
+we look at the equity curve now it looks
+like this and if we look at our annual
+period since 98 it looks like this now
+as you saw every filter work in a
+different way especially when they are
+from different categories like Direction
+volatility they will produce different
+results and in fact you can apply a
+filter on the strategy and take that as
+a single strategy and then you have you
+have let's say three or four filters
+producing four strategies and then you
+combine all these four strategies into a
+portfolio that work as a single strategy
+the reason you want to do that is then
+you can get more trades and they will
+not be correlated I mean they they could
+but the correlation will be very minimal
+so in this case I will keep let's say
+the IBS as a single strategy now we will
+work on the other side which is going
+long when we have a big range down day
+so this is the second part of the
+strategy where we are going long
+whenever you have a big range down day
+so this is one and this is one and this
+is one and so on and so forth and we can
+see we have
+164 trades and we are losing so that
+means the theory that the next day is
+opposite while it's true we cannot make
+money with it so let me try the same
+concept first I will remove the
+condition
+for the average true range in order to
+increase the number of Trades so if I
+remove that we compile now we have
+326 trades
+and now if I want to use a filter so say
+for example I use my IBS again and if we
+compile now the strategy is profitable
+so by increasing the number of Trades I
+have the luxury to add a filter and now
+I am making 58 trades and on average I
+am making 366 dollars so now we have two
+parts one a short one is long it's on
+the same instrument they will not happen
+on the same day because it's impossible
+to have a big up day range at the same
+time as a big down rate so you can
+combine these into a single strategy and
+let's see what we get so here are the
+two strategies combined it's a total of
+173 trades and we're making 270 on
+average both the short and long are
+making good money and we have more
+trades on the short side and this is how
+this strategy looks like which is really
+good we're going up all the time and if
+we look look at the annual period
+analysis as you can see by paying
+attention to the market you are trading
+you can find patterns and you can easily
+test them and build strategies around
+them to learn more about patterns watch
+this video and I will see you
+foreign
+[Music]

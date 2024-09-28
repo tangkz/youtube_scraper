@@ -1,0 +1,211 @@
+many people ask me directly in stasis
+Community or commenting on videos on
+stadis channel telling me why you keep
+saying the S&P 500 is a me reverting
+index and how would you know this will
+keep going this is an extremely
+important subject and in fact I have a
+full dedicated lesson in my Alo trading
+master class only about this subject
+which is developing a strategy that
+matches the style of the instrument
+really this is one of the biggest reason
+that switched me from losing Trader to
+profitable Trader which is developing
+long separately than short and
+developing with a strategy style that
+matches the instrument instead of just
+blindly trying any strategy on any
+instrument first of all the S&P 500 is
+the most liquid most popular index in
+the world it consist of 500 companies in
+the US and they are ranked by weight so
+it's a system mirror version strategies
+are a style of Strate strategy that
+suggest the price once it's diverg from
+the mean it will come back to it so when
+the price is let's say at uh 200 day
+moving average and it goes too far above
+200 day moving average we expect it to
+go back to the moving average now this
+works on every way you measure the mean
+this could be standard deviation could
+be Kelner channels it could be an
+oscillator or even it could be a simple
+price pullback okay I have hundreds of
+strategies on the channel they're all
+meting mostly they are traded on the S&P
+500 so we all know this I am very pro
+version strategies and I love the S&P
+500 and you can develop hundreds of
+strategies even though they're all miror
+version they will be different but today
+we are just understanding why this thing
+work on this instrument so in order to
+get enough data I loaded here the SPX
+the SPX is the S&P 500 cash index the
+reason is because we can go back to 1960
+because the Spy ETF goes back to about
+1993 so there is limited amount of data
+and here we can go back further and you
+can see here I have data since
+1960 and here we have only the close
+until later on where we have the full
+patterns and the strategy is applied
+which is the RSI 2 below 25 we buy then
+we exit the next day with the RSI 2
+below 25 we will get many signals so
+that's why we can statistically find out
+if what we are saying is true or not now
+because this is the SPX Index this is
+like stocks so the price will be in
+dollars and cents and therefore if you
+try to test this you will find a problem
+so here for example I'm trading 100
+shares in every trade so if you pull the
+strategy the strategy is profitable but
+that doesn't mean anything let's look at
+the list of Trades see this is the first
+trade 1962 the price was 70 and 100
+shares in and out we lost $98 we made $3
+made 41 lost 75 you can see everything
+is lower than 100 but then if I forward
+all the way to this date and I'm still
+trading 100 shares but now the profit
+and loss are in thousands of dollars so
+that's creates a problem because most
+likely the strategy is profit just
+because the last 5 years maybe it made a
+lot of money and it was losing money all
+previous years in order to find the real
+Edge in the mirror version system on
+this instrument we need to find the
+percent return because the percent
+return we can always compare it on the
+same instrument and on other instruments
+so I imported the results here which are
+the return in percentage so these are
+the same trades the RSI 2 below 25 five
+we buy we exit next day so we are
+holding one bar and this is the percent
+return since 1960 now if we do a pivot
+table on this we can find all the
+results cated by year so this is the S&P
+500 me reversion this is the RSI 2 below
+25 we buy we exit next day this is a 1
+day percent return this is the total
+accumulated every year there is a clear
+pattern that's happening here this is
+long only and we can see since 1960 all
+the way to
+1983 all the years using this strategy
+are losing years except 1963 and even
+then the profit is very small but we can
+see the losses are big what does this
+say this say that every time the S&P 500
+RSI 2 goes below 25 if we buy we lose
+but think about this if we sell short
+then we we make money what does that say
+that says the S&P 500 since
+1960 up to
+1983 it was a breakout
+instrument that means when the LSI two
+pulls below 25 if we take the breakout
+which is the sell short the next day we
+make money then something happened
+between 83 and
+1994 the behavior started to change so
+up down up down up down up down and then
+from 95 and onward it was obviously a
+meere reverting instrument so since
+1995 we had three down years using the
+RSI one day holding so that's 28 years
+where the RSI 2 below 25 by makes money
+holding it one day we also notice
+another pattern so let me show you here
+you can see that the mirror version
+strategy itself is me
+reverting so let me show you that means
+the strategy itself Peaks and goes back
+to the mean Peaks and go back to the
+mean Peaks go back Peaks and go back and
+in fact now as I'm recording this in
+2024 I expect either that the year will
+do nothing or lose money and then we
+start to Peak and go back for the next 5
+years so most probably usually this
+happens in the first year or the second
+year so 25 or 26 theoretically based on
+this pattern should be a great year for
+me reversion systems on the S&P 500 but
+overall I expect this pattern to
+continue this expectation now is based
+on Perry Kaufman I consider Perry
+Kaufman one of my mentors and he
+mentioned to me this in an interview on
+this channel He also mentioned it in his
+books usually more participants coming
+to an instrument create a mere reversion
+effect because more Traders they have
+collectively different opinions and they
+push it either one way and it has to go
+back to the mean or they push it the
+other way and it has to go back to the
+mean and the less participant in the
+market usually produce a trend following
+effect now another pattern I collected
+is the 5-day return so same thing it's
+the same strategy the RSI 2 below 20 5
+we buy but now we are holding for 5 days
+obviously when we hold more we expect to
+make more money and this is the result
+of holding the S&P 500 for 5 days when
+the RSI 2 goes below 25 now we notice a
+different pattern the switch happened a
+lot earlier so remember before in one
+day pattern the switch happened around
+1983 till 1994 and then in 1995 we
+stayed in this me reversion but now we
+notice that since 1975 until
+1982 that's when we saw the behavior
+switches and then since 1983 we are in
+me reversion so since
+1983 holding for more than one day
+usually makes the me reversion strategy
+very profitable and in fact since then
+we had only five years that are losing
+years and the rest are profitable and I
+can still see the effect of Mir
+reversion on the Mir reversion strategy
+so you can see here we are peing and
+down peing and down peing and down peing
+and down peeking so it's five Cycles in
+the 5-day strategy but again it looks
+like we are at the bottom now and we are
+going to pick up next year and the year
+after and that is what separate Alo
+Traders from your junk YouTube Traders
+because we are backing everything with
+numbers statistical numbers meaning what
+meaning I have to have a lot of data to
+come up with a good conclusion but just
+blindly saying you know wait for the
+price to pull back to the whatever and
+then do 3 to one all that is basically
+BS to me and to all algo Traders as an
+algo Trader you're just looking at
+numbers you don't care about the
+instrument the underlying the technical
+analysis just data you apply your
+methodology G put your filters on if it
+works good do you have enough numbers to
+back it up excellent build the portfolio
+trade profitably so you need to take
+action to become a profitable Trader and
+the action step meaning you need to
+learn how to develop a robust successful
+trading strategy to learn more watch
+this video and I will see you
+[Music]
+there
+yeah

@@ -1,0 +1,21 @@
+but now that we have generated two
+separate strategies from this indicator
+using totally different fundamental
+reason one is going with the trend one
+is going against the trend theoretically
+we can combine those two strategies on
+the same instrument and we should get
+better numbers so here I did an
+optimization for both strategies on the
+S P 500 you can see this is strategy one
+and this is strategy two so optimize the
+look back period the overbought and the
+oversaw with total number of
+optimizations of 345
+000 strategy so first thing if we sold
+by net profit we can see that all
+strategies are profitable more than 329
+000 strategies
+of course this doesn't cut it because
+it's 9000 net profit and no commission
+no slippage so this is a losing strategy

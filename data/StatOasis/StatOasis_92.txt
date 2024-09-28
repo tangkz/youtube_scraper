@@ -1,0 +1,14 @@
+today I want to discuss a strategy that
+trades the indexes in fact his RSI 2
+strategy really is the Holy Grail of all
+strategies it's the RSI 2 this is a
+daily time frame well if the RSI goes
+below 30 and the close is above the
+200-day moving average then we buy
+and we can see this is the equity curve
+so while I'm using the RSI above 70 as a
+threshold to exit the trade Larry
+Connors in his book he actually
+dedicated a full chapter to multiple
+exits so let's bring this here this
+method used the adx to exit the trade

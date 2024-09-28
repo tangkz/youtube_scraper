@@ -1,0 +1,269 @@
+if you use the typical value of any
+technical indicator usually it will
+perform miserably and today's indicator
+is no different in this video I will
+talk about volume oscillator what it is
+how it is calculated and how we can use
+it to generate signals or use it as a
+filter for other signals in a strategy
+and of course the secret is not to use
+the typical values not only that you'll
+be surprised to see that it is actually
+the opposite what works most often than
+not volume oscillator is a simple
+indicator we take the volume of the
+asset that we want to trade we plot two
+moving averages usually a slow moving
+average and a fast one and then we
+deduct one from the other we get an
+oscillator here we are in multicharts
+and the chart showing the price for the
+japaneseanime and below here at the
+bottom we have the volume so the red
+bars are the volume and then we have a
+fast and a slow moving average so the
+green is the fast moving average and the
+yellow is the slow moving average the
+typical periods for the indicator is 14
+and 28 so the green bar is 14 and the
+yellow bar is 28 now if we deduct the
+fast moving average from this low moving
+average we will get this oscillated so
+you can see here when when the space
+increase this one increase and when we
+cross this is the cross period this is
+the cross and so on so forth so it's
+easier first of all to see this and plus
+we can easily use it in a strategy when
+the price below zero that means the fast
+moving average is below the slow moving
+average and when the price is above zero
+that means the fast volume moving
+average is above the slow volume moving
+average as you can see from the chart
+it's really really simple indicator but
+it's using the volume and not the price
+and that's the first advantage of this
+indicator because usually all indicators
+are derivative of the price but this one
+is a derivative of the volume so there
+is a huge advantage in that now why I
+picked the Japanese Yen it's because I
+already know the
+japaneseanime long subject but you can
+see my previous videos on how to spot
+which Market is good for which direction
+if you saw my previous videos you know
+that the Japanese y will work really
+well with a short strategy so we will
+try to use this indicator as a signal to
+enter short on this currency so this is
+the strategy now applied and we will go
+short when the volume oscillator cross
+from positive to negative and we will
+exit after four bars so you can see here
+this is a cross and then we have another
+cross here so we enter we exit after
+four bars another cross here we enter we
+exit after four bars and another cross
+here we enter we exit after four bars so
+it's very simple and why the cross
+because if you just say we will enter
+when the price below zero that means
+when you exit here you will enter again
+here and you will enter every time this
+side so we need to
+specify that it's only when the cross so
+it's cross above and cross below so in
+this case we are using the cross below
+so here is our strategy and we are short
+all the time and of course we know it's
+working because obviously I know JY will
+work with any short strategy but now I
+want to optimize the periods to see
+which one works better remember this is
+the typical value which is 14 and 28 so
+we will optimize three values this is
+the number of bars to exit from 2 to six
+and then the fast length and the slow
+length we will optimize 5 to 100 step
+five so in total we will have 2,000
+strategies and these are the results and
+if we sort by return to draw down we get
+really good strategy so 6 to 6.1 return
+to draw down 5.5 and so on so forth and
+the best way actually if we go
+to this view now what we are looking at
+here this is the fast length and this is
+the slow length and we are looking at
+the net profit at the top so if I want
+to bring this down maybe to around
+10,000 and let's see and we can easily
+see that this is a stable area so 80 and
+20 70 and 30 60 and 40 because we can
+see it look at this the um diagonal part
+and if we go to three days exit and then
+four days 5 days and six so
+five actually it's not working six is
+this part is table so that's about 30
+and all the values here but then four
+three and two all working diagonally so
+if we pick four bars we have this is a
+stable area so this is about
+25 and
+75 uh so that's good let's go back here
+and so this is 75 and 25 and we have 89
+trades and
+$268 on average that is really good for
+the Japanese Yen and this is a very
+stable area but here is what we notice
+is the fast oscillator is three times as
+long as the slow oscillat so this is of
+course opposite of what what we know
+with this indicator and that is what I
+mean by the typical usually doesn't work
+now because we are using the short value
+here probably that's why the fast is a
+lot slower than the slow but of course
+we wouldn't know without testing and
+it's not only that this is not an
+anomaly this is a stable area actually
+all what we looked at is where the fast
+moving average is three times slower
+than the slow moving average so you'll
+only get this with testing now we use
+volume oscillator as a signal to enter
+long on the es now why the es again from
+my previous videos you know that the es
+works really well with mirror version
+long so in this case I will instead of
+going short when the cross goes below
+zero we will go long when the cross is
+below zero so here is a closer look so
+here when we go below zero we go long
+next day we exit after four bars and
+again here we go cross below zero we go
+long next day exit four bars same thing
+here so again it's very simple it's only
+when we cross below zero we will go long
+and again here we will test the validity
+of this again we will test from 2 to six
+uh the number of bars and 5 to 100 again
+we have 2,000 combinations and if we
+sort by return to draw down we have very
+good strategies 8.5 769 all these are
+excellent strategies on the es and if we
+look at the 3D graph now the story is a
+little bit different well first of all
+two bars it's not smooth at all and uh
+let's put this at 60 maybe something
+there's nothing here three bars we have
+some Peaks four
+bars five and six actually n of these
+are
+good because I don't see any stable area
+I mean the stable area are way down here
+even though we have really good
+strategies look at this 100 120
+132 but they don't sit in a stable area
+so even though the strategy Works in
+fact more than 25% of the strategies are
+really good above 2 to1 return to draw
+down ratio but there is no like a stable
+area that we can pick from so since we
+have many instruments many strategies we
+don't need to force it and this is what
+I want to show you here is yes I can
+pick one of these that's really good but
+I am forcing myself to pick one of them
+I shouldn't because I have so many
+options especially when I'm using a
+platform like multicharts or strategy
+quantex where I have many many options
+of strategies to choose from so no need
+now we will test the indicator as a
+filter for other strategy and now we
+have the RSI 2 strategy on the S&P 500
+futures so when the RSI 2 below 25 we go
+along and when the RSI 2 above 75 we
+exit so this is the performance we have
+328 trades 522
+73 uh win per. so we want to use now the
+volume oscillator as a filter so we want
+to beat this strategy so this strategy
+is making about 4 to1 return to draw
+down ratio
+171,000 to 45,000 draw down so we will
+optimize the fast length and the slow
+length we're not using the X number of
+bars because we are using the RSI above
+75 to exit so we'll use the volume
+oscillator as a filter for the RSI
+signal we have 400 combinations and
+let's see what we get so we sort by
+return to draw down we have actually
+many strategies that be the original
+strategy so the original strategy is
+about 4 to1 it's actually
+3.8 and here we have uh let's see uh 3.8
+so if we go to four so we have
+115 strategies that beat the original
+strategy so as a filter this is really
+really working well and let me see here
+so look at this this is a very good
+stable
+area and this is what the slow length is
+between 10 and
+40 and the fast length is between 55 and
+80 so if we pick something here this
+will be good so if I go back to the
+spreadsheet and not surprisingly look at
+this 70 and 35 that's right in the
+middle of the stable area and it is the
+best one and then
+7045
+7030 these are all good and just to show
+you if I pick one of these let me pick
+it and let's see the effect
+here so we have 150 so making less money
+but also half the draw down so the draw
+down of the original strategy was
+45 and look at this curve I mean come
+on that is just a beautiful curve you
+don't get these many curves most of the
+time and I think that's because this is
+using the volume because most other
+filters are using a derivative of the
+price so volume is definitely really
+really good
+filter if we go trade
+analysis 190 trades at
+$800 on average and we increase also the
+percent of profitable trades and if we
+go to annual periods we have only two
+losing years and this year we have six
+trades at 100% win rate
+I just by the way this is I'm doing this
+while recording so I didn't know this
+but uh you know you are very euphoric if
+you see this that six trades in a row
+profitable each making about
+$3,700 I mean RSI strategy just keep
+doing better every single year it never
+ceases to amaze me the takeaway here is
+typical values does not work most of the
+time and the surprising takeaway is that
+the
+slow moving average is shorter than the
+fast moving average that works really
+well on the JY and same thing for the es
+where we have the fast moving average is
+a lot slower than the slow moving
+average so basically it's the opposite
+of what the typical values are to learn
+about how the Ballinger bands works on
+these instruments watch this video and I
+will see you
+[Music]
+there
+[Music]
